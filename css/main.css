@@ -368,15 +368,15 @@ h1.navbar-brand {
 
 .slide-caption .caption-content {
     display: table-cell;
-	padding-top: 6%;
+	padding-top: 7%;
 }
 
 .caption-content h2 {
-       color: black;
-    font-size: 70px;
+       color: white;
+    font-size: 50px;
     font-weight: 400;
     text-transform: uppercase;
-	padding-right: 8%;
+	padding-right: 15%;
     text-align: right;
 }
 
@@ -752,6 +752,11 @@ ul.external li a:hover {
 #testimonials .overlay {
     background-color: rgba(15,155,224, 0.78);
     padding: 70px 0 40px;
+}
+
+.ciastko{
+	    text-shadow: 1px 1px 0 #444;
+		color: rgb(255, 153, 0);
 }
 
 .testimonial-item {
