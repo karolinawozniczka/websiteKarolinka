@@ -27,7 +27,17 @@ figure, p, address {
 }
 
 p {
-    line-height: 25px;
+    line-height: 29px;
+}
+
+.p2 {
+	padding-top: 5px;
+	line-height: 20px;
+	font-size: 13px;
+}
+
+.p1 {
+	font-size: 17px
 }
 
 iframe {
@@ -265,7 +275,9 @@ main > section {
 }
 
 
-
+.h3 {
+	font-size: 36px;
+}
 
 
 /**
@@ -363,7 +375,6 @@ h1.navbar-brand {
        color: black;
     font-size: 70px;
     font-weight: 400;
-    margin-left: 510px;
     text-transform: uppercase;
 	padding-right: 8%;
     text-align: right;
@@ -531,8 +542,8 @@ h1.navbar-brand {
 #about .welcome-block img {
     border: 3px solid #fff;
     border-radius: 50%;
-    margin-right: 35px;
-    max-width: 200px;
+    margin-right: 10%;
+    max-width: 235px;
 }
 
 #about .message-body {
@@ -639,7 +650,7 @@ figcaption.mask {
     background-color: rgba(54, 55, 50, 0.79);
     bottom: -126px;
     color: #fff;
-    padding: 25px;
+    padding: 17px;
     position: absolute;
     width: 100%;
     text-align: left;
@@ -752,6 +763,13 @@ ul.external li a:hover {
 .testimonial-item img {
     border: 3px solid #fff;
     border-radius: 50%;
+    display: inline-block;
+    height: auto;
+    max-width: 100px;
+}
+
+.testimonial-item2 img {
+	margin-bottom: 5%;
     display: inline-block;
     height: auto;
     max-width: 100px;
@@ -1224,6 +1242,7 @@ textarea.form-control {
 
     body {
         font-size: 14px;
+		margin-top: 20%;
     }
 
     .parallax {
