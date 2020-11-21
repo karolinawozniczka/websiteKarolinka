@@ -355,16 +355,18 @@ h1.navbar-brand {
 }
 
 .slide-caption .caption-content {
-    vertical-align: middle;
     display: table-cell;
+	padding-top: 6%;
 }
 
 .caption-content h2 {
-    color: #fff;
-    font-size: 52px;
+       color: black;
+    font-size: 70px;
     font-weight: 400;
-    margin-bottom: 25px;
+    margin-left: 510px;
     text-transform: uppercase;
+	padding-right: 8%;
+    text-align: right;
 }
 
 .caption-content > span {
@@ -530,7 +532,7 @@ h1.navbar-brand {
     border: 3px solid #fff;
     border-radius: 50%;
     margin-right: 35px;
-    max-width: 100px;
+    max-width: 200px;
 }
 
 #about .message-body {
