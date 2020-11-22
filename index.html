@@ -427,7 +427,7 @@
 						
 						
 						<div class="col-md-7 contact-form wow animated fadeInLeft">
-							<form action="#" method="post">
+							<form class="gform" action="https://script.google.com/macros/s/AKfycbze1rU-St2wu3M2TRwBnaToFbyKqK91Yho-ySp3UR8bWOIuB3Q/exec" method="post" data-email="from_example@email.net">
 								<div class="input-field">
 									<input type="text" name="name" class="form-control" placeholder="Imię...">
 								</div>
@@ -435,19 +435,25 @@
 									<input type="email" name="email" class="form-control" placeholder="Adres Email...">
 								</div>
 								<div class="input-field">
-									<input type="text" name="subject" class="form-control" placeholder="Temat...">
-								</div>
-								<div class="input-field">
 									<textarea name="message" class="form-control" placeholder="Twoja wiadomość..."></textarea>
 								</div>
 								<div class="form-check">
-									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="myCheck" name="test">
 									<label class="form-check-label" for="exampleCheck1">Wyrażam zgodę na przetwarzanie danych osobowych.</label>
 								  </div>
-						       	<button type="submit" id="submit" class="btn btn-blue btn-effect">Wyślij</button>
+								   <button onclick="myFunction()" class="btn btn-blue btn-effect">Wyślij</button>
+								   <br/><br/>
+
+								   <div style="display:none" class="thankyou_message">
+									<h2 class="h222">
+										<em>Dziękujemy</em> za kontakt !
+										Wkrótce się z Toba skontakujemy. 
+									</h2>
+								</div>
 							</form>
 						</div>
-						
+
+
 						<div class="col-md-5 wow animated fadeInRight">
 							<address class="contact-details">
 								<h3>Skontaktuj się</h3>						
@@ -458,6 +464,8 @@
 						</div>
 					</div>
 				</div>
+				<br/><br/><br/><br/>
+
 			</section>
 			<!-- end Contact section -->
 			
@@ -495,6 +503,16 @@
 		<!-- onscroll animation -->
         <script src="js/wow.min.js"></script>
 		<!-- Custom Functions -->
-        <script src="js/main.js"></script>
+		<script src="js/main.js"></script>
+		
+		<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+
+		<script>
+			function myFunction() {
+			  document.getElementById("myCheck").required = true;
+			  document.getElementById("demo").innerHTML = "Zaznacz zgodę na przetwarzanie danych...";
+			}
+			</script>
+
     </body>
 </html>
