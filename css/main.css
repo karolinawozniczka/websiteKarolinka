@@ -30,6 +30,41 @@ p {
     line-height: 27px;
 }
 
+.divoffer{
+	margin-top: 1%;
+	width: 84%;
+	padding: 5px;
+	border-color: rgb(124, 115, 101);
+}
+
+.offer1{
+	
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 1.05em;
+	text-align: left;
+	padding-left: 17%;
+	text-shadow: 1px 1px 0 #444;
+}
+
+.offer2{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.05em;
+	text-shadow: 1px 1px 0 #444;
+	text-align: left;
+	padding-left: 17%;
+}
+
+.offer3{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.05em;
+	text-align: left;
+	padding-left: 17%;
+	text-shadow: 1px 1px 0 #444;
+}
+
 .p2 {
 	padding-top: 5px;
 	line-height: 20px;
