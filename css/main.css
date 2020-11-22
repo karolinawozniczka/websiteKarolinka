@@ -380,6 +380,17 @@ h1.navbar-brand {
     text-align: right;
 }
 
+.h111{
+	color: white; 
+	text-shadow: 1px 1px 0 #444;
+	font-size: 20px;
+    margin: 0;
+    text-transform: uppercase;
+	float: left;
+    height: 50px;
+    padding: 15px 15px;
+}
+
 .h222{
 	font-size: 23px;
 }
