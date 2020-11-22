@@ -380,6 +380,10 @@ h1.navbar-brand {
     text-align: right;
 }
 
+.h222{
+	font-size: 23px;
+}
+
 .caption-content > span {
     display: block;
     font-size: 24px;
