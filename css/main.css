@@ -782,16 +782,19 @@ figcaption.mask h3 {
 
 figcaption.mask3 h3 {
     margin: 0;
+    margin-bottom: 10px;
     color: #fff;
 }
 
 figcaption.mask2 h3 {
     margin: 0;
+    margin-bottom: 10px;
     color: #fff;
 }
 
 figcaption.mask1 h3 {
     margin: 0;
+    margin-bottom: 10px;
     color: #fff;
 }
 
