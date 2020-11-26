@@ -31,7 +31,7 @@ p {
 }
 
 .divoffer{
-	margin-top: 20%;
+	margin-top: 15%;
 	width: 84%;
 	padding: 5px;
 	border-color: rgb(124, 115, 101);
@@ -39,7 +39,7 @@ p {
 
 .offer1{
 	
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 900;
     line-height: 1.05em;
 	text-align: left;
