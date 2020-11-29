@@ -71,7 +71,11 @@ p {
 }
 
 .p1 {
-	font-size: 17px
+    font-size: 17px;
+    color:white;
+    font-family: 'Palatino';
+    margin: 2px;
+    text-shadow: 0.3px 0.3px 0 #444;
 }
 
 iframe {
@@ -206,7 +210,15 @@ main > section {
     margin-bottom: 50px;
 }
 
+.sec-title2 {
+    margin-bottom: 50px;
+}
+
 .sec-title.white {
+    color: #fff;
+}
+
+.sec-title2.white {
     color: #fff;
 }
 
@@ -218,7 +230,21 @@ main > section {
     text-transform: uppercase;
 }
 
+.sec-title2 h2 {
+    font-size: 36px;
+    margin: 0 0 30px;
+    padding-bottom: 30px;
+    position: relative;
+    text-transform: uppercase;
+    color: #f5f4f1;
+    text-shadow: 1px 1px 0 #444;
+}
+
 .sec-title.white h2 {
+    color: #fff;
+}
+
+.sec-title2.white h2 {
     color: #fff;
 }
 
@@ -232,7 +258,21 @@ main > section {
     width: 115px;
 }
 
+.sec-title2 h2:after {
+    border-bottom: 1px solid #03131a;
+    content: "";
+    display: block;
+    left: 45%;
+    bottom: 0;
+    position: absolute;
+    width: 115px;
+}
+
 .sec-title.white h2:after {
+    border-bottom: 1px solid #fff;
+}
+
+.sec-title2.white h2:after {
     border-bottom: 1px solid #fff;
 }
 
@@ -573,6 +613,22 @@ h1.navbar-brand {
 	About
 ==================================================================*/
 
+#omnie {
+    background-color: #009EE3;
+    color: #fff;
+}
+
+#omnie img {
+        border: 2px solid #fff;
+        border-radius: 50%; 
+        margin-right: 10%;
+        max-width: 435px;
+        display: block;
+        height: auto;
+        max-width: 300px;
+        float: left;
+}
+
 #about {
     background-color: #009EE3;
     color: #fff;
@@ -593,6 +649,17 @@ h1.navbar-brand {
     border-radius: 3%; 
     max-width: 800px;
     margin-top: 5%;
+}
+
+.tytul {
+    color: black;
+    text-align: right;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    padding: 0 6em 0.8em 0;
+    text-transform: uppercase;
+    padding-right: 8%;    
 }
 
 #about .welcome-block img {
@@ -880,6 +947,10 @@ ul.external li a:hover {
 }
 
 #testimonials .sec-title h2:after {
+    border-bottom: 1px solid #fff;
+}
+
+#testimonials .sec-title2 h2:after {
     border-bottom: 1px solid #fff;
 }
 
@@ -1408,7 +1479,15 @@ textarea.form-control {
         font-size: 25px;
     }
 
+    .sec-title2 h2 {
+        font-size: 25px;
+    }
+
     .sec-title h2:after {
+        left: 30%;
+    }
+
+    .sec-title2 h2:after {
         left: 30%;
     }
 
@@ -1561,6 +1640,10 @@ textarea.form-control {
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
     .sec-title h2:after {
+        left: 38%;
+    }
+
+    .sec-title2 h2:after {
         left: 38%;
     }
 
