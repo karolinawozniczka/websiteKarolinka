@@ -73,6 +73,16 @@ p {
     color: rgba(0,158,227, 0.78);
 }
 
+.ikoneczka {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-right: 10%;
+    max-width: 435px;
+    display: block;
+    height: auto;
+    max-width: 200px;
+}
+
 .offer3{
     font-family: "Poppins", sans-serif;
     font-size: 39px;
