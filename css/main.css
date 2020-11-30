@@ -78,12 +78,14 @@ p {
     font-size: 39px;
     font-weight: 600;
     line-height: 1.05em;
+    color: rgba(0,158,227, 0.78);
 }
 .offer4{
     font-family: "Poppins", sans-serif;
     font-size: 30px;
     font-weight: 600;
     line-height: 1.05em;
+    color: rgba(0,158,227, 0.78);
 }
 
 .p2 {
