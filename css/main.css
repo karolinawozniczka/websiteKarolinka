@@ -31,7 +31,7 @@ p {
 }
 
 .divoffer{
-	margin-top: 10%;
+	margin-top: 15%;
 	width: 84%;
 	padding: 5px;
     border-color: rgb(124, 115, 101);
@@ -61,7 +61,7 @@ p {
     font-size: 39px;
     font-weight: 600;
     line-height: 1.05em;
-    text-shadow: 0.3px 0.3px 0 #444;
+    text-shadow: 1px 1px 0 #444;
 }
 .offer4{
     font-family: "Poppins", sans-serif;
