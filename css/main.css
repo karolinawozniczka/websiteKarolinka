@@ -61,7 +61,7 @@ p {
     line-height: 1.05em;
 	text-align: left;
     padding-right: 60%;
-    color: #ffae1a;
+    color:rgb(255,140,0)
 }
 
 .offer2{
@@ -70,7 +70,7 @@ p {
     font-weight: 900;
     line-height: 1.05em;
     text-align: left;
-    color: #ffae1a;
+    color: rgb(255,140,0)
 }
 
 .ikoneczka {
@@ -88,7 +88,7 @@ p {
     font-size: 39px;
     font-weight: 600;
     line-height: 1.05em;
-    color: #ffae1a;
+    color: rgb(255,140,0);
     margin:1%;
 }
 .offer4{
@@ -96,7 +96,7 @@ p {
     font-size: 30px;
     font-weight: 600;
     line-height: 1.05em;
-    color: #ffae1a;
+    color: rgb(255,140,0)
 }
 
 .p2 {
