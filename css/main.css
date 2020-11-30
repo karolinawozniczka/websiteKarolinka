@@ -74,7 +74,7 @@ p {
 }
 
 .offer7{
-    font-family: "Poppins", sans-serif;
+    font-family: "Tisa";
     font-size: 39px;
     font-weight: 600;
     line-height: 1.05em;
@@ -92,14 +92,7 @@ p {
     max-width: 200px;
 }
 
-.offer3{
-    font-family: "Poppins", sans-serif;
-    font-size: 39px;
-    font-weight: 600;
-    line-height: 1.05em;
-    color: rgb(255,215,0); 
-    margin:1%;
-}
+
 
 .offer6{
     font-family: "Poppins", sans-serif;
@@ -110,8 +103,17 @@ p {
     margin:1%;
 }
 
+.offer3{
+    font-family: "Times New Roman";
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 1.05em;
+    color: rgb(255,215,0); 
+    margin:1%;
+}
+
 .offer5{
-    font-family: "Poppins", sans-serif;
+    font-family: "Verdana";
     font-size: 39px;
     font-weight: 600;
     line-height: 1.05em;
@@ -120,11 +122,27 @@ p {
 }
 
 .offer4{
-    font-family: "Poppins", sans-serif;
-    font-size: 30px;
+    font-family: "Roboto";
+    font-size: 39px;
     font-weight: 600;
     line-height: 1.05em;
     color: #ffae1a;
+}
+
+.offer8{
+    font-family: "Comic Sans MS";
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 1.05em;
+    color: rgba(0,158,227, 0.78);
+}
+
+.offer9{
+    font-family: "Poppins";
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 1.05em;
+    color: rgb(0,191,255)
 }
 
 .p2 {
