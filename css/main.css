@@ -14,6 +14,7 @@
 /*	Basic Style 
 /* =================================== */
 
+
 body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -28,6 +29,25 @@ figure, p, address {
 
 p {
     line-height: 27px;
+}
+
+#bg {
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+
+#bg img {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .divoffer{
