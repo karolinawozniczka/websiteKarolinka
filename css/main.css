@@ -145,6 +145,14 @@ p {
     color: rgb(0,191,255)
 }
 
+.offer10 {
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 1.05em;
+    color: rgb(197, 225, 235)
+}
+
 .p2 {
 	padding-top: 5px;
 	line-height: 20px;
