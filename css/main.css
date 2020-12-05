@@ -35,7 +35,6 @@ p {
 	top: 70%;
 	width: 84%;
 	padding: 5px;
-    border-color: rgb(124, 115, 101);
     margin-bottom: min(10px, 5%);
 }
 
@@ -55,22 +54,22 @@ p {
 }
 
 .offer1{
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
+    font-family: "Garamond", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
     font-weight: 900;
     line-height: 1.05em;
 	text-align: left;
     padding-right: 60%;
-    color:rgb(255,140,0)
+    color:white;
 }
 
 .offer2{
-    font-family: "Poppins", sans-serif;
-    font-size: 17px;
+    font-family: "Garamond", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 27px;
     font-weight: 900;
     line-height: 1.05em;
     text-align: left;
-    color: rgb(255,215,0)
+    color: white;
 }
 
 .offer7{
@@ -146,11 +145,11 @@ p {
 }
 
 .offer10 {
-    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-family: "Garamond", Courier, Georgia, Times, "Times New Roman", serif;
     font-size: 39px;
-    font-weight: 600;
-    line-height: 1.05em;
-    color: rgb(197, 225, 235)
+    font-weight: 900;
+    line-height: 1.3em;
+    color: white;
 }
 
 .p2 {
@@ -830,7 +829,7 @@ h1.navbar-brand {
 }
 
 .service-item h3 {
-    font-size: 20px;
+    font-size: 17px;
     text-transform: uppercase;
 }
 
