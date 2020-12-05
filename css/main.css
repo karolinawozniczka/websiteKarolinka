@@ -30,48 +30,6 @@ p {
     line-height: 27px;
 }
 
-.divoffer{
-    position: absolute;
-	top: 70%;
-	width: 84%;
-	padding: 5px;
-    margin-bottom: min(10px, 5%);
-}
-
-.whitep {
-    font-size: 0.9em;
-    -webkit-font-smoothing: subpixel-antialiased;
-    font-weight: 300;
-    letter-spacing: 0.025em;
-    line-height: 1.58;
-    padding: 0 0 1.5em;
-    margin: 0;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-.offer1{
-    font-family: "Garamond", Courier, Georgia, Times, "Times New Roman", serif;
-    font-size: 30px;
-    font-weight: 900;
-    line-height: 1.05em;
-	text-align: left;
-    padding-right: 60%;
-    color:white;
-}
-
-.offer2{
-    font-family: "Garamond", Courier, Georgia, Times, "Times New Roman", serif;
-    font-size: 27px;
-    font-weight: 900;
-    line-height: 1.05em;
-    text-align: left;
-    color: white;
-}
-
 .offer7{
     font-family: "Tisa";
     font-size: 39px;
@@ -144,6 +102,42 @@ p {
     background: url(../img/slider/banner.jpg);
     background-attachment: fixed;
     height: 100vh;
+}
+
+.divoffer{
+    position: absolute;
+    top: 58%;
+    left: 3%;
+    max-width: 600px;
+    padding: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    overflow: hidden;
+    color: #000;
+}
+
+.divoffer h2{
+    position: relative;
+    padding: 0;
+    text-transform: uppercase;
+    z-index: 2;
+    font-family:  "Tisa";
+    font-size: 16px;
+    letter-spacing: 0.25em;
+    line-height: 1.2em;
+    color: white;
+    mix-blend-mode: difference;
+}
+
+.divoffer h2::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #ff0;
+    backdrop-filter:  blur(4px);
 }
 
 .section .box {
@@ -223,7 +217,6 @@ p {
     right: 0;
     top: 0;
     backdrop-filter:  blur(4px);
-    
 }
 
 .section .box::before {
@@ -247,7 +240,7 @@ p {
 
 .offer10 {
     font-family:  "Tisa";
-    font-size: 40px;
+    font-size: 35px;
     letter-spacing: 0.25em;
     line-height: 1.2em;
     color: white;
