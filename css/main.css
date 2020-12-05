@@ -134,6 +134,107 @@ p {
     font-weight: 600;
     line-height: 1.05em;
     color: rgba(0,158,227, 0.78);
+}  
+
+.section {
+    font-family: sans-serif;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/slider/banner.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.section .box {
+    align-items: center;
+    float:right; 
+    margin-right: 5%;
+    margin-top: 10%;
+    position: relative;
+    max-width: 750px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    overflow: hidden;
+    color: #000;
+}
+
+.section .box1 {
+    align-items: center;
+    float:left; 
+    margin-left: 5%;
+    margin-top: 30%;
+    position: relative;
+    max-width: 750px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    overflow: hidden;
+    color: #000;
+}
+
+.section .box1 h2 {
+    position: relative;
+    padding: 0;
+    text-transform: uppercase;
+    z-index: 2;
+    font-family:  "Tisa";
+    font-size: 25px;
+    letter-spacing: 0.25em;
+    line-height: 1.2em;
+    color: white;
+    mix-blend-mode: difference;
+}
+
+.section .box .stylowka {
+    position: relative;
+    padding: 0;
+    text-transform: uppercase;
+    z-index: 2;
+    font-family:  "Tisa";
+    font-size: 35px;
+    letter-spacing: 0.25em;
+    line-height: 1.2em;
+    color: #000;
+}
+
+.section .box h2 {
+    position: relative;
+    padding: 0;
+    text-transform: uppercase;
+    z-index: 2;
+    font-family:  "Tisa";
+    font-size: 35px;
+    letter-spacing: 0.25em;
+    line-height: 1.2em;
+    color: white;
+}
+
+.section .box1::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    backdrop-filter:  blur(4px);
+    
+}
+
+.section .box::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    backdrop-filter:  blur(2px);
+    
 }
 
 .offer9{
@@ -145,10 +246,10 @@ p {
 }
 
 .offer10 {
-    font-family: "Garamond", Courier, Georgia, Times, "Times New Roman", serif;
-    font-size: 39px;
-    font-weight: 900;
-    line-height: 1.3em;
+    font-family:  "Tisa";
+    font-size: 40px;
+    letter-spacing: 0.25em;
+    line-height: 1.2em;
     color: white;
 }
 
@@ -1555,8 +1656,9 @@ textarea.form-control {
 
     body {
         font-size: 14px;
-		margin-top: 20%;
+        margin-top: 20%;
     }
+      
 
     .parallax {
         background-position: centet tip !important;
