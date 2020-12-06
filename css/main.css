@@ -105,6 +105,11 @@ p {
 }
 
 .divoffer{
+    justify-content: center;
+    align-items: center;
+    background: url(../img/slider/banner.jpg);
+    background-attachment: fixed;
+    backdrop-filter: blur(2px);
     position: absolute;
     top: 54%;
     left: 3%;
@@ -113,7 +118,6 @@ p {
     padding-bottom: 30px;
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
     overflow: hidden;
-    color: #000;
 }
 
 .divoffer h2{
@@ -162,11 +166,11 @@ p {
     margin-left: 5%;
     margin-top: 30%;
     position: relative;
-    max-width: 750px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    padding-right: 40px;
-    padding-left: 40px;
+    max-width: 475px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
     overflow: hidden;
     color: #000;
@@ -178,7 +182,7 @@ p {
     text-transform: uppercase;
     z-index: 2;
     font-family:  "Tisa";
-    font-size: 25px;
+    font-size: 15px;
     letter-spacing: 0.25em;
     line-height: 1.2em;
     color: white;
