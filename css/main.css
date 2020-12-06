@@ -900,11 +900,11 @@ h1.navbar-brand {
     width: 85px;
     line-height: 101px;
 
-    -webkit-transform: rotate(47deg);
-       -moz-transform: rotate(47deg);
-        -ms-transform: rotate(47deg);
-         -o-transform: rotate(47deg);
-            transform: rotate(47deg);
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
 
     -webkit-transition: all 0.3s ease 0s;
        -moz-transition: all 0.3s ease 0s;
@@ -1168,7 +1168,7 @@ ul.external li a:hover {
 	margin-bottom: 5%;
     display: inline-block;
     height: auto;
-    max-width: 60px;
+    max-width: 30px;
 }
 
 .testimonial-item > div {
