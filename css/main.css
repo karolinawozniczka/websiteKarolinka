@@ -954,8 +954,13 @@ h1.navbar-brand {
 }
 
 .service-item h3 {
-    font-size: 17px;
+    font-size: 15px;
     text-transform: uppercase;
+}
+
+.service-item h4 {
+    font-size: 15px;
+    font-weight: 600;
 }
 
 /*=================================================================
@@ -981,11 +986,31 @@ h1.navbar-brand {
     width: 32%;
 }
 
+figcaption.mask0 {
+    background: inherit;
+    background-attachment: fixed;
+    backdrop-filter: blur(2px);
+    bottom: -35px;
+    color: #fff;
+    padding: 5px 17px 17px 17px;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    
+    -webkit-transition: all 0.4s ease 0s;
+       -moz-transition: all 0.4s ease 0s;
+        -ms-transition: all 0.4s ease 0s;
+         -o-transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;
+}
+
 figcaption.mask1 {
-    background-color: rgba(54, 55, 50, 0.79);
+    background: inherit;
+    background-attachment: fixed;
+    backdrop-filter: blur(2px);
     bottom: -55px;
     color: #fff;
-    padding: 17px;
+    padding: 5px 17px 17px 17px;
     position: absolute;
     width: 100%;
     text-align: left;
@@ -1061,6 +1086,10 @@ figcaption.mask {
     bottom: 0;
 }
 
+.portfolio-item:hover figcaption.mask0 {
+    bottom: 0;
+}
+
 figcaption.mask h3 {
     margin: 0;
     color: #fff;
@@ -1079,6 +1108,12 @@ figcaption.mask2 h3 {
 }
 
 figcaption.mask1 h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+figcaption.mask0 h3 {
     margin: 0;
     margin-bottom: 10px;
     color: #fff;
@@ -1604,6 +1639,10 @@ textarea.form-control {
         bottom: -151px;
     }
 
+    figcaption.mask0 {
+        bottom: -151px;
+    }
+
     .testimonial-item > div:after {
         bottom: -40px;
     }
@@ -1791,6 +1830,12 @@ textarea.form-control {
         padding: 15px;
     }
 
+    figcaption.mask0 {
+        bottom: -107px;
+        color: #fff;
+        padding: 15px;
+    }
+
 /* lightbox */
     .fancybox-title h3 {
         font-size: 20px;
@@ -1904,6 +1949,10 @@ textarea.form-control {
     }
 
     figcaption.mask1 {
+        bottom: -132px;
+    }
+
+    figcaption.mask0 {
         bottom: -132px;
     }
 
