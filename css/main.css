@@ -604,7 +604,7 @@ main > section {
 }
 
 .sec-title3 h2:after {
-    border-bottom: 1px solid #03131a;
+    border-bottom: 1px solid #fff;
     content: "";
     display: block;
     left: 45%;
