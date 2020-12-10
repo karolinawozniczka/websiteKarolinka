@@ -99,10 +99,18 @@ p {
     position: relative;
     justify-content: center;
     align-items: center;
-    background: url(../img/slider/banner.jpg);
+    background: url(../img/slider/banner2.jpg);
     background-attachment: fixed;
     background-size:100% 100%;
     height: 100vh;
+}
+
+.color-overlay {
+    background: linear-gradient(to bottom left, blue, red);
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    position: absolute;
 }
 
 .section1 {
@@ -208,13 +216,13 @@ p {
     position: relative;
     padding: 0;
     text-transform: uppercase;
-    z-index: 2;
+    z-index: 1;
     font-family:  "Tisa";
     font-size: 10px;
     letter-spacing: 0.25em;
     line-height: 1.2em;
     color: white;
-    mix-blend-mode: difference;
+    
 }
 
 .section1 .box1 h2 {
@@ -826,8 +834,18 @@ h1.navbar-brand {
 ==================================================================*/
 
 #omnie {
-    background-color: #009EE3;
-    color: #fff;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+
+.nicefont {
+    font-family: Georgia;
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    color: black;
+    
 }
 
 #omnie img {
@@ -1099,25 +1117,25 @@ figcaption.mask h3 {
 
 figcaption.mask3 h3 {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
     color: #fff;
 }
 
 figcaption.mask2 h3 {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
     color: #fff;
 }
 
 figcaption.mask1 h3 {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
     color: #fff;
 }
 
 figcaption.mask0 h3 {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
     color: #fff;
 }
 
@@ -1204,7 +1222,9 @@ ul.external li a:hover {
 }
 
 #testimonials .overlay {
-    background-color: rgba(15,155,224, 0.78);
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    opacity: 0.85;
     padding: 70px 0 40px;
 }
 
