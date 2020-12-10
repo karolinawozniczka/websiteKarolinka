@@ -1023,10 +1023,12 @@ figcaption.mask1 {
 }
 
 figcaption.mask3 {
-    background-color: rgba(54, 55, 50, 0.79);
+    background: inherit;
+    background-attachment: fixed;
+    backdrop-filter: blur(2px);
     bottom: -75px;
     color: #fff;
-    padding: 17px;
+    padding: 5px 17px 17px 17px;
     position: absolute;
     width: 100%;
     text-align: left;
