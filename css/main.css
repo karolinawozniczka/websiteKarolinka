@@ -380,6 +380,35 @@ main > section {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.btn-effect1 {
+	vertical-align: middle;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+	display: inline-block;
+
+	-webkit-transform: translateZ(0);
+	   -moz-transform: translateZ(0);
+		-ms-transform: translateZ(0);
+		 -o-transform: translateZ(0);
+			transform: translateZ(0);
+		  
+	-webkit-backface-visibility: hidden;
+	   -moz-backface-visibility: hidden;
+			backface-visibility: hidden;
+		  
+	-webkit-transition-property: color;
+	   -moz-transition-property: color;
+		-ms-transition-property: color;
+			transition-property: color;
+		  
+	-webkit-transition-duration: 0.3s;
+	   -moz-transition-duration: 0.3s;
+		-ms-transition-duration: 0.3s;
+			transition-duration: 0.3s;
+		  
+	-moz-osx-font-smoothing: grayscale;
+}
+
 .btn-effect:before {
 	content: "";
 	position: absolute;
@@ -387,8 +416,8 @@ main > section {
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 0;
-	background: #fff;
+    bottom: 0;
+    background:#009EE3;
 	
 	-webkit-transform: scaleX(0);
 	   -moz-transform: scaleX(0);
@@ -417,10 +446,58 @@ main > section {
 }
 
 .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
-	color: #009EE3;
+	color: #fff;
 }
 
 .btn-effect:hover:before, .btn-effect:focus:before, .btn-effect:active:before {
+	-webkit-transform: scaleX(1);
+	   -moz-transform: scaleX(1);
+	    -ms-transform: scaleX(1);
+			transform: scaleX(1);
+}
+
+.btn-effect1:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    background:#009EE3;
+    opacity: .2;
+	
+	-webkit-transform: scaleX(0);
+	   -moz-transform: scaleX(0);
+		-ms-transform: scaleX(0);
+			transform: scaleX(0);
+			
+	-webkit-transform-origin: 0 50%;
+	   -moz-transform-origin: 0 50%;
+		-ms-transform-origin: 0 50%;
+			transform-origin: 0 50%;
+			
+	-webkit-transition-property: transform;
+	   -moz-transition-property: transform;
+		-ms-transition-property: transform;
+			transition-property: transform;
+			
+	-webkit-transition-duration: 0.3s;
+	   -moz-transition-duration: 0.3s;
+		-ms-transition-duration: 0.3s;
+			transition-duration: 0.3s;
+			
+	-webkit-transition-timing-function: ease-out;
+	   -moz-transition-timing-function: ease-out;
+		-ms-transition-timing-function: ease-out;
+			transition-timing-function: ease-out;
+}
+
+.btn-effect1:hover, .btn-effect1:focus, .btn-effect1:active {
+	color: #fff;
+}
+
+.btn-effect1:hover:before, .btn-effect1:focus:before, .btn-effect1:active:before {
 	-webkit-transform: scaleX(1);
 	   -moz-transform: scaleX(1);
 	    -ms-transform: scaleX(1);
@@ -836,6 +913,12 @@ h1.navbar-brand {
 #omnie {
     background-color: #2a2a72;
     background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+
+.btn-border1 {
+    border: 2px solid #009ffd;
+    color: #009ffd;
+    padding: 12px 35px;
 }
 
 .nicefont {
