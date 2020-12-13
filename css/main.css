@@ -99,7 +99,7 @@ p {
     position: relative;
     justify-content: center;
     align-items: center;
-    background: url(../img/slider/banner2.jpg);
+    background: url(../img/slider/bannerG2.png);
     background-attachment: fixed;
     background-size:100% 100%;
     height: 100vh;
@@ -130,7 +130,7 @@ p {
     position: relative;
     justify-content: center;
     align-items: center;
-    background: url(../img/slider/banner4.jpg);
+    background: url(../img/slider/banner2.jpg);
     background-attachment: fixed;
     background-size:100% 100%;
     height: 100vh;
@@ -1011,6 +1011,17 @@ h1.navbar-brand {
     background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
 }
 
+#omnie2 {
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 44%);
+}
+
+#psycholog {
+    background-image: url(../img/parallax/testimonial.jpg);
+    padding: 0;
+    color: #fff;
+}
+
 .btn-border1 {
     border: 2px solid #009ffd;
     color: #009ffd;
@@ -1036,6 +1047,16 @@ h1.navbar-brand {
         height: auto;
         max-width: 300px;
         float: left;
+}
+
+#omnie2 img {
+    border-radius: 1%; 
+    margin-right: 10%;
+    display: block;
+    height: auto;
+    max-width: 400px;
+    float: left;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 
 #about {
