@@ -203,10 +203,25 @@ p {
     color: #000;
 }
 
+.bag {
+    align-items: center;
+    float:right; 
+    margin-right: 10%;
+    margin-top: 10%;
+    position: relative;
+    overflow: hidden;
+}
+
+.bag img {
+    width: 350px;
+    height: 350px;
+}
+
+
 .section .box1 {
     align-items: center;
     float:left; 
-    margin-left: 5%;
+    margin-left: 3%;
     margin-top: 30%;
     position: relative;
     max-width: 475px;
