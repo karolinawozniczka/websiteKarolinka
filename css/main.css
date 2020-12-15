@@ -204,10 +204,11 @@ p {
 }
 
 .bag {
+    position: absolute;
     align-items: center;
     float:right; 
-    margin-right: 10%;
-    margin-top: 10%;
+    margin-right: 12%;
+    margin-top: 5%;
     position: relative;
     overflow: hidden;
 }
