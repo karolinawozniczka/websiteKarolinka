@@ -319,8 +319,8 @@ p {
 }
 
 .bag img {
-    width: 350px;
-    height: 350px;
+    width: 280px;
+    height: 280px;
 }
 
 
@@ -337,7 +337,8 @@ p {
     padding-left: 30px;
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
     overflow: hidden;
-    color: #000;
+
+
 }
 
 .section5 .box1 {
@@ -380,7 +381,7 @@ p {
     letter-spacing: 0.25em;
     line-height: 1.2em;
     color: white;
-    
+    mix-blend-mode: difference;
 }
 
 .section1 .box1 h2 {
@@ -407,6 +408,7 @@ p {
     letter-spacing: 0.25em;
     line-height: 1.2em;
     color: white;
+    mix-blend-mode: difference;
 }
 
 .section1 .box1::before {
@@ -435,6 +437,7 @@ p {
     right: 0;
     top: 0;
     backdrop-filter:  blur(4px);
+    mix-blend-mode: difference;
 }
 
 .section .box::before {
