@@ -314,14 +314,14 @@ p {
     align-items: center;
     float:right; 
     margin-right: 9%;
-    margin-top: 5%;
+    margin-top: 7%;
     position: relative;
     overflow: hidden;
 }
 
 .bag img {
-    width: 280px;
-    height: 280px;
+    width: 270px;
+    height: 270px;
 }
 
 
