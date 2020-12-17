@@ -494,6 +494,10 @@ main > section {
     margin-bottom: 50px;
 }
 
+.sec-title5 {
+    margin-bottom: 50px;
+}
+
 .sec-title.white {
     color: #fff;
 }
@@ -506,6 +510,10 @@ main > section {
     color: #fff;
 }
 
+.sec-title5.white {
+    color: #fff;
+}
+
 .sec-title h2 {
     font-size: 36px;
     margin: 0 0 30px;
@@ -515,6 +523,15 @@ main > section {
 }
 
 .sec-title2 h2 {
+    font-size: 36px;
+    margin: 0 0 30px;
+    padding-bottom: 30px;
+    position: relative;
+    text-transform: uppercase;
+    color: #f5f4f1;
+}
+
+.sec-title5 h2 {
     font-size: 36px;
     margin: 0 0 30px;
     padding-bottom: 30px;
@@ -536,6 +553,10 @@ main > section {
 }
 
 .sec-title2.white h2 {
+    color: #fff;
+}
+
+.sec-title5.white h2 {
     color: #fff;
 }
 
@@ -563,6 +584,16 @@ main > section {
     width: 115px;
 }
 
+.sec-title5 h2:after {
+    border-bottom: 1px solid #03131a;
+    content: "";
+    display: block;
+    left: 44%;
+    bottom: 0;
+    position: absolute;
+    width: 115px;
+}
+
 .sec-title3 h2:after {
     border-bottom: 1px solid #fff;
     content: "";
@@ -582,6 +613,10 @@ main > section {
 }
 
 .sec-title2.white h2:after {
+    border-bottom: 1px solid #fff;
+}
+
+.sec-title5.white h2:after {
     border-bottom: 1px solid #fff;
 }
 
@@ -1310,6 +1345,10 @@ ul.external li a:hover {
     border-bottom: 1px solid #fff;
 }
 
+#testimonials .sec-title5 h2:after {
+    border-bottom: 1px solid #fff;
+}
+
 #testimonials .overlay {
     background-color: #2a2a72;
     background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
@@ -1794,11 +1833,19 @@ textarea.form-control {
         font-size: 25px;
     }
 
+    .sec-title5 h2 {
+        font-size: 25px;
+    }
+
     .sec-title h2:after {
         left: 30%;
     }
 
     .sec-title2 h2:after {
+        left: 30%;
+    }
+
+    .sec-title5 h2:after {
         left: 30%;
     }
 
@@ -1963,6 +2010,11 @@ textarea.form-control {
     .sec-title2 h2:after {
         left: 38%;
     }
+
+    .sec-title5 h2:after {
+        left: 38%;
+    }
+
 
 /* home slider */
     .caption-content h2 {
