@@ -1180,12 +1180,12 @@ h1.navbar-brand {
 }
 
 #about {
-    background-color: #009EE3;
-    color: #fff;
+    background-color: #fff;
+    color: #252525;
 }
 
 #about h3 {
-    color: #fff;
+    color:#252525;
     margin: 0 0 35px;
     text-transform: uppercase;
 }
