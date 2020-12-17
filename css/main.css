@@ -1479,63 +1479,6 @@ ul.external li a:hover {
     color: #fff;
 }
 
-
-/*=================================================================
-	Price
-==================================================================*/
-
-#social {
-    background-image: url(../img/slider/banner2.jpg);
-    padding: 0;
-    
-}
-
-#social .overlay {
-    background: linear-gradient(to bottom left, blue, red);
-    opacity: .4;
-    padding: 100px 0 120px;
-    position: absolute;
-}
-
-.social-button {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-}
-
-
-
-.social-button li {
-    display: inline-block;
-}
-
-.social-button li:nth-child(2) {
-    margin: 0 75px;
-}
-
-.social-button li a {
-    border: 2px solid #fff;
-    border-radius: 50%;
-    color: #fff;
-    display: block;
-    height: 90px;
-    line-height: 96px;
-    width: 90px;
-    
-    -webkit-transition: all 0.2s ease 0s;
-       -moz-transition: all 0.2s ease 0s;
-        -ms-transition: all 0.2s ease 0s;
-         -o-transition: all 0.2s ease 0s;
-            transition: all 0.2s ease 0s;
-}
-
-.social-button li a:hover {
-    color: #008ECC;
-    border: 2px solid #008ECC;
-}
-
-
 /*=================================================================
 	Contact
 ==================================================================*/
