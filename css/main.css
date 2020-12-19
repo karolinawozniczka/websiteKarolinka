@@ -93,7 +93,6 @@
     height: 500px;
     position: relative;
     top: 50%;
-    left: 50%;
     margin: 26px 0 0 -175px;
     overflow: hidden;
     border-radius: 10px;
@@ -220,120 +219,7 @@
 /* =================================== */
 
 
-.u-clearfix:before,
-.u-clearfix:after {
-  content: " ";
-  display: table;
-}
 
-.u-clearfix:after {
-  clear: both;
-}
-
-.u-clearfix {
-  *zoom: 1 !important;
-}
-
-.subtle {
-  color: #aaa;
-}
-
-.card-container {
-  margin: 25px auto 0;
-  position: relative;
-  width: 692px;
-}
-
-.card {
-  background-color: #fff;
-  padding: 30px;
-  position: relative;
-  box-shadow: 0 0 5px rgba(75, 75, 75, .07);
-  z-index: 1;
-}
-
-.card-body {
-  display: inline-block;
-  float: left;
-  width: 310px;
-}
-
-.card-number {
-  margin-top: 15px;
-}
-
-.card-circle {
-  border: 1px solid #aaa;
-  border-radius: 50%;
-  display: inline-block;
-  line-height: 22px;
-  font-size: 12px;
-  height: 25px;
-  text-align: center;
-  width: 25px;
-}
-
-.card-author {
-  display: block;
-  font-size: 12px;
-  letter-spacing: .5px;
-  margin: 15px 0 0;
-  text-transform: uppercase;
-}
-
-.card-title {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 50px;
-  font-weight: 300;
-  line-height: 60px;
-  margin: 10px 0;
-}
-
-.card-description {
-  display: inline-block;
-  font-weight: 300;
-  line-height: 22px;
-  margin: 10px 0;
-}
-
-.card-read {
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 6px;
-  margin: 5px 0 20px;
-  position: relative;
-  text-align: right;
-  text-transform: uppercase;
-}
-
-.card-read:after {
-  background-color: #b8bddd;
-  content: "";
-  display: block;
-  height: 1px;
-  position: absolute;
-  top: 9px;
-  width: 75%;
-}
-
-.card-tag {
-  float: right;
-  margin: 5px 0 0;
-}
-
-.card-media {
-  float: right;
-}
-
-.card-shadow {
-  background-color: #fff;
-  box-shadow: 0 2px 25px 2px rgba(0, 0, 0, 1), 0 2px 50px 2px rgba(0, 0, 0, 1), 0 0 100px 3px rgba(0, 0, 0, .25);
-  height: 1px;
-  margin: -1px auto 0;
-  width: 80%;
-  z-index: -1;
-}
 
 /* =================================== */
 
@@ -1668,6 +1554,115 @@ $gray: #616161;
   }
   
 /* =================================== */
+
+.basic-1 {
+	padding-top: 6.5rem;
+	padding-bottom: 3rem;
+}
+
+.basic-1 .text-container {
+	margin-bottom: 3rem;
+}
+
+.basic-1 .section-title {
+	margin-bottom: 0.5rem;
+}
+
+.basic-1 h2 {
+	margin-bottom: 1.375rem;
+}
+
+.basic-1 .testimonial-author {
+	color: #484a46;
+}
+
+/* Hover Animation */
+.basic-1 .image-container {
+	overflow: hidden;
+	border-radius: 0.25rem;
+}
+
+.basic-1 .image-container img {
+	margin: 0;
+	border-radius: 0.25rem;
+	transition: all 0.3s;
+}
+
+.basic-1 .image-container:hover img {
+	-moz-transform: scale(1.15);
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+} 
+
+/* =================================== */
+
+.cards-1 {
+	padding-top: 3rem;
+	padding-bottom: 2.875rem;
+}
+
+.cards-1 .card {
+	margin-bottom: 2.5rem;
+	border: none;
+	text-align: center;
+}
+
+.cards-1 .fa-stack {
+	width: 6rem;
+	height: 6rem;
+	margin-right: auto;
+	margin-bottom: 1rem;
+	margin-left: auto;
+	line-height: 6rem;
+	text-align: left;
+}
+
+.cards-1 .fa-stack .hexagon {
+	position: absolute;
+	width: 6rem;
+	height: 6rem;
+	background: url('../images/hexagon-green.svg') center center no-repeat;
+	background-size: 6rem 6rem;
+}
+
+.cards-1 .fa-stack-1x {
+	color: #fff;
+	font-size: 2rem;
+}
+
+.cards-1 .card-body {
+	padding: 0;
+}
+
+.cards-1 .card-title {
+	margin-bottom: 0.625rem;
+}
+
+/* Intro */
+.basic-1 {
+    padding-top: 6.875rem;
+}
+
+.basic-1 .text-container {
+    margin-bottom: 0;
+}
+/* end of intro */
+
+
+/* Description */
+.cards-1 .card {
+    display: inline-block;
+    max-width: 17.5rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.cards-1 div.card:nth-child(3n+2) {
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+}
+/* end of description */
+
 /* =================================== */
 
 body {
