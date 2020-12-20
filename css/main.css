@@ -1273,7 +1273,7 @@
 	color: #FFF;
 	transition: .35s ease-in-out;
 	position: absolute;
-	left: 15px;
+	left: -35px;
 	bottom: 15px;
 	font-family: "Montserrat";
 }
@@ -1284,10 +1284,7 @@
 }
 /* =================================== */
 
-$white: #fff;
-$black: #000;
-$primary: #d4a024;
-$gray: #616161;
+
 
 .containerxx2 {
     display: -webkit-box;
