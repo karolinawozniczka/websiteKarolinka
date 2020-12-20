@@ -1253,7 +1253,19 @@
 }
 
 .h1xx2 {
-	background-image: url(https://i.pinimg.com/originals/e7/e2/7e/e7e27ec7819af624f37dec88a7f63eb4.gif);
+	background-image: url(https://i.pinimg.com/originals/2f/10/9a/2f109ad03c2e63e1a765faa77eb53a22.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 60px;
+	line-height: .9;
+	margin: 10px 0;
+}
+
+.h1xx3 {
+	background-image: url(https://lh3.googleusercontent.com/proxy/Vk_i9v3fT6v2vK10iHRMdtB9KdeXfRxMlHfSE0LhJcwCE1hYa654e3rUVkkH6YE24d0AOwZb4m6tY0_cXPAW0nnO);
 	background-size: cover;
 	color: transparent;
 	-moz-background-clip: text;
