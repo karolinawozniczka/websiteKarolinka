@@ -1902,14 +1902,14 @@ p {
 .section5 .box1 {
     align-items: center;
     float:left; 
-    left: 2%;
-    bottom: 4%;
+    left: 0%;
+    bottom: 0%;
     position: absolute;
     max-width: 475px;
     padding-top: 5px;
     padding-bottom: 20px;
     padding-right: 30px;
-    padding-left: 30px;
+    padding-left: 20px;
     overflow: hidden;
 }
 
