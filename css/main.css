@@ -1179,6 +1179,15 @@
 }
 
 .acp2{
+    color: #f5f4f1;
+    font: 400 1.3rem/1.5625rem "Open Sans", sans-serif;
+    margin-left: 5.125rem;
+    margin-right: 5.125rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.acp4{
     color: #787976;
     font: 400 1.3rem/1.5625rem "Open Sans", sans-serif;
     margin-left: 5.125rem;
@@ -1985,7 +1994,7 @@ a, a:hover, a:focus, .btn:focus {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Simplifica', sans-serif;
     color: #252525;
 }
 
@@ -2769,7 +2778,8 @@ h1.navbar-brand {
 }
 
 .service-item h3 {
-    font-size: 15px;
+    font: 'Simplifica';
+    font-size: 14px;
     text-transform: uppercase;
 }
 
@@ -3238,7 +3248,7 @@ textarea.form-control {
 }
 
 .contact-details p i {
-    margin-right: 10px;
+    margin-right: 11px;
 }
 
 .contact-details span {
