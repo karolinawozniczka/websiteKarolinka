@@ -3499,9 +3499,7 @@ textarea.form-control {
 /*============================================================
 	Mobile (Portrait) Design for a width of 320px
 ==============================================================*/
-
-@media only screen and (max-width: 767px) {
-
+@media only screen and (max-width: 765px) {
     .section5 {
         font-family: sans-serif;
         background-image: url('../img/slider/bannerG2.jpg');
@@ -3524,6 +3522,9 @@ textarea.form-control {
         padding-left: 20px;
         overflow: hidden;
     }
+}
+
+@media only screen and (max-width: 767px) {
 
 
 	div.offer1{
