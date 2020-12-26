@@ -2205,7 +2205,10 @@ textarea.form-control {
     font-size: 12px;
 }
 
-
+.klasa1{
+    padding: 15px 74px !important;
+    font-size:11px !important;
+}
 
 /*============================================================ 
 	Responsive Styles
@@ -2215,6 +2218,7 @@ textarea.form-control {
 	For Small Desktop
 ==============================================================*/
 
+
 @media (min-width: 980px) and (max-width: 1150px) {
 
 /*about*/
@@ -2222,7 +2226,22 @@ textarea.form-control {
         margin-bottom: 30px;
     }
 
+    .section5 .box1 h2 {
+        position: relative;
+        padding: 0;
+        text-transform: uppercase;
+        z-index: 1;
+        font-size: 0.5em;
+        letter-spacing: 0.25em;
+        line-height: 1.2em;
+        color: white;
+        mix-blend-mode: difference;
+    }
 
+    .klasa1{
+        padding: 10px 51px !important;
+        font-size: 10px !important;
+    }
 
 /* portfolio */
     figcaption.mask {
@@ -2257,6 +2276,22 @@ textarea.form-control {
 
 @media (min-width: 768px) and (max-width: 979px) {
 
+    .section5 .box1 h2 {
+        position: relative;
+        padding: 0;
+        text-transform: uppercase;
+        z-index: 1;
+        font-size: 0.5em;
+        letter-spacing: 0.25em;
+        line-height: 1.2em;
+        color: white;
+        mix-blend-mode: difference;
+    }
+
+    .klasa1{
+        padding: 10px 51px !important;
+        font-size: 10px !important;
+    }
 
 /* home slider  */
     .caption-content h2 {
