@@ -3521,6 +3521,10 @@ textarea.form-control {
         padding-left: 20px;
         overflow: hidden;
     }
+
+    .box1 h2 {
+        mix-blend-mode: unset !important;
+    }
 }
 
 @media only screen and (max-width: 767px) {
