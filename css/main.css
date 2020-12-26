@@ -659,7 +659,6 @@ p {
 }
 
 .section5 {
-    font-family: sans-serif;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -738,7 +737,7 @@ p {
     text-transform: uppercase;
     z-index: 1;
     font-family:  "Tisa";
-    font-size: 10px;
+    font-size: 0.62em;
     letter-spacing: 0.25em;
     line-height: 1.2em;
     color: white;
@@ -750,7 +749,6 @@ p {
     padding: 0;
     text-transform: uppercase;
     z-index: 1;
-    font-family:  "Tisa";
     font-size: 10px;
     letter-spacing: 0.25em;
     line-height: 1.2em;
