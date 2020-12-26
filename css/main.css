@@ -3511,8 +3511,8 @@ textarea.form-control {
     .box1 {
         align-items: center;
         float: left;
-        left: 0%;
-        bottom: 16% !important;
+        left: 20%!important;
+        bottom: 18% !important;
         position: absolute;
         max-width: 475px;
         padding-top: 5px;
