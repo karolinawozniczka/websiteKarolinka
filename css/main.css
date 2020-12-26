@@ -1297,6 +1297,7 @@
 	margin: 10px 0;
 }
 
+
 .h1xx5 {
 	background-image: url(https://bestanimations.com/media/nature/1334842212nature-waterfall-animated-gif-2.gif);
 	background-size: cover;
@@ -3511,7 +3512,7 @@ textarea.form-control {
         align-items: center;
         float: left;
         left: 0%;
-        bottom: 10% !important;
+        bottom: 16% !important;
         position: absolute;
         max-width: 475px;
         padding-top: 5px;
@@ -3519,6 +3520,17 @@ textarea.form-control {
         padding-right: 30px;
         padding-left: 20px;
         overflow: hidden;
+    }
+
+    .box1 h2 {
+        mix-blend-mode: unset!important;
+    }
+
+    .btn-border1 {
+        border: 2px solid #009ffd;
+        color: #fff;
+        padding: 12px 35px;
+        mix-blend-mode: unset!important;
     }
 }
 
