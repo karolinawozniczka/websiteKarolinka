@@ -2216,7 +2216,7 @@ textarea.form-control {
 	Responsive Styles
  ============================================================*/
 
- @media screen and (min-width: 1580px) {
+ @media screen and (min-width: 1280px) {
     .klasa1{
         font-size:11px !important;
         padding: 15px 74px !important;
