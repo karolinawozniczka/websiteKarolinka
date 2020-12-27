@@ -750,7 +750,7 @@ p {
     padding: 0;
     text-transform: uppercase;
     z-index: 1;
-    font-size: 0.62em;
+    font-size: 0.5em;
     letter-spacing: 0.25em;
     line-height: 1.2em;
     color: white;
@@ -1142,6 +1142,10 @@ main > section {
     background-size: cover;
 }
 
+.klasa1{
+    font-size:8px !important;
+    padding: 10px 62px !important;
+}
 
 /**
 /*	Preloader
@@ -2340,6 +2344,24 @@ textarea.form-control {
         mix-blend-mode: unset !important;
     }
 }
+
+@media screen and (min-width: 1920px) {
+    .klasa1{
+        font-size:11px !important;
+        padding: 15px 74px !important;
+    }
+
+    .section5 .box1 h2{
+        position: relative;
+        padding: 0;
+        text-transform: uppercase;
+        z-index: 1;
+        font-size: 0.62em;
+        letter-spacing: 0.25em;
+        line-height: 1.2em;
+        color: white;
+        mix-blend-mode: difference;
+    }
 
 @media only screen and (max-width: 767px) {
 
