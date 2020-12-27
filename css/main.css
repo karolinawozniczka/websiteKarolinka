@@ -2216,9 +2216,28 @@ textarea.form-control {
 	Responsive Styles
  ============================================================*/
 
+ @media screen and (min-width: 1580px) {
+    .klasa1{
+        font-size:11px !important;
+        padding: 15px 74px !important;
+    }
+
+    .section5 .box1 h2{
+        position: relative;
+        padding: 0;
+        text-transform: uppercase;
+        z-index: 1;
+        font-size: 0.62em;
+        letter-spacing: 0.25em;
+        line-height: 1.2em;
+        color: white;
+        mix-blend-mode: difference;
+    }
+
 /*============================================================
 	For Small Desktop
 ==============================================================*/
+
 
 @media (min-width: 980px) and (max-width: 1150px) {
 
@@ -2345,23 +2364,8 @@ textarea.form-control {
     }
 }
 
-@media screen and (min-width: 1920px) {
-    .klasa1{
-        font-size:11px !important;
-        padding: 15px 74px !important;
-    }
 
-    .section5 .box1 h2{
-        position: relative;
-        padding: 0;
-        text-transform: uppercase;
-        z-index: 1;
-        font-size: 0.62em;
-        letter-spacing: 0.25em;
-        line-height: 1.2em;
-        color: white;
-        mix-blend-mode: difference;
-    }
+
 
 @media only screen and (max-width: 767px) {
 
