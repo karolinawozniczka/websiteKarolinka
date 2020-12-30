@@ -1611,16 +1611,17 @@ h1.navbar-brand {
 ==================================================================*/
 
 #omnie {
-    background-color: #0261C7;
-    background-image: linear-gradient(315deg, #0261C7 0%, #009ffd 74%);
+    background: #008cfd;
 }
 
 #omnie2 {
-    background-color: #0261C7;
-    background-image: linear-gradient(315deg, #0261C7 0%, #009ffd 74%);
+    background: #008cfd;
 }
 
-
+/* #omnie2 {
+    background-color:  #008FFC ;
+background-image: linear-gradient(315deg, #008FFC   0%, #009ffd 74%);
+} */
 
 #omnie3 {
     background-color: #fff;
@@ -2019,8 +2020,7 @@ ul.external li a:hover {
 }
 
 #testimonials .overlay {
-    background-color: #2a2a72;
-    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    background: #008cfd;
     opacity: 0.85;
     padding: 70px 0 40px;
 }
@@ -2814,7 +2814,7 @@ textarea.form-control {
         margin-left: 5%;
         margin-right: 5%;
         -webkit-font-smoothing: subpixel-antialiased !important;
-        font-size: 0.7925em!important;
+        font-size: 0.9125em!important;
         font-weight: 300;
         font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
         line-height: 1.88889;
@@ -2842,9 +2842,9 @@ textarea.form-control {
 
     .ach22{
         margin-top: 0;
-        font-family: "Libre Franklin", Helvetica, Arial, sans-seri;
+        font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
         color: #252525;
-        font-size: 20px;
+        font-size: 32px;
         font-weight: 200;
         line-height: 1.35;
     }
@@ -2853,28 +2853,29 @@ textarea.form-control {
 @media screen and (min-width: 1460px){
     .ach2{
         margin-bottom: 2.625rem;
-        font-family: "Libre Franklin", Helvetica, Arial, sans-seri;
+        font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
         color: #252525;
-        font-size: 40px;
+        font-size: 34px;
         font-weight: 200;
         line-height: 1.35;
     }
 
     .ach22{
-        margin-top: 40px;
+        margin-top: 10px;
         margin-bottom: 2.625rem;
-        font-family: "Libre Franklin", Helvetica, Arial, sans-seri;
+        font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
         color: #252525;
-        font-size: 40px;
+        font-size: 34px;
         font-weight: 200;
         line-height: 1.35;
     }
     
     .ach3{
+        margin-top:20px;
         margin-left: 5%;
         margin-right: 5%;
         -webkit-font-smoothing: subpixel-antialiased !important;
-        font-size: 0.8125em!important;
+        font-size: 1.0125em!important;
         font-weight: 300;
         font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
         line-height: 1.88889;
@@ -2906,8 +2907,8 @@ textarea.form-control {
     }
     
     .ach22{
-        margin-top: 100px;
-        margin-bottom: 2.625rem;
+        margin-top: 35px;
+        margin-bottom: 35px !important;
         font-family: "Libre Franklin", Helvetica, Arial, sans-seri;
         color: #252525;
         font-size: 45px;
@@ -2931,7 +2932,7 @@ textarea.form-control {
         margin-left: 5%;
         margin-right: 5%;
         -webkit-font-smoothing: subpixel-antialiased !important;
-        font-size: .9025em!important;
+        font-size: 1.269em!important;
         font-weight: 300;
         font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
         line-height: 1.88889;
