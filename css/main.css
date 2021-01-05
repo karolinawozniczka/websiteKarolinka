@@ -1673,7 +1673,6 @@ background-image: linear-gradient(315deg, #008FFC   0%, #009ffd 74%);
 }
 
 #oferta img {
-    border-radius: 1%; 
     margin-right: 8%;
     display: block;
     height: auto;
@@ -1682,7 +1681,6 @@ background-image: linear-gradient(315deg, #008FFC   0%, #009ffd 74%);
 }
 
 #ofertaGrupa img {
-    border-radius: 1%; 
     margin-right: 8%;
     display: block;
     height: auto;
