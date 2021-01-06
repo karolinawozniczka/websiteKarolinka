@@ -1214,7 +1214,6 @@ main > section {
     font-size: 36px;
     margin: 0 0 30px;
     padding-bottom: 30px;
-    padding-top: min(70px);
     position: relative;
     text-transform: uppercase;
 }
@@ -1671,6 +1670,7 @@ background-image: linear-gradient(315deg, #008FFC   0%, #009ffd 74%);
         max-width: 300px;
         float: left;
 }
+
 
 #oferta img {
     margin-right: 8%;
