@@ -2977,3 +2977,15 @@ textarea.form-control {
         line-height: 1.88889;
     }
 }
+
+@media only screen and (min-width: 1920px)  {
+    .ach22{
+        margin-top: 14% !important;
+        margin-bottom: 35px !important;
+        font-family: "Libre Franklin", Helvetica, Arial, sans-seri;
+        color: #252525;
+        font-size: 40px;
+        font-weight: 200;
+        line-height: 1.35;
+    }
+}
