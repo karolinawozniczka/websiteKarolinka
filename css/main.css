@@ -305,6 +305,18 @@
     color: #000;
 }
 
+.ach4x{
+    font-size:1em;
+    color: #5e5d5d;
+    margin-left: 5%;
+    margin-right: 5%;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    font-weight: 300;
+    font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+    line-height: 1.88889;
+}
+
+
 
 .ach33{
     margin-left: 5%;
@@ -2902,5 +2914,66 @@ textarea.form-control {
         line-height: 1.2em;
         color: white;
         mix-blend-mode: difference;
+    }
+}
+
+@media only screen and (min-width: 1410px) and (max-width: 1530px) {
+    .ach4x{
+        font-size:.9em;
+        color: #5e5d5d;
+        margin-left: 5%;
+        margin-right: 5%;
+        -webkit-font-smoothing: subpixel-antialiased !important;
+        font-weight: 300;
+        font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+        line-height: 1.88889;
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1409px) {
+    .ach4x{
+        font-size:.8em;
+        color: #5e5d5d;
+        margin-left: 5%;
+        margin-right: 5%;
+        -webkit-font-smoothing: subpixel-antialiased !important;
+        font-weight: 300;
+        font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+        line-height: 1.88889;
+    }
+}
+
+@media only screen and (min-width: 1170px) and (max-width: 1299px) {
+    .ach4x{
+        font-size:.7em;
+        color: #5e5d5d;
+        margin-left: 5%;
+        margin-right: 5%;
+        -webkit-font-smoothing: subpixel-antialiased !important;
+        font-weight: 300;
+        font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+        line-height: 1.88889;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1165px) {
+    .ach22{
+        margin-bottom: 35px !important;
+        font-family: "Libre Franklin", Helvetica, Arial, sans-seri;
+        color: #252525;
+        font-size: 32px;
+        font-weight: 200;
+        line-height: 1.35;
+    }
+
+    .ach4x{
+        font-size:.6em;
+        color: #5e5d5d;
+        margin-left: 5%;
+        margin-right: 5%;
+        -webkit-font-smoothing: subpixel-antialiased !important;
+        font-weight: 300;
+        font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+        line-height: 1.88889;
     }
 }
