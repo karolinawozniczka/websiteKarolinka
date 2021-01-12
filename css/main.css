@@ -647,6 +647,13 @@ p {
     line-height: 27px;
 }
 
+.blacked {
+    font-size: 16px;
+    color : #252525;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .buttons {
     display: flex;
     flex-direction: row;
@@ -2947,17 +2954,29 @@ textarea.form-control {
     .ach4x{
         font-size:.9em;
     }
+
+    .blacked {
+        font-size : 15px;
+    }
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1409px) {
     .ach4x{
         font-size:.8em;
     }
+
+    .blacked {
+        font-size : 13px;
+    }
 }
 
 @media only screen and (min-width: 1170px) and (max-width: 1299px) {
     .ach4x{
         font-size:.7em;
+    }
+
+    .blacked {
+        font-size : 11px;
     }
 }
 
