@@ -1,4 +1,7 @@
-
+html {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
   .effect7
   {
       position:relative;
@@ -267,7 +270,7 @@
 /* =================================== */
 .ach2{
     margin-bottom: 2.625rem;
-    font-family: "Libre Franklin", Helvetica, Arial, sans-seri;
+    font-family: 'Simplifica', Helvetica, Arial, sans-seri;
     color: #252525;
     font-size: 40px;
     font-weight: 200;
@@ -278,7 +281,7 @@
 
 .ach22{
     margin-bottom: 35px !important;
-    font-family: "Libre Franklin", Helvetica, Arial, sans-seri;
+    font-family: 'Simplifica', Helvetica, Arial, sans-seri;
     color: #252525;
     font-size: 40px;
     font-weight: 200;
@@ -291,7 +294,7 @@
     -webkit-font-smoothing: subpixel-antialiased !important;
     font-size: 1.369em!important;
     font-weight: 300;
-    font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+    font-family: 'Simplifica', Helvetica, Arial, sans-serif;
     line-height: 1.88889;
     color: #000;
 }
@@ -303,7 +306,7 @@
     -webkit-font-smoothing: antialiased !important;
     font-size: 1.22em!important;
     font-weight: 300;
-    font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+    font-family: 'Simplifica', Helvetica, Arial, sans-serif;
     line-height: 1.88889;
     color: #000;
 }
@@ -314,7 +317,7 @@
     margin-left: 5%;
     margin-right: 5%;
     font-weight: 300;
-    font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+    font-family: 'Simplifica', Helvetica, Arial, sans-serif;
     line-height: 1.88889;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
