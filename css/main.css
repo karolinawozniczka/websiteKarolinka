@@ -272,6 +272,8 @@
     font-size: 40px;
     font-weight: 200;
     line-height: 1.35;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
 }
 
 .ach22{
@@ -297,7 +299,8 @@
 .ach3x{
     margin-left: 5%;
     margin-right: 5%;
-    -webkit-font-smoothing: subpixel-antialiased !important;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
     font-size: 1.22em!important;
     font-weight: 300;
     font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
@@ -310,10 +313,11 @@
     color: #5e5d5d;
     margin-left: 5%;
     margin-right: 5%;
-    -webkit-font-smoothing: subpixel-antialiased !important;
     font-weight: 300;
     font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
     line-height: 1.88889;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
 }
 
 
@@ -322,7 +326,8 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 4.625rem;
-    -webkit-font-smoothing: subpixel-antialiased !important;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
     font-size: 1.0125em!important;
     font-weight: 300;
     font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
