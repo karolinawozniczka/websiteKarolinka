@@ -270,7 +270,7 @@ html {
 /* =================================== */
 .ach2{
     margin-bottom: 2.625rem;
-    font-family: 'Simplifica', Helvetica, Arial, sans-seri;
+    font-family: "Libre Franklin", Helvetica, Arial, sans-seri;
     color: #252525;
     font-size: 40px;
     font-weight: 200;
@@ -281,7 +281,7 @@ html {
 
 .ach22{
     margin-bottom: 35px !important;
-    font-family: 'Simplifica', Helvetica, Arial, sans-seri;
+    font-family: "Libre Franklin", Helvetica, Arial, sans-seri;
     color: #252525;
     font-size: 40px;
     font-weight: 200;
@@ -318,6 +318,18 @@ html {
     margin-right: 5%;
     font-weight: 300;
     font-family: 'Simplifica', Helvetica, Arial, sans-serif;
+    line-height: 1.88889;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.ach5x{
+    font-size:1em;
+    color: #5e5d5d;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: 300;
+    font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
     line-height: 1.88889;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
