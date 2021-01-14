@@ -682,6 +682,27 @@ p {
     margin: 0 0 2em;
 }
   
+.otto {
+    text-shadow: -1px -1px 3px #020202, 
+      2px 2px 4px #1b1b1b;
+  }
+
+.otto2 {
+    text-shadow: 0px 10px 10px #000;
+}
+
+.otto3 {
+  text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(0,0,0,0.3);
+}
+
+.otto4 {
+    text-shadow: 2px 2px 2px #000;
+}
+
+.otto5 {
+    text-shadow: 3px 4px 7px rgba(0,0,0,0.3);
+}
 
 .zoom {
     transition: transform .2s;
