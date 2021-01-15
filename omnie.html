@@ -15,6 +15,7 @@
 	
 	<link rel="shortcut icon" href="img/icons/ikonka.ico"> 
 
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 	
 	<link rel='stylesheet' href='css/font.css' type='text/css'>
 	<!-- Fontawesome Icon font -->
@@ -50,7 +51,7 @@
 	<!--
 	Fixed Navigation
 	==================================== -->
-	<header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+	<header id="navigation" class="navbar-inverse navbar-fixed-top animated-header" style="border-width:0!important;">
 		<div class="container">
 			<div class="navbar-header">
 				<!-- responsive nav button -->
@@ -86,14 +87,26 @@
 	
 	<main class="site-content" role="main">
 		<!-- Start -->
-		<div class="section5">
-			<div class="box1">
+		<div class="sectionTest3">
+			<!-- <div class="box1">
 				<h2>Chcesz umówić się na spotkanie ?
 					<hr class=".sec-title" style="margin-bottom:10px !important;margin-top:10px !important; border-bottom: 3px; border-top: 1px solid white;">
 				</h2>
 				<h2 style="margin-top: 12px !important;">Masz dodatkowe pytania ?</h2>
 				<div>
 					<a href="#contact" class="btn btn-border1 btn-effect1 pull-right klasa1" style="z-index: 1; margin-top: 5px; letter-spacing: 0.15em; font-weight: 600; ">Skontaktuj się !</a>
+				</div>
+			</div> -->
+			<div class="absolute inset-0 flex items-center justify-center" id="modalEl">
+				<div class="bg-transparent max-w-x1 p-6 text-center">
+					<h1 class="ml-28 mt-40 pt-4 otto2 text-7xl font-bold leading-none text-white" id="scoreEl">
+						Chcesz się <span>umówić</span> na spotkanie?</h1>
+						<h1 style="color:rgb(100, 187, 100)" class="ml-28 mb-20 pt-4 otto2 text-7xl font-bold leading-none" id="scoreEl">
+							Masz <span style="color:rgb(100, 187, 100)">dodatkowe</span> pytania?</h1>
+					<div>
+						<a href="#contact">
+						<button class="superBtn zoom">SKONTAKTUJ SIĘ!</button></a>
+					</div>
 				</div>
 			</div>
 		</div>
