@@ -862,42 +862,56 @@ p {
 }
 
 .section5 {
+    background: url(../img/slider/bannerG2.jpg) center center;
+    min-height: 1080px;
     position: relative;
-    justify-content: center;
-    align-items: center;
-    background: url(../img/slider/bannerG2.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:100% 100%;
-    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    
 }
 
 .sectionTest {
+    background: url(../img/slider/bannerGM.jpg) center center;
+    min-height: 1080px;
     position: relative;
-    justify-content: center;
-    align-items: center;
-    background: url(../img/slider/bannerGM.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:100% 100%;
-    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+
 }
 .sectionTest2 {
+    background: url(../img/slider/bannerKar.jpg) center center;
+    min-height: 1080px;
     position: relative;
-    justify-content: center;
-    align-items: center;
-    background: url(../img/slider/bannerKar.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:100% 100%;
-    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
 }
 
 .sectionTest3 {
+    background: url(../img/slider/test.jpeg) center center;
+    min-height: 1080px;
     position: relative;
-    justify-content: center;
-    align-items: center;
-    background: url(../img/slider/test.jpeg);
+    height: 100%;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:100% 100%;
-    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
 }
 
 
