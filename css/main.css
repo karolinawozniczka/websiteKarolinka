@@ -840,6 +840,10 @@ p {
     -webkit-font-smoothing: antialiased;
 }
 
+.no-padding {
+    padding-left: 0 !important;
+}
+
 .superBtn3 {
     font-family: 'Verdana';
     border-radius: 100px!important;
