@@ -862,6 +862,8 @@ p {
 }
 
 .section5 {
+    justify-content: center;
+    align-items: center;
     background: url(../img/slider/bannerG2.jpg) center center;
     min-height: 1080px;
     position: relative;
@@ -876,7 +878,9 @@ p {
 }
 
 .sectionTest {
-    background: url(../img/slider/bannerGM.jpg) center center;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/slider/test4.jpg) center center;
     min-height: 1080px;
     position: relative;
     height: 100%;
@@ -889,6 +893,8 @@ p {
 
 }
 .sectionTest2 {
+    justify-content: center;
+    align-items: center;
     background: url(../img/slider/bannerKar.jpg) center center;
     min-height: 1080px;
     position: relative;
@@ -901,8 +907,25 @@ p {
     color: #fff;
 }
 
+.sectionTest4 {
+    justify-content: center;
+    align-items: center;
+    background: url(../img/slider/bannerGM.jpg) center center;
+    min-height: 1080px;
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
 .sectionTest3 {
-    background: url(../img/slider/test.jpeg) center center;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/slider/testx.jpg) center center;
     min-height: 1080px;
     position: relative;
     height: 100%;
