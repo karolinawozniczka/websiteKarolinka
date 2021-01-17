@@ -708,6 +708,16 @@ p {
     transition: transform .2s;
   }
   
+.doa{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+
+.doit{
+    animation: 3s ease-out 0s 1 wait, 0.21s ease-out 3s 1 doa;
+}
+
   .zoom:hover {
     -ms-transform: scale(1.2); /* IE 9 */
     -webkit-transform: scale(1.2); /* Safari 3-8 */
