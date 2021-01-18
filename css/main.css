@@ -736,7 +736,7 @@ p {
   .ball3 {
     position:absolute;
     margin-left: 1800px;
-    transition: .5s;
+    transition: .6s;
   }
 
 .doit{
