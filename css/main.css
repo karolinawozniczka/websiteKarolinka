@@ -900,7 +900,7 @@ p {
 .section5 {
     background: url(../img/slider/bannerG2.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     width: 100%;
     height:100vh;  /* responsive height */
@@ -909,7 +909,7 @@ p {
 .sectionTest {
     background: url(../img/slider/freedom.jpg); 
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     width: 100%;
     height:100vh;  /* responsive height */
@@ -919,7 +919,7 @@ p {
 .sectionTestx {
     background: url(../img/slider/freedom.jpg) ;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     width: 100%;
     height:100vh;  /* responsive height */
@@ -929,7 +929,7 @@ p {
 .sectionTest2 {
     background: url(../img/slider/freedom.jpg) ;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     width: 100%;
     height:100vh;  /* responsive height */
@@ -938,7 +938,7 @@ p {
 .sectionTest4 {
     background: url(../img/slider/bannerGM.jpg) ;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     width: 100%;
     height:100vh;  /* responsive height */
@@ -947,7 +947,7 @@ p {
 .sectionTest3 {
     background: url(../img/slider/freedom.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     width: 100%;
     height:100vh;  /* responsive height */
