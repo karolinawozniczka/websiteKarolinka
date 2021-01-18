@@ -899,16 +899,11 @@ p {
 
 .section5 {
     background: url(../img/slider/bannerG2.jpg);
-    font-family: sans-serif;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    background-attachment: fixed;
-    background-size:100% 100%;
-    height: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:100vh;  /* responsive height */
 }
 
 .sectionTest {
@@ -922,42 +917,31 @@ p {
 }
 
 .sectionTestx {
-    background: url(../img/slider/freedom.jpg) center center;
-    font-family: sans-serif;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    background-attachment: fixed;
-    background-size:100% 100%;
-    height: 100vh;
+    background: url(../img/slider/freedom.jpg) ;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:100vh;  /* responsive height */
 
 }
 
 .sectionTest2 {
-    background: url(../img/slider/freedom.jpg)  center center;
-    font-family: sans-serif;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    background-attachment: fixed;
-    background-size:100% 100%;
-    height: 100vh;
+    background: url(../img/slider/freedom.jpg) ;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:100vh;  /* responsive height */
 }
 
 .sectionTest4 {
-    background: url(../img/slider/bannerGM.jpg) center center;
-    font-family: sans-serif;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    background-attachment: fixed;
-    background-size:100% 100%;
-    height: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+    background: url(../img/slider/bannerGM.jpg) ;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:100vh;  /* responsive height */
 }
 
 .sectionTest3 {
