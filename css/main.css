@@ -714,8 +714,27 @@ p {
     transform: scale(1.2); 
 }
 
+.ball {
+    position:absolute;
+    margin-top: 1200px;
+    transition: .5s;
+  }
+
+  .ball2 {
+    position:absolute;
+    margin-bottom: 1200px;
+    transition: .5s;
+  }
+
+  .ball3 {
+    position:absolute;
+    margin-left: 1800px;
+    transition: .5s;
+  }
+
 .doit{
-    animation: 3s ease-out 0s 1 wait, 0.21s ease-out 3s 1 doa;
+    animation: doa .2s;
+      -webkit-animation: doa 2s ; 
 }
 
   .zoom:hover {
