@@ -100,13 +100,13 @@
 
 			<div class="absolute inset-0 flex items-center justify-center" id="modalEl">
 				<div class="bg-transparent mb-20 mr-16 max-w-x1 p-6 text-center">
-					<h1 style="font-size: 3.40rem!important" class=" bounceInDown wow animated text-white mb-10 otto2
-					 text-6xl font-bold leading-none"  style="visibility: visible; animation-name: bounceInDown;">
+					<h1 style="font-size: 3.40rem!important" class=" bounceInLeft wow animated text-white mb-10 otto2
+					 text-6xl font-bold leading-none"  style="visibility: visible; animation-name: bounceInLeft;">
 						Chcesz się <span style="color:rgb(100, 187, 100)">umówić</span> na spotkanie?</h1>
 						
 					<div>
 						<a href="#contact">
-						<button class="superBtn zoom">SKONTAKTUJ SIĘ!</button></a>
+						<button id="ball" class="ball3 superBtn zoom">SKONTAKTUJ SIĘ!</button></a>
 					</div>
 				</div>
 			</div>
@@ -206,6 +206,14 @@
 	<script src="js/main.js"></script>
 	
 	<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+
+	<script>
+		window.onload = function() {
+			var ball = document.getElementById('ball')
+			ball.style.marginLeft = 0;
+			ball.style.position = 'relative';
+	  	};
+	</script>
 
 	<script>
 		function myFunction() {

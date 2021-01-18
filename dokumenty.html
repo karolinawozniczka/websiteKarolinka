@@ -89,22 +89,14 @@
 	<main class="site-content" role="main">
 	
 		<div class="sectionTest">
-			<!-- <div class="box1">
-				<h2>Chcesz umówić się na spotkanie ?
-					<hr class=".sec-title" style="margin-bottom:10px !important;margin-top:10px !important; border-bottom: 3px; border-top: 1px solid white;">
-				</h2>
-				<h2 style="margin-top: 12px !important;">Masz dodatkowe pytania ?</h2>
-				<div>
-					<a href="#contact" class="btn btn-border1 btn-effect1 pull-right klasa1" style="z-index: 1; margin-top: 5px; letter-spacing: 0.15em; font-weight: 600; ">Skontaktuj się !</a>
-				</div>
-			</div> -->
 			<div class="absolute inset-0 flex items-center justify-center" id="modalEl">
 				<div class="bg-transparent mb-20 mr-16 max-w-x1 p-6 text-center">
-					<h1 class="pt-4 otto2 text-7xl font-bold leading-none text-white bounceInDown wow animated" style="visibility: visible; animation-name: bounceInDown;">
+					<h1 class="pt-4 otto2 text-7xl font-bold leading-none text-white bounceInLeft wow animated" 
+					style="visibility: visible; animation-name: bounceInLeft;">
 						Chcesz się <span style="color:rgb(100, 187, 100)">umówić</span> na spotkanie?</h1>
 					<div>
 						<a href="#contact">
-						<button class="superBtn zoom mt-12">SKONTAKTUJ SIĘ!</button></a>
+						<button id="ball" class="ball3 superBtn zoom mt-12">SKONTAKTUJ SIĘ!</button></a>
 					</div>
 				</div>
 			</div>
@@ -236,6 +228,14 @@
 	<!-- Custom Functions -->
 	<script src="js/main.js"></script>
 	
+	<script>
+		window.onload = function() {
+			var ball = document.getElementById('ball')
+			ball.style.marginLeft = 0;
+			ball.style.position = 'relative';
+	  	};
+	</script>
+
 	<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 
 	<script>

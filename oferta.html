@@ -112,7 +112,8 @@
 						
 					<div>
 						<a href="#contact">
-							<button class="superBtn3 zoom mr-36" style="color:#fff!important">SKONTAKTUJ SIĘ!</button></a>
+							<button id="ball" class="ball2 superBtn3 zoom mr-36" style="color:#fff!important">
+								SKONTAKTUJ SIĘ!</button></a>
 					</div>
 				</div>
 			</div>
@@ -1239,6 +1240,14 @@
 	<!-- Custom Functions -->
 	<script src="js/main.js"></script>
 	
+	<script>
+		window.onload = function() {
+			var ball = document.getElementById('ball')
+			ball.style.marginBottom = 0;
+			ball.style.position = 'relative';
+	  	};
+	</script>
+
 	<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 
 	<script>
