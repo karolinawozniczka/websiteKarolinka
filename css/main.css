@@ -446,7 +446,19 @@ p {
     position:absolute;
     margin-top: 1200px;
     transition: .5s;
-  }
+}
+
+.ball1 {
+    position:absolute;
+    margin-right: 1200px;
+    transition: .5s;
+}
+
+.ball12 {
+    position:absolute;
+    margin-top: 1200px;
+    transition: .5s;
+}
 
 .ball2 {
     position:absolute;
@@ -583,39 +595,24 @@ p {
 .superBtn2 {
     font-family: 'Verdana';
     border-radius: 100px!important;
-    color: #000!important;
+    color: #fff!important;
     font-weight: 600!important;
-    font-size: 14px!important;
+    font-size: 12px!important;
     line-height: 21px!important;
     text-align: center!important;
     letter-spacing: 1.5px!important;
-    background: #F59E0B;
+    background: linear-gradient(225deg, #5DE455 2.32%, #14C0AA 100%)!important;
     text-shadow: 0px 26px 77px rgba(0, 0, 0, 0.1), 0px 16px 15px rgba(0, 0, 0, 0.1)!important;
+    background-image: linear-gradient(225deg, rgb(59, 146, 23) 2.32%, rgb(16, 154, 136) 100%)!important;
+    background-color: initial !important;
     border-color: initial!important;
     border: 0;
-    padding: 10px 25px;
+    padding: 10px 54px;
     -webkit-font-smoothing: antialiased;
 }
 
 .no-padding {
     padding-left: 0 !important;
-}
-
-.superBtn3 {
-    font-family: 'Verdana';
-    border-radius: 100px!important;
-    color: #000!important;
-    font-weight: 600!important;
-    font-size: 14px!important;
-    line-height: 21px!important;
-    text-align: center!important;
-    letter-spacing: 1.5px!important;
-    background:rgb(100, 187, 100);
-    text-shadow: 0px 26px 77px rgba(0, 0, 0, 0.1), 0px 16px 15px rgba(0, 0, 0, 0.1)!important;
-    border-color: initial!important;
-    border: 0;
-    padding: 10px 25px;
-    -webkit-font-smoothing: antialiased;
 }
 
 .section5 {
