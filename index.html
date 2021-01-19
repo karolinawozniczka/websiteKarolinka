@@ -22,6 +22,7 @@
 	
 	<link rel="shortcut icon" href="img/icons/ikonka.ico"> 
 
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
 	<link rel="stylesheet" href="css/font.css" type="text/css">
 	<!-- Fontawesome Icon font -->
@@ -54,7 +55,7 @@
 	<!-- end preloader -->
 
 	<!-- Start -->
-	<header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+	<header id="navigation" class="navbar-inverse navbar-fixed-top animated-header" style="border-width:0!important;">
 		<div class="container">
 			<div class="navbar-header">
 				<!-- responsive nav button -->
@@ -86,12 +87,14 @@
 		<!-- Start -->
 		<div class="section5">
 			<div class="box1">
-				<h2>Chcesz umówić się na spotkanie ?
+				<h2 style="font-size: 0.8em">Masz dodatkowe pytania?
 					<hr class=".sec-title" style="margin-bottom:10px !important;margin-top:10px !important; border-bottom: 3px; border-top: 1px solid white;">
 				</h2>
-				<h2 style="margin-top: 12px !important;">Masz dodatkowe pytania ?</h2>
+				<h2 style="margin-bottom:10%; margin-top: 12px !important;">Chcesz umówić się na spotkanie?</h2>
 				<div>
-					<a href="#contact" class="btn btn-border1 btn-effect1 pull-right klasa1" style="z-index: 1; margin-top: 5px; letter-spacing: 0.15em; font-weight: 600; ">Skontaktuj się !</a>
+					<a href="#contact">
+						<button class="superBtn2 zoom mb-12" style="color:#fff!important">
+							SKONTAKTUJ SIĘ!</button></a>
 				</div>
 			</div>
 		</div>
@@ -488,7 +491,9 @@
 	<script src="js/wow.min.js"></script>
 	<!-- Custom Functions -->
 	<script src="js/main.js"></script>
+
 	<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+
 	<script>
 		function myFunction() {
 		  document.getElementById("myCheck").required = true;
