@@ -270,7 +270,7 @@ html {
 /* =================================== */
 .ach2{
     margin-bottom: 2.625rem;
-    font-family: "Libre Franklin", Helvetica, Arial, sans-seri;
+    font-family: 'Open sans', sans-seri;
     color: #252525;
     font-size: 40px;
     font-weight: 200;
@@ -281,218 +281,13 @@ html {
 
 .ach22{
     margin-bottom: 35px !important;
-    font-family: "Libre Franklin", Helvetica, Arial, sans-seri;
+    font-family: 'Open sans', sans-seri;
     color: #252525;
     font-size: 40px;
     font-weight: 200;
     line-height: 1.35;
 }
 
-.ach3{
-    margin-left: 5%;
-    margin-right: 5%;
-    -webkit-font-smoothing: subpixel-antialiased !important;
-    font-size: 1.369em!important;
-    font-weight: 300;
-    font-family: 'Simplifica', Helvetica, Arial, sans-serif;
-    line-height: 1.88889;
-    color: #000;
-}
-
-.ach3x{
-    margin-left: 5%;
-    margin-right: 5%;
-    text-rendering: optimizeLegibility !important;
-    -webkit-font-smoothing: antialiased !important;
-    font-size: 1.22em!important;
-    font-weight: 300;
-    font-family: 'Simplifica', Helvetica, Arial, sans-serif;
-    line-height: 1.88889;
-    color: #000;
-}
-
-.ach4x{
-    font-size:1em;
-    color: #5e5d5d;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-weight: 300;
-    font-family: 'Simplifica', Helvetica, Arial, sans-serif;
-    line-height: 1.88889;
-    text-rendering: optimizeLegibility !important;
-    -webkit-font-smoothing: antialiased !important;
-}
-
-.ach5x{
-    font-size:1em;
-    color: #5e5d5d;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-weight: 300;
-    font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
-    line-height: 1.88889;
-    text-rendering: optimizeLegibility !important;
-    -webkit-font-smoothing: antialiased !important;
-}
-
-
-
-.ach33{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 4.625rem;
-    text-rendering: optimizeLegibility !important;
-    -webkit-font-smoothing: antialiased !important;
-    font-size: 1.0125em!important;
-    font-weight: 300;
-    font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
-    line-height: 1.88889;
-    color: #000;
-}
-
-.acp1{
-    color: #14bf98 !important;
-    display: inline-block;
-    margin-top: 0.225rem;
-    margin-bottom: 0.25rem;
-    color: #484a46;
-    font: 700 1rem/1.15rem "Montserrat", sans-serif;
-    vertical-align: middle;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-.acp2{
-    color: #fff;
-    font: 400 1.3rem/1.5625rem "Open Sans", sans-serif;
-    margin-left: 5.125rem;
-    margin-right: 5.125rem;
-    line-height: 1.5;
-    text-align: left;
-}
-
-.acp4{
-    color: #787976;
-    font: 400 1.3rem/1.5625rem "Open Sans", sans-serif;
-    margin-left: 5.125rem;
-    margin-right: 5.125rem;
-    line-height: 1.5;
-    text-align: left;
-}
-
-.acp3{
-    color: #fff;
-    font: 400 1.6rem/1.9625rem "Open Sans", sans-serif;
-    margin-left: 5.125rem;
-    margin-right: 5.125rem;
-    line-height: 1.5;
-    text-align: left;
-}
-
-.acicon1{
-    display: inline-block;
-    width: 2.25rem;
-    height: 2.25rem;
-    margin-right: 0.875rem;
-    border: 0.125rem solid #14bf98;
-    border-radius: 50%;
-    background-color: #14bf98;
-    color: #fff;
-    font: 700 1rem/2.125rem "Montserrat", sans-serif;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-.acicon2{
-    display: inline-block;
-    width: 2.25rem;
-    height: 2.25rem;
-    margin-right: 0.875rem;
-    border: 0.125rem solid#EEA930;
-    border-radius: 50%;
-    background-color: #EEA930;
-    color: #fff;
-    font: 700 1rem/2.125rem "Montserrat", sans-serif;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-/* =================================== */
-.titlexx1 {
-	font-family: "Open-Sans", sans-serif;
-	text-align: center;
-	color: #FFF;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	height: 26vh;
-    letter-spacing: 1px;
-}
-
-.h1xx1 {
-	background-image: url(https://64.media.tumblr.com/4562d983bb013868bff9eb54a997ed87/tumblr_oe7fca9J7p1vqfnzao1_400.gifv);
-	background-size: cover;
-	color: transparent;
-	-moz-background-clip: text;
-	-webkit-background-clip: text;
-	text-transform: uppercase;
-	font-size: 60px;
-	line-height: .9;
-	margin: 10px 0;
-}
-
-.h1xx2 {
-	background-image: url(https://i.pinimg.com/originals/2f/10/9a/2f109ad03c2e63e1a765faa77eb53a22.gif);
-	background-size: cover;
-	color: transparent;
-	-moz-background-clip: text;
-	-webkit-background-clip: text;
-	text-transform: uppercase;
-	font-size: 60px;
-	line-height: .9;
-	margin: 10px 0;
-}
-
-.h1xx3 {
-	background-image: url(https://lh3.googleusercontent.com/proxy/Vk_i9v3fT6v2vK10iHRMdtB9KdeXfRxMlHfSE0LhJcwCE1hYa654e3rUVkkH6YE24d0AOwZb4m6tY0_cXPAW0nnO);
-	background-size: cover;
-	color: transparent;
-	-moz-background-clip: text;
-	-webkit-background-clip: text;
-	text-transform: uppercase;
-	font-size: 60px;
-	line-height: .9;
-	margin: 10px 0;
-}
-
-.h1xx4 {
-	background-image: url(https://i.gifer.com/Isca.gif);
-	background-size: cover;
-	color: transparent;
-	-moz-background-clip: text;
-	-webkit-background-clip: text;
-	text-transform: uppercase;
-	font-size: 60px;
-	line-height: .9;
-	margin: 10px 0;
-}
-
-
-.h1xx5 {
-	background-image: url(https://bestanimations.com/media/nature/1334842212nature-waterfall-animated-gif-2.gif);
-	background-size: cover;
-	color: transparent;
-	-moz-background-clip: text;
-	-webkit-background-clip: text;
-	text-transform: uppercase;
-	font-size: 60px;
-	line-height: .9;
-	margin: 10px 0;
-}
 /* styling my button */ 
 
 .white-mode {
@@ -514,11 +309,6 @@ html {
 }
 /* =================================== */
 
-
-
-
-  
-/* =================================== */
 
 .basic-1 {
 	padding-top: 6.5rem;
@@ -558,75 +348,6 @@ html {
 	-webkit-transform: scale(1.15);
 	transform: scale(1.15);
 } 
-
-/* =================================== */
-
-.cards-1 {
-	padding-top: 3rem;
-	padding-bottom: 2.875rem;
-}
-
-.cards-1 .card {
-	margin-bottom: 2.5rem;
-	border: none;
-	text-align: center;
-}
-
-.cards-1 .fa-stack {
-	width: 6rem;
-	height: 6rem;
-	margin-right: auto;
-	margin-bottom: 1rem;
-	margin-left: auto;
-	line-height: 6rem;
-	text-align: left;
-}
-
-.cards-1 .fa-stack .hexagon {
-	position: absolute;
-	width: 6rem;
-	height: 6rem;
-	background: url('../images/hexagon-green.svg') center center no-repeat;
-	background-size: 6rem 6rem;
-}
-
-.cards-1 .fa-stack-1x {
-	color: #fff;
-	font-size: 2rem;
-}
-
-.cards-1 .card-body {
-	padding: 0;
-}
-
-.cards-1 .card-title {
-	margin-bottom: 0.625rem;
-}
-
-/* Intro */
-.basic-1 {
-    padding-top: 6.875rem;
-}
-
-.basic-1 .text-container {
-    margin-bottom: 0;
-}
-/* end of intro */
-
-
-/* Description */
-.cards-1 .card {
-    display: inline-block;
-    max-width: 17.5rem;
-    text-align: left;
-    vertical-align: top;
-}
-
-.cards-1 div.card:nth-child(3n+2) {
-    margin-right: 2.5rem;
-    margin-left: 2.5rem;
-}
-/* end of description */
 
 /* =================================== */
 
@@ -706,7 +427,7 @@ p {
 
 .zoom {
     transition: transform .2s;
-  }
+}
   
 .doa{
     -ms-transform: scale(1.2); /* IE 9 */
@@ -727,30 +448,30 @@ p {
     transition: .5s;
   }
 
-  .ball2 {
+.ball2 {
     position:absolute;
     margin-bottom: 1200px;
     transition: .5s;
-  }
+}
 
-  .ball3 {
+.ball3 {
     position:absolute;
     margin-left: 1800px;
     transition: .6s;
-  }
+}
 
 .doit{
     animation: doa .2s;
-      -webkit-animation: doa 2s ; 
+    -webkit-animation: doa 2s ; 
 }
 
-  .zoom:hover {
+.zoom:hover {
     -ms-transform: scale(1.2); /* IE 9 */
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2); 
-  }
+}
   
-  .btnB {
+.btnB {
     letter-spacing: 0.1em;
     cursor: pointer;
     font-size: 12px;
@@ -916,44 +637,6 @@ p {
 
 }
 
-.sectionTestx {
-    background: url(../img/slider/freedom.jpg) ;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    width: 100%;
-    height:100vh;  /* responsive height */
-
-}
-
-.sectionTest2 {
-    background: url(../img/slider/freedom.jpg) ;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    width: 100%;
-    height:100vh;  /* responsive height */
-}
-
-.sectionTest4 {
-    background: url(../img/slider/bannerGM.jpg) ;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    width: 100%;
-    height:100vh;  /* responsive height */
-}
-
-.sectionTest3 {
-    background: url(../img/slider/freedom.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    width: 100%;
-    height:100vh;  /* responsive height */
-}
-
-
 
 .section .box {
     align-items: center;
@@ -1014,32 +697,6 @@ p {
     padding-left: 20px;
     overflow: hidden;
 }
-.sectionTest3 .box1 {
-    align-items: center;
-    float:left; 
-    left: 0%;
-    bottom: 0%;
-    position: absolute;
-    max-width: 475px;
-    padding-top: 5px;
-    padding-bottom: 20px;
-    padding-right: 30px;
-    padding-left: 20px;
-    overflow: hidden;
-}
-.sectionTest2 .box1 {
-    align-items: center;
-    float:left; 
-    left: 0%;
-    bottom: 0%;
-    position: absolute;
-    max-width: 475px;
-    padding-top: 5px;
-    padding-bottom: 20px;
-    padding-right: 30px;
-    padding-left: 20px;
-    overflow: hidden;
-}
 
 .sectionTest .box1 {
     align-items: center;
@@ -1080,31 +737,7 @@ p {
     mix-blend-mode: difference;
 }
 
-.sectionTest3 .box1 h2 {
-    position: relative;
-    padding: 0;
-    text-transform: uppercase;
-    z-index: 1;
-    font-size: 0.5em;
-    letter-spacing: 0.25em;
-    line-height: 1.2em;
-    color: white;
-    mix-blend-mode: difference;
-}
-
 .sectionTest .box1 h2 {
-    position: relative;
-    padding: 0;
-    text-transform: uppercase;
-    z-index: 1;
-    font-size: 0.5em;
-    letter-spacing: 0.25em;
-    line-height: 1.2em;
-    color: white;
-    mix-blend-mode: difference;
-}
-
-.sectionTest2 .box1 h2 {
     position: relative;
     padding: 0;
     text-transform: uppercase;
@@ -1124,23 +757,7 @@ p {
     top: 0;
 }
 
-.sectionTest3 .box1::before {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
 .sectionTest.box1::before {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.sectionTest2.box1::before {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -1195,7 +812,7 @@ a, a:hover, a:focus, .btn:focus {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Simplifica', sans-serif;
+    font-family: 'Open sans',sans-serif;
     color: #252525;
     text-rendering: optimizeLegibility !important;
 -webkit-font-smoothing: antialiased !important;
@@ -2027,7 +1644,7 @@ background-image: linear-gradient(315deg, #008FFC   0%, #009ffd 74%);
 }
 
 .service-item h3 {
-    font: 'Simplifica';
+    font: 'Open sans';
     font-size: 14px;
     text-transform: uppercase;
     text-rendering: optimizeLegibility !important;
