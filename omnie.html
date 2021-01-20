@@ -51,7 +51,7 @@
 	<!--
 	Fixed Navigation
 	==================================== -->
-	<header id="navigation" class="navbar-inverse navbar-fixed-top animated-header" style="border-width:0!important;">
+	<header id="navigation" class="navbar-inverse navbar-fixed-top animated-header" style="background-color: #fff;border-width:0!important;">
 		<div class="container">
 			<div class="navbar-header">
 				<!-- responsive nav button -->
@@ -66,18 +66,30 @@
 				<!-- logo -->
 			</div>
 
-			<!-- main nav -->
-			<nav class="collapse navbar-collapse navbar-left" role="navigation">
-				<ul class="nav navbar-nav">
-					<li><a href="index.html" role="button" class="navhover"><button type="button" class="zoom btn-link">
-						<b>STRONA GŁÓWNA</b></button></a></li>
-					<li><a href="omnie.html" role="button"><button type="button" class="zoom btn-link">O MNIE</button></a></li>
-					<li><a href="oferta.html" role="button"><button type="button" class="zoom btn-link">OFERTA</button></a></li>
-					<li><a href="dokumenty.html" role="button"><button type="button" class="zoom btn-link">DOKUMENTY</button></a></li>
-					<li><a href="#contact"><button type="button" class=" btn-link zoom">KONTAKT</button></a></li>
-				</ul>
-			</nav>
-			<!-- /main nav -->
+
+						<!-- main nav -->
+						<nav class="collapse navbar-collapse navbar-left" role="navigation">
+							<ul class="nav navbar-nav">
+								<li><button type="button" class="btn-link2"><a style="color:#337ab7" href="index.html"
+									 role="button" class="navhover"><b>STRONA GŁÓWNA</b></a></button></li>
+									 
+										<li class="nav-item dropdown">
+											<button type="button" class="btn-link2"><a class="nav-link dropdown-toggle" href="omnie.html" id="navbarDropdown1" role="button"
+											 aria-haspopup="true" aria-expanded="false" style="color: #252525;">O MNIE<span class="caret">
+											</span></a></button>
+											<div class="dropdown-menu" style="background-color: #fff;" aria-labelledby="navbarDropdown1">
+											  <a class="dropdown-item" href="omnie.html#kimjestem" style="color: #252525;">KIM JESTEM?</a>
+											  <a class="dropdown-item" href="omnie.html#doswiadczenie" style="color: #252525;">DOŚWIADCZENIE</a>
+											  <div class="dropdown-divider"></div>
+											  <a class="dropdown-item" href="omnie.html" style="color: #252525;">REKOMENDACJE</a>
+											</div>
+										  </li>
+								<li><button type="button" class="btn-link2"><a style="color: #252525;" href="oferta.html"role="button">OFERTA</a></button></li>
+								<li><button type="button" class="btn-link2"><a style="color: #252525;" href="dokumenty.html"role="button">DOKUMENTY</a></button></li>
+								<li><button type="button" class=" btn-link2"><a style="color: #252525;" href="#contact">KONTAKT</a></button></li>
+							</ul>
+						</nav>
+						<!-- /main nav -->
 		</div>
 	</header>
 	<!-- End -->
@@ -109,7 +121,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="sec-title2 text-center">
-						<h2 class="wow animated bounceInLeft animated" style="visibility: visible; animation-name: bounceInLeft;">Kim jestem ?</h2>
+						<h2 id="kimjestem" class="wow animated bounceInLeft animated" style="visibility: visible; animation-name: bounceInLeft;">Kim jestem ?</h2>
 					</div>	
 				</div>
 				<div class="row">
@@ -197,7 +209,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="sec-title text-center">
-						<h2 class="wow animated bounceInLeft" style="visibility: hidden; animation-name: none;">Doświadczenie</h2>
+						<h2 id="doswiadczenie" class="wow animated bounceInLeft" style="visibility: hidden; animation-name: none;">Doświadczenie</h2>
 					</div>
 					<div id="dlakogo" class="sec-title text-center wow animated fadeInDown">
 						<img src="img/koleczka.png" class="koleczka" alt="member" style="display: inline!important">
@@ -365,6 +377,34 @@
 	<!-- Custom Functions -->
 	<script src="js/main.js"></script>
 	
+	<script>
+		const $dropdown = $(".dropdown");
+		const $dropdownToggle = $(".dropdown-toggle");
+		const $dropdownMenu = $(".dropdown-menu");
+		const showClass = "show";
+		
+		$(window).on("load resize", function() {
+		  if (this.matchMedia("(min-width: 768px)").matches) {
+			$dropdown.hover(
+			  function() {
+				const $this = $(this);
+				$this.addClass(showClass);
+				$this.find($dropdownToggle).attr("aria-expanded", "true");
+				$this.find($dropdownMenu).addClass(showClass);
+			  },
+			  function() {
+				const $this = $(this);
+				$this.removeClass(showClass);
+				$this.find($dropdownToggle).attr("aria-expanded", "false");
+				$this.find($dropdownMenu).removeClass(showClass);
+			  }
+			);
+		  } else {
+			$dropdown.off("mouseenter mouseleave");
+		  }
+		});
+		</script>
+
 	<script>
 		window.onload = function() {
 			var ball = document.getElementById('ball')
