@@ -409,10 +409,13 @@ p {
     margin: 0 0 2em;
 }
   
+
+
+
 .otto {
     text-shadow: -1px -1px 3px #020202, 
       2px 2px 4px #1b1b1b;
-  }
+}
 
 .otto2 {
     text-shadow: 0px 10px 10px #000;
@@ -872,13 +875,12 @@ main > section {
    margin-top: 0;
  }
 
-
+ 
 .dropdown-menu{
     background-color:#262626;
-    font-size:18px;
+    font-size:16px;
     border-top:3px solid cyan;
-    
-}
+} 
 
 .dropdown-item{
     content: '';
@@ -886,8 +888,25 @@ main > section {
     display: table;
     float: left;
     line-height: 30px;
-    font-size: 18px;
+    font-size: 16px;
     padding: 8px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.second .dropdown-item:hover {
+    transition: top .3s;
+    color:#ffb833!important;
+}
+
+.second2 .dropdown-item:hover {
+    transition: top .3s;
+    color:rgba(115, 228, 111, 0.78)!important;
+}
+
+.second3 .dropdown-item:hover {
+    transition: top .3s;
+    color:#337ab7!important;
 }
 
 .dropdown-item:hover{
@@ -895,16 +914,67 @@ main > section {
     color:cyan!important;
 }
 
-.btn-group .dropdown-toggle:active, .btn-group.open .dropdown-toggle {
-    opacity: 1;
-    visibility: visible;
-}
-
 .btn-link2{
     font-size: 16px;
     outline: none;
 }
 
+.btn-link3{
+    font-size: 16px;
+    outline: none;
+}
+
+.btn-link3 a{
+    color:#fff;
+    padding: 8px 20px;
+    line-height: 50px;
+}
+
+.btn-link3 a:hover{
+    transition: transform 0.15s linear; 
+    color: #ffb833!important;
+    border-radius : 5px;
+    box-shadow: 0 0 5px #ffb833,
+                0 0 5px #ffbd43;
+}
+
+.btn-link4{
+    font-size: 16px;
+    outline: none;
+}
+
+.btn-link4 a{
+    color:#fff;
+    padding: 8px 20px;
+    line-height: 50px;
+}
+
+.btn-link4 a:hover{
+    transition: transform 0.15s linear; 
+    color: rgba(115, 228, 111, 0.78)!important;
+    border-radius : 5px;
+    box-shadow: 0 0 5px rgba(115, 228, 111, 0.78),
+                0 0 5px rgba(115, 228, 111, 0.78);
+}
+
+.btn-link5{
+    font-size: 16px;
+    outline: none;
+}
+
+.btn-link5 a{
+    color:#fff;
+    padding: 8px 20px;
+    line-height: 50px;
+}
+
+.btn-link5 a:hover{
+    transition: transform 0.15s linear; 
+    color:#337ab7!important;
+    border-radius : 5px;
+    box-shadow: 0 0 5px #337ab7,
+                0 0 5px #337ab7;
+}
 
 .btn-link2 a{
     color:#fff;
