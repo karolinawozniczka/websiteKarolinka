@@ -901,7 +901,7 @@ main > section {
 }
 
 .btn-link2{
-    font-size: 17px;
+    font-size: 16px;
     outline: none;
 }
 
@@ -910,7 +910,6 @@ main > section {
     color:#fff;
     padding: 8px 20px;
     line-height: 50px;
-    margin: 5px;
 }
 
 .btn-link2 a:hover{
