@@ -51,7 +51,9 @@
 	<!--
 	Fixed Navigation
 	==================================== -->
-	<header id="navigation" class="navbar-inverse navbar-fixed-top animated-header" style="border-width:0!important;">
+	<header id="navigation" class="navbar-inverse navbar-fixed-top animated-header" style="border-width:0!important;background: #C33764;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #C33764, #1D2671);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #C33764, #1D2671);">
 		<div class="container">
 			<div class="navbar-header">
 				<!-- responsive nav button -->
@@ -66,15 +68,28 @@
 
 			</div>
 
+			
+
 			<!-- main nav -->
 			<nav class="collapse navbar-collapse navbar-left" role="navigation">
 				<ul class="nav navbar-nav">
-					<li><a href="index.html" role="button" class="navhover"><button type="button" class="zoom btn-link">
-						<b>STRONA GŁÓWNA</b></button></a></li>
-					<li><a href="omnie.html" role="button"><button type="button" class="zoom btn-link">O MNIE</button></a></li>
-					<li><a href="oferta.html" role="button"><button type="button" class="zoom btn-link">OFERTA</button></a></li>
-					<li><a href="dokumenty.html" role="button"><button type="button" class="zoom btn-link">DOKUMENTY</button></a></li>
-					<li><a href="#contact"><button type="button" class=" btn-link zoom">KONTAKT</button></a></li>
+					<li><button type="button" class="btn-link4"><a style="color:#337ab7" href="index.html"
+						 role="button" class="navhover"><b>STRONA GŁÓWNA</b></a></button></li>
+						 
+							<li class="nav-item dropdown">
+								<button type="button" class="btn-link4"><a class="nav-link dropdown-toggle" href="omnie.html" id="navbarDropdown1" role="button"
+								 aria-haspopup="true" aria-expanded="false">O MNIE&nbsp;<span class="caret">
+								</span></a></button>
+								<div class="dropdown-menu second2" style="border-top:3px solid rgba(115, 228, 111, 0.78)!important;background-color: #1b1b1b!important;" aria-labelledby="navbarDropdown1">
+								  <a class="dropdown-item second2" href="omnie.html#omnie2">KIM JESTEM?</a>
+								  <a class="dropdown-item second2" href="omnie.html#service">DOŚWIADCZENIE</a>
+								  <div class="dropdown-divider"></div>
+								  <a class="dropdown-item second2" style="border-bottom: none!important;" href="omnie.html">REKOMENDACJE</a>
+								</div>
+							  </li>
+					<li><button type="button" class="btn-link4"><a href="oferta.html"role="button">OFERTA</a></button></li>
+					<li><button type="button" class="btn-link4"><a href="dokumenty.html"role="button">DOKUMENTY</a></button></li>
+					<li><button type="button" class=" btn-link4"><a href="#contact">KONTAKT</a></button></li>
 				</ul>
 			</nav>
 			<!-- /main nav -->
@@ -227,6 +242,34 @@
 	<!-- Custom Functions -->
 	<script src="js/main.js"></script>
 	
+	<script>
+		const $dropdown = $(".dropdown");
+		const $dropdownToggle = $(".dropdown-toggle");
+		const $dropdownMenu = $(".dropdown-menu");
+		const showClass = "show";
+		
+		$(window).on("load resize", function() {
+		  if (this.matchMedia("(min-width: 768px)").matches) {
+			$dropdown.hover(
+			  function() {
+				const $this = $(this);
+				$this.addClass(showClass);
+				$this.find($dropdownToggle).attr("aria-expanded", "true");
+				$this.find($dropdownMenu).addClass(showClass);
+			  },
+			  function() {
+				const $this = $(this);
+				$this.removeClass(showClass);
+				$this.find($dropdownToggle).attr("aria-expanded", "false");
+				$this.find($dropdownMenu).removeClass(showClass);
+			  }
+			);
+		  } else {
+			$dropdown.off("mouseenter mouseleave");
+		  }
+		});
+		</script>
+
 	<script>
 		window.onload = function() {
 			var ball = document.getElementById('ball')
