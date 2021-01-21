@@ -494,7 +494,7 @@ p {
 .ball3 {
     position:absolute;
     margin-left: 1800px;
-    transition: .6s;
+    transition: .2s;
 }
 
 .doit{
@@ -1411,6 +1411,10 @@ overlaynav2{
 .klasa1{
     font-size:8px !important;
     padding: 10px 62px !important;
+}
+
+.elo {
+    transition : .2s !important;
 }
 
 /**
