@@ -1054,6 +1054,14 @@ overlaynav2{
     line-height: 50px;
 }
 
+.btn-link5 a:hover{
+    transition: transform 0.15s linear; 
+    color:#337ab7!important;
+    border-radius : 5px;
+    box-shadow: 0 0 5px #337ab7,
+                0 0 5px #337ab7;
+}
+
 .btn-link6 a:hover{
     transition: transform 0.15s linear; 
     color:#B91C1C!important;
