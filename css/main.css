@@ -1018,10 +1018,11 @@ overlaynav2{
 
 .btn-link3 a:hover{
     transition: transform 0.15s linear; 
-    color: #ffb833!important;
+    /* color: #ffb833!important; */
+    color: #ffcd70!important;
     border-radius : 5px;
-    box-shadow: 0 0 5px #ffb833,
-                0 0 5px #ffbd43;
+    box-shadow: 0 0 5px #ffcd70,
+                0 0 5px #ffcd70;
 }
 
 .btn-link4{
@@ -1056,18 +1057,18 @@ overlaynav2{
 
 .btn-link5 a:hover{
     transition: transform 0.15s linear; 
-    color:#337ab7!important;
+    color:#2f608b!important;
     border-radius : 5px;
-    box-shadow: 0 0 5px #337ab7,
-                0 0 5px #337ab7;
+    box-shadow: 0 0 5px #2f608b,
+                0 0 5px #2f608b;
 }
 
 .btn-link6 a:hover{
     transition: transform 0.15s linear; 
-    color:#B91C1C!important;
+    color:#a72020!important;
     border-radius : 5px;
-    box-shadow: 0 0 5px #B91C1C,
-                0 0 5px #B91C1C;
+    box-shadow: 0 0 5px #a72020,
+                0 0 5px #a72020;
 }
 
 .btn-link6{
