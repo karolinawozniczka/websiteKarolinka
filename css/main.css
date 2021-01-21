@@ -611,6 +611,27 @@ p {
     -webkit-font-smoothing: antialiased;
 }
 
+
+.superBtnDok {
+    font-family: 'Verdana';
+    border-radius: 100px!important;
+    color: #fff!important;
+    font-weight: 600!important;
+    font-size: 14px!important;
+    line-height: 21px!important;
+    text-align: center!important;
+    letter-spacing: 1.5px!important;
+    text-shadow: 0px 26px 77px rgba(0, 0, 0, 0.1), 0px 16px 15px rgba(0, 0, 0, 0.1)!important;
+    background: #C33764!important;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #C33764, #1D2671)!important;  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgb(195, 55, 100, 0.85), rgb(29, 38, 113, 0.85))!important;
+    background-color: initial !important;
+    border-color: initial!important;
+    border: 0;
+    padding: 6px 10px;
+    -webkit-font-smoothing: antialiased;
+}
+
 .superBtn2 {
     font-family: 'Verdana';
     border-radius: 100px!important;
