@@ -985,6 +985,11 @@ overlaynav2{
     color:rgba(115, 228, 111, 0.78)!important;
 }
 
+.second4 .dropdown-item:hover {
+    transition: top .3s;
+    color:#B91C1C!important;
+}
+
 .second3 .dropdown-item:hover {
     transition: top .3s;
     color:#337ab7!important;
@@ -1049,13 +1054,25 @@ overlaynav2{
     line-height: 50px;
 }
 
-.btn-link5 a:hover{
+.btn-link6 a:hover{
     transition: transform 0.15s linear; 
-    color:#337ab7!important;
+    color:#B91C1C!important;
     border-radius : 5px;
-    box-shadow: 0 0 5px #337ab7,
-                0 0 5px #337ab7;
+    box-shadow: 0 0 5px #B91C1C,
+                0 0 5px #B91C1C;
 }
+
+.btn-link6{
+    font-size: 16px;
+    outline: none;
+}
+
+.btn-link6 a{
+    color:#fff;
+    padding: 8px 20px;
+    line-height: 50px;
+}
+
 
 .btn-link2 a{
     color:#fff;
