@@ -1019,10 +1019,30 @@ overlaynav2{
 .btn-link3 a:hover{
     transition: transform 0.15s linear; 
     /* color: #ffb833!important; */
-    color: #ffcd70!important;
+    color: #ffb833!important;
     border-radius : 5px;
-    box-shadow: 0 0 5px #ffcd70,
-                0 0 5px #ffcd70;
+    box-shadow: 0 0 5px #ffb833,
+                0 0 5px #ffb833;
+}
+
+.btn-link33{
+    font-size: 16px;
+    outline: none;
+}
+
+.btn-link33 a{
+    color:#fff;
+    padding: 8px 20px;
+    line-height: 50px;
+}
+
+.btn-link33 a:hover{
+    transition: transform 0.15s linear; 
+    /* color: #ffb833!important; */
+    color: orange!important;
+    border-radius : 5px;
+    box-shadow: 0 0 5px orange,
+                0 0 5px orange;
 }
 
 .btn-link4{
