@@ -460,6 +460,16 @@ p {
     transform: scale(1.1); 
     color: #ffb833!important;
 }
+
+.zoomnav3{
+    transition: transform .2s;
+}
+
+.zoomnav3:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
   
 .doa{
     -ms-transform: scale(1.2); /* IE 9 */
