@@ -446,6 +446,18 @@ p {
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1); 
+    font-weight: bold;
+}
+
+.zoomnav2{
+    transition: transform .2s;
+}
+
+.zoomnav2:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    color: #ffb833!important;
 }
   
 .doa{
@@ -692,7 +704,7 @@ p {
 }
 
 .sectionTest {
-    background: url(../img/slider/freedom.jpg); 
+    background: url(../img/slider/bannerG2.jpg);
     background-repeat: no-repeat;
     background-position: top;
     /* margin-top:90px; */
@@ -1024,6 +1036,30 @@ overlaynav2{
     box-shadow: 0 0 5px #ffb833,
                 0 0 5px #ffb833;
 }
+
+.btn-link3a{
+    font-size: 16px;
+    outline: none;
+}
+
+.btn-link3a a{
+    color:#fff;
+    padding: 8px 20px;
+    line-height: 50px;
+}
+
+.btn-link333{
+    font-size: 16px;
+    outline: none;
+}
+
+.btn-link333 a{
+    color:#fff;
+    padding: 8px 20px;
+    line-height: 50px;
+}
+
+
 
 .btn-link33{
     font-size: 16px;
