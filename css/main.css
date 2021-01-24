@@ -272,7 +272,7 @@ html {
     margin-bottom: 2.625rem;
     font-family: 'Open sans', sans-seri;
     color: #252525;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
     line-height: 1.35;
     text-rendering: optimizeLegibility !important;
@@ -283,7 +283,7 @@ html {
     margin-bottom: 35px !important;
     font-family: 'Open sans', sans-seri;
     color: #252525;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
     line-height: 1.35;
 }
@@ -439,6 +439,7 @@ p {
 }
 
 .zoomnav{
+    font-size:17px!important;
     transition: transform .2s;
 }
 
@@ -1662,7 +1663,7 @@ h1.navbar-brand {
     left: 0;
     width: 100%;
     height: 5px;
-    background-color: #dfe2ea;
+    background-color: #ffb833;
     border-radius: 8px 8px 0 0;
     opacity: 0;
     transition: 0.3s;
@@ -1672,7 +1673,7 @@ h1.navbar-brand {
     bottom: 0;
 }
 .stefan-item:not(.is-active):hover {
-    color: #333;
+    color: #ffb833;
     cursor: pointer;
 }
 .stefan-indicator {
@@ -3182,7 +3183,7 @@ textarea.form-control {
 
 @media only screen and (min-width: 1000px) and (max-width: 1165px) {
     .ach22{
-        font-size: 32px;
+        font-size: 25px;
     }
 
     .ach4x{
@@ -3193,6 +3194,6 @@ textarea.form-control {
 @media only screen and (min-width: 1920px)  {
     .ach22{
         margin-top: 14% !important;
-        font-size: 40px;
+        font-size: 30px;
     }
 }
