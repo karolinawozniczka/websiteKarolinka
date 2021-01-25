@@ -280,6 +280,7 @@ html {
 }
 
 .ach22{
+    margin-top: 14% !important;
     margin-bottom: 35px !important;
     font-family: 'Open sans', sans-seri;
     color: #252525;
@@ -432,6 +433,10 @@ p {
 
 .otto5 {
     text-shadow: 3px 4px 7px rgba(0,0,0,0.3);
+}
+
+.strok {
+    text-shadow: black 0px 0px 10px;
 }
 
 .zoom {
@@ -3187,7 +3192,6 @@ textarea.form-control {
 
 @media only screen and (min-width: 1920px)  {
     .ach22{
-        margin-top: 14% !important;
         font-size: 30px;
     }
 }
