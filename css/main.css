@@ -3148,48 +3148,104 @@ textarea.form-control {
     }
 }
 
-@media only screen and (min-width: 1410px) and (max-width: 1530px) {
-    .ach4x{
-        font-size:.9em;
-    }
-
-    .blacked {
-        font-size : 15px;
+@media only screen and (max-width: 1820px) {
+    .ach22 {
+        margin-top:8%!important;
+        margin-bottom: 25px !important;
     }
 }
 
-@media only screen and (min-width: 1300px) and (max-width: 1409px) {
-    .ach4x{
-        font-size:.8em;
-    }
-
-    .blacked {
-        font-size : 13px;
+@media only screen and (max-width: 1630px) {
+    .ach22 {
+        margin-top:6%!important;
+        margin-bottom: 25px !important;
     }
 }
 
-@media only screen and (min-width: 1170px) and (max-width: 1299px) {
-    .ach4x{
-        font-size:.7em;
-    }
-
-    .blacked {
-        font-size : 11px;
+@media only screen and (max-width: 1544px) {
+    .ach22 {
+        margin-top:2%!important;
+        margin-bottom:20px!important;
     }
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1165px) {
-    .ach22{
+@media only screen and (max-width: 1476px) {
+    .ach22 {
         font-size: 25px;
     }
 
-    .ach4x{
-        font-size:.6em;
+    .ach2 {
+        font-size: 25px;
+    }
+
+    .blacked {
+        font-size: 15px;
     }
 }
 
-@media only screen and (min-width: 1920px)  {
-    .ach22{
-        font-size: 30px;
+@media only screen and (max-width: 1430px) {
+
+    .blacked {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    .ach22 {
+        font-size: 22px;
+        margin-bottom:10px!important;
+    }
+
+    .ach2 {
+        font-size: 22px;
+    }
+
+    .blacked {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .ach22 {
+        font-size: 18px;
+        margin-bottom:5px!important;
+    }
+
+    .ach2 {
+        font-size: 18px;
+    }
+
+    .blacked {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1208px) {
+    .ach22 {
+        font-size: 15px;
+        margin-bottom:2px!important;
+    }
+
+    .ach2 {
+        font-size: 15px;
+    }
+
+    .blacked {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1182px) {
+    .ach22 {
+        font-size: 14px;
+        margin-bottom:0!important;
+    }
+
+    .ach2 {
+        font-size: 14px;
+    }
+
+    .blacked {
+        font-size: 10px;
     }
 }
