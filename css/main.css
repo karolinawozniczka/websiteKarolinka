@@ -443,6 +443,22 @@ p {
     transition: transform .2s;
 }
 
+.zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+
+.smallzoom {
+    transition: transform .3s;
+}
+
+.smallzoom:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+}
+
 .zoomnav{
     font-size:17px!important;
     transition: transform .2s;
@@ -537,12 +553,6 @@ p {
 .doit{
     animation: doa .2s;
     -webkit-animation: doa 2s ; 
-}
-
-.zoom:hover {
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
-    transform: scale(1.2); 
 }
   
 .btnB {
@@ -2119,6 +2129,25 @@ figcaption.mask0 {
             transition: all 0.4s ease 0s;
 }
 
+figcaption.mask0color {
+    background-image: linear-gradient(to bottom, rgb(0, 140, 253, 0.78), rgb(16, 146, 253, 0.78), rgb(30, 152, 253, 0.78),
+    rgb(43, 157, 253, 0.78), rgb(55, 163, 252, 0.78));
+    background-attachment: fixed;
+    /* backdrop-filter: blur(2px); */
+    bottom: -35px;
+    color: #fff;
+    padding: 5px 17px 17px 17px;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    
+    -webkit-transition: all 0.4s ease 0s;
+       -moz-transition: all 0.4s ease 0s;
+        -ms-transition: all 0.4s ease 0s;
+         -o-transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;
+}
+
 figcaption.mask1 {
     background: inherit;
     background-attachment: fixed;
@@ -2137,10 +2166,64 @@ figcaption.mask1 {
             transition: all 0.4s ease 0s;
 }
 
+figcaption.mask1color {
+    background-image: linear-gradient(to bottom, rgb(0, 140, 253, 0.78), rgb(16, 146, 253, 0.78), rgb(30, 152, 253, 0.78),
+    rgb(43, 157, 253, 0.78), rgb(55, 163, 252, 0.78));
+    background-attachment: fixed;
+    bottom: -55px;
+    color: #fff;
+    padding: 5px 17px 17px 17px;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    
+    -webkit-transition: all 0.4s ease 0s;
+       -moz-transition: all 0.4s ease 0s;
+        -ms-transition: all 0.4s ease 0s;
+         -o-transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;
+}
+
+figcaption.mask1fullcolor2 {
+    background-image: linear-gradient(to bottom, rgb(0, 140, 253, 0.78), rgb(16, 146, 253, 0.78), rgb(30, 152, 253, 0.78),
+    rgb(43, 157, 253, 0.58), rgb(55, 163, 252, 0.78));
+    background-attachment: fixed;
+    bottom: -55px;
+    color: #fff;
+    padding: 100%;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    
+    -webkit-transition: all 0.4s ease 0s;
+       -moz-transition: all 0.4s ease 0s;
+        -ms-transition: all 0.4s ease 0s;
+         -o-transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;
+}
+
 figcaption.mask3 {
     background: inherit;
     background-attachment: fixed;
     backdrop-filter: blur(2px);
+    bottom: -75px;
+    color: #fff;
+    padding: 5px 17px 17px 17px;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    
+    -webkit-transition: all 0.4s ease 0s;
+       -moz-transition: all 0.4s ease 0s;
+        -ms-transition: all 0.4s ease 0s;
+         -o-transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;
+}
+
+figcaption.mask3color {
+    background-image: linear-gradient(to bottom, rgb(0, 140, 253, 0.78), rgb(16, 146, 253, 0.78), rgb(30, 152, 253, 0.78),
+    rgb(43, 157, 253, 0.78), rgb(55, 163, 252, 0.78));
+    background-attachment: fixed;
     bottom: -75px;
     color: #fff;
     padding: 5px 17px 17px 17px;
@@ -2195,6 +2278,10 @@ figcaption.mask {
     bottom: 0;
 }
 
+.portfolio-item:hover figcaption.mask3color {
+    bottom: 0;
+}
+
 .portfolio-item:hover figcaption.mask2 {
     bottom: 0;
 }
@@ -2203,7 +2290,15 @@ figcaption.mask {
     bottom: 0;
 }
 
+.portfolio-item:hover figcaption.mask1color {
+    bottom: 0;
+}
+
 .portfolio-item:hover figcaption.mask0 {
+    bottom: 0;
+}
+
+.portfolio-item:hover figcaption.mask0color {
     bottom: 0;
 }
 
@@ -2213,6 +2308,12 @@ figcaption.mask h3 {
 }
 
 figcaption.mask3 h3 {
+    margin: 0;
+    margin-bottom: 4px;
+    color: #fff;
+}
+
+figcaption.mask3color h3 {
     margin: 0;
     margin-bottom: 4px;
     color: #fff;
@@ -2230,7 +2331,19 @@ figcaption.mask1 h3 {
     color: #fff;
 }
 
+figcaption.mask1color h3 {
+    margin: 0;
+    margin-bottom: 4px;
+    color: #fff;
+}
+
 figcaption.mask0 h3 {
+    margin: 0;
+    margin-bottom: 4px;
+    color: #fff;
+}
+
+figcaption.mask0color h3 {
     margin: 0;
     margin-bottom: 4px;
     color: #fff;
@@ -2712,6 +2825,10 @@ textarea.form-control {
         bottom: -151px;
     }
 
+    figcaption.mask3color {
+        bottom: -151px;
+    }
+
     figcaption.mask2 {
         bottom: -151px;
     }
@@ -2720,7 +2837,15 @@ textarea.form-control {
         bottom: -151px;
     }
 
+    figcaption.mask1color {
+        bottom: -151px;
+    }
+
     figcaption.mask0 {
+        bottom: -151px;
+    }
+
+    figcaption.mask0color {
         bottom: -151px;
     }
 
@@ -2947,6 +3072,12 @@ textarea.form-control {
         padding: 15px;
     }
 
+    figcaption.mask3color {
+        bottom: -107px;
+        color: #fff;
+        padding: 15px;
+    }
+
     figcaption.mask2 {
         bottom: -107px;
         color: #fff;
@@ -2959,7 +3090,19 @@ textarea.form-control {
         padding: 15px;
     }
 
+    figcaption.mask1color {
+        bottom: -107px;
+        color: #fff;
+        padding: 15px;
+    }
+
     figcaption.mask0 {
+        bottom: -107px;
+        color: #fff;
+        padding: 15px;
+    }
+
+    figcaption.mask0color {
         bottom: -107px;
         color: #fff;
         padding: 15px;
@@ -3079,6 +3222,10 @@ textarea.form-control {
         bottom: -132px;
     }
 
+    figcaption.mask3color {
+        bottom: -132px;
+    }
+
     figcaption.mask2 {
         bottom: -132px;
     }
@@ -3087,7 +3234,15 @@ textarea.form-control {
         bottom: -132px;
     }
 
+    figcaption.mask1color {
+        bottom: -132px;
+    }
+
     figcaption.mask0 {
+        bottom: -132px;
+    }
+
+    figcaption.mask0color {
         bottom: -132px;
     }
 
