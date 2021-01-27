@@ -2129,6 +2129,40 @@ figcaption.mask0 {
             transition: all 0.4s ease 0s;
 }
 
+figcaption.mask0fullcolored {
+    background: inherit;
+    background-attachment: fixed;
+    bottom: -200px;
+    color: #fff;
+    padding: 5px 17px 17px 17px;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    
+    -webkit-transition: all 0.4s ease 0s;
+       -moz-transition: all 0.4s ease 0s;
+        -ms-transition: all 0.4s ease 0s;
+         -o-transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;
+}
+
+figcaption.mask0full2 {
+    background: inherit;
+    background-attachment: fixed;
+    bottom: -230px;
+    color: #fff;
+    padding: 5px 17px 17px 17px;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    
+    -webkit-transition: all 0.4s ease 0s;
+       -moz-transition: all 0.4s ease 0s;
+        -ms-transition: all 0.4s ease 0s;
+         -o-transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;
+}
+
 figcaption.mask0color {
     background-image: linear-gradient(to bottom, rgb(0, 140, 253, 0.78), rgb(16, 146, 253, 0.78), rgb(30, 152, 253, 0.78),
     rgb(43, 157, 253, 0.78), rgb(55, 163, 252, 0.78));
@@ -2298,6 +2332,14 @@ figcaption.mask {
     bottom: 0;
 }
 
+.portfolio-item:hover figcaption.mask0fullcolored {
+    bottom: -65px;
+}
+
+.portfolio-item:hover figcaption.mask0full2 {
+    bottom: -95px;
+}
+
 .portfolio-item:hover figcaption.mask0color {
     bottom: 0;
 }
@@ -2338,6 +2380,18 @@ figcaption.mask1color h3 {
 }
 
 figcaption.mask0 h3 {
+    margin: 0;
+    margin-bottom: 4px;
+    color: #fff;
+}
+
+figcaption.mask0fullcolored h3 {
+    margin: 0;
+    margin-bottom: 4px;
+    color: #fff;
+}
+
+figcaption.mask0full2 h3 {
     margin: 0;
     margin-bottom: 4px;
     color: #fff;
@@ -2845,6 +2899,14 @@ textarea.form-control {
         bottom: -151px;
     }
 
+    figcaption.mask0fullcolored {
+        bottom: -151px;
+    }
+
+    figcaption.mask0full2 {
+        bottom: -151px;
+    }
+
     figcaption.mask0color {
         bottom: -151px;
     }
@@ -3102,6 +3164,18 @@ textarea.form-control {
         padding: 15px;
     }
 
+    figcaption.mask0fullcolored {
+        bottom: -107px;
+        color: #fff;
+        padding: 15px;
+    }
+
+    figcaption.mask0full2 {
+        bottom: -107px;
+        color: #fff;
+        padding: 15px;
+    }
+
     figcaption.mask0color {
         bottom: -107px;
         color: #fff;
@@ -3239,6 +3313,14 @@ textarea.form-control {
     }
 
     figcaption.mask0 {
+        bottom: -132px;
+    }
+
+    figcaption.mask0fullcolored {
+        bottom: -132px;
+    }
+
+    figcaption.mask0full2 {
         bottom: -132px;
     }
 
