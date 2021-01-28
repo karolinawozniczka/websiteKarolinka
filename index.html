@@ -47,7 +47,7 @@
 <body id="body">
 
 	<!-- preloader -->
-	<div id="preloader" style="display: none;">
+	<div id="preloader">
 		<div class="loder-box">
 			<div class="battery"></div>
 		</div>
@@ -55,9 +55,7 @@
 	<!-- end preloader -->
 
 	<!-- Start -->
-	<header id="navigation" class="navbar-inverse navbar-fixed-top animated-header" style="
-background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd, #37a3fc);
-    border-width:0!important;">
+	<header id="navigation" class="navbackground navbar-inverse navbar-fixed-top animated-header">
 		<div class="container">
 			<div class="navbar-header">
 				<!-- responsive nav button -->
@@ -68,24 +66,19 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 					<span class="icon-bar"></span>
 				</button>
 				<!-- /responsive nav button -->
-				
-
 			</div>
-
-			
 
 			<!-- main nav -->
 			<nav class="collapse navbar-collapse navbar-right" role="navigation">
 				<ul class="nav navbar-nav">
-					<li><a class="zoomnav" style="width:185px" href="index.html"><b>Strona Główna</b></a></li>
-					<li><a class="zoomnav" style="width:93px;" href="omnie.html">O mnie</a></li>
-					<li><a class="zoomnav" style="width:95px;margin-left:-2px!important" href="oferta.html">Oferta</a></li>
-					<li><a class="zoomnav" style="width:137px;" href="dokumenty.html">Dokumenty</a></li>
-					<li><a class="zoomnav" style="width:100px;" href="#contact">Kontakt</a></li>
+					<li><a class="zoomnav navIndexW" href="index.html"><b>Strona Główna</b></a></li>
+					<li><a class="zoomnav navOmnieW" href="omnie.html">O mnie</a></li>
+					<li><a class="zoomnav navOfertaW" href="oferta.html">Oferta</a></li>
+					<li><a class="zoomnav navDokW" href="dokumenty.html">Dokumenty</a></li>
+					<li><a class="zoomnav navKontaktW" href="#contact">Kontakt</a></li>
 				</ul>
 			</nav>
 			<!-- /main nav -->
-		</div>
 		</div>
 	</header>
 	
@@ -94,7 +87,8 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 		<div class="sectionIndex">
 			<div class="box1">
 				<h2 class="zoomnav2" style="font-size: 0.8em">Masz dodatkowe pytania?</h2>
-				<hr class=".sec-title" style="margin-bottom:10px !important;margin-top:10px !important; border-bottom: 3px; border-top: 1px solid white;">
+				<hr class=".sec-title" style="margin-bottom:10px !important;margin-top:10px !important; border-bottom: 3px; 
+					border-top: 1px solid white;">
 				<h2 class="zoomnav2" style="margin-bottom:10%; margin-top: 12px !important;">Chcesz umówić się na spotkanie?</h2>
 				<div>
 					<a href="#contact">
@@ -111,22 +105,21 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 			<div class="container">
 				<div class="row">
 					<div class="sec-title2 text-center">
-						<h2 class="wow animated bounceInLeft animated" style="visibility: visible; 
-							animation-name: bounceInLeft;">Kim jestem ?
+						<h2 class="wow animated bounceInLeft animated" style="visibility: visible; animation-name: bounceInLeft;">
+							Kim jestem ?
 						</h2>
 					</div>	
 					<div class="col-md-12 col-md-offset-1 wow animated fadeInRight animated" 
-						style="margin-left: 0% !important; padding-left: 0%; visibility: visible; 
-							animation-name: fadeInRight;">
+						style="margin-left: 0% !important; padding-left: 0%; visibility: visible;animation-name: fadeInRight;">
 						<div class="welcome-block">						
 							  <div class="message-body">
 								<img src="img/member-1.jpg" class="pull-left" alt="member">
-								   <p style="color:#fff;">
+								   <p class="pwhite">
 										Nazywam się <b>Karolina Woźniczka</b>, jestem psychologiem działającym w obszarze
 										sportu. 
 									</p>
 									<br/>
-									<p style="color:#fff;">
+									<p class="pwhite">
 										W swojej pracy zajmuje się indywidualnym wspieraniem zawodników,
 										jak i całych drużyn, m.in. w zwiększaniu satysfakcji z wyników sportowych,
 										umiejętnym radzeniu sobie ze stresem i presją,  rozwoju osobistym, 
@@ -143,7 +136,9 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 									<br/>
 							  </div>
 							   <a href="omnie.html#omnie2" class="btn btn-border btn-effect1 pull-right"
-							   		style="font-family:'Verdana';margin-right: 2.5%;"><b>Więcej o mnie..</b></a>
+							   		style="margin-right: 2.5%;letter-spacing: 0.05em;font-size: 16px!important;"><b>
+									Więcej o mnie...</b>
+								</a>
 							   <br/>
 						</div>
 					</div>
@@ -169,8 +164,8 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 						<div class="service-item">
 							<div class="service-icon">
 								<img src="img/icons/stres.png" class="ikoneczka" alt="member" style="width: 100%;">
-							</div>
-							<h3 style="font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Radzenie sobie ze stresem</h3>
+							</div>  
+							<h3 style="color:#3f3f3f!important;font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Radzenie sobie ze stresem</h3>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s"
@@ -180,7 +175,7 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 								<img src="img/icons/kontrolaEmocji.png" class="ikoneczka" alt="member" 
 									style="width: 100%;">
 							</div>
-							<h3 style="font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Kontrola emocji np. lęku, złości i umiejetnę ich wykorzystanie</h3>							
+							<h3 style="color:#3f3f3f!important;font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Kontrola emocji np. lęku, złości i umiejetnę ich wykorzystanie</h3>							
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s" 
@@ -189,7 +184,7 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 							<div class="service-icon">
 								<img src="img/icons/pewnoscSiebie.png" class="ikoneczka" alt="member" style="width: 100%;">
 							</div>
-							<h3 style="font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Kształtowanie pewności siebie</h3>
+							<h3 style="color:#3f3f3f!important;font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Kształtowanie pewności siebie</h3>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s" 
@@ -198,7 +193,7 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 							<div class="service-icon">
 								<img src="img/icons/komunikacja.png" class="ikoneczka" alt="member" style="width: 100%;">
 							</div>
-							<h3 style="font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Umiejętne komunikowanie się</h3>
+							<h3 style="color:#3f3f3f!important;font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Umiejętne komunikowanie się</h3>
 						</div>
 					</div>
 				</div>
@@ -211,7 +206,7 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 								<img src="img/icons/swiadomoscZawodnicza.png" class="ikoneczka" alt="member" 
 									style="width: 100%;">
 							</div>
-							<h3 style="font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Rozwijanie świadomości zawodniczej</h3>							
+							<h3 style="color:#3f3f3f!important;font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Rozwijanie świadomości zawodniczej</h3>							
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s" 
@@ -221,7 +216,7 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 								<img src="img/icons/karieraDwutorowa.png" class="ikoneczka" alt="member" 
 									style="width: 100%;">
 							</div>
-							<h3 style="font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Rozwijanie kariery dwutorowo</h3>
+							<h3 style="color:#3f3f3f!important;font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Rozwijanie kariery dwutorowo</h3>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s" 
@@ -230,7 +225,7 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 							<div class="service-icon">
 								<img src="img/icons/mental.png" class="ikoneczka" alt="member" style="width: 100%;">
 							</div>	
-							<h3 style="font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Trening umiejętności mentalnych, koncentracji</h3>						
+							<h3 style="color:#3f3f3f!important;font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Trening umiejętności mentalnych, koncentracji</h3>						
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s" 
@@ -240,7 +235,7 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 								<img src="img/icons/wypalenie.png" class="ikoneczka" alt="member" 
 									style="width: 100%;">
 							</div>		
-							<h3 style="font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Prewencja i radzenie sobie z wypaleniem</h3>						
+							<h3 style="color:#3f3f3f!important;font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Prewencja i radzenie sobie z wypaleniem</h3>						
 						</div>
 					</div>
 				</div>
@@ -252,7 +247,7 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 							<div class="service-icon">
 								<img src="img/icons/gory.png" class="ikoneczka" alt="member" style="width: 100%;">
 							</div>
-							<h3 style="font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Wzbudzanie odpowiedniego nastawienia, motywacji i zaangażowania</h3>
+							<h3 style="color:#3f3f3f!important;font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Wzbudzanie odpowiedniego nastawienia, motywacji i zaangażowania</h3>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s" 
@@ -262,7 +257,7 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 								<img src="img/icons/kontuzja.png" class="ikoneczka" alt="member" style="width: 100%;">
 							</div>
 								
-							<h3 style="font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Wsparcie w okresie kontuzji i rehabilitacji</h3>							
+							<h3 style="color:#3f3f3f!important;font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Wsparcie w okresie kontuzji i rehabilitacji</h3>							
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s" 
@@ -271,7 +266,7 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 							<div class="service-icon">
 								<img src="img/icons/problemy.png" class="ikoneczka" alt="member" style="width: 100%;">
 							</div>
-							<h3 style="font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Radzenie sobie z wyzwaniami życia codziennego</h3>
+							<h3 style="color:#3f3f3f!important;font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Radzenie sobie z wyzwaniami życia codziennego</h3>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s" 
@@ -281,7 +276,7 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 								<img src="img/icons/tozsamoscSportowa.png" class="ikoneczka" alt="member" 
 									style="width: 100%;">
 							</div>
-							<h3 style="font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Kształtowanie tożsamości sportowej</h3>
+							<h3 style="color:#3f3f3f!important;font-size:15px!important;font-family:sans-serif;line-height: 1.3;">Kształtowanie tożsamości sportowej</h3>
 						</div>
 					</div>
 				</div>
