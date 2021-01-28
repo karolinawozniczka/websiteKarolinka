@@ -377,7 +377,7 @@ p {
 
 .blacked {
     font-size: 16px;
-    color : #444;
+    color :#252525;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -2220,7 +2220,7 @@ figcaption.mask1color {
 
 figcaption.mask1fullcolor2 {
     background-image: linear-gradient(to bottom, rgb(0, 140, 253, 0.78), rgb(16, 146, 253, 0.78), rgb(30, 152, 253, 0.78),
-    rgb(43, 157, 253, 0.58), rgb(55, 163, 252, 0.78));
+    rgb(43, 157, 253, 0.78), rgb(55, 163, 252, 0.78));
     background-attachment: fixed;
     bottom: -55px;
     color: #fff;
