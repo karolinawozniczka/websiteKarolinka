@@ -271,7 +271,7 @@ html {
 .ach2{
     margin-bottom: 2.625rem;
     font-family: 'Open sans', sans-seri;
-    color: #3e3e3e;;
+    color: #3f3f3f;;
     font-size: 30px;
     font-weight: 400;
     line-height: 1.35;
@@ -283,7 +283,7 @@ html {
     margin-top: 14% !important;
     margin-bottom: 35px !important;
     font-family: 'Open sans', sans-seri;
-    color: #3e3e3e;;
+    color: #3f3f3f;;
     font-size: 30px;
     font-weight: 400;
     line-height: 1.35;
@@ -377,7 +377,7 @@ p {
 
 .blacked {
     font-size: 16px;
-    color :#2e2d2d;
+    color :#3f3f3f;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -731,6 +731,10 @@ p {
     height:100vh;  /* responsive height */
     
     
+}
+
+.pwhite {
+    color: #fff!important;
 }
 
 .sectionTest {
@@ -2109,6 +2113,32 @@ background-image: linear-gradient(315deg, #008FFC   0%, #009ffd 74%);
     overflow: hidden;
     position: relative;
     width: 32%;
+}
+
+.navbackground {
+    background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd, #37a3fc);
+    border-width:0!important;
+}
+
+.navIndexW {
+    width:185px;
+}
+
+.navOmnieW {
+    width:93px;
+}
+
+.navOfertaW {
+    width:95px;
+    margin-left:-2px!important
+}
+
+.navDokW {
+    width:137px;
+}
+
+.navKontaktW {
+    width:100px;
 }
 
 figcaption.mask0 {
