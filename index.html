@@ -47,11 +47,10 @@
 <body id="body">
 
 	<!-- preloader -->
-	<div id="preloader">
-		<div class="loder-box">
-			<div class="battery"></div>
-		</div>
-	</div>
+	<div class="preloader">
+        <div class="spinner"></div>
+        <span id="loading-msg"></span>
+    </div>
 	<!-- end preloader -->
 
 	<!-- Start -->
@@ -745,6 +744,23 @@
 	<script src="js/wow.min.js"></script>
 	<!-- Custom Functions -->
 	<script src="js/main.js"></script>
+
+	<script>
+		const preloader = document.querySelector('.preloader');
+		const fadeEffect = setInterval(() => {
+		// if we don't set opacity 1 in CSS, then   //it will be equaled to "", that's why we   // check it
+		if (!preloader.style.opacity) {
+			preloader.style.opacity = 1;
+		}
+		if (preloader.style.opacity > 0) {
+			preloader.style.opacity -= 0.1;
+		} else {
+			clearInterval(fadeEffect);
+		}
+		}, 20);
+		window.addEventListener('load', fadeEffect);
+	</script>
+		
 
 	<script>
 		const $dropdown = $(".dropdown");

@@ -40,13 +40,12 @@
 
 <body id="body">
 
-	<!-- preloader -->
-	<div id="preloader">
-		<div class="loder-box">
-			<div class="battery"></div>
+		<!-- preloader -->
+		<div class="preloader">
+			<div class="spinner"></div>
+			<span id="loading-msg"></span>
 		</div>
-	</div>
-	<!-- end preloader -->
+		<!-- end preloader -->
 
 	<!--
 	Fixed Navigation
@@ -229,32 +228,20 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 	<script src="js/main.js"></script>
 	
 	<script>
-		const $dropdown = $(".dropdown");
-		const $dropdownToggle = $(".dropdown-toggle");
-		const $dropdownMenu = $(".dropdown-menu");
-		const showClass = "show";
-		
-		$(window).on("load resize", function() {
-		  if (this.matchMedia("(min-width: 768px)").matches) {
-			$dropdown.hover(
-			  function() {
-				const $this = $(this);
-				$this.addClass(showClass);
-				$this.find($dropdownToggle).attr("aria-expanded", "true");
-				$this.find($dropdownMenu).addClass(showClass);
-			  },
-			  function() {
-				const $this = $(this);
-				$this.removeClass(showClass);
-				$this.find($dropdownToggle).attr("aria-expanded", "false");
-				$this.find($dropdownMenu).removeClass(showClass);
-			  }
-			);
-		  } else {
-			$dropdown.off("mouseenter mouseleave");
-		  }
-		});
-		</script>
+		const preloader = document.querySelector('.preloader');
+		const fadeEffect = setInterval(() => {
+		// if we don't set opacity 1 in CSS, then   //it will be equaled to "", that's why we   // check it
+		if (!preloader.style.opacity) {
+			preloader.style.opacity = 1;
+		}
+		if (preloader.style.opacity > 0) {
+			preloader.style.opacity -= 0.1;
+		} else {
+			clearInterval(fadeEffect);
+		}
+		}, 20);
+		window.addEventListener('load', fadeEffect);
+	</script>
 
 	<script>
 		window.onload = function() {
