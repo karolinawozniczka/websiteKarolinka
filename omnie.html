@@ -89,17 +89,21 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 			<div class="sectionTest">
 				<div class="absolute inset-0 flex items-center justify-center" id="modalEl">
 					<div class="bg-transparent mr-16 max-w-x1 p-6 text-center">
-						<h1 class="strok wow animated bounceInLeft ml-4 otto text-5xl font-bold leading-none text-white"
-						style="margin: 0!important;visibility: visible; animation-name: bounceInLeft;">
+						<h1 class="strok ml-4 otto text-5xl font-bold leading-none text-white wow animated zoomIn"
+						style="margin: 0!important;visibility: visible;">
 							Masz dodatkowe pytania?</h1>
-						<h1 class="strok mb-12 otto text-4xl font-bold leading-none text-white bounceInRight wow animated" 
-						style="margin: 0.37em 0!important;margin-bottom:30px!important;visibility: visible; animation-name: bounceInRight;font-size: 2.30rem!important">
+						<h1 class="strok mb-12 otto text-4xl font-bold leading-none text-white wow animated zoomIn" 
+						style="margin: 0.37em 0!important;margin-bottom:30px!important;visibility: visible;
+						font-size: 2.30rem!important">
 							Chcesz się umówić na spotkanie?</h1>						
 						<div>
-							<a href="#contact">
-								<button id="balloferta" class="balloferta superBtnOferta zoom mt-32" style="-webkit-box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75); 
-								box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);color:#fff!important">
+							<div class=" wow animated zoomIn">
+								<a href="#contact">
+									<button class="superBtnOferta zoomnav2 mt-4" style="-webkit-box-shadow:
+								 	1px 1px 15px 0px rgba(0,0,0,0.75); 
+									box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);color:#fff!important">
 									SKONTAKTUJ SIĘ!</button></a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -107,11 +111,13 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 		</div>
 		<!-- End -->
 			
-		<section id="omnie2">
+		<section id="omnie2" style="background-image: url(img/parallax/paralax.jpg);padding: 0;">
+			<div style="background: rgb(0, 140, 253, 0.9)!important;">
 			<div class="container">
 				<div class="row">
 					<div class="sec-title2 text-center">
-						<h2 id="kimjestem" class="wow animated bounceInLeft animated" style="visibility: visible; animation-name: bounceInLeft;">Kim jestem ?</h2>
+						<h2 id="kimjestem" class="wow animated bounceInLeft animated" style="padding-top:70px;
+						visibility: visible; animation-name: bounceInLeft;">Kim jestem ?</h2>
 					</div>	
 				</div>
 				<div class="row">
@@ -144,6 +150,7 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 						</div>
 			</div>
 		</div>
+		
 		<br/><br/><br/><br/><br/>
 		<div class="container">
 			<div class="row">
@@ -175,7 +182,7 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" style="padding-bottom:70px">
 				<div class="stefan">
 					<a class="stefan-item is-active" active-color="#ffb833">PORTFOLIO</a>
 					<a class="stefan-item" active-color="#ffb833">INFORMACJE</a>
@@ -185,7 +192,8 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 					<span class="stefan-indicator"></span>
 				</div>
 			</div>
-		</div>					
+		</div>		
+	</div>			
 		</section>
 		
 
@@ -415,16 +423,7 @@ items.forEach(function (item, index) {
 });
      
 </script>
-
-	<script>
-		window.onload = function() {
-			var ball = document.getElementById('balloferta')
-			ball.style.marginTop = 0;
-			ball.style.position = 'relative';
-	  	};
-	</script>
 	  
-
 	<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 
 	<script>
