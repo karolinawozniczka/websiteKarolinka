@@ -440,6 +440,14 @@ p {
     text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
 }
 
+.strok2 {
+    text-shadow:  0 0 0.2em black;
+}
+
+.strok3 {
+    text-shadow:  0 0 0.1em black;
+}
+
 .zoom {
     transition: transform .2s;
 }
@@ -491,6 +499,16 @@ p {
     transform: scale(1.1); 
 }
 
+.zoomnav4{
+    transition: transform .3s;
+}
+
+.zoomnav4:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
 .zoomnav3{
     position: absolute;
     transition: transform .2s;
@@ -524,7 +542,7 @@ p {
 .balloferta {
     position:absolute;
     margin-top: 1200px;
-    transition: .2s;
+    transition: .5s;
 }
 
 .ball1 {
@@ -679,7 +697,7 @@ p {
     background-color: initial !important;
     border-color: initial!important;
     border: 0;
-    padding: 6px 10px;
+    padding: 9px 40px;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -710,7 +728,7 @@ p {
     line-height: 21px!important;
     text-align: center!important;
     letter-spacing: 1.5px!important;
-    background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd, #37a3fc);
+    background-image: linear-gradient(to bottom, rgb(0, 140, 253), rgb(16, 146, 253), rgb(30, 152, 253), rgb(43, 157, 253), rgb(55, 163, 252));
     text-shadow: 0px 26px 77px rgba(0, 0, 0, 0.1), 0px 16px 15px rgba(0, 0, 0, 0.1)!important;
     background-color: initial !important;
     border-color: initial!important;
@@ -749,6 +767,179 @@ p {
     
 
 }
+
+/* */
+
+.front {
+    margin-top:7%;
+    line-height: 50px;
+    color:#fff;
+    text-align:center;
+    text-transform: uppercase;
+    z-index: 1;
+    font-size: 1.2em;
+    letter-spacing: 0.15em;
+    line-height: 1.2em;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.arrow_box {
+	position: relative;
+	background-color: rgb(42, 109, 245, 0.78);
+    border: 1px solid #fff;
+    width: 490px;
+    height: 250px;
+    top:25%;
+    left:35%;
+    border-radius: 1%;
+}
+
+
+/* */
+/* */
+
+cs-app, cs-app * {
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    display: block;
+    position:absolute;
+  }
+  
+  cs-app {
+    margin: auto;
+    width: 100%;
+    max-width: 450px;
+    top:10%;
+    left:15%;
+    cursor: pointer;
+  }
+  cs-app cs-tiles {
+    height: 344px;
+    position: relative;
+  }
+  cs-app cs-tiles input {
+    display: none;
+  }
+  cs-app cs-tiles cs-tile-container {
+    display: flex;
+    position: absolute;
+    height: 85px;
+    transform: translateX(-50%);
+    transition: all 0.15s 0.15s;
+    z-index: 1000;
+  }
+  cs-app cs-tiles cs-tile-container cs-tile {
+    background: #36f;
+    margin: auto;
+    width: 90%;
+    height: 80%;
+    border-radius: 2px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    position: relative;
+    transition: all 0.15s 0.15s, background 0.15s;
+  }
+  cs-app cs-tiles cs-tile-container cs-tile:hover {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.75);
+    background: #668cff;
+  }
+  cs-app cs-tiles cs-tile-container cs-tile cs-text {
+    padding-left: 5%;
+    padding-right: 5%;
+    transition: all 0.15s 0.15s;
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    white-space: nowrap;
+    text-transform: uppercase;
+  }
+  cs-app cs-tiles cs-tile-container cs-tile cs-content {
+    transition: all 0.15s, max-height 0s;
+    opacity: 0;
+    pointer-events: none;
+    overflow: hidden;
+    max-height: 0;
+  }
+  cs-app cs-tiles cs-tile-container cs-tile .cs-open {
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 20;
+  }
+  cs-app cs-tiles cs-tile-container cs-tile .cs-close {
+    cursor: pointer;
+    transition: all 0.15s;
+    position: absolute;
+    opacity: 0;
+    top: 25px;
+    right: 25px;
+    transform: rotateZ(45deg) translateX(-50%) translateY(-50%);
+    font-size: 25px;
+  }
+  cs-app cs-tiles input:checked + cs-tile-container {
+    transition: all 0.25s;
+    width: 100%;
+    height: 100%;
+    left: 20%;
+    top: 20%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 10000;
+  }
+  cs-app cs-tiles input:checked + cs-tile-container cs-tile {
+    transition: all 0.25s;
+    background: #3b3;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  }
+  cs-app cs-tiles input:checked + cs-tile-container cs-tile:hover {
+    cursor: initial;
+  }
+  cs-app cs-tiles input:checked + cs-tile-container cs-tile .cs-open {
+    display: none;
+  }
+  cs-app cs-tiles input:checked + cs-tile-container cs-tile .cs-close {
+    transition: all 0.15s 0.25s;
+    opacity: 1;
+  }
+  cs-app cs-tiles input:checked + cs-tile-container cs-tile .cs-close:hover {
+    transition: all 0.15s;
+    opacity: 0.5;
+  }
+  cs-app cs-tiles input:checked + cs-tile-container cs-tile cs-text {
+    transition: all 0.15s 0.25s;
+    font-size: 24px;
+    line-height: 50px;
+  }
+  cs-app cs-tiles input:checked + cs-tile-container cs-tile cs-content {
+    flex: 1;
+    transition: all 0.25s 0.4s, max-height 0s 0.4s, flex 0s 0.4s;
+    opacity: 1;
+    margin-top: 10px;
+    pointer-events: initial;
+    width: 100%;
+    max-height: 1000000px;
+    overflow: hidden;
+  }
+  cs-app cs-tile-container:nth-of-type(1) {
+    left: calc(0 * 33.334% + 1 * 16.667%);
+    top: calc(0 * 85px);
+    width: 33.334%;
+  }
+
+
+/* */
 
 
 .section .box {
@@ -799,7 +990,7 @@ p {
 
 .sectionIndex .box1 {
     align-items: center;
-    float:left; 
+    float: left;
     left: 0%;
     bottom: 0%;
     position: absolute;
@@ -835,7 +1026,7 @@ p {
     letter-spacing: 0.25em;
     line-height: 1.2em;
     color: white;
-    mix-blend-mode: difference;
+    /* mix-blend-mode: difference; */
 }
 
 .sectionIndex .box1 h2 {
@@ -847,7 +1038,7 @@ p {
     letter-spacing: 0.25em;
     line-height: 1.2em;
     color: white;
-    mix-blend-mode: difference;
+    /* mix-blend-mode: difference; */
 }
 
 .sectionTest .box1 h2 {
@@ -1342,7 +1533,7 @@ overlaynav2{
 	left: 0;
 	right: 0;
 	bottom: 0;
-    background:#009EE3;
+    background:#1D4ED8;
     opacity: .2;
 	
 	-webkit-transform: scaleX(0);
@@ -1474,7 +1665,7 @@ overlaynav2{
 }
 
 .sec-title2 h2:after {
-    border-bottom: 1px solid #03131a;
+    border-bottom: 1px solid #fff;
     content: "";
     display: block;
     left: 45%;
@@ -1716,7 +1907,7 @@ h1.navbar-brand {
     position: relative;
     overflow: hidden;
     max-width: 100%;
-    background-color: #008cfd;
+    background-color: inherit;
     padding: 0 20px;
     border-radius: 40px;
     /* box-shadow: 0 10px 40px rgba(159, 162, 177, .8); */
@@ -2348,6 +2539,20 @@ figcaption.mask0full2 {
             transition: all 0.4s ease 0s;
 }
 
+.introgradient {
+    text-shadow:none;
+    background: linear-gradient(to bottom, rgb(0, 140, 253, 0.78), rgb(16, 146, 253, 0.78), rgb(30, 152, 253, 0.78),
+    rgb(43, 157, 253, 0.78), rgb(55, 163, 252, 0.78));
+	-webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    filter: drop-shadow(1px 1px 1px black) drop-shadow(0 0 1em black) drop-shadow(0 0 0.2em black);
+}
+
+.introgradient:before {
+    text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
+}
+
 figcaption.mask0color {
     background-image: linear-gradient(to bottom, rgb(0, 140, 253, 0.78), rgb(16, 146, 253, 0.78), rgb(30, 152, 253, 0.78),
     rgb(43, 157, 253, 0.78), rgb(55, 163, 252, 0.78));
@@ -2657,7 +2862,7 @@ ul.external li a:hover {
 
 
 #testimonials {
-    background-image: url(../img/parallax/testimonial.jpg);
+    background-image: url(../img/parallax/paralaxsmall.jpg);
     padding: 0;
     color: #fff;
 }
@@ -2680,10 +2885,28 @@ ul.external li a:hover {
     padding: 70px 0 40px;
 }
 
+.animateGradient {
+    background: linear-gradient(-45deg, #23a6d5, #2563EB);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 #testimonials .overlay {
-    background: #008cfd;
-    opacity: 0.85;
-    padding: 70px 0 40px;
+    background: rgb(0, 140, 253, 0.9);
+    /* padding: 70px 0 40px; */
+    padding: 70px 0 70px;
 }
 
 .ciastko{
@@ -3567,7 +3790,7 @@ textarea.form-control {
         letter-spacing: 0.25em;
         line-height: 1.2em;
         color: white;
-        mix-blend-mode: difference;
+        /* mix-blend-mode: difference; */
     }
 }
 
