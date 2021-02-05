@@ -1872,7 +1872,72 @@ overlaynav2{
 /*	Header
 /* ==========================================*/
 
+#responsivelogoIndex {
+    position: relative;
+	top: 40%; 
+    right: 115%;
+	transform: translateY(-50%);
+
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+     -ms-transition: all 0.8s ease 0s;
+      -o-transition: all 0.8s ease 0s;
+         transition: all 0.8s ease 0s;
+}
+
+#responsivelogoIndex.widthclassIndex {
+    max-width: 264px; 
+}
+
+#responsivelogoIndex.widthclassIndex2 {
+    max-width: 180px;
+}
+
+#responsivelogoOmnie {
+    position: relative;
+	top: 55%; 
+    right: 130%;
+	transform: translateY(-50%);
+    
+
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+     -ms-transition: all 0.8s ease 0s;
+      -o-transition: all 0.8s ease 0s;
+         transition: all 0.8s ease 0s;
+}
+
+#responsivelogoOmnie.widthclassOmnie {
+    max-width: 250px;  
+}
+
+#responsivelogoOmnie.widthclassOmnie2 {
+    max-width: 170px;
+}
+
+#responsivelogoOferta {
+    position: relative;
+	top: 50%; 
+    right: 100%;
+	transform: translateY(-50%);
+
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+     -ms-transition: all 0.8s ease 0s;
+      -o-transition: all 0.8s ease 0s;
+         transition: all 0.8s ease 0s;
+}
+
+#responsivelogoOferta.widthclassOferta {
+    max-width: 330px;
+}
+
+#responsivelogoOferta.widthclassOferta2 {
+    max-width: 200px;
+}
+
 #navigation {
+   
     -webkit-transition: all 0.8s ease 0s;
        -moz-transition: all 0.8s ease 0s;
         -ms-transition: all 0.8s ease 0s;
