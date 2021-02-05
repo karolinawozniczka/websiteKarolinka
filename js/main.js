@@ -106,9 +106,21 @@ $(document).ready(function(){
         if ($(window).scrollTop() > 400) {
             $(".navbar-brand a").css("color","#fff");
             $("#navigation").removeClass("animated-header");
+            $("#responsivelogoIndex").removeClass("widthclassIndex");
+            $("#responsivelogoOmnie").removeClass("widthclassOmnie");
+            $("#responsivelogoOferta").removeClass("widthclassOferta");
+            $("#responsivelogoIndex").addClass("widthclassIndex2");
+            $("#responsivelogoOmnie").addClass("widthclassOmnie2");
+            $("#responsivelogoOferta").addClass("widthclassOferta2");
         } else {
             $(".navbar-brand a").css("color","inherit");
             $("#navigation").addClass("animated-header");
+            $("#responsivelogoIndex").removeClass("widthclassIndex2");
+            $("#responsivelogoOmnie").removeClass("widthclassOmnie2");
+            $("#responsivelogoOferta").removeClass("widthclassOferta2");
+            $("#responsivelogoIndex").addClass("widthclassIndex");
+            $("#responsivelogoOmnie").addClass("widthclassOmnie");
+            $("#responsivelogoOferta").addClass("widthclassOferta");
         }
     });
 	
