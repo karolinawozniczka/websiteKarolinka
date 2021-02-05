@@ -1875,7 +1875,6 @@ overlaynav2{
 #responsivelogoIndex {
     position: relative;
 	top: 40%; 
-    right: 115%;
 	transform: translateY(-50%);
 
     -webkit-transition: all 0.8s ease 0s;
@@ -1896,7 +1895,6 @@ overlaynav2{
 #responsivelogoOmnie {
     position: relative;
 	top: 55%; 
-    right: 130%;
 	transform: translateY(-50%);
     
 
@@ -1918,7 +1916,6 @@ overlaynav2{
 #responsivelogoOferta {
     position: relative;
 	top: 50%; 
-    right: 100%;
 	transform: translateY(-50%);
 
     -webkit-transition: all 0.8s ease 0s;
