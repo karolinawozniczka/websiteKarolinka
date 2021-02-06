@@ -109,18 +109,22 @@ $(document).ready(function(){
             $("#responsivelogoIndex").removeClass("widthclassIndex");
             $("#responsivelogoOmnie").removeClass("widthclassOmnie");
             $("#responsivelogoOferta").removeClass("widthclassOferta");
+            $("#responsivelogoDok").removeClass("widthclassDok");
             $("#responsivelogoIndex").addClass("widthclassIndex2");
             $("#responsivelogoOmnie").addClass("widthclassOmnie2");
             $("#responsivelogoOferta").addClass("widthclassOferta2");
+            $("#responsivelogoDok").addClass("widthclassDok2");
         } else {
             $(".navbar-brand a").css("color","inherit");
             $("#navigation").addClass("animated-header");
             $("#responsivelogoIndex").removeClass("widthclassIndex2");
             $("#responsivelogoOmnie").removeClass("widthclassOmnie2");
             $("#responsivelogoOferta").removeClass("widthclassOferta2");
+            $("#responsivelogoDok").removeClass("widthclassDok2");
             $("#responsivelogoIndex").addClass("widthclassIndex");
             $("#responsivelogoOmnie").addClass("widthclassOmnie");
             $("#responsivelogoOferta").addClass("widthclassOferta");
+            $("#responsivelogoDok").addClass("widthclassDok");
         }
     });
 	
