@@ -1913,6 +1913,7 @@ overlaynav2{
 }
 
 #responsivelogoPol {
+    margin-top:1px;
     position: relative;
 	top: 40%; 
 	transform: translateY(-50%);
@@ -1929,7 +1930,7 @@ overlaynav2{
 }
 
 #responsivelogoPol.widthclassPol2 {
-    max-width: 161px;
+    max-width: 158px;
 }
 
 #responsivelogoOmnie {
