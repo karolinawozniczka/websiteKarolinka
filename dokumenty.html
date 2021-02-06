@@ -83,22 +83,32 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 
 	<!-- start -->
 	<main class="site-content" role="main">
-	
+		<!-- Start -->
 		<div class="sectionTest">
-			<div class="absolute inset-0 flex items-center justify-center" id="modalEl">
-				<div class="bg-transparent mb-20 mt-40 max-w-x1 p-6 text-center">
-					<h1 class="strok ml-16 otto mb-8 elo pt-4 text-5xl font-bold leading-none text-white bounceInLeft wow animated" 
-					style="visibility: visible; animation-name: bounceInLeft;">
-						Chcesz się umówić na spotkanie?</h1>
-					<div>
-						<a href="#contact">
-						<button id="ball" class="ball3 superBtnDok zoom mt-8  mb-12" style="-webkit-box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75); 
-						box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);">SKONTAKTUJ SIĘ!</button></a>
+			<div class="sectionTest">
+				<div class="absolute inset-0 flex items-center justify-center" id="modalEl">
+					<div class="bg-transparent mr-16 max-w-x1 p-6 text-center">
+						<h1 class="strok ml-4 otto text-5xl font-bold leading-none text-white wow animated zoomIn" data-wow-delay="0.1s"
+						style="margin: 0!important;visibility: visible;">
+							Masz dodatkowe pytania?</h1>
+						<h1 class="strok mb-12 otto text-4xl font-bold leading-none text-white wow animated zoomIn"  data-wow-delay="0.1s"
+						style="margin: 0.37em 0!important;margin-bottom:30px!important;visibility: visible;
+						font-size: 2.30rem!important">
+							Chcesz się umówić na spotkanie?</h1>						
+						<div>
+							<div class=" wow animated zoomIn" data-wow-delay="0.1s">
+								<a href="#contact">
+									<button class="superBtnOferta zoomnav2 mt-4" style="-webkit-box-shadow:
+								 	1px 1px 15px 0px rgba(0,0,0,0.75); 
+									box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);color:#fff!important">
+									SKONTAKTUJ SIĘ!</button></a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- end section -->
+		<!-- End -->
 		
 				<!-- Testimonial section -->
 				<section id="testimonials" class="parallax">
@@ -227,7 +237,7 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 	<script src="js/wow.min.js"></script>
 	<!-- Custom Functions -->
 	<script src="js/main.js"></script>
-	
+
 	<script>
 		const preloader = document.querySelector('.preloader');
 		const fadeEffect = setInterval(() => {
@@ -242,14 +252,6 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 		}
 		}, 20);
 		window.addEventListener('load', fadeEffect);
-	</script>
-
-	<script>
-		window.onload = function() {
-			var ball = document.getElementById('ball')
-			ball.style.marginLeft = 0;
-			ball.style.position = 'relative';
-	  	};
 	</script>
 
 	<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
