@@ -1912,6 +1912,26 @@ overlaynav2{
     max-width: 161px;
 }
 
+#responsivelogoPol {
+    position: relative;
+	top: 40%; 
+	transform: translateY(-50%);
+
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+     -ms-transition: all 0.8s ease 0s;
+      -o-transition: all 0.8s ease 0s;
+         transition: all 0.8s ease 0s;
+}
+
+#responsivelogoPol.widthclassPol {
+    max-width: 242px;
+}
+
+#responsivelogoPol.widthclassPol2 {
+    max-width: 161px;
+}
+
 #responsivelogoOmnie {
     position: relative;
 	top: 55%; 
