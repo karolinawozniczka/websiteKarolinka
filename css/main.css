@@ -271,7 +271,7 @@ html {
 .ach2{
     margin-bottom: 2.625rem;
     font-family: 'Open sans', sans-seri;
-    color: #071e4c;;
+    color: #252525;;
     font-size: 30px;
     font-weight: 400;
     line-height: 1.35;
@@ -283,7 +283,7 @@ html {
     margin-top: 14% !important;
     margin-bottom: 35px !important;
     font-family: 'Open sans', sans-seri;
-    color: #071e4c;
+    color: #252525;
     font-size: 30px;
     font-weight: 400;
     line-height: 1.35;
@@ -378,7 +378,7 @@ p {
 .blacked {
     /* #2e2d2d; */
     font-size: 16px;
-    color :#05183f;
+    color :#252525;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -437,8 +437,9 @@ p {
 }
 
 .strok {
-    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    text-shadow: 0px 0px 0px black, 0 0 0px black, 0 0 0.2em black
 }
+
 
 .strok5 {
     text-shadow: -1px -1px 3px #011f36cf, 
@@ -769,8 +770,6 @@ p {
     background-size: cover;
     width: 100%;
     height:100vh;  /* responsive height */
-    
-
 }
 
 /* */
