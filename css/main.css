@@ -516,6 +516,16 @@ p {
     transform: scale(1.1); 
 }
 
+.zoomnavC{
+    transition: transform .2s;
+}
+
+.zoomnavC:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+}
+
 .zoomnav4{
     transition: transform .3s;
 }
@@ -1417,7 +1427,7 @@ overlaynav2{
 }
 
 .btn-blue {
-    transition: transform 0.45s linear; 
+    transition: transform 0.2s linear; 
 
     /* box-shadow: 0 10px 30px 0px rgb(255 75 90 / 50%); */
     border-radius: 25px;
