@@ -683,7 +683,7 @@ p {
 
 .superBtn {
     font-family: 'Verdana';
-    border-radius: 100px!important;
+    border-radius: 25px;
     color: #fff!important;
     font-weight: 600!important;
     font-size: 14px!important;
@@ -701,7 +701,7 @@ p {
 
 .superBtnDok {
     font-family: 'Verdana';
-    border-radius: 100px!important;
+    border-radius: 25px;
     color: #fff!important;
     font-weight: 600!important;
     font-size: 14px!important;
@@ -719,7 +719,7 @@ p {
 
 .superBtnOferta {
     font-family: 'Verdana';
-    border-radius: 100px!important;
+    border-radius: 25px;
     color: #fff!important;
     font-weight: 600!important;
     font-size: 14px!important;
@@ -729,6 +729,7 @@ p {
     background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd, #37a3fc);
     background-color: initial !important;
     border-color: initial!important;
+    
     border: 0;
     padding: 10px 25px;
     -webkit-font-smoothing: antialiased;
@@ -736,7 +737,7 @@ p {
 
 .superBtn2 {
     font-family: 'Verdana';
-    border-radius: 100px!important;
+    border-radius: 25px;
     color: #fff!important;
     font-weight: 600!important;
     font-size: 12px!important;
@@ -746,6 +747,7 @@ p {
     background-image: linear-gradient(to bottom, rgb(0, 140, 253), rgb(16, 146, 253), rgb(30, 152, 253), rgb(43, 157, 253), rgb(55, 163, 252));
     background-color: initial !important;
     border-color: initial!important;
+    
     border: 0;
     padding: 10px 54px;
     -webkit-font-smoothing: antialiased;
@@ -756,7 +758,7 @@ p {
 }
 
 .sectionIndex {
-    background: url(../img/slider/bannerG2.jpg);
+    background: url(../img/slider/bgtest.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -1415,6 +1417,16 @@ overlaynav2{
 }
 
 .btn-blue {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    /* box-shadow: 0 10px 30px 0px rgb(255 75 90 / 50%); */
+    border-radius: 25px;
+    -moz-box-shadow: 0 10px 30px 0px rgba(0, 140, 253, 0.5)!important;
+    -webkit-box-shadow: 0 10px 30px 0px rgb(0 140 253 / 50%)!important;
+    -o-box-shadow: 0 10px 30px 0px rgba(0, 140, 253, 0.5)!important;
+    -ms-box-shadow: 0 10px 30px 0px rgba(0, 140, 253, 0.5)!important;
     background: linear-gradient(to bottom, rgb(0, 140, 253, 0.92), rgb(16, 146, 253, 0.92), rgb(30, 152, 253, 0.92),
     rgb(43, 157, 253, 0.92), rgb(55, 163, 252, 0.92));
     box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
@@ -1893,11 +1905,11 @@ overlaynav2{
 }
 
 #responsivelogoIndex.widthclassIndex {
-    max-width: 264px; 
+    max-width: 237px;
 }
 
 #responsivelogoIndex.widthclassIndex2 {
-    max-width: 180px;
+    max-width: 160px;
 }
 
 #responsivelogoDok {
@@ -2579,7 +2591,8 @@ background-image: linear-gradient(315deg, #008FFC   0%, #009ffd 74%);
 
 .navbackground {
     /* background-image: url(../img/slider/navbg2.jpg); */
-     background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd, #37a3fc); 
+    /* background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd, #37a3fc);  */
+    background-color: #fff;
     border-width:0!important;
     padding: 20px 0;
 }
