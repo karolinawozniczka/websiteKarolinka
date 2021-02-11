@@ -460,6 +460,10 @@ p {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.stroknavX {
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
 .stroknavonly {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -473,8 +477,7 @@ p {
 }
 
 .strok5 {
-    text-shadow: -1px -1px 3px #011f36cf, 
-      2px 2px 4px #011f369e;
+    text-shadow: -1px 0px 4px #011f36cf, 1px 1px 4px #011f369e;
 }
 
 .strok2 {
@@ -1812,7 +1815,7 @@ overlaynav2{
 
 /* */
 
-.preloader {
+#preloader {
     pointer-events: none;
     width: 100%;
     height: 100%;
