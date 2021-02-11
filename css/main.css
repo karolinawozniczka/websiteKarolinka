@@ -448,6 +448,10 @@ p {
     text-shadow: 0px 0px 4px rgba(0,0,0,0.72)
 }
 
+.strokOferta {
+    text-shadow: 0px 0px 4px rgb(0 0 0 / 45%);
+}
+
 .stroka1 {
     text-shadow: 0px 0px 0px black, 0 0 0px black, 0 0 0 black
 }
