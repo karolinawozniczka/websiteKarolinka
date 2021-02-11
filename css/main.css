@@ -476,6 +476,65 @@ p {
     text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
 }
 
+.whitec {
+    color: #fff!important;
+}
+
+.navcolor {
+    background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd, #37a3fc)!important;
+    border-width:0!important;
+}
+
+.btnkontakt {
+    letter-spacing: 0.15em!important;
+	margin-top:5%!important;
+    font-size:16px!important;
+    padding: 15px 190px!important;
+    font-family:'Open sans', 'sans-serif'!important;
+}
+
+.psychologpadding {
+    padding: 70px 0 40px!important;
+    background: rgb(0, 140, 253, 0.85)!important;
+}
+
+.help1 {
+    margin-bottom:10% !important;
+    margin-top: 12px !important;
+}
+
+.hrc1 {
+    margin-bottom:10px !important;
+    margin-top:10px !important;
+    border-bottom: 3px !important; 
+	border-top: 1px solid white !important;
+}
+
+.btnIndex {
+    -webkit-box-shadow:
+	1px 1px 15px 0px rgb(1, 72, 129)!important; 
+	box-shadow: 1px 1px 15px 0px rgb(1, 72, 129)!important;
+    color:#fff!important;
+}
+
+.kimjestemImg{
+    border: 2px solid #fff!important;
+	border-radius: 50%!important; 
+	margin-right: 8%!important;
+	max-width: 435px!important;
+	display: block!important;
+	height: auto!important;
+	max-width: 300px!important;
+	float: left!important;
+}
+
+.ikonkitxt{
+    color:#3f3f3f!important;
+    font-size:15px!important;
+    font-family:sans-serif!important;
+    line-height: 1.3!important;
+}
+
 .strok5 {
     text-shadow: -1px 0px 4px #011f36cf, 1px 1px 4px #011f369e;
 }
