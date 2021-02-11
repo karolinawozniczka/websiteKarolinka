@@ -14,7 +14,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<link rel="shortcut icon" href="img/icons/ikonka.ico"> 
-
 	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 	
 	<link rel='stylesheet' href='css/font.css' type='text/css'>
@@ -32,7 +31,6 @@
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Main Stylesheet -->
 	<link rel="stylesheet" href="css/main.css">
-
 	<!-- Modernizer Script for old Browsers -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 
@@ -41,7 +39,7 @@
 <body id="body">
 
 		<!-- preloader -->
-		<div class="preloader">
+		<div id="preloader">
 			<div class="spinner"></div>
 			<span id="loading-msg"></span>
 		</div>
@@ -75,11 +73,11 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 			<!-- main nav -->
 			<nav class="collapse navbar-collapse navbar-right" role="navigation">
 				<ul class="nav navbar-nav">
-					<li><a class="zoomnav stroknav" style="width:185px;margin-right:-12px!important" href="index.html">Strona Główna</a></li>
-					<li><a class="zoomnav stroknav" style="width:93px;" href="omnie.html"><b>O mnie</b></a></li>
-					<li><a class="zoomnav stroknav" style="width:95px;margin-left:-2px!important" href="oferta.html">Oferta</a></li>
-					<li><a class="zoomnav stroknav" style="width:137px;" href="dokumenty.html">Dokumenty</a></li>
-					<li><a class="zoomnav stroknav" style="width:100px;" href="#contact">Kontakt</a></li>
+					<li><a class="zoomnav stroknavX" style="width:185px;margin-right:-12px!important" href="index.html">Strona Główna</a></li>
+					<li><a class="zoomnav stroknavX" style="width:93px;" href="omnie.html"><b>O mnie</b></a></li>
+					<li><a class="zoomnav stroknavX" style="width:95px;margin-left:-2px!important" href="oferta.html">Oferta</a></li>
+					<li><a class="zoomnav stroknavX" style="width:137px;" href="dokumenty.html">Dokumenty</a></li>
+					<li><a class="zoomnav stroknavX" style="width:100px;" href="#contact">Kontakt</a></li>
 				</ul>
 			</nav>
 			<!-- /main nav -->
@@ -101,7 +99,7 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 						<div>
 							<div class=" wow animated zoomIn" data-wow-delay="0.1s">
 								<a href="#contact">
-									<button class="stroknav superBtnOferta zoomnav2 mt-4" style="-webkit-box-shadow:
+									<button class="stroknavX superBtnOferta zoomnav2 mt-4" style="-webkit-box-shadow:
 								 	1px 1px 15px 0px rgb(0, 140, 253, 0.8); 
 									box-shadow: 1px 1px 15px 0px rgb(0, 140, 253, 0.8);color:#fff!important">
 									SKONTAKTUJ SIĘ!</button></a>
@@ -322,7 +320,7 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 							  </div>
 							  <button onclick="myFunction()" style="font-family:'Verdana';letter-spacing: 0.15em;
 							  margin-top:5%!important;font-size:16px!important;padding: 15px 190px!important;font-family:'Open sans', 'sans-serif'!important;" 
-							  class="btn zoomnavC btn-blue stroknav"><b>Wyślij</b></button>
+							  class="btn zoomnavC btn-blue stroknavX"><b>Wyślij</b></button>
 							  <br/><br/>
 
 							   <div style="display:none" class="thankyou_message">
@@ -392,56 +390,8 @@ background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd,
 	<script src="js/wow.min.js"></script>
 	<!-- Custom Functions -->
 	<script src="js/main.js"></script>
-	
-	<script>
-		const preloader = document.querySelector('.preloader');
-		const fadeEffect = setInterval(() => {
-		// if we don't set opacity 1 in CSS, then   //it will be equaled to "", that's why we   // check it
-		if (!preloader.style.opacity) {
-			preloader.style.opacity = 1;
-		}
-		if (preloader.style.opacity > 0) {
-			preloader.style.opacity -= 0.1;
-		} else {
-			clearInterval(fadeEffect);
-		}
-		}, 20);
-		window.addEventListener('load', fadeEffect);
-	</script>
-
-<script>
-	var indicator = document.querySelector('.stefan-indicator');
-var items = document.querySelectorAll('.stefan-item');
-
-function handleIndicator(el) {
-  items.forEach(function (item) {
-    item.classList.remove('is-active');
-    item.removeAttribute('style');
-  });
-  indicator.style.width = "".concat(el.offsetWidth, "px");
-  indicator.style.left = "".concat(el.offsetLeft, "px");
-  indicator.style.backgroundColor = el.getAttribute('active-color');
-  el.classList.add('is-active');
-  el.style.color = el.getAttribute('active-color');
-}
-
-items.forEach(function (item, index) {
-  item.addEventListener('click', function (e) {
-    handleIndicator(e.target);
-  });
-  item.classList.contains('is-active') && handleIndicator(item);
-});
-     
-</script>
-	  
+	<!-- Skrypt do kontaktu -->
 	<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
-
-	<script>
-		function myFunction() {
-		  document.getElementById("myCheck").required = true;
-		  document.getElementById("demo").innerHTML = "Zaznacz zgodę na przetwarzanie danych...";
-		}
-	</script>
 
 </body>
 </html>
