@@ -941,7 +941,6 @@ p {
 }
 
 .superBtn {
-    font-family: 'Verdana';
     border-radius: 25px;
     color: #fff!important;
     font-weight: 600!important;
@@ -959,7 +958,6 @@ p {
 
 
 .superBtnDok {
-    font-family: 'Verdana';
     border-radius: 25px;
     color: #fff!important;
     font-weight: 600!important;
@@ -977,11 +975,10 @@ p {
 }
 
 .superBtnOferta {
-    font-family: 'Verdana';
     border-radius: 25px;
     color: #fff!important;
     font-weight: 600!important;
-    font-size: 14px!important;
+    font-size: 16px!important;
     line-height: 21px!important;
     text-align: center!important;
     letter-spacing: 1.5px!important;
@@ -1002,20 +999,22 @@ p {
 }
 
 .superBtn2 {
-    font-family: 'Verdana';
+
+    text-transform: uppercase;
+    letter-spacing: 1.5px!important;
+    font-size:13px!important;
+
     border-radius: 25px;
     color: #fff!important;
     font-weight: 600!important;
-    font-size: 12px!important;
     line-height: 21px!important;
     text-align: center!important;
-    letter-spacing: 1.5px!important;
     background-image: linear-gradient(to bottom, rgb(0, 140, 253), rgb(16, 146, 253), rgb(30, 152, 253), rgb(43, 157, 253), rgb(55, 163, 252));
     background-color: initial !important;
     border-color: initial!important;
     
     border: 0;
-    padding: 10px 54px;
+    padding: 10px 58px;
     -webkit-font-smoothing: antialiased;
 }
 
