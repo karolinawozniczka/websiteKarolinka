@@ -583,6 +583,14 @@ p {
     color:#fff!important;
 }
 
+.btnIndex:hover,
+.btnIndex:focus,
+.btnIndex:hover:active,
+.btnIndex:active {
+    outline: none;
+}
+
+
 .kimjestemImg{
     border: 2px solid #fff!important;
 	border-radius: 50%!important; 
@@ -891,6 +899,13 @@ p {
     border: 0;
     padding: 10px 25px;
     -webkit-font-smoothing: antialiased;
+}
+
+.superBtnOferta:hover,
+.superBtnOferta:focus,
+.superBtnOferta:hover:active,
+.superBtnOferta:active {
+    outline: none;
 }
 
 .superBtn2 {
@@ -1605,7 +1620,10 @@ overlaynav2{
     color: #fff;
 }
 
-.btn-blue:hover {
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:hover:active,
+.btn-blue:active  {
     /* background: #008cfd!important; 
     color:#fff!important; */
     background-position: 100% 0;
@@ -1613,9 +1631,6 @@ overlaynav2{
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
-}
-
-.btn-blue:focus {
     outline: none;
 }
 
