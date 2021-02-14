@@ -3698,8 +3698,13 @@ textarea.form-control {
   background: #2E2E2E;
 }
 
+.klasa{
+    
+}
+
 .contact-details h3 {
     border-bottom: 1px solid #008ecc;
+    width:77%;
     font-weight: 700;
     margin-bottom: 15px;
     padding-bottom: 15px;
