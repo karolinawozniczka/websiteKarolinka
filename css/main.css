@@ -905,11 +905,16 @@ p {
 .ikoneczka {
     border: 2px solid #fff;
     border-radius: 50%;
-    margin-right: 10%;
+    margin-right: 14%;
     max-width: 435px;
     display: block;
     height: auto;
-    max-width: 200px;
+    /* margin-bottom: 10%; */
+    /* max-width: 200px; */
+    margin-top: 0px!important;
+    /* top: 20px; */
+    position: absolute;
+    right: -17px;
 }
 
 .section {
@@ -2877,8 +2882,8 @@ background-image: linear-gradient(315deg, #008FFC   0%, #009ffd 74%);
 .service-icon {
     border: 3px solid transparent;
     display: inline-block;
-    height: 85px;
-    width: 85px;
+    height: 124px;
+    width: 124px;
     line-height: 101px;
 
     -webkit-transform: rotate(45deg);
