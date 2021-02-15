@@ -386,6 +386,18 @@ h1, h2, h3, h4, h5, h6,
     transform: scale(1.1); 
 }
 
+.zoomnavTest{
+    font-size:17px!important;
+    transition: transform .5s;
+}
+
+.zoomnavTest:hover {
+    color:red!important;
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+}
+
 .zoomnavbez {
     transition: transform .2s;
 }
@@ -626,6 +638,11 @@ h1, h2, h3, h4, h5, h6,
        box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
 }
 
+.superBtnIndex.color-11 {
+    background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  
+    box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+}
+
 .btn-border {
     border: 2px solid #fff;
     color: #fff;
@@ -800,7 +817,7 @@ h1, h2, h3, h4, h5, h6,
 /* Tla głowne */
 
 .sectionIndex {
-    background: url(../img/slider/7.png);
+    background: url(../img/slider/background.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -809,7 +826,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .sectionOmnie {
-    background: url(../img/slider/7.png);
+    background: url(../img/slider/background.png);
     background-repeat: no-repeat;
     background-position: bottom;
     /* margin-top:90px; */
@@ -819,7 +836,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .sectionOferta {
-    background: url(../img/slider/8.png);
+    background: url(../img/slider/background.png);
     background-repeat: no-repeat;
     background-position: bottom;
     /* margin-top:90px; */
