@@ -150,6 +150,7 @@ $(document).ready(function(){
             $("#responsivelogoOferta").addClass("widthclassOferta2");
             $("#responsivelogoDok").addClass("widthclassDok2");
             $("#responsivelogoPol").addClass("widthclassPol2");
+            $("#navigation").addClass("navbgchanged");
         } else {
             $(".navbar-brand a").css("color","inherit");
             $("#navigation").addClass("animated-header");
@@ -163,6 +164,7 @@ $(document).ready(function(){
             $("#responsivelogoOferta").addClass("widthclassOferta");
             $("#responsivelogoDok").addClass("widthclassDok");
             $("#responsivelogoPol").addClass("widthclassPol");
+            $("#navigation").removeClass("navbgchanged");
         }
     });
 	
