@@ -861,6 +861,7 @@ h1, h2, h3, h4, h5, h6,
 
 .navbgchanged {
     background-color: #fff!important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)!important;
 }
 
 .sectionIndex .box1 h2 {
