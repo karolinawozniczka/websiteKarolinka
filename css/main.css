@@ -1196,7 +1196,7 @@ h1, h2, h3, h4, h5, h6,
 
 #responsivelogoIndex {
     position: relative;
-	top: 49%; 
+	top: 40%; 
 	transform: translateY(-50%);
 
     -webkit-transition: all 0.8s ease 0s;
@@ -1212,6 +1212,7 @@ h1, h2, h3, h4, h5, h6,
 
 #responsivelogoIndex.widthclassIndex2 {
     max-width: 200px;
+    top: 49%!important; 
 }
 
 #responsivelogoDok {
