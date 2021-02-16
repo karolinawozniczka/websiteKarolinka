@@ -163,7 +163,22 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .ptextIndex {
-    font-size: 0.8em!important;
+    font-size: 1.3em!important;
+    color: #252525!important;
+}
+
+.help1 {
+    margin-bottom:10% !important;
+    margin-top: 12px !important;
+    color: #252525!important;
+    font-size:1.013em!important;
+}
+
+.hrc1 {
+    margin-bottom:10px !important;
+    margin-top:10px !important;
+    border-bottom: 3px !important; 
+	border-top: 1px solid #252525 !important;
 }
 
 .pwhite {
@@ -307,17 +322,7 @@ h1, h2, h3, h4, h5, h6,
     background: rgb(0, 140, 253, 0.85)!important;
 }
 
-.help1 {
-    margin-bottom:10% !important;
-    margin-top: 12px !important;
-}
 
-.hrc1 {
-    margin-bottom:10px !important;
-    margin-top:10px !important;
-    border-bottom: 3px !important; 
-	border-top: 1px solid white !important;
-}
 
 .kimjestemImg{
     border: 2px solid #fff!important;
@@ -494,7 +499,7 @@ h1, h2, h3, h4, h5, h6,
     text-align: center!important;
     border-radius: 50px;
 
-    padding: 10px 58px;
+    padding: 10px 138px;
     -webkit-font-smoothing: antialiased;
 
     background-size: 300% 100%;
@@ -848,8 +853,8 @@ h1, h2, h3, h4, h5, h6,
 .sectionIndex .box1 {
     align-items: center;
     float: left;
-    left: 0%;
-    bottom: 0%;
+    left: 5%;
+    top: 45%;
     position: absolute;
     max-width: 475px;
     padding-top: 5px;
