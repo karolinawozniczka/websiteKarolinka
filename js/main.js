@@ -159,6 +159,8 @@ $(document).ready(function(){
             $(".navcolorBlack").addClass("navcolorBlack");
             $(".ela").removeClass("navbgchanged");
             $(".ela").addClass("navcolorBlack");
+            $(".elas").removeClass("navbgchanged");
+            $(".elas").addClass("navcolorBlack2");
             $(".zoomnavTest2").addClass("pwhite");
             $(".zoomnavTest").addClass("pwhite");
             $(".o").addClass("pblue");
@@ -180,6 +182,7 @@ $(document).ready(function(){
             $("#responsivelogoPol").addClass("widthclassPol");
 
             $("#navigation").removeClass("navbgchanged");
+            $(".elas").removeClass("navcolorBlack2");
             $(".ela").removeClass("navcolorBlack");
             $(".zoomnavTest2").removeClass("pwhite");
             $(".zoomnavTest").removeClass("pwhite");
