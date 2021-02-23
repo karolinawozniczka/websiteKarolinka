@@ -138,6 +138,7 @@ $(document).ready(function(){
 	
     $(window).scroll(function () {
         if ($(window).scrollTop() > 400) {
+
             $(".navbar-brand a").css("color","#fff");
             $("#navigation").removeClass("animated-header");
             $("#responsivelogoIndex").removeClass("widthclassIndex");
@@ -150,6 +151,7 @@ $(document).ready(function(){
             $("#responsivelogoOferta").addClass("widthclassOferta2");
             $("#responsivelogoDok").addClass("widthclassDok2");
             $("#responsivelogoPol").addClass("widthclassPol2");
+
             $("#navigation").addClass("navbgchanged");
             $(".navcolorRed").removeClass("navbgchanged");
             $(".navcolorRed").addClass("navcolorRed");
@@ -158,8 +160,11 @@ $(document).ready(function(){
             $(".ela").removeClass("navbgchanged");
             $(".ela").addClass("navcolorBlack");
             $(".zoomnavTest2").addClass("pwhite");
+            $(".zoomnavTest").addClass("pwhite");
             $(".o").addClass("pblue");
-            document.getElementById("responsivelogoOmnie").src = 'img/logo/1.png';
+            $(".os").addClass("pred");
+
+
         } else {
             $(".navbar-brand a").css("color","inherit");
             $("#navigation").addClass("animated-header");
@@ -173,10 +178,13 @@ $(document).ready(function(){
             $("#responsivelogoOferta").addClass("widthclassOferta");
             $("#responsivelogoDok").addClass("widthclassDok");
             $("#responsivelogoPol").addClass("widthclassPol");
+
             $("#navigation").removeClass("navbgchanged");
             $(".ela").removeClass("navcolorBlack");
             $(".zoomnavTest2").removeClass("pwhite");
-            document.getElementById("responsivelogoOmnie").src = 'img/logo/3.png';
+            $(".zoomnavTest").removeClass("pwhite");
+
+
         }
     });
 	
