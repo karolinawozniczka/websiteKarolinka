@@ -1727,58 +1727,6 @@ h1.navbar-brand {
     width: 32%;
 }
 
-figcaption.mask0 {
-    background: inherit;
-    background-attachment: fixed;
-    backdrop-filter: blur(2px);
-    bottom: -35px;
-    color: #fff;
-    padding: 5px 17px 17px 17px;
-    position: absolute;
-    width: 100%;
-    text-align: left;
-    
-    -webkit-transition: all 0.4s ease 0s;
-       -moz-transition: all 0.4s ease 0s;
-        -ms-transition: all 0.4s ease 0s;
-         -o-transition: all 0.4s ease 0s;
-            transition: all 0.4s ease 0s;
-}
-
-figcaption.mask0fullcolored {
-    background: inherit;
-    background-attachment: fixed;
-    bottom: -200px;
-    color: #fff;
-    padding: 5px 17px 17px 17px;
-    position: absolute;
-    width: 100%;
-    text-align: left;
-    
-    -webkit-transition: all 0.4s ease 0s;
-       -moz-transition: all 0.4s ease 0s;
-        -ms-transition: all 0.4s ease 0s;
-         -o-transition: all 0.4s ease 0s;
-            transition: all 0.4s ease 0s;
-}
-
-figcaption.mask0full2 {
-    background: inherit;
-    background-attachment: fixed;
-    bottom: -230px;
-    color: #fff;
-    padding: 5px 17px 17px 17px;
-    position: absolute;
-    width: 100%;
-    text-align: left;
-    
-    -webkit-transition: all 0.4s ease 0s;
-       -moz-transition: all 0.4s ease 0s;
-        -ms-transition: all 0.4s ease 0s;
-         -o-transition: all 0.4s ease 0s;
-            transition: all 0.4s ease 0s;
-}
-
 .introgradient {
     text-shadow:none;
     background: linear-gradient(to bottom, rgb(0, 140, 253, 0.78), rgb(16, 146, 253, 0.78), rgb(30, 152, 253, 0.78),
@@ -1793,9 +1741,38 @@ figcaption.mask0full2 {
     text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
 }
 
+figcaption.mask0color.scrim {
+    background: -moz-linear-gradient(90deg, rgba(55,163,252,1) 0%, rgba(55,163,252,0.75) 73%, rgba(55,163,252,0.4) 88%, rgba(55,163,252,0) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(55,163,252,0)), color-stop(12%, rgba(55,163,252,0.4)), color-stop(27%, rgba(55,163,252,0.75)), color-stop(100%, rgba(55,163,252,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(90deg, rgba(55,163,252,1) 0%, rgba(55,163,252,0.75) 73%, rgba(55,163,252,0.4) 88%, rgba(55,163,252,0) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(90deg, rgba(55,163,252,1) 0%, rgba(55,163,252,0.75) 73%, rgba(55,163,252,0.4) 88%, rgba(55,163,252,0) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(90deg, rgba(55,163,252,1) 0%, rgba(55,163,252,0.75) 73%, rgba(55,163,252,0.4) 88%, rgba(55,163,252,0) 100%); /* ie10+ */
+    background: linear-gradient(0deg, rgba(55,163,252,1) 0%, rgba(55,163,252,0.75) 73%, rgba(55,163,252,0.4) 88%, rgba(55,163,252,0) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37a3fc', endColorstr='#37a3fc',GradientType=0 ); /* ie6-9 */
+}
+
+figcaption.mask1color.scrim {
+    background: -moz-linear-gradient(90deg, rgba(55,163,252,1) 0%, rgba(55,163,252,0.75) 73%, rgba(55,163,252,0.4) 88%, rgba(55,163,252,0) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(55,163,252,0)), color-stop(12%, rgba(55,163,252,0.4)), color-stop(27%, rgba(55,163,252,0.75)), color-stop(100%, rgba(55,163,252,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(90deg, rgba(55,163,252,1) 0%, rgba(55,163,252,0.75) 73%, rgba(55,163,252,0.4) 88%, rgba(55,163,252,0) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(90deg, rgba(55,163,252,1) 0%, rgba(55,163,252,0.75) 73%, rgba(55,163,252,0.4) 88%, rgba(55,163,252,0) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(90deg, rgba(55,163,252,1) 0%, rgba(55,163,252,0.75) 73%, rgba(55,163,252,0.4) 88%, rgba(55,163,252,0) 100%); /* ie10+ */
+    background: linear-gradient(0deg, rgba(55,163,252,1) 0%, rgba(55,163,252,0.75) 73%, rgba(55,163,252,0.4) 88%, rgba(55,163,252,0) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37a3fc', endColorstr='#37a3fc',GradientType=0 ); /* ie6-9 */
+}
+
+figcaption.mask3color.scrim {
+    background: -moz-linear-gradient(90deg, rgba(55,163,252,1) 0%, rgba(55,163,252,0.75) 73%, rgba(55,163,252,0.4) 88%, rgba(55,163,252,0) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(55,163,252,0)), color-stop(12%, rgba(55,163,252,0.4)), color-stop(27%, rgba(55,163,252,0.75)), color-stop(100%, rgba(55,163,252,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(90deg, rgba(55,163,252,1) 0%, rgba(55,163,252,0.75) 73%, rgba(55,163,252,0.4) 88%, rgba(55,163,252,0) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(90deg, rgba(55,163,252,1) 0%, rgba(55,163,252,0.75) 73%, rgba(55,163,252,0.4) 88%, rgba(55,163,252,0) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(90deg, rgba(55,163,252,1) 0%, rgba(55,163,252,0.75) 73%, rgba(55,163,252,0.4) 88%, rgba(55,163,252,0) 100%); /* ie10+ */
+    background: linear-gradient(0deg, rgba(55,163,252,1) 0%, rgba(55,163,252,0.75) 73%, rgba(55,163,252,0.4) 88%, rgba(55,163,252,0) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37a3fc', endColorstr='#37a3fc',GradientType=0 ); /* ie6-9 */
+}
+
+
 figcaption.mask0color {
-    background-image: linear-gradient(to bottom, rgb(0, 140, 253, 0.78), rgb(16, 146, 253, 0.78), rgb(30, 152, 253, 0.78),
-    rgb(43, 157, 253, 0.78), rgb(55, 163, 252, 0.78));
     background-attachment: fixed;
     /* backdrop-filter: blur(2px); */
     bottom: -35px;
@@ -1812,65 +1789,11 @@ figcaption.mask0color {
             transition: all 0.4s ease 0s;
 }
 
-figcaption.mask1 {
-    background: inherit;
-    background-attachment: fixed;
-    backdrop-filter: blur(2px);
-    bottom: -55px;
-    color: #fff;
-    padding: 5px 17px 17px 17px;
-    position: absolute;
-    width: 100%;
-    text-align: left;
-    
-    -webkit-transition: all 0.4s ease 0s;
-       -moz-transition: all 0.4s ease 0s;
-        -ms-transition: all 0.4s ease 0s;
-         -o-transition: all 0.4s ease 0s;
-            transition: all 0.4s ease 0s;
-}
-
 figcaption.mask1color {
-    background-image: linear-gradient(to bottom, rgb(0, 140, 253, 0.78), rgb(16, 146, 253, 0.78), rgb(30, 152, 253, 0.78),
-    rgb(43, 157, 253, 0.78), rgb(55, 163, 252, 0.78));
+    /* background-image: linear-gradient(to bottom, rgb(0, 140, 253, 0.78), rgb(16, 146, 253, 0.78), rgb(30, 152, 253, 0.78),
+    rgb(43, 157, 253, 0.78), rgb(55, 163, 252, 0.78)); */
     background-attachment: fixed;
     bottom: -55px;
-    color: #fff;
-    padding: 5px 17px 17px 17px;
-    position: absolute;
-    width: 100%;
-    text-align: left;
-    
-    -webkit-transition: all 0.4s ease 0s;
-       -moz-transition: all 0.4s ease 0s;
-        -ms-transition: all 0.4s ease 0s;
-         -o-transition: all 0.4s ease 0s;
-            transition: all 0.4s ease 0s;
-}
-
-figcaption.mask1fullcolor2 {
-    background-image: linear-gradient(to bottom, rgb(0, 140, 253, 0.78), rgb(16, 146, 253, 0.78), rgb(30, 152, 253, 0.78),
-    rgb(43, 157, 253, 0.78), rgb(55, 163, 252, 0.78));
-    background-attachment: fixed;
-    bottom: -55px;
-    color: #fff;
-    padding: 100%;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    
-    -webkit-transition: all 0.4s ease 0s;
-       -moz-transition: all 0.4s ease 0s;
-        -ms-transition: all 0.4s ease 0s;
-         -o-transition: all 0.4s ease 0s;
-            transition: all 0.4s ease 0s;
-}
-
-figcaption.mask3 {
-    background: inherit;
-    background-attachment: fixed;
-    backdrop-filter: blur(2px);
-    bottom: -75px;
     color: #fff;
     padding: 5px 17px 17px 17px;
     position: absolute;
@@ -1885,28 +1808,10 @@ figcaption.mask3 {
 }
 
 figcaption.mask3color {
-    background-image: linear-gradient(to bottom, rgb(0, 140, 253, 0.78), rgb(16, 146, 253, 0.78), rgb(30, 152, 253, 0.78),
-    rgb(43, 157, 253, 0.78), rgb(55, 163, 252, 0.78));
     background-attachment: fixed;
     bottom: -75px;
     color: #fff;
     padding: 5px 17px 17px 17px;
-    position: absolute;
-    width: 100%;
-    text-align: left;
-    
-    -webkit-transition: all 0.4s ease 0s;
-       -moz-transition: all 0.4s ease 0s;
-        -ms-transition: all 0.4s ease 0s;
-         -o-transition: all 0.4s ease 0s;
-            transition: all 0.4s ease 0s;
-}
-
-figcaption.mask2 {
-    background-color: rgba(54, 55, 50, 0.79);
-    bottom: -35px;
-    color: #fff;
-    padding: 17px;
     position: absolute;
     width: 100%;
     text-align: left;
