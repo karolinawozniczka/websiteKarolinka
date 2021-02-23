@@ -435,9 +435,16 @@
 	<!-- Skrypt do kontaktu -->
 	<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 
-	
 	<script>
-		
+		$(document).ready(function(){
+			$(window).scroll(function () {
+				if ($(window).scrollTop() > 400) {
+					document.getElementById("responsivelogoOmnie").src = 'img/logo/1.png';
+				} else {
+					document.getElementById("responsivelogoOmnie").src = 'img/logo/3.png';
+				}
+			});	
+		});
 	</script>
 
 </body>

@@ -52,7 +52,7 @@
 	<!-- end preloader -->
 
 	<!-- Start -->
-	<header id="navigation" class="navbackground navbar-inverse navbar-fixed-top animated-header" style="background-color:transparent;box-shadow:none">
+	<header id="navigation" class="navbackground navbar-inverse navbar-fixed-top animated-header ela" style="background-color:transparent;box-shadow:none">
 		<div class="container">
 			<div class="navbar-header">
 				
@@ -76,7 +76,7 @@
 			<!-- main nav -->
 			<nav class="collapse navbar-collapse navbar-right" role="navigation">
 				<ul class="nav navbar-nav" style="letter-spacing: -0.8px!important;">
-					<li><a class="zoomnavTest navIndexW" style="color: red;" href="index.html"><b>Strona Główna</b></a></li>
+					<li><a class="zoomnavTest navIndexW os" style="color: red;" href="index.html"><b>Strona Główna</b></a></li>
 					<li><a class="zoomnavTest navOmnieW" style="color: #252525;" href="omnie.html"><b>O mnie</b></a></li>
 					<li><a class="zoomnavTest navOfertaW" style="color: #252525;" href="oferta.html"><b>Oferta</b></a></li>
 					<li><a class="zoomnavTest navDokW" style="color: #252525" href="dokumenty.html"><b>Dokumenty</b></a></li>
@@ -530,6 +530,18 @@
 	<!-- Skrypt do kontaktu -->
 	<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 
+	<script>
+		$(document).ready(function(){
+			$(window).scroll(function () {
+				if ($(window).scrollTop() > 400) {
+					document.getElementById("responsivelogoIndex").src = 'img/logo/8.png';
+				} else {
+					document.getElementById("responsivelogoIndex").src = 'img/logo/7.png';
+				}
+			});	
+		});
+	</script>
 
 </body>
 </html>
+
