@@ -189,6 +189,10 @@ h1, h2, h3, h4, h5, h6,
     color: #02B6EF!important;
 }
 
+.pred {
+    color: red!important;
+}
+
 .pPrywatnosci {
     font-family: 'Open Sans', sans-serif!important;
     line-height: 24px!important;
@@ -405,6 +409,10 @@ h1, h2, h3, h4, h5, h6,
 .zoomnavTest{
     font-size:17px!important;
     transition: transform .5s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
 }
 
 .zoomnavTest:hover {
@@ -584,6 +592,10 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .o{
+
+}
+
+.os{
 
 }
 
@@ -938,6 +950,11 @@ h1, h2, h3, h4, h5, h6,
 
 .navbgchanged2 {
     background-color: red!important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)!important;
+}
+
+.navbgchanged {
+    background-color: black!important;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)!important;
 }
 
