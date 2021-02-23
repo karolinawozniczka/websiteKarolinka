@@ -324,6 +324,12 @@ h1, h2, h3, h4, h5, h6,
     border-width:0!important;
 }
 
+.navcolorBlack2 {
+    /* background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd, #37a3fc)!important; */
+    background-color: rgb(38 38 38)!important;
+    border-width:0!important;
+}
+
 .btnkontakt {
     letter-spacing: 0.15em!important;
 	margin-top:5%!important;
@@ -590,7 +596,9 @@ h1, h2, h3, h4, h5, h6,
 .ela {
 
 }
+.elas {
 
+}
 .o{
 
 }
