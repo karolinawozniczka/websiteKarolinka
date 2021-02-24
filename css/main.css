@@ -1395,7 +1395,8 @@ h1, h2, h3, h4, h5, h6,
 }
 
 #responsivelogoOmnie.widthclassOmnie2 {
-    max-width: 170px;
+    max-width: 195px;
+    top:53%!important;
 }
 
 #responsivelogoOferta {
