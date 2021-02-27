@@ -69,14 +69,14 @@
 
 			<!-- logo -->
 			<h1 class="navbar-brand">
-				<a href="index.html"><img src="img/logo/7.png" id="responsivelogoIndex" class="widthclassIndex"/></a>
+				<a href="index.html"><img src="" style="display:none" id="responsivelogoIndex" class="widthclassIndex"/></a>
 			</h1>
 			<!-- /logo -->
 
 			<!-- main nav -->
 			<nav class="collapse navbar-collapse navbar-right" role="navigation">
 				<ul class="nav navbar-nav" style="letter-spacing: -0.8px!important;">
-					<li><a class="zoomnavTest navIndexW os" style="color: red;" href="index.html"><b>Strona Główna</b></a></li>
+					<li><a class="zoomnavTest navIndexW os" style="color: #02B6EF;" href="index.html"><b>Strona Główna</b></a></li>
 					<li><a class="zoomnavTest navOmnieW" style="color: #252525;" href="omnie.html"><b>O mnie</b></a></li>
 					<li><a class="zoomnavTest navOfertaW" style="color: #252525;" href="oferta.html"><b>Oferta</b></a></li>
 					<li><a class="zoomnavTest navDokW" style="color: #252525" href="dokumenty.html"><b>Dokumenty</b></a></li>
@@ -96,11 +96,11 @@
 				<h2 class="help1">Chcesz umówić się na spotkanie?</h2>
 				<div>
 					<a href="#contact">
-						<button class="color-11 superBtnIndex mb-12">
+						<button class="color-9 superBtnIndex mb-12">
 							SKONTAKTUJ SIĘ!</button></a>
 				</div>
 			</div>
-			<a href="index.html"><img src="img/logo/8.png" style="position:absolute;bottom:1.8%;;margin-left:42.5%;" /></a>
+			<a href="index.html"><img id="logobottom" src="img/logo/1.png" style="position:absolute;bottom:1.8%;;margin-left:42.5%;" /></a>
 		</div>
 		<!-- End -->
 	
@@ -529,18 +529,6 @@
 	<script src="js/main.js"></script>
 	<!-- Skrypt do kontaktu -->
 	<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
-
-	<script>
-		$(document).ready(function(){
-			$(window).scroll(function () {
-				if ($(window).scrollTop() > 400) {
-					document.getElementById("responsivelogoIndex").src = 'img/logo/8.png';
-				} else {
-					document.getElementById("responsivelogoIndex").src = 'img/logo/7.png';
-				}
-			});	
-		});
-	</script>
 
 </body>
 </html>

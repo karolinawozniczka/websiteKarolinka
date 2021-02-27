@@ -64,7 +64,7 @@
 
 			<!-- logo -->
 			<h1 class="navbar-brand">
-				<a href="index.html"><img src="img/logo/3.png" id="responsivelogoOmnie" class="widthclassOmnie"/></a>
+				<a href="index.html"><img src="" style="display:none" id="responsivelogoIndex" class="widthclassIndex"/></a>
 			</h1>
 			<!-- /logo -->
 			
@@ -84,7 +84,7 @@
 	
 	<main class="site-content" role="main">
 		<!-- Start -->
-			<div class="sectionOmnie">
+			<!-- <div class="sectionOmnie">
 				<div class="absolute inset-0 flex items-center justify-left mt-40 ml-32" id="modalEl">
 					<div class="bg-transparent max-w-x1 p-6 text-center">
 						<h1 class="text-5xl font-bold leading-none text-white wow animated zoomIn" data-wow-delay="0.1s"
@@ -105,9 +105,25 @@
 						</div>
 					</div>
 				</div>
-				<a href="index.html"><img src="img/logo/1.png" style="position:absolute;bottom:1.8%;;margin-left:42.5%;" /></a>
-			</div>
+				<a href="index.html"><img id="logobottom" src="img/logo/1.png" style="position:absolute;bottom:1.8%;;margin-left:42.5%;" /></a>
+			</div> -->
 		<!-- End -->
+
+							<!-- Start -->
+							<div class="sectionIndex">
+								<div class="box1 wow animated zoomIn" data-wow-delay="0.1s">
+									<h2 class="ptextIndex strokFront" style="color:#fff!important">Masz dodatkowe pytania?</h2>
+									<hr class=".sec-title hrc2" >
+									<h2 class="help1" style="color:#fff!important;text-shadow: 0px 0px 0px black, 0 0 0px black, 0 0 0.14em black">Chcesz umówić się na spotkanie?</h2>
+									<div>
+										<a href="#contact">
+											<button class="color-9 superBtnIndex mb-12">
+												SKONTAKTUJ SIĘ!</button></a>
+									</div>
+								</div>
+								<a href="index.html"><img id="logobottom" src="img/logo/1.png" style="position:absolute;bottom:1.8%;;margin-left:42.5%;" /></a>
+							</div>
+							<!-- End -->
 			
 		<section id="omnie2" style="background-image: url(img/parallax/paralax.jpg);padding: 0;">
 			<div style="background: rgb(0, 140, 253, 0.9)!important;">
@@ -434,18 +450,6 @@
 	<script src="js/main.js"></script>
 	<!-- Skrypt do kontaktu -->
 	<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
-
-	<script>
-		$(document).ready(function(){
-			$(window).scroll(function () {
-				if ($(window).scrollTop() > 400) {
-					document.getElementById("responsivelogoOmnie").src = 'img/logo/1.png';
-				} else {
-					document.getElementById("responsivelogoOmnie").src = 'img/logo/3.png';
-				}
-			});	
-		});
-	</script>
 
 </body>
 </html>
