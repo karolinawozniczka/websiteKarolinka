@@ -164,8 +164,11 @@ $(document).ready(function(){
             $(".zoomnavTest2").addClass("pwhite");
             $(".zoomnavTest").addClass("pwhite");
             $(".o").addClass("pblue");
-            $(".os").addClass("pred");
-
+            $(".os").addClass("pblue");
+            $("#logobottom").fadeOut("slow");
+            document.getElementById("responsivelogoIndex").src = 'img/logo/1.png';
+            $("#responsivelogoIndex").addClass("disp");
+            $("#responsivelogoIndex").fadeIn("slow");
 
         } else {
             $(".navbar-brand a").css("color","inherit");
@@ -186,6 +189,8 @@ $(document).ready(function(){
             $(".ela").removeClass("navcolorBlack");
             $(".zoomnavTest2").removeClass("pwhite");
             $(".zoomnavTest").removeClass("pwhite");
+            $("#logobottom").fadeIn("slow");
+            document.getElementById("responsivelogoIndex").src = '';
 
 
         }
