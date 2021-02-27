@@ -328,7 +328,7 @@ h1, h2, h3, h4, h5, h6,
 
 .navcolorBlack {
     /* background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd, #37a3fc)!important; */
-    background-color: rgba(0, 0, 0, 0.767)!important;
+    background-color: rgba(0, 0, 0, 0.8)!important;
     border-width:0!important;
 }
 
