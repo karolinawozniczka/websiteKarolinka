@@ -181,6 +181,14 @@ h1, h2, h3, h4, h5, h6,
 	border-top: 1px solid #252525 !important;
 }
 
+.hrc2 {
+    margin-bottom:10px !important;
+    margin-top:10px !important;
+    border-bottom: 3px !important; 
+	border-top: 1px solid #fff !important;
+    box-shadow: 0px 0px 0px black, 0 0 0px black, 0 0 0.08em black;
+}
+
 .pwhite {
     color: #fff!important;
 }
@@ -242,7 +250,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .strokFront {
-    text-shadow: 0px 0px 0px black, 0 0 0px black, 0 0 0.1em black
+    text-shadow: 0px 0px 0px black, 0 0 0px black, 0 0 0.12em black
 }
 
 .strokOferta {
@@ -320,7 +328,7 @@ h1, h2, h3, h4, h5, h6,
 
 .navcolorBlack {
     /* background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd, #37a3fc)!important; */
-    background-color: rgb(0,0,0)!important;
+    background-color: rgba(0, 0, 0, 0.767)!important;
     border-width:0!important;
 }
 
@@ -422,7 +430,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .zoomnavTest:hover {
-    color:red!important;
+    color:#02B6EF!important;
     -ms-transform: scale(1.05); /* IE 9 */
     -webkit-transform: scale(1.05); /* Safari 3-8 */
     transform: scale(1.05); 
@@ -951,6 +959,10 @@ h1, h2, h3, h4, h5, h6,
     overflow: hidden;
 }
 
+.disp{
+    display:unset!important;
+}
+
 .navbgchanged {
     background-color: #fff!important;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)!important;
@@ -962,7 +974,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .navbgchanged {
-    background-color: black!important;
+    background-color: rgba(0, 0, 0)!important;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)!important;
 }
 
@@ -1315,6 +1327,12 @@ h1, h2, h3, h4, h5, h6,
 
 /*	Preloader
 /* ==========================================*/
+
+#logobottom {
+    transition : all .3s;
+    -wekit-transition : all .3s;
+    -moz-transition : all .3s;
+}
 
 #responsivelogoIndex {
     position: relative;
