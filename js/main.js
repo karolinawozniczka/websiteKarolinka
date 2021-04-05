@@ -117,6 +117,79 @@ $(function() {
 
 $(document).ready(function(){
 
+    
+    jQuery('#nav').singlePageNav({
+		offset: jQuery('#nav').outerHeight(),
+		filter: ':not(.external)',
+		speed: 2000,
+		currentClass: 'current',
+		easing: 'easeInOutExpo',
+		updateHash: true,
+		beforeStart: function() {
+			console.log('begin scrolling');
+		},
+		onComplete: function() {
+			console.log('done scrolling');
+		}
+	});
+
+
+    // Reset preference
+localStorage.removeItem('__cookiesAccepted__');
+
+
+(function() {
+
+    'use strict';
+    
+    
+    var storageKey = '__cookiesAccepted__';
+    
+    
+    if (!isStorageAllowed() || isSetPreference()) return;
+    
+    
+    initializeNotice();
+
+    
+    function initializeNotice() {
+        var el = document.querySelector('.cookie-notice');
+        var dismissEl = el.querySelector('.cookie-notice-dismiss');
+
+        el.style.display = 'block';
+
+        dismissEl.addEventListener('click', function() {
+            el.style.display = 'none';
+            setPreferenceAccepted();
+        }, false);
+    }
+    
+    
+    function setPreferenceAccepted() {
+        localStorage.setItem(storageKey, true);
+    }
+    
+    
+    function isSetPreference() {
+        return JSON.parse(localStorage.getItem(storageKey) || false);
+    }
+    
+    
+    function isStorageAllowed() {
+        var test = '__localStorageTest__';
+
+        try {
+            localStorage.setItem(test, test);
+            localStorage.removeItem(test);
+
+            return true;
+        } catch (e) {
+            console.warn('Storage not allowed, please allow cookies');
+            return false;
+        }
+    };
+}());
+
 	/* ========================================================================= */
 	/*	Menu item highlighting
 	/* ========================================================================= */
@@ -252,6 +325,8 @@ $(document).ready(function(){
 			}
 		}
 	});
+
+    
 	
 });
 
@@ -350,4 +425,11 @@ var wow = new WOW ({
 	mobile:       false,       // trigger animations on mobile devices (default is true)
 });
 wow.init();
+
+
+	/* ========================================================================= */
+
+  
+	/* ========================================================================= */
+
 
