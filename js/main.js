@@ -210,7 +210,7 @@ localStorage.removeItem('__cookiesAccepted__');
 	});
 	
     $(window).scroll(function () {
-        if ($(window).scrollTop() > 400) {
+        if ($(window).scrollTop() > 100) {
 
             $(".navbar-brand a").css("color","#fff");
             $("#navigation").removeClass("animated-header");
