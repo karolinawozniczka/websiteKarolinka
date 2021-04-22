@@ -497,9 +497,18 @@ h1, h2, h3, h4, h5, h6,
     transition: all .3s;
 }
 
-.zoomnavTest2:hover {
+/* .zoomnavTest2:hover {
+    color:#02B6EF!important;
+} */
+
+.howerek:hover {
+    color:#337ab7!important;
+}
+
+.howerek2:hover{
     color:#02B6EF!important;
 }
+
 
 .zoomnavTest3{
     font-size:17px!important;
@@ -1427,6 +1436,15 @@ h1, h2, h3, h4, h5, h6,
 #responsivelogoDok.widthclassDok2 {
     max-width: 161px;
 }
+
+.centerek {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
 
 #responsivelogoPol {
     margin-top:1px;
