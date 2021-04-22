@@ -237,6 +237,8 @@ localStorage.removeItem('__cookiesAccepted__');
             $(".zoomnavTest2").addClass("pwhite");
             $(".zoomnavTest").addClass("pwhite");
             $(".o").addClass("pblue");
+            $(".zoomnavTest2").removeClass("howerek");
+            $(".zoomnavTest2").addClass("howerek2");
             $(".os").addClass("pblue");
             $("#logobottom").fadeOut("slow");
             document.getElementById("responsivelogoIndex").src = 'img/logo/1.png';
@@ -256,7 +258,10 @@ localStorage.removeItem('__cookiesAccepted__');
             $("#responsivelogoOferta").addClass("widthclassOferta");
             $("#responsivelogoDok").addClass("widthclassDok");
             $("#responsivelogoPol").addClass("widthclassPol");
-
+            
+            $(".zoomnavTest2").addClass("howerek");
+            $(".zoomnavTest2").removeClass("howerek2");
+            $(".o").removeClass("pblue");
             $("#navigation").removeClass("navbgchanged");
             $(".elas").removeClass("navcolorBlack2");
             $(".ela").removeClass("navcolorBlack");
