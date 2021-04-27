@@ -1101,9 +1101,9 @@ h1, h2, h3, h4, h5, h6,
     background: #fff;
 }
 
-#omnie2 {
+/* #omnie2 {
     background: #008cfd;
-}
+} */
 
 #omnie3 {
     background-color: #fff;
@@ -1148,7 +1148,8 @@ h1, h2, h3, h4, h5, h6,
 
 #omnie2 img {
     border-radius: 1%; 
-    margin-right: 10%;
+    margin-right: 5%;
+    margin-bottom: 2%;
     display: block;
     height: auto;
     max-width: 400px;
@@ -1544,7 +1545,7 @@ h1.navbar-brand {
 
 
 .stefan {
-    margin-top:7%;
+    margin-top:4%;
     display: inline-flex;
     position: relative;
     overflow: hidden;
@@ -1557,16 +1558,16 @@ h1.navbar-brand {
     justify-content: center;
 }
 .stefan-item {
-    color: #fff;
+    color: #252525;
     padding: 20px;
     text-decoration: none;
     transition: 0.3s;
     margin: 0 6px;
     z-index: 1;
     font-family: 'Open sans', sans-serif;
-    font-weight: 500;
     position: relative;
     cursor: pointer;
+    font-weight: 500;
 }
 .stefan-item:before {
     content: "";
