@@ -182,14 +182,14 @@ h1, h2, h3, h4, h5, h6,
     margin: 0 auto; /* This will center the border. */
     width: 40%; /* Change this to whatever width you want. */
     padding-top: 20px; /* This creates some space between the element and the border. */
-    border-bottom: 1px solid #009ee3; /* This creates the border. Replace black with whatever color you want. */
+    border-bottom: 5px solid #009ee3; /* This creates the border. Replace black with whatever color you want. */
     width: 115px;
 }
 
 .tytulOferta1{ /* ach22*/
     margin-top: 14% !important;
     font-family: 'Open sans', sans-seri;
-    color: #252525;
+    color: #29302B;
     font-size: 30px;
     font-weight: 400;
     line-height: 1.35;
@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6,
 .tytulOferta2{ /* ach2*/
     margin-bottom: 2.625rem;
     font-family: 'Open sans', sans-seri;
-    color: #252525;;
+    color: #29302B;;
     font-size: 30px;
     font-weight: 400;
     line-height: 1.35;
@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6,
 .pfontOferta {
     /* #2e2d2d; */
     font-size: 16px;
-    color :#252525;
+    color :#29302B;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -1299,7 +1299,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .sec-title h2:after {
-    border-bottom: 1px solid #009ee3;
+    border-bottom: 5px solid #009ee3;
     content: "";
     display: block;
     left: 45%;
@@ -1309,7 +1309,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .sec-title2 h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #fff;
     content: "";
     display: block;
     left: 45%;
@@ -1319,7 +1319,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .sec-title5 h2:after {
-    border-bottom: 1px solid #03131a;
+    border-bottom: 5px solid #03131a;
     content: "";
     display: block;
     left: 44%;
@@ -1329,7 +1329,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .sec-title3 h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #fff;
     content: "";
     display: block;
     left: 45%;
@@ -1339,19 +1339,19 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .sec-title.white h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #fff;
 }
 
 .sec-title3.white h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #fff;
 }
 
 .sec-title2.white h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #fff;
 }
 
 .sec-title5.white h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #fff;
 }
 
 .parallax {
@@ -2179,15 +2179,15 @@ ul.external li a:hover {
 }
 
 #testimonials .sec-title h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #fff;
 }
 
 #testimonials .sec-title2 h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #fff;
 }
 
 #testimonials .sec-title5 h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #fff;
 }
 
 
