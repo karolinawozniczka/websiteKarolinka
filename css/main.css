@@ -105,6 +105,33 @@ h1, h2, h3, h4, h5, h6,
 }
 
  /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+ .Row {
+    display: block;
+    width: 100%; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.Column {
+    display: table-cell;
+}
+
+.main-title{
+    font-size: 58px;
+}
+
+.n1{
+    color: #29302b!important;
+}
+ .n1::after{    
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    padding-top: 40px;
+    border-bottom: 5px solid #F9A01B;
+    width: 115px;
+}
+
  /* !!!!!!!!!!!!!!!   CSS  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
  .half-half-image-text {
@@ -112,6 +139,7 @@ h1, h2, h3, h4, h5, h6,
   }
   .half-half-image-text h1 {
     color: #800000;
+    font-size: 28px;
   }
   .half-half-image-text .content {
     height: 100%;
@@ -121,12 +149,14 @@ h1, h2, h3, h4, h5, h6,
     background-position: center;
   }
   .half-half-image-text .content p {
-    font-size: 22px;
+    font-size: 16px;
+    color: #29302B;
+    line-height: 30px;
   }
   .half-half-image-text .img {
     min-height: 620px;
     height: 100%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
   }
 
 
