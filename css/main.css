@@ -122,6 +122,13 @@ h1, h2, h3, h4, h5, h6,
     line-height: 95%;
 }
 
+.n2{
+    font-family: "Abhaya Libre", serif!important;
+    font-size:52px!important;
+    color: #29302b!important;
+    font-weight:600;
+}
+
 .n1{
     color: #29302b!important;
 }
@@ -132,6 +139,19 @@ h1, h2, h3, h4, h5, h6,
     width: 40%;
     padding-top: 40px;
     border-bottom: 5px solid #F9A01B;
+    width: 115px;
+}
+
+.n3{
+    color: #29302b!important;
+}
+ .n3::after{    
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    padding-top: 40px;
+    border-bottom: 5px solid #009ee3;
     width: 115px;
 }
 
@@ -434,7 +454,7 @@ h1, h2, h3, h4, h5, h6,
 
 .navcolorBlack {
     /* background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd, #37a3fc)!important; */
-    background-color: rgba(0, 0, 0, 0.8)!important;
+    background-color: rgba(0, 0, 0, 0.8)!important; 
     border-width:0!important;
 }
 
@@ -478,7 +498,6 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .ikoneczka {
-    border: 2px solid #fff;
     border-radius: 50%;
     margin-right: 14%;
     max-width: 435px;
@@ -525,6 +544,16 @@ h1, h2, h3, h4, h5, h6,
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1); 
 }
+
+.zoomnavNew{
+    font-size:17px!important;
+    transition: transform .5s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
 
 .zoomnavTest{
     font-size:17px!important;
@@ -2326,6 +2355,7 @@ ul.external li a:hover {
 }
 
 .form-control {
+    background-color: #F8F5F2;
     border: 1px solid #ececec;
     border-radius: 0;
     box-shadow: none;
@@ -2770,6 +2800,7 @@ textarea.form-control {
     .service-item {
         width: 100%;
     }
+
 
 /*portfolio*/
     .portfolio-item {
