@@ -48,7 +48,8 @@
 	<!--
 	Fixed Navigation
 	==================================== -->
-	<header id="navigation" class="navbackground navbar-inverse navbar-fixed-top animated-header ela"  style="background-color:transparent;box-shadow:none">
+	<header id="navigation" class="navcolorBlack navbar-inverse navbar-fixed-top animated-header"  
+	style="background-color:transparent;box-shadow:none; border:none">
 		<div class="container">
 			<div class="navbar-header">
 				<!-- responsive nav button -->
@@ -63,18 +64,18 @@
 
 			<!-- logo -->
 			<h1 class="navbar-brand">
-				<a href="index.html"><img src="" style="display:none" id="responsivelogoIndex" class="widthclassIndex"/></a>
+				<a href="index.html"><img src="img/logo/1.png" id="omnielogo"  class="widthclassIndex"/></a>
 			</h1>
 			<!-- /logo -->
-
+			
 			<!-- main nav -->
 			<nav class="collapse navbar-collapse navbar-right" role="navigation">
 				<ul class="nav navbar-nav" style="letter-spacing: -0.8px!important;">
-					<li><a class="zoomnavTest2 howerek" style="color: #252525;" href="index.html"><b>Strona Główna</b></a></li>
-					<li><a class="zoomnavTest2 howerek" style="color: #252525" href="omnie.html"><b>O mnie</b></a></li>
-					<li><a class="zoomnavTest2 o howerek"  style="color: #337ab7;" href="oferta.html"><b>Oferta</b></a></li>
-					<!-- <li><a class="zoomnavTest2" style="color: #252525" href="dokumenty.html"><b>Dokumenty</b></a></li> -->
-					<li><a class="zoomnavTest2 howerek" style="color: #252525" href="index.html#contact"><b>Kontakt</b></a></li>
+					<li><a class="zoomnavTest o " style="color: #02B6EF;font-weight:bold" href="index.html"><b>Strona Główna</b></a></li>
+					<li><a class="zoomnavTest" href="omnie.html"><b>O mnie</b></a></li>
+					<li><a class="zoomnavTest" href="oferta.html"><b>Oferta</b></a></li>
+					<!-- <li><a class="zoomnavTest navDokW" style="color: #252525" href="dokumenty.html"><b>Dokumenty</b></a></li> -->
+					<li><a class="zoomnavTest" href="index.html#contact"><b>Kontakt</b></a></li>
 				</ul>
 			</nav>
 			<!-- /main nav -->
@@ -82,24 +83,8 @@
 	</header>
 	
 	<main class="site-content" role="main" style="background-color: #F8F5F2;">
-		<!-- Start -->
-		<div class="sectionIndex">
-			<div class="box1">
-				<div class="animated fadeInDown" data-wow-delay="0.1s">
-					<h2 class="ptextIndex">Masz dodatkowe pytania?</h2>
-					<hr class=".sec-title hrc1">
-					<h2 class="help1">Chcesz umówić się na spotkanie?</h2>
-				</div>
-					<a href="#contact">
-						<button class="color-9 superBtnIndex mb-12">
-							SKONTAKTUJ SIĘ!</button></a>
-				</div>
-			</div>
-			<a href="index.html"><img id="logobottom" src="img/logo/1.png" style="position:absolute;bottom:1.8%;;margin-left:42.5%;" /></a>
-		</div>
-		<!-- End -->
-		
-		<section id="ofertaOferty">
+		<!-- Start -->		
+		<section id="ofertaOferty" style="padding:90px 0!important;background-color: #F8F5F2;">
 			<div id="indywidualne" class="row" style="margin-left: 0 !important; margin-right: 0 !important;">
 				<div class="col-md-6" style="padding-left: 0 !important;padding-right: 0 !important">
 					<img src="img/indy2.jpg" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;max-width:100%; max-height:100%;">
@@ -161,7 +146,7 @@
 				</div>
 			</div>
 
-			<div id="sztab" class="row" style="background-color: #f8f8f8;margin-left: 0 !important; margin-right: 0 !important;">
+			<div id="sztab" class="row" style="background-color: #F8F5F2;margin-left: 0 !important; margin-right: 0 !important;">
 				<div class="col-md-6">
 								<h1 class="tytulOferta2 text-center" style="margin-top:20%!important;margin-bottom:20px !important;margin-left:5%; margin-right:5%">Praca ze sztabem</h1>
 								<p class="pfontOferta">
@@ -193,10 +178,10 @@
 								</p>
 				</div>
 			</div>
-
-			<div id="zdalne" class="row" style="background-color: #f8f8f8;margin-left: 0 !important; margin-right: 0 !important;">
+			<div id="zdalne" class="row" style="background-color: #F8F5F2;margin-left: 0 !important; margin-right: 0 !important;">
 				<div class="col-md-6">
-								<h1 class="tytulOferta2 text-center" style="margin-top:22%!important;margin-bottom:20px !important;margin-left:5%; margin-right:5%">Spotkania online</h1>
+								<h1 class="tytulOferta2 text-center" style="margin-top:22%!important;margin-bottom:20px !important;
+								margin-left:5%; margin-right:5%">Spotkania online</h1>
 								<p class="pfontOferta">Indywidualne konsultacje z psychologiem.
 									Ciężka emocjonalnie chwila, stres przed jutrzejszym startem, problem z przetrawieniem
 									błędu porażki i resetem głowy … lub każda inna sytuacja, która Cię przytłacza i 
@@ -209,103 +194,6 @@
 				</div>
 			</div>
 		</section>
-
-		<!-- Testimonial section -->
-		<!-- <section id="testimonials" class="parallax">
-			<div class="overlay" style="background: rgb(0, 140, 253, 0.85)!important;">
-				<div class="container">
-					<div class="row">
-						<div class="sec-title text-center white wow animated fadeInDown" style="visibility: hidden; animation-name: none;">
-							<h2 class="stroknav">Czy warto ?</h2>
-						</div>
-						<div id="testimonial" class="wow animated fadeInUp owl-carousel owl-theme" style="opacity: 1; display: block; visibility: hidden; animation-name: none;">
-							<div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 7020px; left: 0px; display: block; transition: all 0ms ease 0s; transform: translate3d(0px, 0px, 0px);"><div class="owl-item" style="width: 1170px;"><div class="testimonial-item text-center">
-								<img src="img/member-1.jpg" alt="Our Clients">
-								<div class="clearfix">
-									<span class="stroknav">Katty Flower</span>
-									<p class="stroknav">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-								</div>
-							</div></div><div class="owl-item" style="width: 1170px;"><div class="testimonial-item text-center">
-								<img src="img/member-1.jpg" alt="Our Clients">
-								<div class="clearfix">
-									<span class="stroknav">Katty Flower</span>
-									<p class="stroknav">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-								</div>
-							</div></div><div class="owl-item" style="width: 1170px;"><div class="testimonial-item text-center">
-								<img src="img/member-1.jpg" alt="Our Clients">
-								<div class="clearfix">
-									<span class="stroknav">Katty Flower</span>
-									<p class="stroknav">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-								</div>
-							</div></div></div></div>
-						<div class="owl-controls clickable"><div class="owl-buttons"><div class="owl-prev"><i class="fa fa-angle-left fa-lg"></i></div><div class="owl-next"><i class="fa fa-angle-right fa-lg"></i></div></div></div></div>
-					</div>
-				</div>
-			</div>
-		</section> -->
-		<!-- end Testimonial section -->
-		
-		<!-- Contact section -->
-		<!-- <section id="contact" style="background-color: #fff;">
-			<div class="container">
-				<div class="row">					
-					<div class="sec-title text-center wow animated fadeInDown" style="visibility: hidden;
-						animation-name: none;">
-						<h2>Kontakt</h2>
-						<p>Zapraszam do kontaktu</p>
-					</div>					
-					<div class="col-md-5 col-md-offset-2 contact-form wow animated fadeInLeft klasa" style="visibility: hidden;
-						animation-name: none;">
-						<form class="gform" action="https://script.google.com/macros/s/AKfycbze1rU-St2wu3M2TRwBnaTo
-							FbyKqK91Yho-ySp3UR8bWOIuB3Q/exec" method="post">
-							<div class="input-field">
-								<input type="text" name="name" style="width:98%;margin-left: auto;" class="form-control" placeholder="Imię..." required="">
-							</div>
-							<div class="input-field">
-								<input type="email" name="email" style="width:98%;margin-left: auto;"  class="form-control" placeholder="Adres email..." required="">
-							</div>
-							<div class="input-field">
-								<textarea name="message" style="min-height: 155px;width:98%;margin-left: auto;max-height:260px"  class="form-control" placeholder="Twoja wiadomość..." required=""></textarea>
-							</div>
-							<div class="form-check" style="float:right">
-								<input type="checkbox" class="form-check-input" id="myCheck" name="test">
-								<label style="margin-top:1%" class="form-check-label" for="exampleCheck1">
-									Wyrażam zgodę na przetwarzanie danych osobowych.</label>
-							  </div>
-							  <div style="margin-top:45px;display: flex;justify-content: center;">
-								<button onclick="myFunction()" style="margin: 0 auto;margin-left: 290px;margin-top:10%!important;margin-bottom:5%!important;" class="btn-hover color-9"><b>Wyślij</b></button>
-								<br/><br/>
-								<div style="display:none" class="thankyou_message">
-									<h2 class="h222">
-										<em>Dziękuję</em> za kontakt ! Wkrótce się odezwę. 
-									</h2>
-								</div>
-							</div>
-						</form>
-					</div>
-					<div class="col-md-5 wow animated fadeInRight" style="visibility: hidden; animation-name: none;">
-						<address class="contact-details">
-							<h3>Skontaktuj się</h3>						
-							<i style="margin-left:4px;position:absolute;margin-top:10px;font-size:35px!important;" 
-							class="fa2 fa-map-marker" aria-hidden="true"></i>
-								<p style="margin-left:40px!important;display:inline;">
-									Bezpośrednie, indywidualne konsultacje <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									możliwe w <b>Katowicach</b> oraz <b>Krakowie</b>.<br/></p></i>
-							<i class="fa2 fa-phone" style="margin-top:10px;position:absolute;"></i>
-								<p style="margin-top:7px;margin-left:40px!important;">
-								<a href="tel:+48507445666">(+48) 507 445 666<br/></a></p>
-							<i style="position:absolute;margin-top:14px!important;" class="fa1 fa-envelope"></i>
-								<p style="margin-left:40px!important;margin-top:12px!important;">
-									<a href="mailto:kwozniczka@email.com">kwozniczka@email.com<br/></a></p>
-							<a href="https://www.facebook.com/KarolinaWozniczkaPsychologiaSportu">
-								<i class="fa1 fa-facebook" aria-hidden="true" style="margin-top:12px;margin-left:4px;position:absolute;font-size:29px;"></i>
-									<p style="margin-top:11px;margin-left:40px!important;">KarolinaWozniczkaPsychologiaSportu</p></a>
-						</address>
-					</div>
-				</div>
-			</div>
-		</section> -->
-		<!-- end Contact section -->
 	</main>
 
 		<!-- Cookies section -->
