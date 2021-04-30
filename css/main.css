@@ -117,6 +117,9 @@ h1, h2, h3, h4, h5, h6,
 
 .main-title{
     font-size: 58px;
+    white-space: nowrap;
+
+    line-height: 95%;
 }
 
 .n1{
@@ -173,7 +176,7 @@ h1, h2, h3, h4, h5, h6,
 
 #ofertaOferty{
     padding-bottom: 0!important;
-    padding-top:0!important
+    padding-top:0!important;
 }
 
 #ofertaOferty h1:after {
@@ -534,9 +537,6 @@ h1, h2, h3, h4, h5, h6,
 
 .zoomnavTest:hover {
     color:#02B6EF!important;
-    -ms-transform: scale(1.05); /* IE 9 */
-    -webkit-transform: scale(1.05); /* Safari 3-8 */
-    transform: scale(1.05); 
 }
 
 .zoomnavTest2{
@@ -1445,6 +1445,28 @@ h1, h2, h3, h4, h5, h6,
     transition : all .3s;
     -wekit-transition : all .3s;
     -moz-transition : all .3s;
+}
+
+#omnielogo{
+    position: relative;
+	max-width: 200px;
+    top: 49%; 
+	transform: translateY(-50%);
+
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+     -ms-transition: all 0.8s ease 0s;
+      -o-transition: all 0.8s ease 0s;
+         transition: all 0.8s ease 0s;
+}
+
+#omnielogo.widthclassIndex {
+    max-width: 237px;
+}
+
+#omnielogo.widthclassIndex2 {
+    max-width: 200px;
+    top: 49%!important; 
 }
 
 #responsivelogoIndex {
