@@ -118,8 +118,22 @@ h1, h2, h3, h4, h5, h6,
 .main-title{
     font-size: 58px;
     white-space: nowrap;
-
+    font-family: "Abhaya Libre", serif!important;
     line-height: 95%;
+}
+
+.pnewMain{
+    font-style: normal!important;
+    font-weight: normal!important;
+    font-size: 18px!important;
+    line-height: 32px!important;
+}
+
+.pnew{
+    font-style: normal!important;
+    font-weight: normal!important;
+    font-size: 17px!important;
+    line-height: 32px!important;
 }
 
 .n2{
@@ -144,6 +158,8 @@ h1, h2, h3, h4, h5, h6,
 
 .n3{
     color: #29302b!important;
+    font-family: "Abhaya Libre", serif!important;
+    font-size:32px!important;
 }
  .n3::after{    
     content: "";
@@ -155,6 +171,20 @@ h1, h2, h3, h4, h5, h6,
     width: 115px;
 }
 
+.n4{
+    color: #29302b!important;
+    font-family: "Abhaya Libre", serif!important;
+    font-size:38px!important;
+}
+ .n4::after{    
+    content: "";
+    display: block;
+    margin: 0 40px;
+    width: 40%;
+    padding-top: 40px;
+    border-bottom: 5px solid #009ee3;
+    width: 115px;
+}
 
  /* !!!!!!!!!!!!!!!   CSS  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
