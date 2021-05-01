@@ -1861,11 +1861,12 @@ h1.navbar-brand {
             transition: all 0.3s ease 0s;
 }
 
-.service-item:hover .service-icon {
+/* .service-item:hover .service-icon {
     border: 3px solid #009ee3;
+    border-radius:100px;
     margin-bottom: 20px;
     color: #009ee3;
-}
+} */
 
 .service-icon i {
     -webkit-transform: rotate(-48deg);
@@ -1878,7 +1879,6 @@ h1.navbar-brand {
 .service-item h3 {
     font: 'Open sans';
     font-size: 14px;
-    text-transform: uppercase;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale !important; 
