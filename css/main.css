@@ -105,9 +105,120 @@ h1, h2, h3, h4, h5, h6,
 }
 
  /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+ .Row {
+    display: block;
+    width: 100%; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.Column {
+    display: table-cell;
+}
+
+.main-title{
+    font-size: 58px;
+    white-space: nowrap;
+    font-family: "Abhaya Libre", serif!important;
+    line-height: 95%;
+}
+
+.pnewMain{
+    font-style: normal!important;
+    font-weight: normal!important;
+    font-size: 18px!important;
+    line-height: 32px!important;
+}
+
+.pnew{
+    font-style: normal!important;
+    font-weight: normal!important;
+    font-size: 17px!important;
+    line-height: 32px!important;
+    color: #29302b!important;
+}
+
+.n2{
+    font-family: "Abhaya Libre", serif!important;
+    font-size:52px!important;
+    color: #29302b!important;
+    font-weight:600;
+}
+
+.n1{
+    color: #29302b!important;
+}
+ .n1::after{    
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    padding-top: 40px;
+    border-bottom: 5px solid #009ee3;
+    width: 115px;
+}
+
+.n3{
+    color: #29302b!important;
+    font-family: "Abhaya Libre", serif!important;
+    font-size:32px!important;
+}
+ .n3::after{    
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    padding-top: 40px;
+    border-bottom: 5px solid #009ee3;
+    width: 115px;
+}
+
+.n5{
+    color: #29302b!important;
+    font-family: "Abhaya Libre", serif!important;
+    font-size:41px!important;
+}
+
+.n4{
+    color: #29302b!important;
+    font-family: "Abhaya Libre", serif!important;
+    font-size:41px!important;
+}
+ .n4::after{    
+    content: "";
+    display: block;
+    margin: 0 40px;
+    width: 40%;
+    padding-top: 40px;
+    border-bottom: 5px solid #009ee3;
+    width: 115px;
+}
+
  /* !!!!!!!!!!!!!!!   CSS  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-
+ .half-half-image-text {
+    padding: 70px 0px;
+  }
+  .half-half-image-text h1 {
+    color: #800000;
+    font-size: 28px;
+  }
+  .half-half-image-text .content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 35px 0px;
+    background-position: center;
+  }
+  .half-half-image-text .content p {
+    font-size: 16px;
+    color: #29302B;
+    line-height: 30px;
+  }
+  .half-half-image-text .img {
+    min-height: 620px;
+    height: 100%;
+    /* border-radius: 10px; */
+  }
 
 
 
@@ -123,7 +234,7 @@ h1, h2, h3, h4, h5, h6,
 
 #ofertaOferty{
     padding-bottom: 0!important;
-    padding-top:0!important
+    padding-top:0!important;
 }
 
 #ofertaOferty h1:after {
@@ -132,14 +243,14 @@ h1, h2, h3, h4, h5, h6,
     margin: 0 auto; /* This will center the border. */
     width: 40%; /* Change this to whatever width you want. */
     padding-top: 20px; /* This creates some space between the element and the border. */
-    border-bottom: 1px solid #009ee3; /* This creates the border. Replace black with whatever color you want. */
+    border-bottom: 5px solid #009ee3; /* This creates the border. Replace black with whatever color you want. */
     width: 115px;
 }
 
 .tytulOferta1{ /* ach22*/
     margin-top: 14% !important;
     font-family: 'Open sans', sans-seri;
-    color: #252525;
+    color: #29302B;
     font-size: 30px;
     font-weight: 400;
     line-height: 1.35;
@@ -148,7 +259,7 @@ h1, h2, h3, h4, h5, h6,
 .tytulOferta2{ /* ach2*/
     margin-bottom: 2.625rem;
     font-family: 'Open sans', sans-seri;
-    color: #252525;;
+    color: #29302B;;
     font-size: 30px;
     font-weight: 400;
     line-height: 1.35;
@@ -157,7 +268,7 @@ h1, h2, h3, h4, h5, h6,
 .pfontOferta {
     /* #2e2d2d; */
     font-size: 16px;
-    color :#252525;
+    color :#29302B;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -381,7 +492,7 @@ h1, h2, h3, h4, h5, h6,
 
 .navcolorBlack {
     /* background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd, #37a3fc)!important; */
-    background-color: rgba(0, 0, 0, 0.8)!important;
+    background-color: rgba(0, 0, 0, 0.8)!important; 
     border-width:0!important;
 }
 
@@ -425,10 +536,9 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .ikoneczka {
-    border: 2px solid #fff;
     border-radius: 50%;
     margin-right: 14%;
-    max-width: 435px;
+    max-width: 160px;
     display: block;
     height: auto;
     /* margin-bottom: 10%; */
@@ -473,6 +583,16 @@ h1, h2, h3, h4, h5, h6,
     transform: scale(1.1); 
 }
 
+.zoomnavNew{
+    font-size:17px!important;
+    transition: transform .5s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+
 .zoomnavTest{
     font-size:17px!important;
     transition: transform .5s;
@@ -484,9 +604,6 @@ h1, h2, h3, h4, h5, h6,
 
 .zoomnavTest:hover {
     color:#02B6EF!important;
-    -ms-transform: scale(1.05); /* IE 9 */
-    -webkit-transform: scale(1.05); /* Safari 3-8 */
-    transform: scale(1.05); 
 }
 
 .zoomnavTest2{
@@ -1249,7 +1366,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .sec-title h2:after {
-    border-bottom: 1px solid #009ee3;
+    border-bottom: 5px solid #009ee3;
     content: "";
     display: block;
     left: 45%;
@@ -1259,7 +1376,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .sec-title2 h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #fff;
     content: "";
     display: block;
     left: 45%;
@@ -1269,7 +1386,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .sec-title5 h2:after {
-    border-bottom: 1px solid #03131a;
+    border-bottom: 5px solid #03131a;
     content: "";
     display: block;
     left: 44%;
@@ -1279,7 +1396,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .sec-title3 h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #fff;
     content: "";
     display: block;
     left: 45%;
@@ -1289,19 +1406,19 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .sec-title.white h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #fff;
 }
 
 .sec-title3.white h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #fff;
 }
 
 .sec-title2.white h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #fff;
 }
 
 .sec-title5.white h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #fff;
 }
 
 .parallax {
@@ -1395,6 +1512,28 @@ h1, h2, h3, h4, h5, h6,
     transition : all .3s;
     -wekit-transition : all .3s;
     -moz-transition : all .3s;
+}
+
+#omnielogo{
+    position: relative;
+	max-width: 200px;
+    top: 49%; 
+	transform: translateY(-50%);
+
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+     -ms-transition: all 0.8s ease 0s;
+      -o-transition: all 0.8s ease 0s;
+         transition: all 0.8s ease 0s;
+}
+
+#omnielogo.widthclassIndex {
+    max-width: 237px;
+}
+
+#omnielogo.widthclassIndex2 {
+    max-width: 200px;
+    top: 49%!important; 
 }
 
 #responsivelogoIndex {
@@ -1759,11 +1898,12 @@ h1.navbar-brand {
             transition: all 0.3s ease 0s;
 }
 
-.service-item:hover .service-icon {
+/* .service-item:hover .service-icon {
     border: 3px solid #009ee3;
+    border-radius:100px;
     margin-bottom: 20px;
     color: #009ee3;
-}
+} */
 
 .service-icon i {
     -webkit-transform: rotate(-48deg);
@@ -1776,7 +1916,6 @@ h1.navbar-brand {
 .service-item h3 {
     font: 'Open sans';
     font-size: 14px;
-    text-transform: uppercase;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale !important; 
@@ -2129,15 +2268,15 @@ ul.external li a:hover {
 }
 
 #testimonials .sec-title h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #fff;
 }
 
 #testimonials .sec-title2 h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #fff;
 }
 
 #testimonials .sec-title5 h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #fff;
 }
 
 
@@ -2254,6 +2393,7 @@ ul.external li a:hover {
 }
 
 .form-control {
+    background-color: #F8F5F2;
     border: 1px solid #ececec;
     border-radius: 0;
     box-shadow: none;
@@ -2698,6 +2838,7 @@ textarea.form-control {
     .service-item {
         width: 100%;
     }
+
 
 /*portfolio*/
     .portfolio-item {
