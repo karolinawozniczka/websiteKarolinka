@@ -182,6 +182,8 @@ h1, h2, h3, h4, h5, h6,
     color: #29302b!important;
     font-family: "Abhaya Libre", serif!important;
     font-size:41px!important;
+    font-style: normal;
+    font-weight: bold;
 }
  .n4::after{    
     content: "";
