@@ -443,6 +443,12 @@ h1, h2, h3, h4, h5, h6,
     text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
 }
 
+#intro{
+    padding: 10px 0 10px 0;
+	/* background: linear-gradient(90deg, #F3E3E6 56%,#453b3e 44%); */
+    background: linear-gradient(90deg, #e3e4e9 56%,#3f4043 44%);
+}
+
 /* =================================== */
 /*   Nawigacja  */
 
@@ -757,6 +763,12 @@ h1, h2, h3, h4, h5, h6,
     transition: all .4s ease-in-out;
 }
 
+.mobileimg{
+    margin: 100px 0;
+    min-height: 590px!important;
+    min-width:600px;
+}
+
 .superBtnIndex:hover {
     background-position: 100% 0;
     moz-transition: all .4s ease-in-out;
@@ -782,6 +794,17 @@ h1, h2, h3, h4, h5, h6,
     text-transform: uppercase;
 }
 
+.usunmargin{
+    padding-top: 90px;
+}
+
+.buttonkontakt{
+    margin: 0 auto;
+    margin-left: 290px;
+    margin-top:10%!important;
+	margin-bottom:5%!important;
+}
+
 .ela {
 
 }
@@ -793,6 +816,10 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .os{
+
+}
+
+.navpadding{
 
 }
 
@@ -2593,6 +2620,7 @@ textarea.form-control {
         margin-bottom: 30px;
     }
 
+   
 
 
 /* portfolio */
@@ -2700,6 +2728,125 @@ textarea.form-control {
     }
 }
 
+/* Moje queries mobilki*/
+
+@media (max-width: 320px) {
+    .n2{
+        margin-top:10%!important;
+        font-size:3.4em!important;
+        margin-left:2%!important;
+    }
+    #intro{
+        background: linear-gradient(180deg, #e3e4e9 56%,#3f4043 44%)!important;
+    }
+    .usunmargin{
+        padding-top: 0!important;
+    }
+    .pnewMain{
+        margin-top:1%!important;
+        margin-left:2%!important;
+    }
+    .mobileimg{
+        margin: 0 5% 4% 5%!important;
+        min-height: 420px!important;
+        min-width:100px;
+        max-width:600px!important;
+    }
+    .navpadding{
+        padding: 0 0 0 0!important;
+    }
+    #omnielogo{
+        top:-80%!important;
+    }
+    .btn-hover{
+        padding: 17px 60px!important;
+        width:250px;
+    }
+    .buttonkontakt{
+        margin-left:0;
+        margin: 0 0!important;
+    }
+ }
+
+@media (min-width: 321px) and (max-width: 480px) {
+    .n2{
+        margin-top:10%!important;
+        font-size:3.4em!important;
+        margin-left:2%!important;
+    }
+    #intro{
+        background: linear-gradient(180deg, #e3e4e9 56%,#3f4043 44%)!important;
+    }
+    .usunmargin{
+        padding-top: 0!important;
+    }
+    .pnewMain{
+        margin-top:1%!important;
+        margin-left:2%!important;
+    }
+    .mobileimg{
+        margin: 0 5% 4% 5%!important;
+        min-height: 420px!important;
+        min-width:100px;
+        max-width:600px!important;
+    }
+    .navpadding{
+        padding: 0 0 0 0!important;
+    }
+    #omnielogo{
+        top:-80%!important;
+    }
+    .btn-hover{
+        padding: 17px 60px!important;
+        width:250px;
+    }
+    .buttonkontakt{
+        margin-left:0;
+        margin: 0 0!important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 759px) {
+    .n2{
+        margin-top:10%!important;
+        font-size:3.4em!important;
+        margin-left:2%!important;
+    }
+    #intro{
+        background: linear-gradient(180deg, #e3e4e9 56%,#3f4043 44%)!important;
+    }
+    .usunmargin{
+        padding-top: 0!important;
+    }
+    .pnewMain{
+        margin-top:1%!important;
+        margin-left:2%!important;
+    }
+    .mobileimg{
+        margin: 0 5% 4% 5%!important;
+        min-height: 420px!important;
+        min-width:100px;
+        max-width:600px!important;
+    }
+    .navpadding{
+        padding: 0 0 0 0!important;
+    }
+    #omnielogo{
+        top:-80%!important;
+    }
+    .buttonkontakt{
+        margin-left:0;
+        margin: 0 0!important;
+    }
+ }
+
+/* bigger than iPad portrait  */
+@media (min-width:760px) and (max-width:991px) {
+    .buttonkontakt{
+        margin-left:0;
+        margin: 0 0!important;
+    }
+}
 
 /*============================================================
 	Mobile (Portrait) Design for a width of 320px
@@ -3200,6 +3347,7 @@ textarea.form-control {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1182px) {
+
     .tytulOferta1 {
         font-size: 14px;
         margin-bottom:0!important;
