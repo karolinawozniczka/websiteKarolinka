@@ -446,7 +446,11 @@ h1, h2, h3, h4, h5, h6,
 #intro{
     padding: 10px 0 10px 0;
 	/* background: linear-gradient(90deg, #F3E3E6 56%,#453b3e 44%); */
-    background: linear-gradient(90deg, #e3e4e9 56%,#3f4043 44%);
+    background: linear-gradient(90deg, #e3e4e9   56%,#3f4043  44%);
+    /* background: #FFEFBA;  
+background: -webkit-linear-gradient(to right, #FFFFFF, #017BFF);  
+background: linear-gradient(to right, #FFFFFF, #017BFF);  */
+
 }
 
 /* =================================== */
@@ -2766,6 +2770,10 @@ textarea.form-control {
         margin-left:0;
         margin: 0 0!important;
     }
+    #omnielogo.widthclassIndex2 {
+        max-width: 200px;
+        top:-80%!important;
+    }
  }
 
 @media (min-width: 321px) and (max-width: 480px) {
@@ -2794,6 +2802,10 @@ textarea.form-control {
         padding: 0 0 0 0!important;
     }
     #omnielogo{
+        top:-80%!important;
+    }
+    #omnielogo.widthclassIndex2 {
+        max-width: 200px;
         top:-80%!important;
     }
     .btn-hover{
@@ -2832,6 +2844,10 @@ textarea.form-control {
         padding: 0 0 0 0!important;
     }
     #omnielogo{
+        top:-80%!important;
+    }
+    #omnielogo.widthclassIndex2 {
+        max-width: 200px;
         top:-80%!important;
     }
     .buttonkontakt{
