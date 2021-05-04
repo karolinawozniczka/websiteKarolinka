@@ -2446,8 +2446,8 @@ ul.external li a:hover {
 }
  
 .site-footer {
-    /* background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd, #37a3fc); */
-    background-color: #fff;
+    background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd, #37a3fc);
+    /* background-color: #fff; */
     padding: 40px 0 40px;
     font-size: 15px;
     line-height: 24px;
