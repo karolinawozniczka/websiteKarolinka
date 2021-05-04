@@ -453,7 +453,7 @@ h1, h2, h3, h4, h5, h6,
     padding: 10px 0 10px 0;
 	/* background: linear-gradient(90deg, #F3E3E6 56%,#453b3e 44%); */
     /* background: linear-gradient(90deg, #e3e4e9      56%,#3f4043  44%); */
-    background-image: linear-gradient(to right, #c6e4ff, #b2dbff, #F3F3F3, #F3F3F3, #c6e4ff);
+    background-image: linear-gradient(to right, #c6e4ff, #b2dbff,#b2dbff, #F3F3F3, #fff,#F3F3F3, #c6e4ff);
     /* background: #FFEFBA;  
 background: -webkit-linear-gradient(to right, #FFFFFF, #017BFF);  
 background: linear-gradient(to right, #FFFFFF, #017BFF);  */
@@ -2446,8 +2446,8 @@ ul.external li a:hover {
 }
  
 .site-footer {
-    background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd, #37a3fc);
-    /* background-color: #fff; */
+    /* background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd, #37a3fc); */
+    background-color: #fff;
     padding: 40px 0 40px;
     font-size: 15px;
     line-height: 24px;
