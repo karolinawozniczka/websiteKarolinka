@@ -2448,7 +2448,7 @@ ul.external li a:hover {
 }
  
 .site-footer {
-    background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd, #37a3fc);
+    background-color: #F8F5F2;
     /* background-color: #fff; */
     padding: 40px 0 40px;
     font-size: 15px;
@@ -2594,7 +2594,7 @@ ul.external li a:hover {
 }
 
 .form-control {
-    background-color: #F8F5F2;
+    background-color: #fff;
     border: 1px solid #ececec;
     border-radius: 0;
     box-shadow: none;
