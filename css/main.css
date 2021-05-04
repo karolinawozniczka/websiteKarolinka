@@ -453,10 +453,11 @@ h1, h2, h3, h4, h5, h6,
     padding: 10px 0 10px 0;
 	/* background: linear-gradient(90deg, #F3E3E6 56%,#453b3e 44%); */
     /* background: linear-gradient(90deg, #e3e4e9      56%,#3f4043  44%); */
-    background-image: linear-gradient(to right, #9fd2ff, #b2dbff, #c6e4ff, #d9eeff,#edf7ff, #F3F3F3, #F9F9F9,#F9F9F9,#F4F4F4, #F4F4F4, #fff);
+    background-image: linear-gradient(to right, #c6e4ff, #b2dbff,#c6e4ff, #F3F3F3, #FAFAFA,#F3F3F3, #fff);
     /* background: #FFEFBA;  
 background: -webkit-linear-gradient(to right, #FFFFFF, #017BFF);  
 background: linear-gradient(to right, #FFFFFF, #017BFF);  */
+
 }
 
 #intro2{
@@ -788,9 +789,6 @@ background: linear-gradient(to right, #FFFFFF, #017BFF);  */
     margin: 100px 0;
     min-height: 590px!important;
     min-width:600px;
-    background: url('../img/member-1.jpg') no-repeat center;
-	background-size:cover;
-	background-position: center;
 }
 
 .superBtnIndex:hover {
@@ -3054,30 +3052,16 @@ textarea.form-control {
         margin-left:0;
         margin: 0 0!important;
     }
+    
     .breakwords{
         display:grid;
         text-align: center;
-    }
-    .mobileimg{
-        max-width: 360px;
-        min-height: 350px!important;
-        min-width: 360px!important;
     }
 }
 
 @media (min-width:992px) and (max-width:1023px){
     .breakwords{
         display:grid;
-    }
-}
-@media (min-width:992px) and (max-width:1460px){
-    .mobileimg{
-        background-position: left 0px top;
-        min-height: 470px!important;
-        min-width:480px!important;
-    }
-    #intro{
-        background-image: linear-gradient(to right, #9fd2ff, #b2dbff, #c6e4ff, #d9eeff,#edf7ff, #F3F3F3, #F9F9F9,#F9F9F9,#F9F9F9, #F4F4F4, #fff);
     }
 }
 
