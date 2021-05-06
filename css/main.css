@@ -132,9 +132,12 @@ h1, h2, h3, h4, h5, h6,
 .pnew{
     font-style: normal!important;
     font-weight: normal!important;
-    font-size: 17px!important;
     line-height: 32px!important;
     color: #29302b!important;
+    font-size: 18px!important;
+    line-height: 32px!important;
+    margin: 0;
+    padding: 0;
 }
 
 .n2{
@@ -154,7 +157,7 @@ h1, h2, h3, h4, h5, h6,
     width: 40%;
     padding-top: 40px;
     border-bottom: 5px solid #009ee3;
-    width: 115px;
+    width: 135px;
 }
 
 .n3{
@@ -169,7 +172,7 @@ h1, h2, h3, h4, h5, h6,
     width: 40%;
     padding-top: 40px;
     border-bottom: 5px solid #009ee3;
-    width: 115px;
+    width: 135px;
 }
 
 .n5{
@@ -192,7 +195,7 @@ h1, h2, h3, h4, h5, h6,
     width: 40%;
     padding-top: 40px;
     border-bottom: 5px solid #009ee3;
-    width: 115px;
+    width: 135px;
 }
 
  /* !!!!!!!!!!!!!!!   CSS  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -2440,6 +2443,79 @@ ul.external li a:hover {
 /*=================================================================
 	Contact
 */
+.arrowPacman {
+    --arrow-width: 20px;
+    --arrow-spacer: 4px;
+    --arrow-plus-spacer: calc(var(--arrow-width) + var(--arrow-spacer));
+    overflow: hidden;
+    position: absolute;
+    right: -0.2em;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: var(--arrow-plus-spacer);
+  }
+  .arrowPacman svg {
+    height: 16px;
+    width: var(--arrow-width);
+  }
+  .arrowPacman svg:last-of-type {
+    margin-left: var(--arrow-spacer);
+  }
+  
+  .arrowPacman-clip {
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    transform: translateX(calc(var(--arrow-plus-spacer) * -1));
+    width: calc(var(--arrow-plus-spacer) + var(--arrow-width));
+  }
+  
+  @-webkit-keyframes pacman {
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes pacman {
+    to {
+      transform: translateX(0);
+    }
+  }
+  button {
+    border: 2px solid #29302b;
+    border-radius: 25px;
+    box-shadow: none;
+    color: #29302b;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    padding: 0.75rem 3.9rem 0.75rem 1.5rem;
+    position: relative;
+    white-space: nowrap;
+    margin-top:25px;
+  }
+  button:hover .arrowPacman-clip {
+    -webkit-animation-delay: 150ms;
+            animation-delay: 150ms;
+    -webkit-animation-duration: 0.8s;
+            animation-duration: 0.8s;
+    -webkit-animation-name: pacman;
+            animation-name: pacman;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0, 0.21, 1);
+            animation-timing-function: cubic-bezier(0.55, 0, 0.21, 1);
+  }
+
+  
+  .twitter {
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    width: 50px;
+  }
+
+/* */
 
 .breakwords{
     display:inline;
