@@ -14,7 +14,12 @@ body {
     text-rendering: optimizeLegibility;
     
 }
-
+.buttonkontakt{
+    margin: 0 auto;
+    margin-left: 290px;
+    margin-top:10%!important;
+	margin-bottom:5%!important;
+}
 figure, p, address {
     margin: 0;
 }
@@ -105,125 +110,9 @@ h1, h2, h3, h4, h5, h6,
 }
 
  /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-
- .Row {
-    display: block;
-    width: 100%; /*Optional*/
-    border-spacing: 10px; /*Optional*/
-}
-.Column {
-    display: table-cell;
-}
-
-.main-title{
-    font-size: 58px;
-    white-space: nowrap;
-    font-family: "Abhaya Libre", serif!important;
-    line-height: 95%;
-}
-
-.pnewMain{
-    font-style: normal!important;
-    font-weight: normal!important;
-    font-size: 18px!important;
-    line-height: 32px!important;
-}
-
-.pnew{
-    font-style: normal!important;
-    font-weight: normal!important;
-    line-height: 32px!important;
-    color: #29302b!important;
-    font-size: 18px!important;
-    line-height: 32px!important;
-    margin: 0;
-    padding: 0;
-}
-
-.n2{
-    font-family: "Abhaya Libre", serif!important;
-    font-size:52px!important;
-    color: #29302b!important;
-    font-weight:600;
-}
-
-.n1{
-    color: #29302b!important;
-}
- .n1::after{    
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: 40%;
-    padding-top: 40px;
-    border-bottom: 5px solid #009ee3;
-    width: 135px;
-}
-
-.n3{
-    color: #29302b!important;
-    font-family: "Abhaya Libre", serif!important;
-    font-size:32px!important;
-}
- .n3::after{    
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: 40%;
-    padding-top: 40px;
-    border-bottom: 5px solid #009ee3;
-    width: 135px;
-}
-
-.n5{
-    color: #29302b!important;
-    font-family: "Abhaya Libre", serif!important;
-    font-size:41px!important;
-}
-
-.n4{
-    color: #29302b!important;
-    font-family: "Abhaya Libre", serif!important;
-    font-size:41px!important;
-    font-style: normal;
-    font-weight: bold;
-}
- .n4::after{    
-    content: "";
-    display: block;
-    margin: 0 40px;
-    width: 40%;
-    padding-top: 40px;
-    border-bottom: 5px solid #009ee3;
-    width: 135px;
-}
-
  /* !!!!!!!!!!!!!!!   CSS  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
- .half-half-image-text {
-    padding: 70px 0px;
-  }
-  .half-half-image-text h1 {
-    color: #800000;
-    font-size: 28px;
-  }
-  .half-half-image-text .content {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 35px 0px;
-    background-position: center;
-  }
-  .half-half-image-text .content p {
-    font-size: 16px;
-    color: #29302B;
-    line-height: 30px;
-  }
-  .half-half-image-text .img {
-    min-height: 620px;
-    height: 100%;
-    /* border-radius: 10px; */
-  }
+
 
 
 
@@ -237,11 +126,9 @@ h1, h2, h3, h4, h5, h6,
 
 /* Fonts */
 
-
-
 #ofertaOferty{
     padding-bottom: 0!important;
-    padding-top:0!important;
+    padding-top:0!important
 }
 
 #ofertaOferty h1:after {
@@ -257,7 +144,7 @@ h1, h2, h3, h4, h5, h6,
 .tytulOferta1{ /* ach22*/
     margin-top: 14% !important;
     font-family: 'Open sans', sans-seri;
-    color: #29302B;
+    color: #252525;
     font-size: 30px;
     font-weight: 400;
     line-height: 1.35;
@@ -266,7 +153,7 @@ h1, h2, h3, h4, h5, h6,
 .tytulOferta2{ /* ach2*/
     margin-bottom: 2.625rem;
     font-family: 'Open sans', sans-seri;
-    color: #29302B;;
+    color: #252525;;
     font-size: 30px;
     font-weight: 400;
     line-height: 1.35;
@@ -275,7 +162,7 @@ h1, h2, h3, h4, h5, h6,
 .pfontOferta {
     /* #2e2d2d; */
     font-size: 16px;
-    color :#29302B;
+    color :#252525;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -448,31 +335,6 @@ h1, h2, h3, h4, h5, h6,
     text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
 }
 
-.makebreak{
-
-}
-
-#intro{
-    padding: 10px 0 10px 0;
-	/* background: linear-gradient(90deg, #F3E3E6 56%,#453b3e 44%); */
-    /* background: linear-gradient(90deg, #e3e4e9      56%,#3f4043  44%); */
-    background-image: linear-gradient(to right, #9fd2ff, #b2dbff, #c6e4ff, #d9eeff,#edf7ff, #F3F3F3, #F9F9F9,#F9F9F9,#F4F4F4, #F4F4F4, #fff);
-    /* background: #FFEFBA;  
-background: -webkit-linear-gradient(to right, #FFFFFF, #017BFF);  
-background: linear-gradient(to right, #FFFFFF, #017BFF);  */
-}
-
-#intro2{
-    padding: 10px 0 10px 0;
-	/* background: linear-gradient(90deg, #F3E3E6 56%,#453b3e 44%); */
-    background: linear-gradient(90deg, #e3e4e9      56%,#3f4043  44%);
-    /* background-image: linear-gradient(to right, #c6e4ff, #b2dbff, #F3F3F3, #F3F3F3, #c6e4ff); */
-    /* background: #FFEFBA;  
-background: -webkit-linear-gradient(to right, #FFFFFF, #017BFF);  
-background: linear-gradient(to right, #FFFFFF, #017BFF);  */
-
-}
-
 /* =================================== */
 /*   Nawigacja  */
 
@@ -524,7 +386,7 @@ background: linear-gradient(to right, #FFFFFF, #017BFF);  */
 
 .navcolorBlack {
     /* background-image: linear-gradient(to bottom, #008cfd, #1092fd, #1e98fd, #2b9dfd, #37a3fc)!important; */
-    background-color: rgba(0, 0, 0, 0.8)!important; 
+    background-color: rgba(0, 0, 0, 0.8)!important;
     border-width:0!important;
 }
 
@@ -568,9 +430,10 @@ background: linear-gradient(to right, #FFFFFF, #017BFF);  */
 }
 
 .ikoneczka {
+    border: 2px solid #fff;
     border-radius: 50%;
     margin-right: 14%;
-    max-width: 160px;
+    max-width: 435px;
     display: block;
     height: auto;
     /* margin-bottom: 10%; */
@@ -615,16 +478,6 @@ background: linear-gradient(to right, #FFFFFF, #017BFF);  */
     transform: scale(1.1); 
 }
 
-.zoomnavNew{
-    font-size:17px!important;
-    transition: transform .5s;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-}
-
-
 .zoomnavTest{
     font-size:17px!important;
     transition: transform .5s;
@@ -636,6 +489,9 @@ background: linear-gradient(to right, #FFFFFF, #017BFF);  */
 
 .zoomnavTest:hover {
     color:#02B6EF!important;
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
 }
 
 .zoomnavTest2{
@@ -787,15 +643,6 @@ background: linear-gradient(to right, #FFFFFF, #017BFF);  */
     transition: all .4s ease-in-out;
 }
 
-.mobileimg{
-    margin: 100px 0;
-    min-height: 590px!important;
-    min-width:600px;
-    background: url('../img/member-1.jpg') no-repeat center;
-	background-size:cover;
-	background-position: center;
-}
-
 .superBtnIndex:hover {
     background-position: 100% 0;
     moz-transition: all .4s ease-in-out;
@@ -821,17 +668,6 @@ background: linear-gradient(to right, #FFFFFF, #017BFF);  */
     text-transform: uppercase;
 }
 
-.usunmargin{
-    padding-top: 90px;
-}
-
-.buttonkontakt{
-    margin: 0 auto;
-    margin-left: 290px;
-    margin-top:10%!important;
-	margin-bottom:5%!important;
-}
-
 .ela {
 
 }
@@ -843,10 +679,6 @@ background: linear-gradient(to right, #FFFFFF, #017BFF);  */
 }
 
 .os{
-
-}
-
-.navpadding{
 
 }
 
@@ -1432,17 +1264,17 @@ background: linear-gradient(to right, #FFFFFF, #017BFF);  */
 }
 
 .sec-title2 h2:after {
-    border-bottom: 5px solid #fff;
-    content: "";
-    display: block;
-    left: 45%;
-    bottom: 0;
-    position: absolute;
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 40%; /* Change this to whatever width you want. */
+    padding-top: 30px; /* This creates some space between the element and the border. */
+    border-bottom: 5px solid #fff!important; /* This creates the border. Replace black with whatever color you want. */
     width: 115px;
 }
 
 .sec-title5 h2:after {
-    border-bottom: 5px solid #03131a;
+    border-bottom: 1px solid #03131a;
     content: "";
     display: block;
     left: 44%;
@@ -1452,12 +1284,12 @@ background: linear-gradient(to right, #FFFFFF, #017BFF);  */
 }
 
 .sec-title3 h2:after {
-    border-bottom: 5px solid #fff;
-    content: "";
-    display: block;
-    left: 45%;
-    bottom: 0;
-    position: absolute;
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 40%; /* Change this to whatever width you want. */
+    padding-top: 30px; /* This creates some space between the element and the border. */
+    border-bottom: 5px solid #fff; /* This creates the border. Replace black with whatever color you want. */
     width: 115px;
 }
 
@@ -1568,28 +1400,6 @@ background: linear-gradient(to right, #FFFFFF, #017BFF);  */
     transition : all .3s;
     -wekit-transition : all .3s;
     -moz-transition : all .3s;
-}
-
-#omnielogo{
-    position: relative;
-	max-width: 200px;
-    top: 49%; 
-	transform: translateY(-50%);
-
-    -webkit-transition: all 0.8s ease 0s;
-    -moz-transition: all 0.8s ease 0s;
-     -ms-transition: all 0.8s ease 0s;
-      -o-transition: all 0.8s ease 0s;
-         transition: all 0.8s ease 0s;
-}
-
-#omnielogo.widthclassIndex {
-    max-width: 237px;
-}
-
-#omnielogo.widthclassIndex2 {
-    max-width: 200px;
-    top: 49%!important; 
 }
 
 #responsivelogoIndex {
@@ -1753,7 +1563,7 @@ h1.navbar-brand {
     justify-content: center;
 }
 .stefan-item {
-    color: #252525;
+    color: #fff;
     padding: 20px;
     text-decoration: none;
     transition: 0.3s;
@@ -1954,12 +1764,11 @@ h1.navbar-brand {
             transition: all 0.3s ease 0s;
 }
 
-/* .service-item:hover .service-icon {
+.service-item:hover .service-icon {
     border: 3px solid #009ee3;
-    border-radius:100px;
     margin-bottom: 20px;
     color: #009ee3;
-} */
+}
 
 .service-icon i {
     -webkit-transform: rotate(-48deg);
@@ -1972,6 +1781,7 @@ h1.navbar-brand {
 .service-item h3 {
     font: 'Open sans';
     font-size: 14px;
+    text-transform: uppercase;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale !important; 
@@ -2328,11 +2138,11 @@ ul.external li a:hover {
 }
 
 #testimonials .sec-title2 h2:after {
-    border-bottom: 5px solid #fff;
+    border-bottom: 1px solid #fff;
 }
 
 #testimonials .sec-title5 h2:after {
-    border-bottom: 5px solid #fff;
+    border-bottom: 1px solid #fff;
 }
 
 
@@ -2442,235 +2252,13 @@ ul.external li a:hover {
 
 /*=================================================================
 	Contact
-*/
-.arrowPacman {
-    --arrow-width: 20px;
-    --arrow-spacer: 4px;
-    --arrow-plus-spacer: calc(var(--arrow-width) + var(--arrow-spacer));
-    overflow: hidden;
-    position: absolute;
-    right: -0.2em;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: var(--arrow-plus-spacer);
-  }
-  .arrowPacman svg {
-    height: 16px;
-    width: var(--arrow-width);
-  }
-  .arrowPacman svg:last-of-type {
-    margin-left: var(--arrow-spacer);
-  }
-  
-  .arrowPacman-clip {
-    align-items: center;
-    display: flex;
-    overflow: hidden;
-    transform: translateX(calc(var(--arrow-plus-spacer) * -1));
-    width: calc(var(--arrow-plus-spacer) + var(--arrow-width));
-  }
-  
-  @-webkit-keyframes pacman {
-    to {
-      transform: translateX(0);
-    }
-  }
-  
-  @keyframes pacman {
-    to {
-      transform: translateX(0);
-    }
-  }
-  button {
-    border: 2px solid #29302b;
-    border-radius: 25px;
-    box-shadow: none;
-    color: #29302b;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 600;
-    padding: 0.75rem 3.9rem 0.75rem 1.5rem;
-    position: relative;
-    white-space: nowrap;
-    margin-top:25px;
-  }
-  button:hover .arrowPacman-clip {
-    -webkit-animation-delay: 150ms;
-            animation-delay: 150ms;
-    -webkit-animation-duration: 0.8s;
-            animation-duration: 0.8s;
-    -webkit-animation-name: pacman;
-            animation-name: pacman;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-timing-function: cubic-bezier(0.55, 0, 0.21, 1);
-            animation-timing-function: cubic-bezier(0.55, 0, 0.21, 1);
-  }
-
-  
-  .twitter {
-    bottom: 0;
-    position: fixed;
-    right: 0;
-    width: 50px;
-  }
-
-/* */
-
-.breakwords{
-    display:inline;
-    margin: 10px 40px;
-    color:#29302B;
-}
- 
-.site-footer {
-    background-color: #F8F5F2;
-    /* background-color: #fff; */
-    padding: 40px 0 40px;
-    font-size: 15px;
-    line-height: 24px;
-    color: #fff;
-  }
-  .site-footer hr {
-    border-top-color: #bbb;
-    opacity: 0.5;
-  }
-  .site-footer hr.small {
-    margin: 20px 0;
-  }
-  .site-footer h6 {
-    color: #fff;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-top: 5px;
-    letter-spacing: 2px;
-  }
-  .site-footer a {
-    color: #737373;
-  }
-  .site-footer a:hover {
-    color: #3366cc;
-    text-decoration: none;
-  }
-  .footer-links {
-    padding-left: 0;
-    list-style: none;
-  }
-  .footer-links li {
-    display: block;
-  }
-  .footer-links a {
-    color: #737373;
-  }
-  .footer-links a:active,
-  .footer-links a:focus,
-  .footer-links a:hover {
-    color: #3366cc;
-    text-decoration: none;
-  }
-  .footer-links.inline li {
-    display: inline-block;
-  }
-  .site-footer .social-icons {
-    text-align: right;
-  }
-  .site-footer .social-icons a {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    margin-left: 6px;
-    margin-right: 0;
-    border-radius: 100%;
-    background-color: #33353d;
-  }
-  .copyright-text {
-    margin: 0;
-  }
-  @media (max-width: 991px) {
-    .site-footer [class^="col-"] {
-      margin-bottom: 30px;
-    }
-  }
-  @media (max-width: 767px) {
-    .site-footer {
-      padding-bottom: 0;
-    }
-    .site-footer .copyright-text,
-    .site-footer .social-icons {
-      text-align: center;
-    }
-  }
-  .social-icons {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-  }
-  .social-icons li {
-    display: inline-block;
-    margin-bottom: 4px;
-  }
-  .social-icons li.title {
-    margin-right: 15px;
-    text-transform: uppercase;
-    color: #96a2b2;
-    font-weight: 700;
-    font-size: 13px;
-  }
-  .social-icons a {
-    background-color: #eceeef;
-    color: #818a91;
-    font-size: 16px;
-    display: inline-block;
-    line-height: 44px;
-    width: 44px;
-    height: 44px;
-    text-align: center;
-    margin-right: 8px;
-    border-radius: 100%;
-    -webkit-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    transition: all 0.2s linear;
-  }
-  .social-icons a:active,
-  .social-icons a:focus,
-  .social-icons a:hover {
-    color: #fff;
-    background-color: #29aafe;
-  }
-  .social-icons.size-sm a {
-    line-height: 34px;
-    height: 34px;
-    width: 34px;
-    font-size: 14px;
-  }
-  .social-icons a.facebook:hover {
-    background-color: #3b5998;
-  }
-  .social-icons a.twitter:hover {
-    background-color: #00aced;
-  }
-  .social-icons a.linkedin:hover {
-    background-color: #007bb6;
-  }
-  .social-icons a.dribbble:hover {
-    background-color: #ea4c89;
-  }
-  @media (max-width: 767px) {
-    .social-icons li.title {
-      display: block;
-      margin-right: 0;
-      font-weight: 600;
-    }
-  }
-  
-/*==================================================================*/
+==================================================================*/
 
 .input-field {
     margin-bottom: 10px;
 }
 
 .form-control {
-    background-color: #fff;
     border: 1px solid #ececec;
     border-radius: 0;
     box-shadow: none;
@@ -2868,7 +2456,6 @@ textarea.form-control {
         margin-bottom: 30px;
     }
 
-   
 
 
 /* portfolio */
@@ -2979,33 +2566,6 @@ textarea.form-control {
 /* Moje queries mobilki*/
 
 @media (max-width: 320px) {
-    .n2{
-        margin-top:10%!important;
-        font-size:3.4em!important;
-        margin-left:2%!important;
-    }
-    #intro{
-        background: linear-gradient(180deg, #e3e4e9 56%,#3f4043 44%)!important;
-    }
-    .usunmargin{
-        padding-top: 0!important;
-    }
-    .pnewMain{
-        margin-top:1%!important;
-        margin-left:2%!important;
-    }
-    .mobileimg{
-        margin: 0 5% 4% 5%!important;
-        min-height: 420px!important;
-        min-width:100px;
-        max-width:600px!important;
-    }
-    .navpadding{
-        padding: 0 0 0 0!important;
-    }
-    #omnielogo{
-        top:-80%!important;
-    }
     .btn-hover{
         padding: 17px 60px!important;
         width:250px;
@@ -3014,52 +2574,10 @@ textarea.form-control {
         margin-left:0;
         margin: 0 0!important;
     }
-    #omnielogo.widthclassIndex2 {
-        max-width: 200px;
-        top:-80%!important;
-    }
-    .breakwords{
-        display:grid;
-        text-align: center;
-    }
-    .makebreak{
-        content: "\a";
-        white-space: pre;
-    }
+
  }
 
 @media (min-width: 321px) and (max-width: 480px) {
-    .n2{
-        margin-top:10%!important;
-        font-size:3.4em!important;
-        margin-left:2%!important;
-    }
-    #intro{
-        background: linear-gradient(180deg, #e3e4e9 56%,#3f4043 44%)!important;
-    }
-    .usunmargin{
-        padding-top: 0!important;
-    }
-    .pnewMain{
-        margin-top:1%!important;
-        margin-left:2%!important;
-    }
-    .mobileimg{
-        margin: 0 5% 4% 5%!important;
-        min-height: 420px!important;
-        min-width:100px;
-        max-width:600px!important;
-    }
-    .navpadding{
-        padding: 0 0 0 0!important;
-    }
-    #omnielogo{
-        top:-80%!important;
-    }
-    #omnielogo.widthclassIndex2 {
-        max-width: 200px;
-        top:-80%!important;
-    }
     .btn-hover{
         padding: 17px 60px!important;
         width:250px;
@@ -3068,60 +2586,16 @@ textarea.form-control {
         margin-left:0;
         margin: 0 0!important;
     }
-    .breakwords{
-        display:grid;
-        text-align: center;
-    }
-    .makebreak{
-        content: "\a";
-        white-space: pre;
-    }
+
 }
 
 @media (min-width: 481px) and (max-width: 759px) {
-    .n2{
-        margin-top:10%!important;
-        font-size:3.4em!important;
-        margin-left:2%!important;
-    }
-    #intro{
-        background: linear-gradient(180deg, #e3e4e9 56%,#3f4043 44%)!important;
-    }
-    .usunmargin{
-        padding-top: 0!important;
-    }
-    .pnewMain{
-        margin-top:1%!important;
-        margin-left:2%!important;
-    }
-    .mobileimg{
-        margin: 0 5% 4% 5%!important;
-        min-height: 420px!important;
-        min-width:100px;
-        max-width:600px!important;
-    }
-    .navpadding{
-        padding: 0 0 0 0!important;
-    }
-    #omnielogo{
-        top:-80%!important;
-    }
-    #omnielogo.widthclassIndex2 {
-        max-width: 200px;
-        top:-80%!important;
-    }
+
     .buttonkontakt{
         margin-left:0;
         margin: 0 0!important;
     }
-    .breakwords{
-        display:grid;
-        text-align: center;
-    }
-    .makebreak{
-        content: "\a";
-        white-space: pre;
-    }
+
  }
 
 /* bigger than iPad portrait  */
@@ -3130,32 +2604,10 @@ textarea.form-control {
         margin-left:0;
         margin: 0 0!important;
     }
-    .breakwords{
-        display:grid;
-        text-align: center;
-    }
-    .mobileimg{
-        max-width: 360px;
-        min-height: 350px!important;
-        min-width: 360px!important;
-    }
 }
 
-@media (min-width:992px) and (max-width:1023px){
-    .breakwords{
-        display:grid;
-    }
-}
-@media (min-width:992px) and (max-width:1460px){
-    .mobileimg{
-        background-position: left 0px top;
-        min-height: 470px!important;
-        min-width:480px!important;
-    }
-    #intro{
-        background-image: linear-gradient(to right, #9fd2ff, #b2dbff, #c6e4ff, #d9eeff,#edf7ff, #F3F3F3, #F9F9F9,#F9F9F9,#F9F9F9, #F4F4F4, #fff);
-    }
-}
+
+
 
 /*============================================================
 	Mobile (Portrait) Design for a width of 320px
@@ -3296,7 +2748,6 @@ textarea.form-control {
     .service-item {
         width: 100%;
     }
-
 
 /*portfolio*/
     .portfolio-item {
@@ -3656,7 +3107,6 @@ textarea.form-control {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1182px) {
-
     .tytulOferta1 {
         font-size: 14px;
         margin-bottom:0!important;
