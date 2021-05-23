@@ -431,11 +431,11 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 4px;
     transition: 0.5s;
   display: inline-block;
-  border: 2px solid #ffc451;
+  border: 2px solid #009ee3;
 }
 
 .get-started-btn:hover {
-  background: #ffbb38;
+  background: #0499da;
   color: #fff;
 }
 
