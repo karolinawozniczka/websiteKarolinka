@@ -373,12 +373,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbarActive{
-  font-weight:600!important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:300!important;
 }
 
 .navbarActive2{
   color:#ffc451!important;
-  font-weight:600!important;
 }
 
 .ikonki{
@@ -479,11 +479,14 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 16px;
-  font-weight: 500;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
+
+  font-family: 'Montserrat', sans-serif;
+
+font-style: normal;
+  font-size:17px;
 }
 
 .navbar a i {
