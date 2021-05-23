@@ -1064,7 +1064,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #151515;
+  color: #fff;
   background: #009ee3;
 }
 
