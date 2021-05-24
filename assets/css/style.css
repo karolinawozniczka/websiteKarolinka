@@ -1522,11 +1522,12 @@ section {
   bottom: 15px;
 }
 
-.btn-hover {
+.btn-contact {
   margin-top: 2%!important;
   font-size: 16px!important;
   padding: 15px 190px!important;
-  width: 451px;
+  width: 450px;
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
   color: #fff;
@@ -1542,7 +1543,7 @@ section {
   transition: all .4s ease-in-out;
 }
 
-.btn-hover:hover {
+.btn-contact:hover {
   background-position: 100% 0;
   moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
@@ -1550,7 +1551,7 @@ section {
   transition: all .4s ease-in-out;
 }
 
-.btn-hover.color-9 {
+.btn-contact.color-9 {
   background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
   box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%);
 }
