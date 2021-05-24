@@ -373,7 +373,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbarActive{
-  font-family: 'Montserrat', sans-serif;
   font-weight:300!important;
 }
 
@@ -419,6 +418,21 @@ h1, h2, h3, h4, h5, h6 {
   filter: blur(8px);
   -webkit-filter: blur(8px);
   height: 100%; 
+}
+
+@media (max-width: 600px) {
+  .hintro {
+    font-size: 25px!important;
+  }
+
+  .h2intro{
+    font-size:18px!important;
+    margin: 0!important;
+  }
+  .btnMain {
+    margin-top: 5%!important;
+    margin-bottom:10%!important;
+  }
 }
 
 /*--------------------------------------------------------------
