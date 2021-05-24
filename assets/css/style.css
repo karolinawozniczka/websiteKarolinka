@@ -483,7 +483,9 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   transition: 0.3s;
 
-  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.8px;
+  font-family: "Raleway", sans-serif;
+  font-weight:300;
 
 font-style: normal;
   font-size:17px;
@@ -696,6 +698,7 @@ font-style: normal;
   font-weight: 700;
   line-height: 64px;
   color: #fff;
+  font-family: "Raleway", sans-serif;
 }
 
 #hero h1 span {
