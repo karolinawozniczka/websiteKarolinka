@@ -34,6 +34,10 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 300px;
 }
 
+.karTitle{
+  margin-bottom:40px;
+}
+
 /* ---------------------------- Moje ---------------------------- */
 
 .ofertabgindy {
@@ -493,8 +497,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .ikonkaKar{
-    margin: 0 20% 5%!important;
+    margin: 0 auto 10%!important;
+    display: block;
   }
+
 }
 
 /*--------------------------------------------------------------
@@ -809,6 +815,12 @@ font-style: normal;
   #hero h2 {
     font-size: 20px;
     line-height: 24px;
+  }
+  .karTitle{
+    text-align:center;
+  }
+  .about .content h3{
+    font-size: 24px!important;
   }
 }
 
