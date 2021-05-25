@@ -24,6 +24,16 @@ h1, h2, h3, h4, h5, h6 {
   color:#fff
 }
 
+.klasa{
+  margin-top:-3%;
+}
+
+.ikonkaKar{
+  border: 2px solid #fff;
+  border-radius: 50%;
+  max-width: 300px;
+}
+
 /* ---------------------------- Moje ---------------------------- */
 
 .ofertabgindy {
@@ -476,6 +486,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 15px 40px!important;
     width:100%!important;
     margin:0 auto;
+  }
+
+  .klasa{
+    margin-top:0!important;
+  }
+
+  .ikonkaKar{
+    margin: 0 20% 5%!important;
   }
 }
 
