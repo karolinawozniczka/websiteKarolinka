@@ -327,9 +327,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .hoferta{
   margin-top:30px;
-  color:#ffc451;
+  color:#fff;
   position:relative;
   z-index:2;
+}
+
+.hoferta:hover{
+  color:#ffc451;
 }
 
 .aoferta{
@@ -903,7 +907,7 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 .clients .swiper-slide img {
