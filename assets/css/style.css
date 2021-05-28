@@ -1,5 +1,120 @@
 /*--------------------------------------------------------------
 # General
+
+        <!-- ======= Cta Section ======= -->
+        <section id="cta" class="cta" style="padding:70px 0 55px 0 !important">
+          <div class="container" data-aos="zoom-in">
+            <div class="text-center">
+              <h3 style="margin-bottom: 30px;">Dla kogo jest psycholog?</h3>
+              <p> Dla każdego kto jest gotowy na rozwój! Zarówno zawodnicy wyczynowi, osoby zaczynające swoją przygodę z poważniejszym sportem, jak i amatorzy mogą wyciągnąć wiele korzyści z pracy z psychologiem. Dzieci, młodzież, a także dorośli przy odpowiednim wsparciu oraz zaagnażowaniu są w stanie wykonać kolejne kroki by w najważniejszej chwili pokazać pełnie swoich możliwości.</p>
+            </div>
+          </div>
+        </section>
+        <!-- End Cta Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients" style="padding: 40px 0 20px 0!important;">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="clients-slider swiper-container">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Clients Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/simon2.jpg" class="testimonial-img" alt="">
+                <h3>Szymon Ptak</h3>
+                <h4>Software Developer & Kitesurfing Instructor</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Testimonials Section -->
 --------------------------------------------------------------*/
 body {
   font-family: "Raleway", sans-serif;
@@ -232,12 +347,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #kurs:before {
-  content: "";
+  /* content: "";
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
-  right: 0;
+  right: 0; */
 }
 
 #kurs .container {
@@ -267,7 +382,6 @@ h1, h2, h3, h4, h5, h6 {
 #kurs .icon-box {
   padding: 30px 5px 10px;
   transition: ease-in-out 0.3s;
-  border: 1px solid rgba(0, 158, 227, 0.3);
   height: 100%;
   text-align: center;
 }
@@ -766,6 +880,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 600px) {
+
   .hintro {
     font-size: 25px!important;
   }
@@ -1423,7 +1538,7 @@ section {
 .cta .cta-btn:hover {
   background: #ffbb38;
   border-color: #ffc451;
-  color: #151515;
+  
 }
 
 .navhover:hover{
@@ -1704,8 +1819,8 @@ section {
 .testimonials {
   padding: 80px 0;
 
-  background: linear-gradient(rgba(0, 140, 253, 0.3), rgba(0, 140, 253,0.6)), url("../img/paralax/paralaxsmall.jpg") fixed center center;
-  background-size: cover;
+  /* background: linear-gradient(rgba(0, 140, 253, 0.3), rgba(0, 140, 253,0.6)), url("../img/paralax/paralaxsmall.jpg") fixed center center;
+  background-size: cover; */
   padding: 60px 0;
 
   /* background: url("../img/testimonials-bg.jpg") no-repeat;
@@ -1805,6 +1920,114 @@ section {
     width: 80%;
   }
 }
+
+
+/* Testimonials 1 */
+
+.testimonials1 {
+  padding: 80px 0;
+  padding: 60px 0;
+  
+
+  /* background: url("../img/testimonials-bg.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover; */
+  position: relative;
+}
+
+.testimonials1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /* background: rgba(0, 0, 0, 0.7); */
+}
+
+.testimonials1 .section-header {
+  margin-bottom: 40px;
+}
+
+.testimonials1 .testimonial-item {
+  text-align: center;
+  color: #fff;
+}
+
+.testimonials1 .testimonial-item .testimonial-img {
+  width: 100px;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.15);
+  margin: 0 auto;
+}
+
+.testimonials1 .testimonial-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #fff;
+}
+
+.testimonials1 .testimonial-item h4 {
+  font-size: 14px;
+  color: #ddd;
+  margin: 0 0 15px 0;
+}
+
+.testimonials1 .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 26px;
+}
+
+.testimonials1 .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.testimonials1 .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.testimonials1 .testimonial-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+  color: #eee;
+}
+
+.testimonials1 .swiper-pagination1 {
+  margin-top: 20px;
+  position: relative;
+}
+
+.testimonials1 .swiper-pagination1 .swiper-pagination1-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: .5;
+}
+
+.testimonials1 .swiper-pagination1 .swiper-pagination1-bullet-active {
+  background-color: #ffc451;
+  opacity: 1;
+}
+
+@media (min-width: 1024px) {
+  .testimonials1 {
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 992px) {
+  .testimonials1 .testimonial-item p {
+    width: 80%;
+  }
+}
+
+/* End Testimonials 1*/
 
 /*--------------------------------------------------------------
 # Team
