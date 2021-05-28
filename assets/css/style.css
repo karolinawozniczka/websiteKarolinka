@@ -211,7 +211,334 @@ h1, h2, h3, h4, h5, h6 {
   pointer-events: none;
 }
 
+.font{
+  font-family: "Raleway", sans-serif!important;
+}
+
 /* ---------------------------- End Moje ---------------------------- */
+
+/* Kursy */
+
+#kurs {
+
+}
+
+.kurshover{
+
+}
+
+.kurshover:hover{
+  color:#009ee3;
+}
+
+#kurs:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#kurs .container {
+  position: relative;
+  padding-top: 74px;
+  text-align: center;
+}
+
+#kurs h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #111;
+}
+
+#kurs h1 span {
+  color: #009ee3;
+}
+
+#kurs h2 {
+  color: #111;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+#kurs .icon-box {
+  padding: 30px 5px 10px;
+  transition: ease-in-out 0.3s;
+  border: 1px solid rgba(0, 158, 227, 0.3);
+  height: 100%;
+  text-align: center;
+}
+
+#kurs .icon-box i {
+  font-size: 32px;
+  line-height: 1;
+  color: #009ee3;
+}
+
+#kurs .icon-box h3 {
+  font-weight: 500;
+  margin: 10px 0 0 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+#kurs .icon-box h3 a {
+  color: #111;
+  transition: ease-in-out 0.3s;
+}
+
+#kurs .icon-box h3 a:hover {
+  color: #009ee3;
+}
+
+#kurs .icon-box:hover {
+  border-color: #009ee3;
+}
+
+@media (min-width: 1024px) {
+  #kurs {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #kurs {
+    height: auto;
+  }
+  #kurs h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #kurs h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+/* End Kursy */
+
+/* Timeline */
+
+.main-timeline{ font-family: 'Josefin Sans', sans-serif; }
+.main-timeline:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-timeline .timeline{
+    width: 50%;
+    padding: 17px 0 0;
+    margin: 0 5px 0 0;
+    float: left;
+}
+.main-timeline .timeline-content{
+    color: #555;
+    padding: 0 110px 0 0;
+    display: block;
+    position: relative;
+}
+.main-timeline .timeline-content:hover{ text-decoration: none; }
+.main-timeline .timeline-year{
+    color: #009ee3;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 57px;
+    height: 60px;
+    width: 120px;
+    border: 3px solid #009ee3;
+    position: absolute;
+    top: -17px;
+    right: -60px;
+    z-index: 1;
+}
+.main-timeline .timeline-year:before,
+.main-timeline .timeline-year:after{
+    content: '';
+    background-color: #009ee3;
+    height: 3px;
+    width: 50px;
+    transform: translateY(-50%);
+    position: absolute;
+    left: -50px;
+    top: 50%;
+}
+.main-timeline .timeline-year:after{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+.main-timeline .title{
+    color: #009ee3;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+.main-timeline .description{
+    font-size: .9rem;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.main-timeline .timeline:nth-child(even){
+    float: right;
+    margin: 0 0 0 5px;
+}
+.main-timeline .timeline:nth-child(even) .timeline-content{ padding: 0 0 0 120px; }
+.main-timeline .timeline:nth-child(even) .timeline-year{
+    right: auto;
+    left: -60px;
+}
+.main-timeline .timeline:nth-child(even) .timeline-year:before,
+.main-timeline .timeline:nth-child(even) .timeline-year:after{
+    left: auto;
+    right: -50px;
+}
+.main-timeline .timeline:nth-child(4n+2) .timeline-year{
+    color: #009ee3;
+    border-color: #009ee3;
+}
+.main-timeline .timeline:nth-child(4n+2) .timeline-year:before,
+.main-timeline .timeline:nth-child(4n+2) .timeline-year:after{
+    background-color: #009ee3;
+}
+.main-timeline .timeline:nth-child(4n+2) .title{ color: #009ee3; }
+.main-timeline .timeline:nth-child(4n+3) .timeline-year{
+    color: #F4130D;
+    border-color: #F4130D;
+}
+.main-timeline .timeline:nth-child(4n+3) .timeline-year:before,
+.main-timeline .timeline:nth-child(4n+3) .timeline-year:after{
+    background-color: #F4130D;
+}
+.main-timeline .timeline:nth-child(4n+3) .title{ color: #F4130D; }
+.main-timeline .timeline:nth-child(4n+4) .timeline-year{
+    color: #F86B13;
+    border-color: #F86B13;
+}
+.main-timeline .timeline:nth-child(4n+4) .timeline-year:before,
+.main-timeline .timeline:nth-child(4n+4) .timeline-year:after{
+    background-color: #F86B13;
+}
+.main-timeline .timeline:nth-child(4n+4) .title{ color: #F86B13; }
+@media screen and (max-width:767px) {
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(even){
+        width: 100%;
+        padding: 70px 0 0 0;
+        margin: 0 0 30px 0;
+    }
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(even) .timeline-content{
+        padding: 0;
+    }
+    .main-timeline .timeline-year,
+    .main-timeline .timeline:nth-child(even) .timeline-year{
+        top: -70px;
+        left: 0;
+        right: auto;
+    }
+    .main-timeline .timeline-year:before,
+    .main-timeline .timeline-year:after{
+        display: none;
+    }
+}
+@media screen and (max-width:479px) {
+    .main-timeline .title{ font-size: 22px; }
+}
+
+/* End timeline */
+
+.timelinex {
+	width:1200px;
+	height: 20px;
+	list-style: none;
+	text-align: justify;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgba(255, 196, 81,1) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(45%, rgba(255,255,255,0)), color-stop(51%, rgba(255, 196, 81,1)), color-stop(57%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgba(255, 196, 81,1) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgba(255, 196, 81,1) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgba(255, 196, 81,1) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgba(255, 196, 81,1) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+}
+
+.timelinex:after {display: inline-block; content: ""; width: 100%;}
+
+.timelinex li {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #ffc451;
+	text-align: center;
+	line-height: 1.2;
+	position: relative;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+
+.timelinex li:before {
+	display: inline-block;
+	content: attr(data-year);
+	font-size: 26px;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	   -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	     -o-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+
+.timelinex li:nth-child(odd):before {
+	top: -40px;
+}
+.timelinex li:nth-child(even):before {
+	bottom: -40px;
+}
+
+.timelinex li:after {
+	display: inline-block;
+	content: attr(data-text);
+	font-size: 16px;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	   -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	     -o-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+
+.timelinex li:nth-child(odd):after {
+	bottom: 0;
+	margin-bottom: -10px;
+	-webkit-transform: translate(-50%, 100%);
+	   -moz-transform: translate(-50%, 100%);
+	    -ms-transform: translate(-50%, 100%);
+	     -o-transform: translate(-50%, 100%);
+	        transform: translate(-50%, 100%);
+}
+.timelinex li:nth-child(even):after {
+	top: 0;
+	margin-top: -10px;
+	-webkit-transform: translate(-50%, -100%);
+	   -moz-transform: translate(-50%, -100%);
+	    -ms-transform: translate(-50%, -100%);
+	     -o-transform: translate(-50%, -100%);
+	        transform: translate(-50%, -100%);
+}
 
 /*--------------------------------------------------------------
 # Back to top button
