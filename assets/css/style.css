@@ -317,6 +317,11 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
+.omnieKursy{
+  display: inline-flex;
+  margin-left:40px
+}
+
 .fakeClass{}
 
 .footlink{
@@ -338,8 +343,42 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.kurshover{
+.kurs1{
 
+}
+
+.kurs2{
+  margin: 23px 0 0 0!important;
+}
+
+.kurs3{
+  margin: 26px 0 0 0!important;
+}
+
+.kurs4{
+  margin: 20px 0 0 0!important;
+}
+
+.kurs1img{
+  width:100%;
+}
+
+.kurs2img{
+  width:100%;
+  margin-top: 5px;
+}
+
+.kurs3img{
+  width:100%;
+  margin-top: 9px;
+}
+
+.kurs4img{
+  width:80%;
+}
+
+.kurshover{
+  margin: auto 20px;
 }
 
 .kurshover:hover{
@@ -431,6 +470,19 @@ h1, h2, h3, h4, h5, h6 {
   #kurs h2 {
     font-size: 20px;
     line-height: 24px;
+  }
+
+  .kurs1img{
+    width: 40%;
+  }
+  .kurs2img{
+    width: 40%;
+  }
+  .kurs3img{
+    width: 40%;
+  }
+  .kurs4img{
+    width: 35%;
   }
 }
 
@@ -923,6 +975,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 992px) {
+  .omnieKursy{
+    margin-left:0!important;
+  }
+
+  .kurs2 {
+    margin: 24px 0 0 0;
+}
+
+.kurs3 {
+  margin: 28px 0 0 0;
+}
+
   .get-started-btn {
     padding: 7px 20px 8px 20px;
     margin-right: 15px;
@@ -1264,6 +1328,8 @@ font-style: normal;
   .about .content h3{
     font-size: 24px!important;
   }
+
+
 }
 
 /*--------------------------------------------------------------
@@ -1533,11 +1599,13 @@ section {
   margin-top: 10px;
   border: 2px solid #ffc451;
   color: #fff;
+  background: #ffbb38;
 }
 
 .cta .cta-btn:hover {
-  background: #ffbb38;
+  color:#4b4b4b;
   border-color: #ffc451;
+  background: #fab83c;
   
 }
 
@@ -1797,6 +1865,7 @@ section {
   background-size: cover;
   min-height: 400px;
 }
+
 
 @media (max-width: 991px) {
   .counts .image {
@@ -2527,4 +2596,18 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+@media (max-width: 1399px) {
+  .kurs2{
+    margin: 19px 0 0 0;
+  }
+
+  .kurs3{
+    margin: 21px 0 0 0;
+  }
+
+  .kurs4{
+    margin: 23px 0 0 0;
+  }
 }
