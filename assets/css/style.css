@@ -1920,7 +1920,7 @@ section {
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
   border-radius: 50%;
-  border: 6px solid rgba(255, 255, 255, 0.15);
+  border: 5px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
 }
 
@@ -2026,7 +2026,7 @@ section {
 .testimonials1 .testimonial-item .testimonial-img {
   width: 100px;
   border-radius: 50%;
-  border: 6px solid rgba(255, 255, 255, 0.15);
+  border: 2px solid #fff;
   margin: 0 auto;
 }
 
