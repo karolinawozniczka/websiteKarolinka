@@ -153,6 +153,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom:40px;
 }
 
+.politykaTitle{
+  margin-bottom:40px;
+}
+
 /* ---------------------------- Moje ---------------------------- */
 
 .ofertabgindy {
@@ -1320,6 +1324,9 @@ font-style: normal;
     line-height: 24px;
   }
   .karTitle{
+    text-align:center;
+  }
+  .politykaTitle{
     text-align:center;
   }
   .about .content h3{
