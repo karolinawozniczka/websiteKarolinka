@@ -159,6 +159,16 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+.rozwin{
+  font-weight:500!important;
+  font-size:1rem!important;
+  text-transform: none!important;
+  position:absolute!important;
+  margin-left:10px!important;
+  margin-top:16px!important;
+  color:#009ee3
+}
+
 .ofertabgindy {
   position:relative;
   width:100%!important;
@@ -1477,7 +1487,7 @@ section {
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc451;
+  background-color: #009ee3;
 }
 
 /*--------------------------------------------------------------
@@ -1891,10 +1901,8 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-
-  /* background: linear-gradient(rgba(0, 140, 253, 0.3), rgba(0, 140, 253,0.6)), url("../img/paralax/paralaxsmall.jpg") fixed center center;
-  background-size: cover; */
   padding: 60px 0;
+  
 
   /* background: url("../img/testimonials-bg.jpg") no-repeat;
   background-position: center center;
@@ -1924,7 +1932,7 @@ section {
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
   border-radius: 50%;
-  border: 5px solid rgba(255, 255, 255, 0.15);
+  border: 2px solid #fff;
   margin: 0 auto;
 }
 
