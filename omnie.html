@@ -77,10 +77,10 @@
                 </p>
               </div>
               <div class="row" style="margin-top:-10px;margin-bottom:-10px">
-                <div class="section-title" style="margin: 70px 0 0 0" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                  
+                <div class="section-title" style="margin: 70px 0 0 0">
                   <h2>O mnie</h2>
-                  <p style="display:inline-block">Wykształcenie <i class="bi bi-arrow-left" style="margin-left:10px;font-size:30px;color:#009ee3"></i><span class="rozwin">Rozwiń więcej</span></p>
+                  <p style="display:inline-block">Wykształcenie <a id="rozBtn" onclick="hide()" class="button arrow rozwin" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" >
+                    <span style="font-size:16px!important;position:fixed;white-space: nowrap;margin-left:5px;margin-top: 15px;">Rozwiń więcej</span></a></p>
                   </div>
                 </div>
 
@@ -159,6 +159,9 @@
                   </div>
                 </div>     
               </div>
+              <div data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="show()">
+                <a class="to-top">Zwiń</a>
+              </div>
             </div>
           </section>
         </div>
@@ -194,14 +197,38 @@
     
             <div class="clients-slider swiper-container">
               <div class="swiper-wrapper align-items-center">
-                <div class="swiper-slide"><img src="assets/img/clients/ekstraklasa.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/kongres.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/fepsac.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/sep.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/racingkids.jpg" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/kongresps.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/kurs1.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/leipzig.png" class="img-fluid" alt=""></div>
+                <div class="swiper-slide">
+                  <a href="assets/img/clients/ekstraklasa.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                  <img src="assets/img/clients/ekstraklasa.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/img/clients/kongres.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                  <img src="assets/img/clients/kongres.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/img/clients/fepsac.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                  <img src="assets/img/clients/fepsac.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/img/clients/sep.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                  <img src="assets/img/clients/sep.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/img/clients/racing.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                  <img src="assets/img/clients/racing3.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/img/clients/kongresps.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                  <img src="assets/img/clients/kongresps.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/img/clients/kurs1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                  <img src="assets/img/clients/kurs1.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/img/clients/leipzig.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                  <img src="assets/img/clients/leipzig.png" class="img-fluid" alt=""></a>
+                </div>
               </div>
               <div class="swiper-pagination"></div>
             </div>
@@ -357,73 +384,93 @@
   
     </main><!-- End #main -->
   
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-              <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo/1.png" alt="" style="max-width:50%!important;margin-bottom:4%" class="img-fluid"></a>
-              <p>
-                Kraków <br/>
-                Katowice <br/> 
-                Online <br/><br/>
-                <strong>Telefon:</strong> (+48) 507 445 666<br/>
-                <strong>Email:</strong> kwozniczka@email.com<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>              
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6" style="margin: auto 0">
+              <div class="footer-info">
+                <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo/1.png" alt="" style="max-width:50%!important;margin-bottom:4%" class="img-fluid"></a>
+                <p>
+                  <strong>Lokalizacja:</strong><br/>
+                  Kraków <br/>
+                  Katowice  <br/>
+                  Online <br/><br/>
+                  <strong>Telefon:</strong> (+48) 507 445 666<br/>
+                  <strong>Email:</strong> kwozniczka@email.com<br/>
+                </p>
               </div>
             </div>
-          </div>
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Przydatne linki</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Strona główna</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="omnie.html">O mnie</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="oferta.html">Oferta</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#kontakt">Kontakt</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="polityka.html">Cookies</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="polityka.html">Polityka prywatności</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Usługi</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="oferta.html#indy">Konsultacje indywidualne</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="oferta.html#grupa">Praca z grupą - drużyną</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="oferta.html#rodzic">Praca z rodzicem</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="oferta.html#sztab">Praca ze sztabem</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="oferta.html#klub">Oferta dla klubu, społeczności sportowej</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="oferta.html#online">Konsultacje online</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-md-6 footer-newsletter" style="display:block!important;margin:auto 0!important">
-
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Przydatne linki</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="index.html">Strona główna</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="omnie.html">O mnie</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="oferta.html">Oferta</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="index.html#kontakt">Kontakt</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="polityka.html">Cookies</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="polityka.html">Polityka prywatności</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>O mnie</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="oferta.html#indy">Kim jestem</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="oferta.html#grupa">Wykształcenie</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="oferta.html#rodzic">Doświadczenie</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="oferta.html#sztab">Portfolio</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Oferta</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="oferta.html#indy">Konsultacje indywidualne</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="oferta.html#grupa">Praca z grupą - drużyną</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="oferta.html#rodzic">Praca z rodzicem</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="oferta.html#sztab">Praca ze sztabem</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="oferta.html#klub">Oferta dla klubu, społeczności sportowej</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="oferta.html#online">Konsultacje online</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-12 footer-links footerikonki2">
+                <div class="social-links footerikonki">
+                  <a href="https://www.facebook.com/KarolinaWozniczkaPsychologiaSportu" class="facebook ikonkimargin"><i class="bx bxl-facebook"></i></a>
+                  <a href="#" class="google-plus ikonkimargin"><i class="bx bxl-skype"></i></a>
+                  <a href="tel:+48507445666" class="instagram ikonkimargin"><i class="bi bi-phone"></i></a>
+                  <a href="mailto:kwozniczka@email.com" class="linkedin ikonkimargin"><i class="bi bi-envelope"></i></a>             
+                </div>
+              </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="copyright">
-        &copy; 2021 <strong><span>Karolina Woźniczka</span></strong>. Wszelkie prawa zastrzeżone.
+      <div class="container">
+        <div class="copyright">
+          &copy; 2021 <strong><span>Karolina Woźniczka</span></strong>. Wszelkie prawa zastrzeżone.
+        </div>
+        <div class="credits footlink">
+          Designed by <a class="footlink" href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
       </div>
-      <div class="credits footlink">
-        Designed by <a class="footlink" href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer>
-  <!-- End Footer -->
+    </footer>
+    <!-- End Footer -->
   
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   
     <!-- Vendor JS Files -->
+
+<script>
+  function show() {
+    var rozwinBtn=document.getElementById('rozBtn');
+    rozwinBtn.style.display = "initial";
+}
+function hide() {
+    var rozwinBtn=document.getElementById('rozBtn');
+    rozwinBtn.style.display = "none";
+}
+</script>
+
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
