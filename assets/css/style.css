@@ -383,7 +383,7 @@ a.button {
 /* */
 
 #kimjestem{
-  background: linear-gradient(rgba(0, 75, 136, 0.3), rgba(1, 45, 82, 0.6)), url(../img/murawa.jpeg) fixed center center;
+  background: linear-gradient(rgba(0, 75, 136, 0.3), rgba(1, 45, 82, 0.6)), url(../img/murawa.jpg) fixed center center;
   background-size: cover;
   margin: 80px 0 80px;
 }
