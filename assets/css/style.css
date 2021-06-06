@@ -283,7 +283,7 @@ a.button {
 }
 
 .arrow2 {
-  color: #fff;
+  color: #ffc451;
 }
 .arrow2::after {
   display: inline-block;
@@ -294,7 +294,7 @@ a.button {
   margin-left: 44px;
 }
 .arrow2:hover {
-  color: #d1d0d0;
+  color: #ffd584;
 }
 
 .arrow2:hover::after {
@@ -311,7 +311,7 @@ a.button {
 }
 
 .arrow3 {
-  color: #fff;
+  color: #ffc451;
 }
 .arrow3::after {
   display: inline-block;
@@ -322,7 +322,7 @@ a.button {
   margin-left: 8px;
 }
 .arrow3:hover {
-  color: #d1d0d0;
+  color: #ffd584;
 }
 
 .arrow3:hover::after {
