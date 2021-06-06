@@ -41,6 +41,25 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+.h3omnie{
+  color:#fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.pomnie{
+  color:#fff;
+  font-size:17px;
+}
+
+.orderx1{
+
+}
+
+.orderx2{
+
+}
+
 .footerikonki{
   display:grid;
   margin-top:2rem;
@@ -248,6 +267,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- End Moje ---------------------------- */
 
+.omnieImg{
+  width:70%;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
 .rozwin{
   font-weight:500!important;
   font-size:2rem!important;
@@ -279,7 +306,11 @@ a.button {
 }
 
 .klasa2{
-  font-size:16px!important;position:fixed;white-space: nowrap;margin-left:5px;margin-top: 15px;
+  font-size:16px!important;
+  position:fixed;
+  white-space: nowrap;
+  margin-left: -40px;
+  margin-top: 15px;
 }
 
 .arrow2 {
@@ -291,7 +322,6 @@ a.button {
   content: "🠓";
   transition: transform 0.3s ease-out;
   margin-top: 35px;
-  margin-left: 44px;
 }
 .arrow2:hover {
   color: #ffd584;
@@ -538,6 +568,26 @@ a.button {
 }
 
 @media (max-width: 768px) {
+  .omnieImg{
+    width:60%!important;
+    margin-bottom:40px;
+  }
+  .pomnie{
+    text-align: center;
+  }
+
+  .h3omnie{
+    text-align: center;
+  }
+
+  .orderx1{
+    order: 1!important;
+  }
+
+  .orderx2{
+    order: 2!important;
+  }
+
   #kurs {
     height: auto;
   }
@@ -693,6 +743,8 @@ a.button {
 }
 @media screen and (max-width:479px) {
     .main-timeline .title{ font-size: 22px; }
+
+    .ikonkaKar{max-width: 200px;}
 }
 
 /* End timeline */
@@ -1066,6 +1118,10 @@ a.button {
 @media (max-width: 992px) {
   .omnieKursy{
     margin-left:0!important;
+  }
+
+  .omnieImg{
+    width:100%;
   }
 
   .footerikonki2{
