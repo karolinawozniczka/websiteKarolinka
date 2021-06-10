@@ -410,7 +410,7 @@ a.button {
 	transform: rotate(360deg);
 }
 
-/* */
+/* background: linear-gradient(rgba(0, 75, 136, 0.3), rgba(1, 45, 82, 0.6)), url(../img/murawa.jpg) center; */
 
 #kimjestem{
   background: linear-gradient(rgb(0 75 136 / 0%), rgb(1 45 82 / 89%)), url(../img/murawa.jpg) fixed center center;
