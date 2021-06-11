@@ -48,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pomnie{
+  margin-top:20px;
   color:#fff;
   font-size:17px;
 }
@@ -411,11 +412,24 @@ a.button {
 }
 
 /* background: linear-gradient(rgba(0, 75, 136, 0.3), rgba(1, 45, 82, 0.6)), url(../img/murawa.jpg) center; */
+/* rgba(0, 75, 136, 0.3), rgba(175, 122, 9, 0.322)) */
+.navtransparent{
+  background:transparent!important;
+}
+
+.kimjestembgafter{
+  background: linear-gradient(rgba(0, 52, 94, 0.6), rgba(0, 0, 0, 0.929)), url(../img/murawa.jpg) fixed center center!important;
+}
+
+.kimjestembgbefore{
+  background: linear-gradient(rgba(0, 75, 136, 0.3), rgba(175, 122, 9, 0.322)), url(../img/murawa.jpg) fixed center center;
+}
 
 #kimjestem{
-  background: linear-gradient(rgb(0 75 136 / 0%), rgb(1 45 82 / 89%)), url(../img/murawa.jpg) fixed center center;
+  transition: 4s;
+  padding: 140px 0 40px!important;
   background-size: cover;
-  margin: 80px 0 80px;
+  /* margin: 80px 0 80px; */
 }
 
 .to-bottom {
@@ -1810,7 +1824,26 @@ section {
   background: rgba(21, 21, 21, 0.6);
 }
 
-.portfolio .portfolio-wrap::before {
+.portfolio-wrap2 {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.portfolio-wrap2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+
+.portfolio .portfolio-wrap::before  {
   content: "";
   background: rgba(21, 21, 21, 0.6);
   position: absolute;
@@ -1823,11 +1856,31 @@ section {
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap img {
+.portfolio-wrap2 img {
+  transition: all ease-in-out 0.3s;
+}
+
+.portfolio .portfolio-wrap img  {
   transition: all ease-in-out 0.3s;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.portfolio-wrap2 .portfolio-info {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -1849,7 +1902,22 @@ section {
   font-weight: 600;
 }
 
+.portfolio-wrap2 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
 .portfolio .portfolio-wrap .portfolio-info p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+
+.portfolio-wrap2 .portfolio-info p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
   text-transform: uppercase;
@@ -1863,7 +1931,20 @@ section {
   z-index: 4;
 }
 
+.portfolio-wrap2 .portfolio-links {
+  text-align: center;
+  z-index: 4;
+}
+
 .portfolio .portfolio-wrap .portfolio-links a {
+  color: #fff;
+  margin: 0 5px 0 0;
+  font-size: 28px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.portfolio-wrap2 .portfolio-links a {
   color: #fff;
   margin: 0 5px 0 0;
   font-size: 28px;
@@ -1875,7 +1956,15 @@ section {
   color: #009ee3;
 }
 
+.portfolio-wrap2 .portfolio-links a:hover {
+  color: #009ee3;
+}
+
 .portfolio .portfolio-wrap:hover::before {
+  opacity: 1;
+}
+
+.portfolio-wrap2:hover::before {
   opacity: 1;
 }
 
@@ -1883,7 +1972,15 @@ section {
   transform: scale(1.2);
 }
 
+.portfolio-wrap2:hover img {
+  transform: scale(1.02);
+}
+
 .portfolio .portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+}
+
+.portfolio-wrap2:hover .portfolio-info {
   opacity: 1;
 }
 
