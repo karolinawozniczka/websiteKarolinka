@@ -35,7 +35,7 @@
   <body>
   
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top header-inner-pages">
+    <header id="header" class="fixed-top header-inner-pages navtransparent">
       <div class="container d-flex align-items-center justify-content-lg-between">
         <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo/1.png" alt="" class="img-fluid"></a>
         <nav id="navbar" class="navbar order-last order-lg-0">
@@ -53,25 +53,25 @@
     <main id="main">
   
           <!-- ======= Kim jestem Section ======= -->
-          <section id="kimjestem" style="padding: 60px 0 40px!important;">
+          <section id="kimjestem" class="kimjestembgbefore">
             <div class="container" data-aos="fade-up">
               <div class="section-title2">
                 <h2>O mnie</h2>
                 <p style="color:#fff">Kim jestem</p>
               </div>
               <div class="row" style="padding-bottom:10px">    
-                <div class="col-md-7  orderx2" style="margin:auto">         
+                <div class="col-md-5 offset-md-2 orderx2" style="margin:auto">         
                   <h3 class="h3omnie">
-                    Jestem psychologiem pracującym w obszarze sportu.
+                    Jestem psychologiem<br/> pracującym w obszarze sportu.
                   </h3>
-                  <p class="pomnie">Moja droga zawodowa jest połączeniem pasji do sportu i wykształcenia psychologicznego.</p>
+                  <p class="pomnie">Moja droga zawodowa jest połączeniem pasji do sportu i<br/>wykształcenia psychologicznego.</p>
                 </div> 
                 <div class="col-md-5 orderx1" style="text-align: center;margin:auto">         
                   <img src="assets/img/portfolio/2.jpg" class="omnieImg">
                 </div> 
               </div>
               <div class="row" style="text-align: center;">
-                <a id="rozBtn1" onclick="hide1()" class="button arrow2 rozwin" data-bs-toggle="collapse" href="#collapseExample2" role="button"
+                <a id="rozBtn1" onclick="hide1(); darkenbg();" class="button arrow2 rozwin" data-bs-toggle="collapse" href="#collapseExample2" role="button"
                  aria-expanded="false" aria-controls="collapseExample2">
                   <span class="klasa2">Rozwiń więcej<span style="content:'\a'"></span></span></a>
               </div>
@@ -90,7 +90,7 @@
                     realizować sportowe marzenia. 
                 </p>
                 <div class="row" style="text-align: center;">
-                  <a id="rozBtn1" onclick="show1()" class="button arrow3 rozwin" data-bs-toggle="collapse" href="#collapseExample2" role="button"
+                  <a id="rozBtn1" onclick="show1(); lightenbg();" class="button arrow3 rozwin" data-bs-toggle="collapse" href="#collapseExample2" role="button"
                    aria-expanded="false" aria-controls="collapseExample2">
                     <span class="klasa3">Zwiń<span style="content:'\a'"></span></span></a>
                 </div>
@@ -100,7 +100,7 @@
           </section>
 
   
-          <section style="padding-top:0;padding-bottom:40px"> 
+          <section style="padding-bottom:40px"> 
             <div class="container" data-aos="fade-up">
               <div class="section-title">
                 <h2>O mnie</h2>
@@ -121,7 +121,7 @@
                   <div class="col-md-12" style="text-align: center;padding:20px 0">
                     <!-- <a href="assets/img/portfolio/doswiadczenie.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                       <img src="assets/img/portfolio/doswiadczenie.jpg" class="img-fluid" alt="" style="width:70%"></a> -->
-                      <div class="portfolio-wrap" style="background:initial">
+                      <div class="portfolio-wrap2" style="background:initial;">
                         <a href="assets/img/portfolio/doswiadczenie.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                         <img src="assets/img/portfolio/doswiadczenie.jpg" class="img-fluid" alt="" style="width:70%">
                         <div class="portfolio-info">
@@ -531,7 +531,21 @@
         var rozwinBtn1=document.getElementById('rozBtn1');
         rozwinBtn1.style.display = "none";
       }
+
+      function darkenbg() {
+      var kimjestem=document.getElementById('kimjestem');
+      kimjestem.classList.add('kimjestembgafter');
+      window.scrollBy(0, 400);
+    }
+    function lightenbg() {
+      var kimjestem=document.getElementById('kimjestem');
+      kimjestem.classList.add('kimjestembgbefore');
+      kimjestem.classList.remove('kimjestembgafter');
+      window.scrollBy(0, -400);
+    }
     </script>
+
+
 
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
