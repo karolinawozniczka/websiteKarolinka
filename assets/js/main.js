@@ -76,6 +76,7 @@
    */
   let selectHeader = select('#header')
   let stronaglowna = select('#introjs')
+
   if (selectHeader) {
     const headerScrolled = () => {
       if (window.scrollY > 100) {
@@ -83,10 +84,16 @@
         if (stronaglowna){
           stronaglowna.classList.add('navbarActive2')
         }
+        if(selectHeader.classList.contains('navtransparent')){
+          selectHeader.classList.remove('navtransparent')
+        }
       } else {
         selectHeader.classList.remove('header-scrolled')
         if (stronaglowna){
           stronaglowna.classList.remove('navbarActive2')
+        }
+        if(!selectHeader.classList.contains('navtransparent')){
+          selectHeader.classList.add('navtransparent');
         }
       }
     }
