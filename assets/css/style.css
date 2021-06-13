@@ -41,6 +41,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+.intromsg{
+  margin-bottom:30%;
+  margin-left:1.5%;
+}
+
 .h3omnie{
   color:#fff;
   font-size: 30px;
@@ -586,6 +591,9 @@ a.button {
     width:60%!important;
     margin-bottom:40px;
   }
+.intromsg{
+  margin-left:unset;
+}
   .pomnie{
     text-align: center;
   }
