@@ -41,6 +41,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+.ofertalayout1{
+  margin:auto;padding:0 0 0 120px
+}
+
+.ofertalayout1text{
+  margin:auto;padding:0 120px 0 60px
+}
+
 .intromsg{
   margin-bottom:30%;
   margin-left:1.5%;
@@ -1156,6 +1164,16 @@ a.button {
 
 .kurs3 {
   margin: 28px 0 0 0;
+}
+
+.ofertalayout1{
+  padding-right: calc(var(--bs-gutter-x)/ 2);
+  padding-left: calc(var(--bs-gutter-x)/ 2);
+}
+
+.ofertalayout1text{
+  padding-right: calc(var(--bs-gutter-x)/ 2);
+  padding-left: calc(var(--bs-gutter-x)/ 2);
 }
 
   .get-started-btn {
