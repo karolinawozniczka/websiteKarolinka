@@ -53,10 +53,10 @@
   <section id="hero" class="d-flex align-items-center justify-content-center">
     <div class="container" data-aos="fade-up">
       <div class="row justify-content-center intromsg" data-aos="fade-up" data-aos-delay="150">
-        <div class=" col-lg-12">
-          <h1 class="hintro">Masz dodatkowe pytania?</h1>
-          <h2 class="h2intro">Chcesz się umówić na spotkanie?</h2>
-          <a href="#kontakt" class="btnMain gradient scrollto">Skontaktuj się</a>
+        <div class=" col-lg-12" style="text-align: left!important;padding-top:15%;">
+          <h1 class="hintro">Karolina Woźniczka</h1>
+          <h2 class="h2intro">Psycholog sportu</h2>
+          <a href="#kontakt" class="btnMain gradient2 scrollto">Skontaktuj się<a id="arrowIntroId" href="#kontakt" class="arrowIntro"></a></a>
         </div>
       </div>
     </div>
@@ -467,6 +467,12 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    $(document).on("ready", function () {
+    $("arrowIntroId").eq(0).addClass('hover');
+});
+  </script>
 
 </body>
 
