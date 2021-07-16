@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   border-radius: inherit;
   transition: opacity .3s;
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url('../img/ofertaServices/indySmall.jpg');
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../img/ofertaServices/indySmall.jpg');
 }
 .ofertabgindy:hover:after {
   opacity: 1;
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   border-radius: inherit;
   transition: opacity .3s;
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url('../img/ofertaServices/grupaSmall.jpg');
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../img/ofertaServices/grupaSmall.jpg');
 }
 .ofertabggrupa:hover:after {
   opacity: 1;
@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   border-radius: inherit;
   transition: opacity .3s;
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url('../img/ofertaServices/rodzicSmall.jpg');
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../img/ofertaServices/rodzicSmall.jpg');
 }
 .ofertabgrodzic:hover:after {
   opacity: 1;
@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   border-radius: inherit;
   transition: opacity .3s;
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url('../img/ofertaServices/sztabSmall.jpg');
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../img/ofertaServices/sztabSmall.jpg');
 }
 .ofertabgsztab:hover:after {
   opacity: 1;
@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   border-radius: inherit;
   transition: opacity .3s;
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url('../img/ofertaServices/klubSmall.jpg');
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../img/ofertaServices/klubSmall.jpg');
 }
 .ofertabgklub:hover:after {
   opacity: 1;
@@ -259,7 +259,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   border-radius: inherit;
   transition: opacity .3s;
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url('../img/ofertaServices/onlineSmall.jpg');
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../img/ofertaServices/onlineSmall.jpg');
 }
 .ofertabgonline:hover:after {
   opacity: 1;
