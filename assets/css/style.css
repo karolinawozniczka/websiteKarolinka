@@ -49,6 +49,10 @@ h1, h2, h3, h4, h5, h6 {
   margin:auto;padding:0 120px 0 60px
 }
 
+.ofertalayout1text2{
+  margin:auto;padding:0 60px 0 60px
+}
+
 .intromsg{
   margin-bottom:30%;
   margin-left:1.5%;
@@ -1172,6 +1176,11 @@ a.button {
 }
 
 .ofertalayout1text{
+  padding-right: calc(var(--bs-gutter-x)/ 2);
+  padding-left: calc(var(--bs-gutter-x)/ 2);
+}
+
+.ofertalayout1text2{
   padding-right: calc(var(--bs-gutter-x)/ 2);
   padding-left: calc(var(--bs-gutter-x)/ 2);
 }
