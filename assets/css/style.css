@@ -1368,7 +1368,7 @@ font-style: normal;
 */
 .mobile-nav-toggle {
   color: #fff;
-  font-size: 28px;
+  font-size: 44px;
   cursor: pointer;
   display: none;
   line-height: 0;
@@ -2579,6 +2579,15 @@ section {
 
 #arrowIntroId{
   
+}
+
+.logoImg{
+  max-width: unset!important;
+}
+
+.logoHalf{
+  max-width: 58px!important;
+    overflow: hidden!important;
 }
 
 .gradient2 {
