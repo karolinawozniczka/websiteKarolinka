@@ -76,21 +76,24 @@
    */
   let selectHeader = select('#header')
   let stronaglowna = select('#introjs')
+  let logoHalfId = select('#logoHalfId')
 
   if (selectHeader) {
     const headerScrolled = () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 100) {      
+        logoHalfId.classList.remove('logoHalf');  
         selectHeader.classList.add('header-scrolled')
         if (stronaglowna){
-          stronaglowna.classList.add('navbarActive2')
+          stronaglowna.classList.add('navbarActive2')          
         }
         if(selectHeader.classList.contains('navtransparent')){
           selectHeader.classList.remove('navtransparent')
         }
-      } else {
+      } else {    
+        logoHalfId.classList.add('logoHalf');    
         selectHeader.classList.remove('header-scrolled')
         if (stronaglowna){
-          stronaglowna.classList.remove('navbarActive2')
+          stronaglowna.classList.remove('navbarActive2')          
         }
         if(!selectHeader.classList.contains('navtransparent')){
           selectHeader.classList.add('navtransparent');
