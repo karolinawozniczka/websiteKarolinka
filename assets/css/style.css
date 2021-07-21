@@ -1174,8 +1174,20 @@ a.button {
     margin: 0!important;
   }
   .btnMain {
-    margin-top: 5%!important;
-    margin-bottom:10%!important;
+    padding: 15px 40px!important;
+    position: absolute!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    left: 10%!important;
+    right: 10%!important;
+    text-align: center!important;
+  }
+  .logoImg{
+    width:220px!important;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: -45%;
   }
   .btn-contact{
     width:200px;
