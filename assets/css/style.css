@@ -155,6 +155,10 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
+.ofertabgindy:hover .hoferta{
+  color:#ffc451;
+}
+
 .ofertabggrupa {
   position:relative;
   width:100%!important;
@@ -180,6 +184,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .ofertabggrupa:hover:after {
   opacity: 1;
+}
+
+.ofertabggrupa:hover .hoferta{
+  color:#ffc451;
 }
 
 .ofertabgrodzic {
@@ -209,6 +217,10 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
+.ofertabgrodzic:hover .hoferta{
+  color:#ffc451;
+}
+
 .ofertabgsztab {
   position:relative;
   width:100%!important;
@@ -234,6 +246,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .ofertabgsztab:hover:after {
   opacity: 1;
+}
+
+.ofertabgsztab:hover .hoferta{
+  color:#ffc451;
 }
 
 .ofertabgklub {
@@ -263,6 +279,10 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
+.ofertabgklub:hover .hoferta{
+  color:#ffc451;
+}
+
 .ofertabgonline {
   position:relative;
   width:100%!important;
@@ -288,6 +308,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .ofertabgonline:hover:after {
   opacity: 1;
+}
+
+.ofertabgonline:hover .hoferta{
+  color:#ffc451;
 }
 
 .omnieKursy{
@@ -1069,10 +1093,6 @@ a.button {
   color :#fff;
   position:relative;
   z-index:2;
-}
-
-.pfff:hover{
-  color:#ffd584;
 }
 
 .afb{
