@@ -348,7 +348,7 @@ a.button {
   transform: translateX(-4px);
 }
 
-.arrowIntro {
+/* .arrowIntro {
   color: #fff;
   font-size:60px;
   margin-left:-2%;
@@ -368,7 +368,7 @@ a.button {
 
 .arrowIntro:hover::before {
   transform: translateX(12px);
-}
+} */
 
 .klasa2{
   font-size:16px!important;
@@ -2549,36 +2549,56 @@ section {
 }
 
 .btnMain {
-	
-    padding: 15px 110px;
-    text-align: center;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;
-    box-shadow: 0 0 20px #eee;
-    border-radius: 10px;
-    font-weight: 600;
-    text-transform: uppercase;
-	letter-spacing:1px;
+  padding: 15px 110px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing:1px;
   margin-top:40px;
   font-size:16px;
   display: inline-block;
   border: 2px;
   font-family: "Raleway", sans-serif;
-
   cursor: pointer;
   moz-transition: all .4s ease-in-out;
-
+  position: relative;
 }
 
 .btnMain:hover {
-  background-position: 100% 0;
-  color:#fff;
-  moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-  
+background-position: 100% 0;
+color:#fff;
+moz-transition: all .4s ease-in-out;
+-o-transition: all .4s ease-in-out;
+-webkit-transition: all .4s ease-in-out;
+transition: all .4s ease-in-out;
+
+}
+.gradient {
+background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%);
+}
+.arrowIntro {
+margin-left:10px;
+display:inline-block;
+color: black;
+position:absolute;
+top:-8px;
+right:-18px;
+transition: transform 500ms ease-in-out 25ms;
+}
+.arrowIntro::before {
+content: "→";
+font-size:40px;
+color: white;
+}
+.btnMain:hover .arrowIntro {
+transform: translateX(12px);
+color: red;
 }
 
 #arrowIntroId{
