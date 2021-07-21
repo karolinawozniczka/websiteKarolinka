@@ -1083,7 +1083,7 @@ a.button {
   white-space: nowrap;
   /* color:#151515!important; */
   color:#343a40!important;
-  font-size:60px!important;
+  font-size:50px!important;
 }
 
 .h2intro{
@@ -1096,11 +1096,11 @@ a.button {
 }
 
 .navbarActive{
-  font-weight:300!important;
+  font-weight:500!important;
 }
 
 .navbarActive2{
-  color:#ffc451!important;
+  font-weight:500!important;
 }
 
 .ikonki{
@@ -1474,7 +1474,7 @@ font-style: normal;
 #hero {
   width: 100%;
   height: 100vh;
-  background:  url("../img/background/hero-bg.png") top center;
+  background:  url("../img/background/hero-bg.png") bottom center;
   background-size: cover;
   position: relative;
 }
@@ -1859,7 +1859,7 @@ section {
 }
 
 .navhover:hover{
-  color:#ffc451!important;
+  color:#009ee3!important;
 }
 
 /*--------------------------------------------------------------
@@ -2549,17 +2549,17 @@ section {
 }
 
 .btnMain {
-
-    padding: 15px 45px;
+	
+    padding: 15px 110px;
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
-
+	letter-spacing:1px;
   margin-top:40px;
   font-size:16px;
   display: inline-block;
@@ -2589,9 +2589,14 @@ section {
   max-width: unset!important;
 }
 
+.logoImg2{
+
+}
+
 .logoHalf{
-  max-width: 58px!important;
-    overflow: hidden!important;
+  /* max-width: 58px!important; */
+    /* overflow: hidden!important; */
+	visibility:hidden
 }
 
 .gradient2 {
