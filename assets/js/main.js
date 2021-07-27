@@ -80,8 +80,11 @@
 
   if (selectHeader) {
     const headerScrolled = () => {
-      if (window.scrollY > 100) {      
-        logoHalfId.classList.remove('logoHalf');  
+      if (window.scrollY > 200) {   
+        if (logoHalfId){   
+          logoHalfId.classList.remove('logoHalf');  
+		      logoHalfId.classList.remove('logoImg2');
+        }
         selectHeader.classList.add('header-scrolled')
         if (stronaglowna){
           stronaglowna.classList.add('navbarActive2')          
@@ -89,8 +92,10 @@
         if(selectHeader.classList.contains('navtransparent')){
           selectHeader.classList.remove('navtransparent')
         }
-      } else {    
-        logoHalfId.classList.add('logoHalf');    
+      } else {   
+        if(logoHalfId){ 
+          logoHalfId.classList.add('logoHalf');    
+        }
         selectHeader.classList.remove('header-scrolled')
         if (stronaglowna){
           stronaglowna.classList.remove('navbarActive2')          
