@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   color: #444444;
@@ -12,6 +16,7 @@ a:hover {
   color: #009ee3;
   text-decoration: none;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
@@ -628,6 +633,7 @@ a.button {
 .navtransparent{
   background:transparent!important;
 }
+
 
 
 #kimjestem{
@@ -2696,6 +2702,16 @@ section {
   background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
   box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%);
 }
+
+.btnMainHover{
+  background-position: 100% 0;
+  color:#fff;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+  
 
 .btnMain {
   padding: 15px 110px;
