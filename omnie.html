@@ -86,9 +86,10 @@
                 <a id="rozBtn1" onclick="hide1();" class="button arrow2 rozwin" data-bs-toggle="collapse" href="#collapseExample2" role="button"
                  aria-expanded="false" aria-controls="collapseExample2">
                   <span class="klasa2">Rozwiń więcej<span style="content:'\a'"></span></span></a>
+                 
               </div>
               <div class="collapse" id="collapseExample2">
-                <p style="padding-top:80px">
+                <p style="padding-top:80px;margin-top:20px">
                   Od dziecka byłam zaangażowana w różne dyscyplinysportowe. Jednak to trenowaniu wyczynowo narciarstwa alpejskiego oddałam największą ilość czasu i serca.<br/> Jako <b>zawodniczka</b> spotkałam się z wieloma wyzwaniami-koniecznością uporania się z emocjami
                     przedstartowymi i presją, specyfiką relacji trenerskich czy rówieśniczych rywalizacji, trudnościami pogodzenia programu sportowca z obowiązkami szkolnymi(życiowymi), a także sytuacją kontuzji.
                      <b>Doświadczyłam na sobie</b> jak ważna jest dobra koncentracja czy umiejętne wykorzystywanie emocji. <b>Przeżyte doświadczenia</b> dały mi zrozumienie dla trudności i specyfiki życia zawodników, z którymi 
@@ -127,7 +128,6 @@
                    aria-expanded="false" aria-controls="collapseExample2">
                     <span class="klasa3">Zwiń<span style="content:'\a'"></span></span></a>
                 </div>
-                <div style="height:40px"></div>
               </div>              
             </div>
           </section>
@@ -137,7 +137,7 @@
           <section id="dosw" style="padding-bottom:40px;padding:0 0!important"> 
             <div class="container" data-aos="fade-up">
               <div class="section-title">
-                <h2>O mnie</h2>
+                <h2 id="tutaj">O mnie</h2>
                 <p>Doświadczenie</p>
               </div>
               <div class="half-half-image-text" style="padding-top:0!important">
@@ -634,7 +634,13 @@
       function hide1() {
         var rozwinBtn1=document.getElementById('rozBtn1');
         rozwinBtn1.style.display = "none";
+       
+        var elmnt = document.getElementById("collapseExample2");
+        elmnt.scrollIntoView();
+       
       }
+
+
 
     </script>
 
