@@ -629,13 +629,6 @@ a.button {
   background:transparent!important;
 }
 
-.kimjestembgafter{
-  background: linear-gradient(rgba(0, 52, 94, 0.6), rgba(0, 0, 0, 0.929)), url(../img/murawa.jpg) fixed center center!important;
-}
-
-.kimjestembgbefore{
-  background: linear-gradient(rgba(0, 75, 136, 0.3), rgba(175, 122, 9, 0.322)), url(../img/murawa.jpg) fixed center center;
-}
 
 #kimjestem{
   transition: 4s;
