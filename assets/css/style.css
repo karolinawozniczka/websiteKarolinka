@@ -41,6 +41,130 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+.half-half-image-text {
+  padding: 20px 0px;
+}
+.half-half-image-text h1 {
+  color: #444444;
+  font-size: 1.75rem;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.half-half-image-text .content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 35px 0px;
+}
+.half-half-image-text .content p {
+  font-size: 22px;
+}
+.half-half-image-text .img {
+  min-height: 420px;
+  height: 100%;
+  box-shadow: 0 0 20px 20px rgb(0 0 0 / 15%);
+}
+
+/* Panels. */
+.splitview img {
+  z-index: 3;
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.15);
+  width: 23%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Panels. */
+
+.splitview {
+  position: relative;
+  width: 100%;
+  min-height: 35vw;
+  overflow: hidden;
+}
+
+.panel {
+  position: absolute;
+  width: 100vw;
+  min-height: 35vw;
+  overflow: hidden;
+}
+
+.panel .content {
+  position: absolute;
+  width: 100vw;
+  min-height: 35vw;
+  color: #FFF;
+}
+
+.panel .description {
+  width: 31%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.bottom {
+  background-color: #fff;
+  z-index: 1;
+}
+
+.bottom .description {
+  right: 5%;
+}
+
+.top {
+  background-image: linear-gradient(to left, rgb(37, 170, 225), rgb(68, 129, 235), rgb(4, 190, 254), rgb(63, 134, 237));
+  z-index: 2;
+  width: 50vw;
+  /*-webkit-clip-path: polygon(60% 0, 100% 0, 100% 100%, 40% 100%);
+    clip-path: polygon(60% 0, 100% 0, 100% 100%, 40% 100%);*/
+}
+
+.top .description {
+  left: 5%;
+}
+
+
+/* Handle. */
+
+.handle {
+  height: 100%;
+  position: absolute;
+  display: block;
+  width: 5px;
+  top: 0;
+  left: 50%;
+  z-index: 3;
+}
+
+
+/* Skewed. */
+
+.skewed .handle {
+  top: 50%;
+  transform: rotate(30deg) translateY(-50%);
+  height: 200%;
+  -webkit-transform-origin: top;
+  -moz-transform-origin: top;
+  transform-origin: top;
+}
+
+.skewed .top {
+  transform: skew(-30deg);
+  margin-left: -1000px;
+  width: calc(50vw + 1000px);
+}
+
+.skewed .top .content {
+  transform: skew(30deg);
+  margin-left: 1000px;
+}
+
 .ofertalayout1{
   margin:auto;padding:0 0 0 120px
 }
@@ -395,25 +519,25 @@ a.button {
 } */
 
 .klasa2{
-  font-size:16px!important;
-  position:fixed;
+  font-size:18px!important;
+  position:absolute;
   white-space: nowrap;
   margin-left: -40px;
   margin-top: 15px;
 }
 
 .arrow2 {
-  color: #ffc451;
+  color: #0d6efd;
 }
 .arrow2::after {
   display: inline-block;
-  padding-left: 8px;
+  padding-left: 14px;
   content: "🠓";
   transition: transform 0.3s ease-out;
   margin-top: 35px;
 }
 .arrow2:hover {
-  color: #ffd584;
+  color: #151515;
 }
 
 .arrow2:hover::after {
@@ -422,26 +546,26 @@ a.button {
 /* */
 
 .klasa3{
-  font-size:16px!important;
-  position:fixed;
+  font-size:18px!important;
+  position:absolute;
   white-space: nowrap;
   margin-left:5px;
   margin-top: 50px;
 }
 
 .arrow3 {
-  color: #ffc451;
+  color: #0d6efd;
 }
 .arrow3::after {
   display: inline-block;
-  padding-left: 8px;
+  padding-left:10px;
   content: "🠕";
   transition: transform 0.3s ease-out;
   margin-top: 5px;
   margin-left: 8px;
 }
 .arrow3:hover {
-  color: #ffd584;
+  color: #151515;
 }
 
 .arrow3:hover::after {
@@ -515,7 +639,7 @@ a.button {
 
 #kimjestem{
   transition: 4s;
-  padding: 140px 0 40px!important;
+  padding: 80px 0 40px!important;
   background-size: cover;
   /* margin: 80px 0 80px; */
 }
@@ -1633,7 +1757,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #cbcaca;
   font-family: "Raleway", sans-serif;
 }
 
