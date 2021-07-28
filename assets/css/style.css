@@ -2093,6 +2093,18 @@ section {
   cursor:pointer;
 }
 
+.customzoomBigger{
+  transition:0.3s;
+  overflow:hidden;
+  z-index:1;
+  position:relative;
+}
+
+.customzoomBigger:hover{
+  transform: scale(1.09);
+  cursor:pointer;
+}
+
 .portfolio-wrap2 {
   transition: 0.3s;
   position: relative;
