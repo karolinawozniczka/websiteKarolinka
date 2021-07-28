@@ -2081,6 +2081,18 @@ section {
   background: rgba(21, 21, 21, 0.6);
 }
 
+.customzoom{
+  transition:0.3s;
+  overflow:hidden;
+  z-index:1;
+  position:relative;
+}
+
+.customzoom:hover{
+  transform: scale(1.02);
+  cursor:pointer;
+}
+
 .portfolio-wrap2 {
   transition: 0.3s;
   position: relative;
