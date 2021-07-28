@@ -87,7 +87,8 @@
         }
         selectHeader.classList.add('header-scrolled')
         if (stronaglowna){
-          stronaglowna.classList.add('navbarActive2')          
+          stronaglowna.classList.add('navbarActive2');
+          stronaglowna.classList.add('colorNavIndex');        
         }
         if(selectHeader.classList.contains('navtransparent')){
           selectHeader.classList.remove('navtransparent')
@@ -98,7 +99,8 @@
         }
         selectHeader.classList.remove('header-scrolled')
         if (stronaglowna){
-          stronaglowna.classList.remove('navbarActive2')          
+          stronaglowna.classList.remove('navbarActive2')  
+          stronaglowna.classList.remove('colorNavIndex');           
         }
         if(!selectHeader.classList.contains('navtransparent')){
           selectHeader.classList.add('navtransparent');
