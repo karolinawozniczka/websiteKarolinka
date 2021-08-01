@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   color: #444444;
@@ -42,6 +46,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+.supertlo{
+  background: linear-gradient(rgb(0 109 196 / 30%), rgb(3 112 200 / 60%)), url(../img/paralax/paralaxsmall.jpg) fixed center center;
+  background-size: cover;
+}
+
 .zoom {
   transition: transform .2s;
 }
@@ -80,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 .splitview img {
   z-index: 3;
   box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.15);
-  width: 23%;
+  width: 20%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -102,21 +111,21 @@ h1, h2, h3, h4, h5, h6 {
 .splitview {
   position: relative;
   width: 100%;
-  min-height: 35vw;
+  min-height: 30vw;
   overflow: hidden;
 }
 
 .panel {
   position: absolute;
   width: 100vw;
-  min-height: 35vw;
+  min-height: 30vw;
   overflow: hidden;
 }
 
 .panel .content {
   position: absolute;
   width: 100vw;
-  min-height: 35vw;
+  min-height: 30vw;
   color: #FFF;
 }
 
@@ -2028,8 +2037,35 @@ section {
 .cta .cta-btn:hover {
   color:#4b4b4b;
   border-color: #ffc451;
-  background: #fab83c;
+  background: #fff;
   
+}
+
+.cta-btn2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  border: 2px solid #ffc451;
+  color: #4b4b4b;
+  background: #fff;
+}
+
+.cta-btn2:hover {
+  color:#fff;
+  border-color: #ffc451;
+  background: #ffbb38;
+  
+}
+
+.cta-btn2hover{
+  color:#fff;
+  border-color: #ffc451;
+  background: #ffbb38;
 }
 
 /* .navhover:hover{
@@ -2174,6 +2210,34 @@ section {
   padding-top: 20px;
   border-bottom: 5px solid #009ee3;
   width: 160px;
+}
+
+.titleborderOrange{
+
+}
+
+.titleborderOrange::after {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 40%;
+  padding-top: 20px;
+  border-bottom: 5px solid #ffc451;
+  width: 400px;
+}
+
+.titleborderOrange2{
+
+}
+
+.titleborderOrange2::after {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 40%;
+  padding-top: 20px;
+  border-bottom: 5px solid #ffc451;
+  width: 115px;
 }
 
 .bot-left2 {
