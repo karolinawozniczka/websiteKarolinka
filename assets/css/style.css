@@ -2062,6 +2062,11 @@ section {
   color: white;
   }
 
+
+  
+
+
+
  .btn-gradMain {background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed)}
  .btn-gradMain {
    margin:0;
@@ -2078,7 +2083,7 @@ section {
    transition: 0.5s;
    background-size: 200% auto;
    color: white;            
-   box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%);
+   box-shadow: 0 0 20px #eee;
    border-radius: 10px;
   }
  
