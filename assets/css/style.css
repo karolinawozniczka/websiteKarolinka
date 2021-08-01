@@ -260,25 +260,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.btn-grad {background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%)}
-.btn-grad {
-   margin: 10px;
-   padding: 15px 45px;
-   text-align: center;
-   text-transform: uppercase;
-   transition: 0.5s;
-   background-size: 200% auto;
-   color: white;            
-   box-shadow: 0 0 20px #eee;
-   border-radius: 10px;
-   display: block;
- }
 
- .btn-grad:hover {
-   background-position: right center; /* change the direction of the change here */
-   color: #fff;
-   text-decoration: none;
- }
 
 
 .ofertabgindy {
@@ -1474,7 +1456,7 @@ a.button {
   font-weight:300;
 
 font-style: normal;
-  font-size:17px;
+  font-size:18px;
 }
 
 .navbar a i {
@@ -2019,6 +2001,7 @@ section {
   color: #fff;
 }
 
+
 .cta .cta-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -2026,34 +2009,93 @@ section {
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 28px;
-  border-radius: 4px;
+ 
   transition: 0.5s;
+  background-size: 200% auto;          
+  box-shadow: 0 0 20px #eee;
   margin-top: 10px;
-  border: 2px solid #ffc451;
-  color: #fff;
-  background: #ffbb38;
-}
 
-.cta .cta-btn:hover {
-  color:#4b4b4b;
-  border-color: #ffc451;
-  background: #ffbb38;
+  color: #fff;
   
 }
 
-.demo {
-  visibility: hidden;
-  overflow: hidden;
-  height: 0px;
 
 
 
-}
-.demo_visible {
-  overflow: hidden;
-}
+
+.btn-grad {background-image: linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%)}
+.btn-grad {
+  margin:0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  text-align: center;
+  text-transform: none;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+ 
+ 
+ .arrowIntro {
+  margin-left:20px;
+  display:inline-block;
+  color: black;
+  position:absolute;
+  margin-top: -21.1px;
+  transition: transform 500ms ease-in-out 25ms;
+  }
+  .arrowIntro::before {
+  content: "→";
+  font-size:40px;
+  color: white;
+  }
+
+ .btn-gradMain {background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed)}
+ .btn-gradMain {
+   margin:0;
+   margin-left:7%;
+   margin-top: 30px;
+   font-family: "Raleway", sans-serif;
+   font-weight: 600;
+   font-size: 16px;
+   letter-spacing: 1px;
+   display: inline-block;
+   padding: 10px 40px;
+   text-align: center;
+   text-transform: none;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%);
+   border-radius: 10px;
+  }
+ 
+  .btn-gradMain:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .btn-gradMain:hover .arrowIntro {
+    transform: translateX(12px);
+    }
+
+
 
 .cta-btn2 {
+ 
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 16px;
@@ -3048,24 +3090,12 @@ transition: all .4s ease-in-out;
 background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
 box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%);
 }
-.arrowIntro {
-margin-left:10px;
-display:inline-block;
-color: black;
-position:absolute;
-top:-8px;
-right:-18px;
-transition: transform 500ms ease-in-out 25ms;
-}
-.arrowIntro::before {
-content: "→";
-font-size:40px;
-color: white;
-}
+
 .btnMain:hover .arrowIntro {
 transform: translateX(12px);
 color: red;
 }
+
 
 #arrowIntroId{
   
