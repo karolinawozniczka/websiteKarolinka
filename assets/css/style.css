@@ -2134,47 +2134,23 @@ section {
 .top-left:before {
   bottom: -3px;
   width: 3px;
-  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(transparent), to(#009ee3));
-  background-image: -webkit-linear-gradient(#009ee3, transparent);
-  background-image: -moz-linear-gradient(#009ee3, transparent);
-  background-image: -o-linear-gradient(#009ee3, transparent);
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(transparent), to(#0095d6));
+  background-image: -webkit-linear-gradient(#0095d6, transparent);
+  background-image: -moz-linear-gradient(#0095d6, transparent);
+  background-image: -o-linear-gradient(#0095d6, transparent);
 }
 .top-left:after {
   right: -3px;
   height: 3px;
-  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#009ee3), to(transparent));
-  background-image: -webkit-linear-gradient(left, #009ee3, transparent);
-  background-image: -moz-linear-gradient(left, #009ee3, transparent);
-  background-image: -o-linear-gradient(left, #009ee3, transparent);
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#0095d6), to(transparent));
+  background-image: -webkit-linear-gradient(left, #0095d6, transparent);
+  background-image: -moz-linear-gradient(left, #0095d6, transparent);
+  background-image: -o-linear-gradient(left, #0095d6, transparent);
 }
 
 
-.knockout-around {
-  position: relative; 
-}
-.knockout-around:before, .knockout-around:after {
-  content: "";
-  position: absolute;
-}
-.knockout-around:before {
-  top: -3px;
-  left: -3px;
-  right: -3px;
-  bottom: -3px;
-  background-image: -webkit-gradient(radial, right top, 10, 90% 0%, 150, from(#000), to(transparent));
-  background-image: -webkit-radial-gradient(right top, 150px 230px, #000, transparent);
-  background-image: -moz-radial-gradient(right top, farthest-corner, #000 0%, transparent 72%);
-  z-index: -2;
-}
-.knockout-around:after {
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: #fff;
-  z-index: -1;
-}
-/* */
+
+
 
 .bot-left {
   position: relative;
@@ -2189,25 +2165,32 @@ section {
 .bot-left:before {
   top: -3px;
   width: 3px;
-  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#009ee3), to(transparent));
-  background-image: -webkit-linear-gradient(transparent, #009ee3);
-  background-image: -moz-linear-gradient(transparent, #009ee3);
-  background-image: -o-linear-gradient(transparent, #009ee3);
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#0095d6), to(transparent));
+  background-image: -webkit-linear-gradient(transparent, #0095d6);
+  background-image: -moz-linear-gradient(transparent, #0095d6);
+  background-image: -o-linear-gradient(transparent, #0095d6);
 }
 .bot-left:after {
   right: -3px;
   height: 3px;
-  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#009ee3), to(transparent));
-  background-image: -webkit-linear-gradient(left, #009ee3, transparent);
-  background-image: -moz-linear-gradient(left, #009ee3, transparent);
-  background-image: -o-linear-gradient(left, #009ee3, transparent);
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#0095d6), to(transparent));
+  background-image: -webkit-linear-gradient(left, #0095d6, transparent);
+  background-image: -moz-linear-gradient(left, #0095d6, transparent);
+  background-image: -o-linear-gradient(left, #0095d6, transparent);
 }
 
 .bot-Weird {
   position: relative;
   right: -40px;
   border:3px solid;
-  border-image: linear-gradient(90deg,transparent, #009ee3) 3;
+  border-image: linear-gradient(90deg,transparent, #0095d6) 3;
+}
+
+.bot-WeirdLeft {
+  position: relative;
+  left: -40px;
+  border:3px solid;
+  border-image: linear-gradient(270deg,transparent, #0095d6) 3;
 }
 
 .titleborder{
@@ -2265,20 +2248,49 @@ section {
 .bot-left2:before {
   top: -3px;
   width: 3px;
-  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#009ee3), to(transparent));
-  background-image: -webkit-linear-gradient(transparent, #009ee3);
-  background-image: -moz-linear-gradient(transparent, #009ee3);
-  background-image: -o-linear-gradient(transparent, #009ee3);
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#0095d6), to(transparent));
+  background-image: -webkit-linear-gradient(transparent, #0095d6);
+  background-image: -moz-linear-gradient(transparent, #0095d6);
+  background-image: -o-linear-gradient(transparent, #0095d6);
 }
 .bot-left2:after {
   left: -3px;
   height: 3px;
-  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#009ee3));
-  background-image: -webkit-linear-gradient(left, transparent, #009ee3);
-  background-image: -moz-linear-gradient(left, transparent, #009ee3);
-  background-image: -o-linear-gradient(left, transparent, #009ee3);
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#0095d6));
+  background-image: -webkit-linear-gradient(left, transparent, #0095d6);
+  background-image: -moz-linear-gradient(left, transparent, #0095d6);
+  background-image: -o-linear-gradient(left, transparent, #0095d6);
 }
 
+
+
+
+.bot-left3 {
+  position: relative;
+}
+.bot-left3:before, .bot-left3:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -40px;
+  
+}
+.bot-left3:before {
+  bottom: -3px;
+  width: 3px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(transparent), to(#0095d6));
+  background-image: -webkit-linear-gradient(#0095d6, transparent);
+  background-image: -moz-linear-gradient(#0095d6, transparent);
+  background-image: -o-linear-gradient(#0095d6, transparent);
+}
+.bot-left3:after {
+  left: -3px;
+  height: 3px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#0095d6));
+  background-image: -webkit-linear-gradient(left, transparent, #0095d6);
+  background-image: -moz-linear-gradient(left, transparent, #0095d6);
+  background-image: -o-linear-gradient(left, transparent, #0095d6);
+}
 
 .bot-right {
   position: relative;
@@ -2293,18 +2305,18 @@ section {
 .bot-right:before {
   top: -3px;
   width: 3px;
-  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#009ee3), to(transparent));
-  background-image: -webkit-linear-gradient(transparent, #009ee3);
-  background-image: -moz-linear-gradient(transparent, #009ee3);
-  background-image: -o-linear-gradient(transparent, #009ee3);
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#0095d6), to(transparent));
+  background-image: -webkit-linear-gradient(transparent, #0095d6);
+  background-image: -moz-linear-gradient(transparent, #0095d6);
+  background-image: -o-linear-gradient(transparent, #0095d6);
 }
 .bot-right:after {
   left: -3px;
   height: 3px;
-  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#009ee3), to(transparent));
-  background-image: -webkit-linear-gradient(right, #009ee3, transparent);
-  background-image: -moz-linear-gradient(right, #009ee3, transparent);
-  background-image: -o-linear-gradient(right, #009ee3, transparent);
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#0095d6), to(transparent));
+  background-image: -webkit-linear-gradient(right, #0095d6, transparent);
+  background-image: -moz-linear-gradient(right, #0095d6, transparent);
+  background-image: -o-linear-gradient(right, #0095d6, transparent);
 }
 
 .portfolio .portfolio-wrap {
