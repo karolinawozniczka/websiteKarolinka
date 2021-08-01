@@ -191,6 +191,8 @@
   new Swiper('.clients-slider', {
     speed: 400,
     loop: true,
+    observer: true, 
+    observeParents: true,
     autoplay: {
       delay: 5000,
       disableOnInteraction: false
@@ -220,6 +222,7 @@
       }
     }
   });
+  
 
   /**
    * Porfolio isotope and filter
@@ -292,6 +295,10 @@
       clickable: true
     }
   });
+
+  
+
+
 
   /**
    * Animation on scroll
