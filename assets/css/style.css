@@ -2061,9 +2061,13 @@ section {
   font-size:40px;
   color: white;
   }
+/* ------------------------------------------------- */
 
+/* ------------------------------------------------- */
 
-  
+.tlaOmnie{
+  background-image: linear-gradient(to right, rgb(37, 170, 225),   rgb(63, 134, 237));
+}
 
 
 
