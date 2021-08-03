@@ -93,6 +93,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 50%;
   left: 50%;
+  border-radius: 60%;
   transform: translate(-50%, -50%);
 }
 
@@ -2069,7 +2070,28 @@ section {
   background-image: linear-gradient(to right, rgb(37, 170, 225),   rgb(63, 134, 237));
 }
 
+#collapseExampleKimjestem{
+  transition: opacity 2s linear;  
+  transform:translate(0);
+  opacity: 1;
+}
 
+#collapseExampleDoswiadczenie{
+  transition: opacity 2s linear;  
+  transform:translate(0);
+  opacity: 1;
+}
+
+#collapseExampleWyksztalcenie{
+  transition: opacity 2s linear;  
+  transform:translate(0);
+  opacity: 1;
+}
+
+.hidden {  
+  display:none;
+  opacity: 0;  
+}
 
  .btn-gradMain {background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed)}
  .btn-gradMain {
