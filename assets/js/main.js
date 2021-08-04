@@ -77,8 +77,19 @@
   let selectHeader = select('#header')
   let stronaglowna = select('#introjs')
   let logoHalfId = select('#logoHalfId')
+  let mobile = 0;
 
-  if (selectHeader) {
+  if (window.innerWidth < 600 && logoHalfId) {
+    mobile = 1;
+    logoHalfId.classList.remove('logoHalf');  
+    selectHeader.classList.add('header-scrolled');
+  }
+  else if (logoHalfId){
+    logoHalfId.classList.add('logoHalf'); 
+    selectHeader.classList.remove('header-scrolled'); 
+  }
+
+  if (selectHeader && mobile == 0) {
     const headerScrolled = () => {
       if (window.scrollY > 200) {   
         if (logoHalfId){   
@@ -106,10 +117,23 @@
           selectHeader.classList.add('navtransparent');
         }
       }
+
     }
     window.addEventListener('load', headerScrolled)
     onscroll(document, headerScrolled)
   }
+
+  window.addEventListener("resize", function(){
+    if (window.innerWidth < 600 && logoHalfId) {
+      mobile = 1;
+      logoHalfId.classList.remove('logoHalf');  
+      selectHeader.classList.add('header-scrolled');
+    }
+    else if (logoHalfId){
+      logoHalfId.classList.add('logoHalf'); 
+      selectHeader.classList.remove('header-scrolled'); 
+    }
+  }, true);
 
   /**
    * Back to top button
