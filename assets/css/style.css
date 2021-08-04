@@ -46,6 +46,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+.znikaj{
+
+}
+
 .supertlo{
   background: linear-gradient(rgb(0 109 196 / 30%), rgb(3 112 200 / 60%)), url(../img/paralax/paralaxsmall.jpg) fixed center center;
   background-size: cover;
@@ -1309,6 +1313,21 @@ a.button {
 
 @media (max-width: 600px) {
 
+  .btn-gradMain{
+    
+    white-space: nowrap;
+    margin-left:0!important;
+    position: absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-50%, -50%);
+  }
+
+  #intromsgID{
+    margin:auto;
+  }
+
   .hintro {
     font-size: 25px!important;
   }
@@ -1326,12 +1345,18 @@ a.button {
     right: 10%!important;
     text-align: center!important;
   }
-  .logoImg{
+  /* .logoImg{
     width:220px!important;
     text-align: center;
     margin: 0 auto;
     position: absolute;
     top: -45%;
+  } */
+  .navbar{
+    margin-left:2%;
+  }
+  .znikaj{
+    display:none!important;
   }
   .btn-contact{
     width:200px;
@@ -1733,9 +1758,34 @@ font-style: normal;
 }
 
 @media (max-width: 768px) {
-  #hero {
+  /*#hero {
     height: auto;
+  }*/
+  .linkcolor:visited{
+    color:#151515;
   }
+
+  .navbar a {
+    font-size: 20px;
+    padding: 20px 20px;
+    display:block!important;
+  }
+  .navbar-mobile ul { 
+    text-align: center;
+  }
+
+  #rozBtnKimjestem{
+    margin-bottom:10%;
+  }
+
+  #rozBtnDoswiadczenie{
+    margin-bottom:10%;
+  }
+
+  #rozBtnWyksztalcenie{
+    margin-bottom:10%;
+  }
+
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
