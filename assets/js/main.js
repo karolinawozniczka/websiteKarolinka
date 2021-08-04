@@ -83,7 +83,7 @@
       if (window.scrollY > 200) {   
         if (logoHalfId){   
           logoHalfId.classList.remove('logoHalf');  
-		      logoHalfId.classList.remove('logoImg2');
+		      logoHalfId.classList.remove('logoImg2');          
         }
         selectHeader.classList.add('header-scrolled')
         if (stronaglowna){
