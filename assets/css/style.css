@@ -1177,7 +1177,7 @@ a.button {
   padding: 10px 0;
 }
 
-#header.header-scrolled, #header.header-inner-pages {
+.header-scrolled, #header.header-inner-pages {
   background: rgba(0, 0, 0, 0.8);
 }
 
@@ -1189,6 +1189,10 @@ a.button {
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+.tloheadera{
+  background: rgba(0, 0, 0, 0.8);
 }
 
 #header .logo a {
