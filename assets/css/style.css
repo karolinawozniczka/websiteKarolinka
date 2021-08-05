@@ -2353,7 +2353,8 @@ section {
   width: 40%;
   padding-top: 20px;
   border-bottom: 5px solid #ffc451;
-  width: 400px;
+  width: 115px;
+  border-radius: 5px;
 }
 
 .titleborderOrange2{
@@ -2368,6 +2369,7 @@ section {
   padding-top: 20px;
   border-bottom: 5px solid #ffc451;
   width: 115px;
+  border-radius: 5px;
 }
 
 .bot-left2 {
