@@ -46,6 +46,30 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+
+
+.Omniehidden{
+  font-size: calc(.9rem + 1.5vw)!important;
+  color:#fff;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  margin-top: 15%;
+  text-align: center;
+  z-index: 1;
+  display:none;
+}
+
+.fotaPadding{
+
+}
+
+.omnieBlueBanner{
+  padding: 50px 40px 40px;
+}
+
 .znikaj{
 
 }
@@ -1314,6 +1338,84 @@ a.button {
 
 @media (max-width: 600px) {
 
+  .Omniehidden{
+    display:unset!important;
+    z-index:3;
+  }
+
+  /* Panels. */
+.splitview img {
+  z-index: none;
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.15);
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 60%;
+  border: 2px solid #fff;
+  transform: translate(-50%, -50%);
+}
+
+.splitview {
+  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+  position: relative;
+  width: 100%;
+  min-height: 100vw;
+  overflow: hidden;
+}
+
+.panel {
+  position: absolute;
+  width: 100vw;
+  min-height: 100vw;
+  overflow: hidden;
+}
+
+.panel .content {
+  position: absolute;
+  width: 100vw;
+  min-height: 100vw;
+  color: #FFF;
+}
+
+.panel .description {
+  width: 90%;
+
+  text-align: center;
+
+
+  left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 86%;
+}
+
+.omnieFont1{
+  font-size: calc(.65rem + 1.5vw)!important;
+  color: #fff!important;
+}
+
+.omnieFont2{
+  font-size: calc(0.4rem + 1vw)!important;
+  color: #fff!important;
+}
+
+.top{
+  transform:none!important;
+  margin-left:0!important;
+  z-index: 0!important;
+}
+
+.bottom {
+  
+  z-index: 1;
+}
+
+
+
+
   .btn-gradMain{
     
     white-space: nowrap;
@@ -1364,6 +1466,18 @@ a.button {
   }
 }
 
+
+@media (max-width: 576px) {
+  .mobilePadding{
+    width:94%!important;
+    margin:auto;
+  }
+
+  .mobileTextPadding{
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+}
 /*--------------------------------------------------------------
 #  Get Startet Button
 --------------------------------------------------------------*/
@@ -1400,6 +1514,32 @@ a.button {
 }
 
 @media (max-width: 992px) {
+
+
+  .s3{
+    margin-left:52px;
+  }
+
+  .s2{
+    margin-top:40px;
+    background-position: center!important;
+    margin-right:52px;
+  }
+
+  .s5{
+    margin-top:40px;
+    margin-right:52px;
+    background-position: left!important;
+  }
+
+  .marginestop {
+    margin-top:20px;
+  }
+
+  .marginestop2{
+    margin-top:40px;
+  }
+
   .omnieKursy{
     margin-left:0!important;
   }
@@ -1588,6 +1728,10 @@ font-style: normal;
   .navbar ul {
     display: none;
   }
+  .fotaPadding{
+    padding-right:0!important;
+  }
+
 }
 
 .navbar-mobile {
@@ -1776,15 +1920,15 @@ font-style: normal;
   }
 
   #rozBtnKimjestem{
-    margin-bottom:10%;
+    margin-bottom: 15%;
   }
 
   #rozBtnDoswiadczenie{
-    margin-bottom:10%;
+    margin-bottom: 15%;
   }
 
   #rozBtnWyksztalcenie{
-    margin-bottom:10%;
+    margin-bottom: 15%;
   }
 
   #hero h1 {
@@ -2179,7 +2323,6 @@ section {
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
-    text-shadow: ;
   }
 
   .btn-gradMain:hover .arrowIntro {
