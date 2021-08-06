@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
   left: 0;
   right: 0;
-  margin-top: 15%;
+  margin-top: 12%;
   text-align: center;
   z-index: 1;
   display:none;
@@ -1393,7 +1393,7 @@ a.button {
 }
 
 .omnieFont1{
-  font-size: calc(.65rem + 1.5vw)!important;
+  font-size: calc(.55rem + 1.2vw)!important;
   color: #fff!important;
 }
 
@@ -1524,6 +1524,11 @@ a.button {
     margin-top:40px;
     background-position: center!important;
     margin-right:52px;
+  }
+
+  .zeruj{
+    margin-left:0!important;
+    margin-right:0!important;
   }
 
   .s5{
