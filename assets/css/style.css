@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .panel .description {
-  width: 31%;
+  width: 33%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bottom .description {
-  right: 5%;
+  right: 4%;
 }
 
 .top {
@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top .description {
-  left: 5%;
+  left: 4%;
 }
 
 
@@ -1514,7 +1514,17 @@ a.button {
 }
 
 @media (max-width: 992px) {
+  #rozBtnKimjestem{
+    margin-bottom: 15%;
+  }
 
+  #rozBtnDoswiadczenie{
+    margin-bottom: 15%;
+  }
+
+  #rozBtnWyksztalcenie{
+    margin-bottom: 15%;
+  }
 
   .s3{
     margin-left:52px;
@@ -1924,17 +1934,7 @@ font-style: normal;
     text-align: center;
   }
 
-  #rozBtnKimjestem{
-    margin-bottom: 15%;
-  }
 
-  #rozBtnDoswiadczenie{
-    margin-bottom: 15%;
-  }
-
-  #rozBtnWyksztalcenie{
-    margin-bottom: 15%;
-  }
 
   #hero h1 {
     font-size: 28px;
