@@ -1314,6 +1314,9 @@ a.button {
 
 .pikonki{
   text-align: center;
+  font-weight: 500;
+  font-size: .9rem;
+  color: #4b4b4b!important;
 }
 
 .aikonki{
