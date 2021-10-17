@@ -36,6 +36,13 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 300px;
 }
 
+.ikonkaKar2{
+  width: 80%;
+  margin:auto;
+  border-radius: 62%;
+  transform: scale(-1,1); 
+}
+
 .karTitle{
   margin-bottom:40px;
 }
@@ -50,6 +57,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+/* 
+width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    border-radius: 62%;
+    border: 2px solid #fff;
+    transform: translate(-50%, -50%) scale(-1,1); */
 
 
 .Omniehidden{
@@ -1024,6 +1039,8 @@ a.button {
     .main-timeline .title{ font-size: 22px; }
 
     .ikonkaKar{max-width: 200px;}
+
+    .ikonkaKar2{max-width: 200px;}
 }
 
 /* End timeline */
@@ -1618,6 +1635,11 @@ a.button {
   }
 
   .ikonkaKar{
+    margin: 0 auto 10%!important;
+    display: block;
+  }
+
+  .ikonkaKar2{
     margin: 0 auto 10%!important;
     display: block;
   }
