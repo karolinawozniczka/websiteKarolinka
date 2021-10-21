@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 80%;
   margin:auto;
   border-radius: 62%;
-  transform: scale(-1,1); 
+  /* transform: scale(-1,1);  */
 }
 
 .karTitle{
@@ -2526,6 +2526,23 @@ section {
   border-bottom: 5px solid #009ee3;
   width: 160px;
 }
+
+.titleborderBlue{
+
+}
+
+.titleborderBlue::after {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 40%;
+  padding-top: 20px;
+  border-bottom: 5px solid #25afeb;
+  width: 115px;
+  border-radius: 5px;
+}
+
+
 
 .titleborderOrange{
 
