@@ -792,9 +792,37 @@ a.button {
   margin-top: 9px;
 }
 
+.fontkursy{
+  font-size: .9rem!important;
+  color:#444444!important;
+}
+
 .kurs4img{
   width:80%;
 }
+
+
+.kurs5{
+  margin: 30px 0 0 0!important;
+}
+
+.kurs6{
+  margin: 42px 0 0 0!important;
+}
+
+.kurs7{
+  margin: 36px 0 0 0!important;
+}
+
+.kurs8{
+  margin: 37px 0 0 0!important;
+}
+
+.kurs9{
+  margin: 20px 0 0 0!important;
+}
+
+
 
 .kurshover{
   margin: auto 20px;
