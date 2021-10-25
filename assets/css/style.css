@@ -5,6 +5,7 @@ html{
 body {
   font-family: "Raleway", sans-serif;
   color: #444444;
+  font-weight:500;
 }
 
 a {
@@ -253,7 +254,8 @@ width: 70%;
 }
 
 .ofertalayout1{
-  margin:auto;padding:0 0 0 120px
+  margin:auto;
+  /* padding:0 0 0 120px */
 }
 
 #logoHalfId{
@@ -278,6 +280,21 @@ width: 70%;
   color:#fff;
   font-size: 30px;
   font-weight: 700;
+}
+
+.ofertafont{
+  font-size:.9rem!important;
+  font-weight:500;
+}
+
+.font500{
+  font-weight: 500!important;
+}
+
+.ofertafontblack{
+  font-size:.9rem!important;
+  font-weight:500;
+  color:#151515;
 }
 
 .pomnie{
@@ -2314,6 +2331,12 @@ section {
 .tlaOmnie{
   /* background-image: linear-gradient(to right, rgb(37, 170, 225),   rgb(63, 134, 237)); */
   background: linear-gradient(rgba(0, 140, 253, 0.8), rgba(0, 140, 253,0.8)), url(../img/paralax/paralaxsmall.jpg) fixed center center;
+  background-size: cover;
+}
+
+.tlaOmnie2{
+  /* background-image: linear-gradient(to right, rgb(37, 170, 225),   rgb(63, 134, 237)); */
+  background: linear-gradient(rgba(0, 140, 253, 0.8), rgba(0, 140, 253,0.8)), url(../img/paralax/test.jpg) fixed center center;
   background-size: cover;
 }
 
