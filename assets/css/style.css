@@ -2854,6 +2854,10 @@ section {
   margin: 0;
   font-style: italic;
 }
+.portfolio-lightbow{
+  width: 240px;
+  display: block;
+}
 
 .portfolio .portfolio-wrap .portfolio-links {
   text-align: center;
