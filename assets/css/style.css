@@ -1547,6 +1547,10 @@ a.button {
     margin:auto;
   }
 
+  .mobilePadding2{
+    text-align: center!important;
+  }
+
   .mobileTextPadding{
     padding-right: 12px;
     padding-left: 12px;
