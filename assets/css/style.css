@@ -437,7 +437,7 @@ width: 70%;
   width:100%!important;
   height:100%!important;
   background-size: cover!important;
-  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('../img/ofertaServices/sztabSmall.jpg');
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('../img/ofertaServices/sztab2Small.jpg') center;
 }
 .ofertabgsztab:after {
   width:100%!important;
@@ -453,7 +453,7 @@ width: 70%;
   right: 0;
   border-radius: inherit;
   transition: opacity .3s;
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../img/ofertaServices/sztabSmall.jpg');
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../img/ofertaServices/sztab2Small.jpg') center;
 }
 .ofertabgsztab:hover:after {
   opacity: 1;
