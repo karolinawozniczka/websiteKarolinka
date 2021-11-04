@@ -87,11 +87,11 @@ width: 70%;
 }
 
 .omnieBlueBanner{
-  padding: 90px 40px 70px;
+  padding: 60px 40px 40px;
 }
 
 .omnieBlueBannerSmall {
-  padding: 90px 40px 90px;
+  padding: 60px 40px 50px;
 }
 
 .znikaj{
@@ -1995,9 +1995,9 @@ font-style: normal;
 }
 
 @media (min-width: 1024px) {
-  #hero {
+  /* #hero {
     background-attachment: fixed;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
@@ -2152,6 +2152,12 @@ section {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
+
+
+
+
+
+
 .clients {
   /* padding-top: 20px; */
 }
@@ -2181,8 +2187,11 @@ section {
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #009ee3;
+  background-color: #FFC451;
 }
+
+
+
 
 /*--------------------------------------------------------------
 # Features
@@ -3521,7 +3530,7 @@ color: red;
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: #484848;
 }
 
