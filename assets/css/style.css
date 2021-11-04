@@ -127,6 +127,8 @@ width: 70%;
   display: flex;
   align-items: center;
   padding: 35px 0px;
+  z-index: 6;
+  position:relative;
 }
 .half-half-image-text .content p {
   font-size: 22px;
@@ -1909,6 +1911,15 @@ font-style: normal;
 
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
+}
+
+.shadowbg1{
+  background: url('../img/test.png')no-repeat right bottom;
+  position: absolute;
+  width: 63%;
+    height: 76%;
+    z-index: 0;
+    opacity: 8%;
 }
 
 /*--------------------------------------------------------------
