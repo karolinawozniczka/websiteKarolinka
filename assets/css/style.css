@@ -1914,12 +1914,12 @@ font-style: normal;
 }
 
 .shadowbg1{
-  background: url('../img/testx1.png')no-repeat right bottom;
+  background: url('../img/test.png')no-repeat right bottom;
   position: absolute;
   width: 90%;
     height: 76%;
     z-index: 0;
-    opacity: 15%;
+    opacity: 6%;
 }
 
 /*--------------------------------------------------------------
