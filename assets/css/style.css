@@ -58,6 +58,92 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+.overlay {
+  bottom: 0; 
+  width: 100%;
+  height:100%;
+  transition: .5s ease;
+  padding: 20px;
+  padding-bottom:40px;
+  margin-top:20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+.mask1color {
+  /* background-image: linear-gradient(to bottom, rgb(0, 140, 253, 0.78), rgb(16, 146, 253, 0.78), rgb(30, 152, 253, 0.78), rgb(43, 157, 253, 0.78), rgb(55, 163, 252, 0.78)); */
+  background-attachment: fixed;
+  bottom: -55px;
+  color: #fff;
+  padding: 5px 17px
+17px
+17px;
+  position: absolute;
+  width: 100%;
+  text-align: left;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+
+}
+#text-up{
+  position: absolute; 
+  color: white;
+  padding: 40px;
+  display: none;
+  }
+
+.astrodivider {
+  margin: 64px auto;
+  width: 400px;
+  max-width: 100%;
+  position: relative;
+}
+
+.astrodividermask {
+  overflow: hidden;
+  height: 20px;
+}
+
+.astrodividermask:after {
+  content: "";
+  display: block;
+  margin: -25px auto 0;
+  width: 100%;
+  height: 25px;
+  border-radius: 125px / 12px;
+  box-shadow: 0 0 8px #2590eb;
+}
+.astrodivider span {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: -25px;
+  left: 50%;
+  margin-left: -25px;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px #2590eb;
+  background: #fff;
+}
+.astrodivider i {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  border-radius: 100%;
+  border: 1px dashed #2590eb;
+  text-align: center;
+  line-height: 40px;
+  font-style: normal;
+  color: #2590eb;
+}
+
+
 /* 
 width: 70%;
     position: absolute;
@@ -278,6 +364,11 @@ width: 70%;
   margin-left:1.5%;
 }
 
+.modal {
+  overflow-y:auto;
+
+}
+
 .h3omnie{
   color:#fff;
   font-size: 30px;
@@ -366,6 +457,10 @@ width: 70%;
 }
 .ofertabgindy:hover:after {
   opacity: 1;
+}
+
+.modal-footer{
+  display:initial;
 }
 
 .ofertabgindy:hover .hoferta{
@@ -546,6 +641,47 @@ width: 70%;
 }
 
 /* ---------------------------- End Moje ---------------------------- */
+
+
+/* .modal-backdrop.show {
+  opacity: 0.8;
+}
+.modal-backdrop {
+  position: initial;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+} */
+
+/* .img-size{ */
+  /* 	padding: 0;
+    margin: 0; */
+    /* height: 450px;
+    width: 700px;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .modal-content {
+     width: 700px;
+    border:none;
+  }
+  .modal-body {
+     padding: 0;
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    width: 30px;
+    height: 48px;
+  }
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    width: 30px;
+    height: 48px;
+  } */
+
 
 .omnieImg{
   width:70%;
@@ -2988,6 +3124,18 @@ section {
   font-size: 15px;
 }
 
+.cc{
+  font-weight: bold;
+  color: navy;
+  content: "Reference ";
+}
+
+@media (min-width: 776px){
+.modal-dialog {
+    max-width: 900px;
+    margin: 1.75rem auto;
+}
+}
 .portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
