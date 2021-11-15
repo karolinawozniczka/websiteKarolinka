@@ -34,7 +34,7 @@
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar" style="position:relative">
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
@@ -42,12 +42,12 @@
       <div id=logoHalfId class="logoHalf">
         <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo/1.png" alt="" class="img-fluid logoImg logoImg2"></a>
       </div>
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
+      <nav id="navbar" class="navbar order-last order-lg-0 bs-example-js-navbar-scrollspy">
+        <ul class="nav nav-pills">
           <li><a id="introjs" class="nav-link scrollto zoom navbarActive fakeClass" href="index.html">Strona główna</a></li>
           <li><a class="nav-link scrollto zoom" href="omnie.html">O mnie</a></li>
-          <li><a class="nav-link scrollto zoom linkcolor" href="#tu">Oferta</a></li>
-          <li><a class="nav-link scrollto zoom linkcolor" href="#kontakt">Kontakt</a></li>
+          <li><a class="nav-link scrollto zoom linkcolor" href="#services">Oferta</a></li>
+          <li><a class=" nav-link scrollto zoom linkcolor" href="#kontakt">Kontakt</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -260,7 +260,7 @@
 
         <!-- ======= Services Section ======= -->
         
-        <section id="services" class="services" style="padding-top:0!important;scroll-margin: 20px;">
+        <section id="services" class="services" style="padding-top:0!important;scroll-margin: 20px;" data-spy="scroll" data-target="#services" data-offset="0">
           <div class="container" style="padding-bottom:0" data-aos="fade-up">    
             <div class="section-title">
               <h2>Oferta</h2>
@@ -350,7 +350,7 @@
                 </div>
                 <div class="modal-footer" style="text-align: center;">
                   <button class="btn btn-primary" style="float:left" data-bs-target="#exampleModalToggle6" data-bs-toggle="modal" data-bs-dismiss="modal">Poprzedni</button>
-                  <a class="btn-grad" style="cursor:pointer;font-weight:500!important" onclick="doit();">Skontaktuj się</a>
+                  <a class="btn-grad" href="#kontakt" style="cursor:pointer;font-weight:500!important" data-bs-toggle="modal" data-bs-dismiss="modal">Skontaktuj się</a>
                   <button class="btn btn-primary" style="float:right" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Następny</button>
                 </div>
               </div>
@@ -690,7 +690,7 @@
 
 
     <!-- ======= Contact Section ======= -->
-    <section id="kontakt" class="contact">
+    <section id="kontakt" class="contact" data-spy="scroll" data-target="#kontakt" data-offset="0">
       <div class="container" data-aos="fade-up">
         <div class="section-title" style="padding-bottom: 0!important;">
           <h2>Kontakt</h2>
@@ -846,12 +846,16 @@
   <script src="assets/js/main.js"></script>
 
   <script>
-    function doit(){
+    const myModal = document.getElementById('exampleModalToggle');
+
+    myModal.addEventListener('hidden.bs.modal', function (event) {
+    setTimeout(function(){ 
+      el = document.querySelector("#kontakt")
+      el.scrollIntoView({behavior: 'smooth'}); 
+    }, 10);
       
-      window.location.reload();
-      document.getElementById("kontakt").scrollIntoView();
-    }
-  </script>
+  });
+</script>
 
 </body>
 
