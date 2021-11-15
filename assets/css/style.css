@@ -2570,6 +2570,11 @@ section {
    box-shadow: 0 0 20px #eee;
    border-radius: 4px;
   }
+
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #ffc451;
+    background-color: initial;
+  }
  
   .btn-gradMain:hover {
     background-position: right center; /* change the direction of the change here */
