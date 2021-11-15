@@ -29,6 +29,7 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -350,7 +351,7 @@
                 </div>
                 <div class="modal-footer" style="text-align: center;">
                   <button class="btn btn-primary" style="float:left" data-bs-target="#exampleModalToggle6" data-bs-toggle="modal" data-bs-dismiss="modal">Poprzedni</button>
-                  <a class="btn-grad" href="#kontakt" style="cursor:pointer;font-weight:500!important" data-bs-toggle="modal" data-bs-dismiss="modal">Skontaktuj się</a>
+                  <a id="buttonexit1" class="btn-grad" href="#kontakt" style="cursor:pointer;font-weight:500!important" data-bs-dismiss="modal" aria-label="Close">Skontaktuj się</a>
                   <button class="btn btn-primary" style="float:right" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Następny</button>
                 </div>
               </div>
@@ -380,7 +381,7 @@
                 </div>
                 <div class="modal-footer" style="text-align: center;">
                   <button class="btn btn-primary" style="float:left" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Poprzedni</button>
-                  <a class="btn-grad" style="cursor:pointer;font-weight:500!important" onclick="doit();">Skontaktuj się</a>
+                  <a id="buttonexit2" class="btn-grad" href="#kontakt" style="cursor:pointer;font-weight:500!important" data-bs-dismiss="modal" aria-label="Close">Skontaktuj się</a>
                   <button class="btn btn-primary" style="float:right" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal" data-bs-dismiss="modal">Następny</button>
                 </div>
               </div>
@@ -415,7 +416,7 @@
                 </div>
                 <div class="modal-footer" style="text-align: center;">
                   <button class="btn btn-primary" style="float:left" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Poprzedni</button>
-                  <a class="btn-grad" style="cursor:pointer;font-weight:500!important" onclick="doit();">Skontaktuj się</a>
+                  <a id="buttonexit3" class="btn-grad" href="#kontakt" style="cursor:pointer;font-weight:500!important" data-bs-dismiss="modal" aria-label="Close">Skontaktuj się</a>
                   <button class="btn btn-primary" style="float:right" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal" data-bs-dismiss="modal">Następny</button>
                 </div>
               </div>
@@ -446,7 +447,7 @@
                 </div>
                 <div class="modal-footer" style="text-align: center;">
                   <button class="btn btn-primary" style="float:left" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal" data-bs-dismiss="modal">Poprzedni</button>
-                  <a class="btn-grad" style="cursor:pointer;font-weight:500!important" onclick="doit();">Skontaktuj się</a>
+                  <a id="buttonexit4" class="btn-grad" href="#kontakt" style="cursor:pointer;font-weight:500!important" data-bs-dismiss="modal" aria-label="Close">Skontaktuj się</a>
                   <button  class="btn btn-primary" style="float:right" data-bs-target="#exampleModalToggle5" data-bs-toggle="modal" data-bs-dismiss="modal">Następny</button>
                 </div>
               </div>
@@ -474,7 +475,7 @@
                 </div>
                 <div class="modal-footer" style="text-align: center;">
                   <button class="btn btn-primary" style="float:left" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal" data-bs-dismiss="modal">Poprzedni</button>
-                  <a class="btn-grad" style="cursor:pointer;font-weight:500!important" onclick="doit();">Skontaktuj się</a>
+                  <a id="buttonexit5" class="btn-grad" href="#kontakt" style="cursor:pointer;font-weight:500!important" data-bs-dismiss="modal" aria-label="Close">Skontaktuj się</a>
                   <button class="btn btn-primary" style="float:right" data-bs-target="#exampleModalToggle6" data-bs-toggle="modal" data-bs-dismiss="modal">Następny</button>
                 </div>
               </div>
@@ -502,7 +503,7 @@
                 </div>
                 <div class="modal-footer" style="text-align: center;">
                   <button class="btn btn-primary" style="float:left" data-bs-target="#exampleModalToggle5" data-bs-toggle="modal" data-bs-dismiss="modal">Poprzedni</button>
-                  <a class="btn-grad" style="cursor:pointer;font-weight:500!important" onclick="doit();">Skontaktuj się</a>
+                  <a id="buttonexit6" class="btn-grad" href="#kontakt" style="cursor:pointer;font-weight:500!important" data-bs-dismiss="modal" aria-label="Close">Skontaktuj się</a>
                   <button class="btn btn-primary" style="float:right" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Następny</button>
                 </div>
               </div>
@@ -846,16 +847,54 @@
   <script src="assets/js/main.js"></script>
 
   <script>
-    const myModal = document.getElementById('exampleModalToggle');
+    const myModal = document.getElementById('buttonexit1');
+    myModal.addEventListener('click', function (event) {
+      setTimeout(function(){ 
+        el = document.querySelector("#kontakt")
+        el.scrollIntoView({behavior: 'smooth'}); 
+      }, 10);      
+    });
 
-    myModal.addEventListener('hidden.bs.modal', function (event) {
-    setTimeout(function(){ 
-      el = document.querySelector("#kontakt")
-      el.scrollIntoView({behavior: 'smooth'}); 
-    }, 10);
-      
-  });
-</script>
+    const myModal2 = document.getElementById('buttonexit2');
+    myModal2.addEventListener('click', function (event) {
+      setTimeout(function(){ 
+        el = document.querySelector("#kontakt")
+        el.scrollIntoView({behavior: 'smooth'}); 
+      }, 10);      
+    });
+
+    const myModal3 = document.getElementById('buttonexit3');
+    myModal3.addEventListener('click', function (event) {
+      setTimeout(function(){ 
+        el = document.querySelector("#kontakt")
+        el.scrollIntoView({behavior: 'smooth'}); 
+      }, 10);      
+    });
+
+    const myModal4 = document.getElementById('buttonexit4');
+    myModal4.addEventListener('click', function (event) {
+      setTimeout(function(){ 
+        el = document.querySelector("#kontakt")
+        el.scrollIntoView({behavior: 'smooth'}); 
+      }, 10);      
+    });
+
+    const myModal5 = document.getElementById('buttonexit5');
+    myModal5.addEventListener('click', function (event) {
+      setTimeout(function(){ 
+        el = document.querySelector("#kontakt")
+        el.scrollIntoView({behavior: 'smooth'}); 
+      }, 10);      
+    });
+
+    const myModal6 = document.getElementById('buttonexit6');
+    myModal6.addEventListener('click', function (event) {
+      setTimeout(function(){ 
+        el = document.querySelector("#kontakt")
+        el.scrollIntoView({behavior: 'smooth'}); 
+      }, 10);      
+    });
+  </script>
 
 </body>
 
