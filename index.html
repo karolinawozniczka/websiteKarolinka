@@ -350,7 +350,7 @@
                 </div>
                 <div class="modal-footer" style="text-align: center;">
                   <button class="btn btn-primary" style="float:left" data-bs-target="#exampleModalToggle6" data-bs-toggle="modal" data-bs-dismiss="modal">Poprzedni</button>
-                  <a class="btn-grad" style="cursor:pointer;" onclick="window.location.href = window.location.href + '?r='+(+new Date())+'#';window.location.reload(true);">Skontaktuj się</a>
+                  <a class="btn-grad" style="cursor:pointer;font-weight:500!important" onclick="doit();">Skontaktuj się</a>
                   <button class="btn btn-primary" style="float:right" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Następny</button>
                 </div>
               </div>
@@ -380,7 +380,7 @@
                 </div>
                 <div class="modal-footer" style="text-align: center;">
                   <button class="btn btn-primary" style="float:left" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Poprzedni</button>
-                  <a class="btn-grad" style="cursor:pointer;" onclick="doit();">Skontaktuj się</a>
+                  <a class="btn-grad" style="cursor:pointer;font-weight:500!important" onclick="doit();">Skontaktuj się</a>
                   <button class="btn btn-primary" style="float:right" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal" data-bs-dismiss="modal">Następny</button>
                 </div>
               </div>
@@ -415,7 +415,7 @@
                 </div>
                 <div class="modal-footer" style="text-align: center;">
                   <button class="btn btn-primary" style="float:left" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Poprzedni</button>
-                  <a class="btn-grad" style="cursor:pointer;" onclick="doit();">Skontaktuj się</a>
+                  <a class="btn-grad" style="cursor:pointer;font-weight:500!important" onclick="doit();">Skontaktuj się</a>
                   <button class="btn btn-primary" style="float:right" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal" data-bs-dismiss="modal">Następny</button>
                 </div>
               </div>
@@ -446,7 +446,7 @@
                 </div>
                 <div class="modal-footer" style="text-align: center;">
                   <button class="btn btn-primary" style="float:left" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal" data-bs-dismiss="modal">Poprzedni</button>
-                  <a class="btn-grad" style="cursor:pointer;" onclick="doit();">Skontaktuj się</a>
+                  <a class="btn-grad" style="cursor:pointer;font-weight:500!important" onclick="doit();">Skontaktuj się</a>
                   <button  class="btn btn-primary" style="float:right" data-bs-target="#exampleModalToggle5" data-bs-toggle="modal" data-bs-dismiss="modal">Następny</button>
                 </div>
               </div>
@@ -474,7 +474,7 @@
                 </div>
                 <div class="modal-footer" style="text-align: center;">
                   <button class="btn btn-primary" style="float:left" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal" data-bs-dismiss="modal">Poprzedni</button>
-                  <a class="btn-grad" style="cursor:pointer;" onclick="doit();">Skontaktuj się</a>
+                  <a class="btn-grad" style="cursor:pointer;font-weight:500!important" onclick="doit();">Skontaktuj się</a>
                   <button class="btn btn-primary" style="float:right" data-bs-target="#exampleModalToggle6" data-bs-toggle="modal" data-bs-dismiss="modal">Następny</button>
                 </div>
               </div>
@@ -502,7 +502,7 @@
                 </div>
                 <div class="modal-footer" style="text-align: center;">
                   <button class="btn btn-primary" style="float:left" data-bs-target="#exampleModalToggle5" data-bs-toggle="modal" data-bs-dismiss="modal">Poprzedni</button>
-                  <a class="btn-grad" style="cursor:pointer;" onclick="doit();">Skontaktuj się</a>
+                  <a class="btn-grad" style="cursor:pointer;font-weight:500!important" onclick="doit();">Skontaktuj się</a>
                   <button class="btn btn-primary" style="float:right" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Następny</button>
                 </div>
               </div>
@@ -847,9 +847,9 @@
 
   <script>
     function doit(){
-      window.reload();
-      document.getElementById("kontakt").scrollIntoView();
       
+      window.location.reload();
+      document.getElementById("kontakt").scrollIntoView();
     }
   </script>
 
