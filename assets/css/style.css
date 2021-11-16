@@ -2586,6 +2586,13 @@ section {
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
+    
+  }
+
+  .shinyhover{}
+
+  .shinyhover:hover{
+    text-shadow: 0 0 2px #eee;
   }
 
   .btn-gradMain:hover .arrowIntro {
