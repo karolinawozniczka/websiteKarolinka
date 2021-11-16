@@ -2280,6 +2280,10 @@ section {
   font-family: "Raleway", sans-serif;
 }
 
+.btn{
+  font-size:1.2rem;
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
