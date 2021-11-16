@@ -437,7 +437,7 @@ width: 70%;
   width:100%!important;
   height:100%!important;
   background-size: cover!important;
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/ofertaServices/indySmall.jpg');
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/ofertaServices/indySmall.jpg');
 }
 .ofertabgindy:after {
   width:100%!important;
@@ -473,7 +473,7 @@ width: 70%;
   width:100%!important;
   height:100%!important;
   background-size: cover!important;
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/ofertaServices/grupaSmall.jpg');
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url('../img/ofertaServices/grupaSmall.jpg');
 }
 .ofertabggrupa:after {
   width:100%!important;
@@ -505,7 +505,7 @@ width: 70%;
   width:100%!important;
   height:100%!important;
   background-size: cover!important;
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/ofertaServices/rodzicSmall.jpg');
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url('../img/ofertaServices/rodzicSmall.jpg');
 }
 .ofertabgrodzic:after {
   width:100%!important;
@@ -537,7 +537,7 @@ width: 70%;
   width:100%!important;
   height:100%!important;
   background-size: cover!important;
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/ofertaServices/sztab2Small.jpg') center;
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/ofertaServices/sztab2Small.jpg') center;
 }
 .ofertabgsztab:after {
   width:100%!important;
@@ -569,7 +569,7 @@ width: 70%;
   width:100%!important;
   height:100%!important;
   background-size: cover!important;
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/ofertaServices/klubSmall.jpg');
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/ofertaServices/klubSmall.jpg');
 }
 .ofertabgklub:after {
   width:100%!important;
@@ -601,7 +601,7 @@ width: 70%;
   width:100%!important;
   height:100%!important;
   background-size: cover!important;
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/ofertaServices/onlineSmall.jpg');
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url('../img/ofertaServices/onlineSmall.jpg');
 }
 .ofertabgonline:after {
   width:100%!important;
