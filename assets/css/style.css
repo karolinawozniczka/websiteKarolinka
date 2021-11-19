@@ -434,6 +434,13 @@ width: 70%;
   margin-bottom:30px
 }
 
+.imgfront{
+  bottom: 0;
+    position: absolute;
+    right: 7%;
+    max-width: 21%;
+}
+
 
 .ofertabgindy {
   position:relative;
@@ -1584,6 +1591,17 @@ a.button {
     display:unset!important;
     z-index:3;
   }
+
+  .imgfront{
+    display:table;
+    margin: 0 auto;
+    width:47%;
+    position:initial;
+    right:initial;
+    max-width: 47%;
+  }
+
+
 
   /* Panels. */
 .splitview img {
