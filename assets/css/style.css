@@ -429,7 +429,10 @@ width: 70%;
 }
 
 
-
+.footerlogo{
+  width:20%;
+  margin-bottom:30px
+}
 
 
 .ofertabgindy {
@@ -634,6 +637,11 @@ width: 70%;
 }
 
 .fakeClass{}
+
+.footerlinki{
+  display: inline-block;
+  padding:0 15px 0 15px;
+}
 
 .footlink{
   color:black!important;
@@ -1052,6 +1060,11 @@ a.button {
     width:60%!important;
     margin-bottom:40px;
   }
+
+  .footerlogo{
+    width:60%!important;
+  }
+
 .intromsg{
   margin-left:unset;
 }
@@ -1691,6 +1704,10 @@ a.button {
     margin:auto;
   }
 
+  .footerlinki{
+    padding:0 5px 0 5px!important;
+  }
+
   .mobilePadding2{
     text-align: center!important;
   }
@@ -1738,6 +1755,9 @@ a.button {
 @media (max-width: 992px) {
   #rozBtnKimjestem{
     margin-bottom: 15%;
+  }
+  .footerlogo{
+    width:40%;
   }
 
   #rozBtnDoswiadczenie{
@@ -2160,6 +2180,8 @@ font-style: normal;
   .linkcolor:visited{
     color:#151515;
   }
+
+
 
   .navbar a {
     font-size: 20px;
