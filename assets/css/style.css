@@ -1595,10 +1595,10 @@ a.button {
   .imgfront{
     display:table;
     margin: 0 auto;
-    width:47%;
+    width:44%;
     position:initial;
     right:initial;
-    max-width: 47%;
+    max-width: 44%;
   }
 
 
@@ -1804,6 +1804,7 @@ a.button {
 
   .superClass{
     right:initial!important;
+    width:100%;
   }
 
   #rozBtnDoswiadczenie{
