@@ -1595,12 +1595,16 @@ a.button {
   .imgfront{
     display:table;
     margin: 0 auto;
-    width:41%;
+    width:35%;
     position:initial;
     right:initial;
-    max-width: 41%;
+    max-width: 35%;
   }
 
+  .superClass{
+    width: 75%;
+    max-width: 75%!important;
+  }
 
 
   /* Panels. */
@@ -3493,7 +3497,16 @@ section {
   .testimonials .testimonial-item p {
     width: 80%;
   }
+
+  
 }
+
+@media (max-width:1200px) and (min-width: 992px){
+  .superClass {
+    max-width: 330px!important;
+  }
+}
+
 
 
 /* Testimonials 1 */
