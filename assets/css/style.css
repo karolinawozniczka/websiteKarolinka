@@ -765,6 +765,13 @@ a.button {
   margin-top: 15px;
 }
 
+.superClass{
+  max-width: 360px!important;
+    box-shadow: 0 0 20px 20px rgb(0 0 0 / 15%);
+    border: solid 2px #fff;
+    right: 16%;
+}
+
 .arrow2 {
   color: #0d6efd;
 }
@@ -1012,6 +1019,10 @@ a.button {
   color: #111;
   margin: 10px 0 0 0;
   font-size: 24px;
+}
+
+.prostuj{
+
 }
 
 #kurs .icon-box {
@@ -1758,6 +1769,23 @@ a.button {
   }
   .footerlogo{
     width:40%;
+  }
+  .prostuj{
+    text-align: center!important;
+  }
+
+  .prostujbtn{
+    display: table!important;
+    margin: 0 auto!important;
+    margin-top:20px!important;
+  }
+
+  .przerwa{
+    margin-bottom:20px!important;
+  }
+
+  .superClass{
+    right:initial!important;
   }
 
   #rozBtnDoswiadczenie{
