@@ -703,6 +703,9 @@ width: 70%;
     height: 48px;
   } */
 
+  .prostujImg{
+
+  }
 
 .omnieImg{
   width:70%;
@@ -1794,6 +1797,46 @@ a.button {
   }
   .prostuj{
     text-align: center!important;
+  }
+
+  .prostujImg{
+    text-align: center!important;
+  }
+
+  .prostujImg2{
+    float:initial!important;
+  }
+
+  .prostujImg3{
+    height: auto!important;
+    min-height: auto!important;
+    text-align: center!important;
+    float:initial!important;
+  }
+
+  .dodajprzerwe{
+    margin-bottom:20px;
+  }
+
+  .mobilnyMarginP{
+    padding-right: calc(var(--bs-gutter-x)/ 2)!important;
+  }
+
+  .usunPaddingL{
+    padding-left:0!important;
+  }
+
+  .usunPaddingR{
+    padding-right:0!important;
+  }
+
+  .dajPadding{
+    padding-right: calc(var(--bs-gutter-x)/ 2)!important;
+    padding-left: calc(var(--bs-gutter-x)/ 2)!important;
+  }
+
+  .usunMarginL{
+    margin-left:0!important;
   }
 
   .prostujbtn{
