@@ -58,6 +58,25 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+
+
+.blob1{
+  position: absolute;top: -111px;left: 7px;width: 116%;  z-index: 4;
+  
+}
+
+.blob2{
+  position: absolute;top: -103px;left: -61px;width: 116%;  z-index: 4;transform:scale(-1,1)
+}
+
+.blob3{
+  position: absolute;
+  top: -92px;
+  left: 7px;
+  width: 116%;  
+  z-index: 4;
+}
+
 .overlay {
   bottom: 0; 
   width: 100%;
@@ -3548,6 +3567,22 @@ section {
   .superClass {
     max-width: 330px!important;
   }
+
+  .blob1{
+    top: -92px!important;
+    left: -3px!important;
+    width: 120%!important;
+  }
+  .blob2{
+    top: -95px!important;
+    left: -52px!important;
+    width: 120%!important;
+  }
+  .blob3{
+    top: -84px!important;
+    left: -37px!important;
+    width: 137%!important;
+  }
 }
 
 
@@ -4054,6 +4089,21 @@ color: red;
   .breadcrumbs ol li {
     display: inline-block;
   }
+  .blob1{
+    top: -70px!important;
+    left: -12px!important;
+    width: 108%!important;
+  }
+  .blob2{
+    top: -84px;
+    left: -39px;
+    width: 108%!important;
+  }
+  .blob3{
+    top: -86px!important;
+    left: -9px!important;
+    width: 105%!important;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -4213,6 +4263,14 @@ color: red;
   color: #fff;
 }
 
+@media (max-width: 1399px){
+  .blob3{
+    top: -84px;
+    left: -14px;
+    width: 125%;
+  }
+}
+
 @media (max-width: 1399px) {
   .kurs2{
     margin: 19px 0 0 0;
@@ -4225,4 +4283,6 @@ color: red;
   .kurs4{
     margin: 23px 0 0 0;
   }
+
+  
 }
