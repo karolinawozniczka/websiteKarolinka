@@ -2820,26 +2820,10 @@ section {
   background: #ffbb38;
 }
 
-.cta-btn3{
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 0px;
-  border-radius: 4px;
-  transition: 0.5s;
-  border: 2px solid #2590eb;
-  color: #fff;
-  background: #2c91eb;
-  width: 24%;
+.cta-btn2hoverX{
+  color:#ffd37d!important;
 }
 
-.cta-btn3:hover{
-  color:#000;
-  border-color: #2590eb;
-  background: #fff;
-}
 
 /* .navhover:hover{
   color:#009ee3!important;
@@ -3574,9 +3558,22 @@ section {
   
 }
 
+@media (max-width:500px){
+  .cta-btn3Fixed{
+    width: 80%!important;
+    margin:auto!important;
+    margin-left:0!important;
+    margin-right:0!important;
+    margin-bottom:20px!important;
+  }
+}
+
 @media (max-width:1200px) and (min-width: 992px){
   .superClass {
     max-width: 330px!important;
+  }
+  .cta-btn3Fixed{
+    width: 30%;
   }
 
   .blob1{
@@ -3866,6 +3863,65 @@ section {
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
+}
+
+.cta-btn3{
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 0px;
+  border-radius: 4px;
+  transition: 0.5s;
+  border: 2px solid #2590eb;
+  color: #fff;
+  background: #2c91eb;
+  width: 24%;
+}
+
+.cta-btn3:hover{
+  color:#000;
+  border-color: #2590eb;
+  background: #fff;
+}
+
+.cta-btn3Fixed{
+  margin-top: 2%;
+  font-size: 16px!important;
+  padding: 15px 0px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  cursor: pointer;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 4px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  width:26%;
+}
+
+.cta-btn3Fixed:hover{
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  color:#ffd37d;
+}
+
+.cta-btn3Fixed:visited{
+  color:#ffc451!important;
+}
+
+.cta-btn3Fixed:active{
+  color:#ffc451!important;
 }
 
 .btn-contact.color-9 {
@@ -4327,6 +4383,9 @@ color: red;
     top: -84px;
     left: -14px;
     width: 125%;
+  }
+  .cta-btn3Fixed{
+    width: 30%;
   }
 }
 
