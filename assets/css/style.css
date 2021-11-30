@@ -46,10 +46,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .karTitle{
   margin-bottom:40px;
+ 
 }
 
 .politykaTitle{
-  margin-bottom:20px;
+  
+  color:#333333;
 }
 
 .politykaTitle2{
