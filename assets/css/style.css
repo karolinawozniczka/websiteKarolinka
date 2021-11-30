@@ -58,6 +58,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+.svgImg{
+  width: 95%
+}
 
 
 .blob1{
@@ -1536,6 +1539,10 @@ a.button {
   color:#009ee3;
 }
 
+.afb2{
+  color:#25afeb;
+}
+
 .hintro{
   white-space: nowrap;
   /* color:#151515!important; */
@@ -2758,25 +2765,7 @@ section {
   opacity: 0;  
 }
 
- .btn-gradMain {background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed)}
- .btn-gradMain {
-   margin:0;
-   margin-left:7%;
-   margin-top: 30px;
-   font-family: "Raleway", sans-serif;
-   font-weight: 600;
-   font-size: 16px;
-   letter-spacing: 1px;
-   display: inline-block;
-   padding: 10px 60px;
-   text-align: center;
-   text-transform: none;
-   transition: 0.5s;
-   background-size: 200% auto;
-   color: white;            
-   box-shadow: 0 0 20px #eee;
-   border-radius: 4px;
-  }
+
 
   .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #ffc451;
@@ -2787,6 +2776,7 @@ section {
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
+    text-shadow: 0 0 20px #eee;
     
   }
 
@@ -2828,6 +2818,27 @@ section {
   color:#fff;
   border-color: #ffc451;
   background: #ffbb38;
+}
+
+.cta-btn3{
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 0px;
+  border-radius: 4px;
+  transition: 0.5s;
+  border: 2px solid #2590eb;
+  color: #fff;
+  background: #2c91eb;
+  width: 24%;
+}
+
+.cta-btn3:hover{
+  color:#000;
+  border-color: #2590eb;
+  background: #fff;
 }
 
 /* .navhover:hover{
@@ -3780,6 +3791,26 @@ section {
   bottom: 15px;
 }
 
+.btn-gradMain {background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed)}
+.btn-gradMain {
+  margin:0;
+  margin-left:7%;
+  margin-top: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 60px;
+  text-align: center;
+  text-transform: none;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 4px;
+ }
+
 .btn-contact {
   margin-top: 2%;
   font-size: 16px!important;
@@ -3802,6 +3833,34 @@ section {
 }
 
 .btn-contact:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-contact2 {
+  margin-top: 2%;
+  font-size: 16px!important;
+  padding: 15px 120px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  cursor: pointer;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 4px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-contact2:hover {
   background-position: 100% 0;
   moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
