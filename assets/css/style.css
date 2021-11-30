@@ -2802,15 +2802,15 @@ section {
   padding: 8px 28px;
   border-radius: 4px;
   transition: 0.5s;
-  border: 2px solid #ffc451;
-  color: #4b4b4b;
+  border: 2px solid #1d7bcb;
+  color: #1d7bcb;
   background: #fff;
 }
 
 .cta-btn2:hover {
   color:#fff;
-  border-color: #ffc451;
-  background: #ffbb38;
+  border-color: #45a1f1;
+  background: #2590eb;
   
 }
 
@@ -2821,7 +2821,7 @@ section {
 }
 
 .cta-btn2hoverX{
-  color:#ffd37d!important;
+  color:#ffcb66!important;
 }
 
 
@@ -3913,16 +3913,10 @@ section {
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
-  color:#ffd37d;
+  color:#ffcb66;
 }
 
-.cta-btn3Fixed:visited{
-  color:#ffc451!important;
-}
 
-.cta-btn3Fixed:active{
-  color:#ffc451!important;
-}
 
 .btn-contact.color-9 {
   background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
