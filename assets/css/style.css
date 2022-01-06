@@ -2498,7 +2498,7 @@ section {
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #FFC451;
+  background-color: #fff;
 }
 
 
@@ -2607,7 +2607,7 @@ section {
   border: 1px solid #ebebeb;
   padding: 80px 20px;
   transition: transform 0.3s ease-in-out 0s;
-  border-radius: 4px;
+  border-radius: 20px;
 }
 
 
@@ -2704,7 +2704,7 @@ section {
 
 .uslugi .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
@@ -2713,6 +2713,7 @@ section {
 } */
 .shaadow{
   transition: box-shadow .6s;
+  border-radius:20px;
 }
 
 .shaadow:hover {
