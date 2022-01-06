@@ -3884,7 +3884,7 @@ section {
   text-align: center;
   border: none;
   background-size: 300% 100%;
-  border-radius: 4px;
+  border-radius: 30px;
   moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
@@ -3912,7 +3912,7 @@ section {
   text-align: center;
   border: none;
   background-size: 300% 100%;
-  border-radius: 4px;
+  border-radius: 30px;
   moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
@@ -3961,7 +3961,7 @@ section {
   text-align: center;
   border: none;
   background-size: 300% 100%;
-  border-radius: 80px;
+  border-radius: 30px;
   moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
@@ -4167,7 +4167,7 @@ color: red;
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  border-radius: 4px;
+  border-radius: 16px 16px 16px 16px;
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
