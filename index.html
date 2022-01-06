@@ -38,17 +38,22 @@
   <body data-spy="scroll" data-target="#navbar" style="position:relative;">
   
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top">
+    <header id="header" class="fixed-top" style="background: rgba(0, 0, 0, 0.8)!important">
       <div class="container d-flex align-items-center justify-content-lg-between">
-        <div id=logoHalfId class="logoHalf">
-          <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo/1.png" alt="" class="img-fluid logoImg logoImg2"></a>
+        <!-- <div id=logoHalfId class="logoHalf"> -->
+        <div>
+          <a href="index.html" class="logo me-auto me-lg-0 "><img src="assets/img/logo/1.png" alt="" class="img-fluid logoImg logoImg2"></a>
         </div>
         <nav id="navbar" class="navbar order-last order-lg-0 bs-example-js-navbar-scrollspy">
           <ul class="nav nav-pills">
-            <li><a id="introjs" class="nav-link scrollto zoom navbarActive fakeClass" href="index.html">Strona główna</a></li>
-            <li><a class="nav-link scrollto zoom" href="omnie.html">O mnie</a></li>
-            <li><a class="nav-link scrollto zoom linkcolor" href="#services">Oferta</a></li>
-            <li><a class="nav-link scrollto zoom linkcolor" href="#kontakt">Kontakt</a></li>
+            <li><a class="nav-link scrollto minizoom navbarActive fakeClass" style="font-weight: 600!important;" href="index.html">Strona główna</a></li><!-- id="introjs" -->
+            <li><a class="nav-link scrollto minizoom" href="omnie.html">O mnie</a></li>
+            <li><a class="nav-link scrollto minizoom linkcolor" href="#services">Oferta</a></li>
+            <li><a class="nav-link scrollto minizoom linkcolor" href="#kontakt">Kontakt</a></li>
+            <li><a class="nav-link scrollto minizoom linkcolor"></a></li>
+            <li><a class="nav-link scrollto minizoom linkcolor"></a></li>
+            <a id="btnMains" href="#kontakt" class="btn-contact gradient " style="width:200px;margin-top:0;display: initial!important;font-weight: 600;box-shadow: 0px 0px 15px 0 rgb(65 132 234 / 75%);
+            font-size: 16px!important; padding: 15px 30px 10px 30px!important;width:initial;padding: 10px 30px 10px 30px!important;height:45px">Skontaktuj się</a>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -58,11 +63,23 @@
     <!-- End Header -->
   
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center justify-content-center" >
-      <div class="container" data-aos="fade-right">    
-      <a href="index.html" class="logo me-auto me-lg-0"><img style="display: -webkit-box;margin-left:15%;" src="assets/img/logo/1.png" alt="" class="img-fluid znikaj logoImg"></a>
+    <section id="hero" class=" align-items-center justify-content-center" style="background: linear-gradient(
+      0deg, rgba(0, 140, 253, 0.1), rgba(0, 140, 253, 0.1)),url(assets/img/background/hero-bg.png) bottom center;background-size: cover;" >
+      <div class="container-fluid">
+        <h3 class="karTitle prostuj" style="color: #fff;text-align: center;font-size:50px; margin: 0;
+        position: absolute;text-shadow: 0 0.05em 0.1em rgb(68 68 68 / 50%);
+        top: 50%;width: 100%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);">„Zawsze, jeśli zdołasz wygrać psychicznie,<br/> 
+          fizycznie będziesz w stanie dokonać wszystkiego”<br/>
+          <span style="font-size: 30px;margin-top:20px;color:#fff"> - M. Phelps</span>
+        </h3>
       </div>
-     <!-- <a id="btnMains" href="#kontakt" class="btn-gradMain">Skontaktuj się</a>
+      <!-- <div class="container" data-aos="fade-right">    
+      <a href="index.html" class="logo me-auto me-lg-0"><img style="display: -webkit-box;margin-left:15%;" src="assets/img/logo/1.png" alt="" class="img-fluid znikaj logoImg"></a>
+      </div> -->
+      <!--
       <div class="container-fluid" style="position:absolute;bottom:0">
         <img src="assets/img/portfolio/KarW.png" class="  img-fluid imgfront" 
         alt="Psycholog Sportu Karolina Woźniczka" title="Psycholog Sportu Karolina Woźniczka">
@@ -808,7 +825,7 @@
                   <div class="sent-message">Twoja wiadomość została wysłana. Wkrótce się odezwę!</div>
                 </div>
                                                     <!-- type="submit" -->
-                <div class="text-center"><button class="btn-contact gradient">Wyślij</button></div>
+                <div><button class="btn-contact gradient">Wyślij</button></div>
               </form>
             </div>
           </div>
