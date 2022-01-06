@@ -2648,6 +2648,67 @@ section {
   transform: translateY(-10px);
 }
 
+
+/*                                                              */
+
+.uslugi .icon-box {
+  text-align: center;
+  padding: 20px 0px;
+  /* transition: box-shadow .6s; */
+}
+
+
+
+.uslugi .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: #009ee3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: .3s;
+}
+
+.uslugi .icon-box .icon i {
+  color: #151515;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+}
+
+.uslugi .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.uslugi .icon-box h4 a {
+  color: #fff;
+  transition: ease-in-out 0.3s;
+}
+
+.uslugi .icon-box h4 a:hover {
+  color: #FFC451;
+}
+
+.uslugi .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+/* .services .icon-box:hover {
+  box-shadow: 0px 2px 20px rgb(0 0 0 / 10%);
+} */
+.shaadow{
+  transition: box-shadow .6s;
+}
+
+.shaadow:hover {
+  box-shadow: 0px 2px 20px rgb(0 0 0 / 10%);
+} 
+
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
