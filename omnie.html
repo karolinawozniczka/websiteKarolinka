@@ -42,11 +42,15 @@
     <div class="container d-flex align-items-center justify-content-lg-between">
       <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo/1.png" alt="" class="img-fluid"></a>
       <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="nav-link scrollto zoom" href="index.html">Strona główna</a></li>
-          <li><a class="nav-link scrollto navbarActive2 zoom" style="color:#0ea6d8;" href="omnie.html">O mnie</a></li>
-          <li><a class="nav-link scrollto zoom" href="index.html#tu">Oferta</a></li>
-          <li><a class="nav-link scrollto zoom" href="index.html#kontakt">Kontakt</a></li>
+        <ul class="nav nav-pills">
+          <li><a class="nav-link scrollto minizoom navbarActive fakeClass" href="index.html">Strona główna</a></li><!-- id="introjs" -->
+          <li><a class="nav-link scrollto minizoom" style="font-weight: 600!important;" href="omnie.html">O mnie</a></li>
+          <li><a class="nav-link scrollto minizoom linkcolor" href="#services">Oferta</a></li>
+          <li><a class="nav-link scrollto minizoom linkcolor" href="#kontakt">Kontakt</a></li>
+          <li><a class="nav-link scrollto minizoom linkcolor"></a></li>
+          <li><a class="nav-link scrollto minizoom linkcolor"></a></li>
+          <a id="btnMains" href="#kontakt" class="btn-contact gradient " style="width:200px;margin-top:0;display: initial!important;font-weight: 600;box-shadow: 0px 0px 15px 0 rgb(65 132 234 / 75%);
+          font-size: 16px!important; padding: 15px 30px 10px 30px!important;width:initial;padding: 10px 30px 10px 30px!important;height:45px">Skontaktuj się</a>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -59,13 +63,9 @@
         <div class="container" data-aos="fade-up">
           <div class="row">
             
-            <div class="col-lg-6 pt-lg-0 order-3 content klasa" data-aos="fade-down" data-aos-delay="100" style="margin:auto!important;">
-              <div style="text-align: center;">
-                <h3 class="karTitle" style="margin-bottom:15px!important;margin-top:60px;font-weight: 700;color:#333333;font-size:32.5px!important">Nazywam się <span style="color: #2590eb;">Karolina Woźniczka</span></h3>
-                <p style="font-size:1.26rem;color:#444444;font-weight:700">
-                  Jestem psychologiem pracującym w obszarze sportu.
-                </p>
-                <p style="margin-bottom:60px;margin-top:60px!important;font-size:1.19rem;font-style:italic;color: #444444">
+            <div class="col-lg-8 pt-lg-0 order-3 content klasa" data-aos="fade-down" data-aos-delay="100" style="margin:auto!important;">
+              <div style="text-align: center;">                
+                <p style="margin-bottom:60px;margin-top:60px!important;font-size:26px;font-style:italic;color: #444444">
                   <i class="bx bxs-quote-alt-left quote-icon-left" style="display: inline-block;position: relative;top: 10px;font-size: 1rem;left:2px;"></i>                
                   Moja droga zawodowa jest połączeniem pasji do sportu<br/> i wykształcenia psychologicznego.
                   <i class="bx bxs-quote-alt-right quote-icon-right" style="display: inline-block;position: relative;top: -5px;font-size: 1rem;right:2px;"></i>
@@ -73,21 +73,19 @@
 
 
                 <button id="rozBtnKimjestem" onclick="showKimjestem();"data-bs-toggle="collapse" href="#collapseExampleKimjestem" role="button" aria-expanded="false"
-                 aria-controls="collapseExampleKimjestem" href="omnie.html" class="cta-btn3Fixed gradient" style="margin-right:15px">Kim jestem?</button>
+                 aria-controls="collapseExampleKimjestem" href="omnie.html" class="cta-btn3Fixed gradient" style="margin-right:30px">Kim jestem?</button>
 
                 <button  id="rozBtnDoswiadczenie" onclick="showDoswiadczenie();"data-bs-toggle="collapse"href="#collapseExampleDoswiadczenie" role="button" aria-expanded="false" 
                  aria-controls="collapseExampleDoswiadczenie" href="omnie.html" class="cta-btn3Fixed gradient">Doświadczenie</button>
 
                 <button  id="rozBtnWyksztalcenie" onclick="showWyksztalcenie();"data-bs-toggle="collapse"href="#collapseExampleWyksztalcenie" role="button" aria-expanded="false" 
-                aria-controls="collapseExampleWyksztalcenie" class="cta-btn3Fixed gradient" style="margin-left:15px">Wykształcenie</button>
+                aria-controls="collapseExampleWyksztalcenie" class="cta-btn3Fixed gradient" style="margin-left:30px">Wykształcenie</button>
 
 
                
 
               </div>
             </div>
-            <div class="col-lg-1 order-1"></div>
-            <div class="col-lg-1 order-4"></div>
             <div class="col-lg-4 order-2 pt-4" data-aos="fade-down" data-aos-delay="100" style="margin:auto!important;">
 
               <img src="assets/img/portfolio/karpl2.png" class=" ikonkaKar2" alt="Psycholog Sportu Karolina Woźniczka" title="Psycholog Sportu Karolina Woźniczka">
@@ -180,15 +178,14 @@
                 -moz-box-shadow: 0px -3px 7px -5px rgba(0,0,0,0.6);
                 -webkit-box-shadow: 0px -3px 7px -5px rgba(0,0,0,0.6);
                 -o-box-shadow: 0px -3px 7px -5px rgba(0,0,0,0.6);">
-                  <div class="half-half-image-text" style="padding-top:0">
+                  <div class="half-half-image-text" style="padding-top:60px">
                     <div class="container-fluid" style="padding-left:0!important;padding-right:0!important;">
                       <div class="container mobilePadding">
                         <div class="row">
-                          <div class="col-12 omnieBlueBanner">
-                            <h1 class="titleborderOrange" style="padding-bottom:0!important;color:#2590eb;font-weight: bolder!important;">
-                              <b style="color:#333333">Kim</b> jestem?</h1>
-
-                          </div>
+                            <div class="col-12" style="margin-top:0">
+                              <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                                    margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Kim jestem?</h1>
+                            </div>
                         </div>
                       </div>  
                     </div>
@@ -322,8 +319,9 @@
                 <div class="container-fluid" style="padding-left:0!important;padding-right:0!important">
                   <div class="container">
                     <div class="row">
-                      <div class="col-12 omnieBlueBannerSmall">
-                        <h1  class="titleborderOrange2" style="padding-bottom: 0;color:#333333;font-weight: bolder;">Z kim <b style="color:#2590eb;">pracuje?</b></h1>
+                      <div class="col-12" style="margin-top:60px">
+                        <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                              margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Z kim pracuje?</h1>
                       </div>
                     </div>
                   </div>
@@ -364,8 +362,9 @@
                 <div class="container-fluid tlaOmnie" style="padding-left:0!important;padding-right:0!important;padding-top:70px">
                   <div class="container marginestop2">
                     <div class="row">
-                      <div class="col-12 omnieBlueBannerSmall" style="padding-top:0;padding-bottom:10px;">
-                        <h1  class="titleborderOrange2" style="padding-bottom: 0;color:#fff;font-weight: bolder;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Z mojej <span style="font-weight: bolder;color:#FFC451">pomocy</span> skorzystali:</h1>
+                      <div class="col-12" style="margin-top:0">
+                        <h1 style="text-align: center;font-size:38px!important;padding-bottom: 0;color:#fff;
+                              margin:auto!important;line-height: 1.2;font-weight: bolder;padding-bottom:18px" data-aos="fade-up">Z mojej pomocy skorzystali:</h1>
                       </div>
                     </div>
                   </div>
@@ -451,8 +450,9 @@
                   <div class="container-fluid" style="padding-left:0!important;padding-right:0!important">
                     <div class="container mobilePadding">
                       <div class="row">
-                        <div class="col-12 omnieBlueBannerSmall">
-                          <h1  class="titleborderOrange2" style="text-align: center;font-size:1.75rem;padding-bottom: 0;color:#333333;font-weight: bolder;">Swoją pracę poddaję <b style="color:#2590eb">stałej superwizji.</b></h1>
+                        <div class="col-12" style="margin-top:60px">
+                          <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                                margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Swoją pracę poddaje <span style="color:#2590eb">stałej superwizji</span></h1>
                         </div>
                       </div>
                     </div>
@@ -499,9 +499,9 @@
                   <div class="container-fluid" style="padding-left:0!important;padding-right:0!important">
                     <div class="container mobilePadding">
                       <div class="row">
-                        <div class="col-12 omnieBlueBannerSmall" style="padding:10px 40px 10px">
-                          <h1  class="titleborderOrange2" style="text-align: center;font-size:1.75rem;
-                          padding-bottom: 0;color:#333333;font-weight: bolder;">Doświadczenie</h1>
+                        <div class="col-12" style="margin-top:20px">
+                          <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                                margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Doświadczenie</h1>
                         </div>
                       </div>
                     </div>
@@ -546,11 +546,11 @@
             -o-box-shadow: 0px -3px 7px -5px rgba(0,0,0,0.6);"> 
 
               <div class="container-fluid" style="padding-left:0!important;padding-right:0!important;padding-top:60px">
-                <div class="container mobilePadding" style="padding-top:0">
+                <div class="container mobilePadding" style="padding-top:0">                  
                   <div class="row">
-                    <div class="col-12 omnieBlueBannerSmall" style="padding-top:0">
-                      <h1 class="titleborderOrange" style="text-align: center;font-size:1.75rem!important;padding-bottom: 0;color:#333333;
-                      margin:auto!important;font-weight: bolder;line-height: 1.2;">Ukończyłam <span style="color: #2590eb;">uczelnie:</span></h1>
+                    <div class="col-12" style="padding-bottom:60px">
+                      <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                            margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Ukończyłam <span style="color: #2590eb;">uczelnie:</span></h1>
                     </div>
                   </div>
                 </div>
@@ -584,10 +584,11 @@
                       </div>
                     </div>
                   </div>
+                  
                   <div class="row">
-                    <div class="col-12" style="margin-top:60px;margin-bottom:60px">
-                      <h1  class="titleborderOrange" style="text-align: center;font-size:1.75rem!important;padding-bottom: 0;color:#333333;
-                            margin:auto!important;font-weight: bolder;line-height: 1.2;">Brałam <span style="color: #2590eb;">udział w:</span></h1>
+                    <div class="col-12" style="padding-bottom:40px;padding-top: 60px;">
+                      <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                            margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Brałam <span style="color: #2590eb;">udział w:</span></h1>
                     </div>
                   </div>
                   
@@ -646,9 +647,9 @@
                   </div>
 
                   <div class="row">
-                    <div class="col-12" style="margin-top:0px;margin-bottom:40px">
-                      <h1  class="titleborderOrange" style="text-align: center;font-size:1.75rem!important;padding-bottom: 0;color:#333333;
-                            margin:auto!important;font-weight: bolder;line-height: 1.2;">Wciąż <span style="color: #2590eb;">rozwijam swoją wiedzę</span> i warsztat o nowe umiejętności</h1>
+                    <div class="col-12" style="padding-bottom:20px;">
+                      <h1 style="text-align: center;font-size:30px!important;color:#333333;
+                            margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Wciąż <span style="color: #2590eb;">rozwijam swoją wiedzę</span> i warsztat o nowe umiejętności</h1>
                     </div>
                   </div>
 
