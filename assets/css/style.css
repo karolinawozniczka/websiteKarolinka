@@ -1398,7 +1398,7 @@ a.button {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffc451;
+  background: #2590eb;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -1407,7 +1407,7 @@ a.button {
 
 .back-to-top i {
   font-size: 28px;
-  color: #151515;
+  color: #fff;
   line-height: 0;
 }
 
@@ -2492,9 +2492,8 @@ section {
 .clients .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  background-color: #ddd;
+  background-color: rgba(255, 255, 255, 0.4);
+    opacity: 1;
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
@@ -3564,14 +3563,14 @@ section {
 }
 
 .testimonials .testimonial-item h3 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #fff;
 }
 
 .testimonials .testimonial-item h4 {
-  font-size: 14px;
+  font-size: 20px;
   color: #ddd;
   margin: 0 0 15px 0;
 }
@@ -3613,7 +3612,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc451;
+  background-color: #fff;
   opacity: 1;
 }
 
