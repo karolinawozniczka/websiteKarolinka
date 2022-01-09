@@ -44,9 +44,26 @@ h1, h2, h3, h4, h5, h6 {
   /* transform: scale(-1,1);  */
 }
 
+.karTitle2span{
+  font-size:1.3rem;
+  color:#333333;
+}
+
 .karTitle{
   margin-bottom:40px;
- 
+  color: #fff;
+  text-align: center;
+  font-size:50px;
+  text-shadow: 0 0.05em 0.1em rgb(68 68 68 / 50%);
+  width: 100%;
+}
+
+.karTitle2{
+  color: #333333!important;
+  text-align: center!important;
+  font-size:36px!important;
+  width: 100%;
+  margin-bottom:40px;
 }
 
 .politykaTitle{  
@@ -58,6 +75,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ---------------------------- Moje ---------------------------- */
+
+.secondbg{
+  background: linear-gradient(to bottom, white 18%, rgb(251, 248, 242) 18% 50%, rgb(251, 248, 242) 50% 90%, white 90% )!important;
+}
 
 .svgImg{
   width: 95%
@@ -1822,6 +1843,9 @@ a.button {
   .ikonkimargin{
     margin:0 10px;
   }
+  .karTitle{
+    font-size:30px;
+  }
   
 }
 
@@ -1834,6 +1858,23 @@ a.button {
   }
   .prostuj{
     text-align: center!important;
+  }
+
+  .bgwhite{
+    background-color: #fff!important;
+    background:#fff!important;
+  }
+
+  .btnmargin{
+    margin-bottom:40px;
+  }
+
+  .maxwidth100{
+    max-width: 100%!important;
+  }
+
+  .order11{
+    order:1!important;
   }
 
   .prostujImg{
@@ -4453,6 +4494,33 @@ color: red;
   .cta-btn3Fixed{
     width: 30%;
   }
+  
+}
+
+@media (min-width:992px) and (max-width: 1200px){
+  .karTitle2{
+    font-size:28px!important;
+  }
+  .karTitle2span{
+    font-size:1.1rem!important;
+  }
+}
+
+
+@media (min-width:1200px) and (max-width: 1400px){
+  .karTitle2{
+    font-size:34px!important;
+  }
+}
+
+@media (min-width:992px) and (max-width: 1400px){
+  .karTitle{
+    font-size:40px;
+  }
+  .secondbg{
+    background:linear-gradient(to bottom, white 15%, rgb(251, 248, 242) 15% 53%, rgb(251, 248, 242) 53% 93%, white 93% )!important;
+  }
+
 }
 
 @media (max-width: 1399px) {
