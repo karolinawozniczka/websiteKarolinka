@@ -1646,6 +1646,21 @@ a.button {
   height: 100%; 
 }
 
+@media (max-width: 400px) {
+  .btnpadding{
+    padding:15px 80px!important;
+  }
+
+  .about .content .karTitle2{
+    font-size:22px!important
+  }
+
+  .karTitle2span{
+    font-size:1.2rem!important;
+  }
+}
+
+
 @media (max-width: 600px) {
 
   .Omniehidden{
