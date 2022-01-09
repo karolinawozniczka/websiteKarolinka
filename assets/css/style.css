@@ -1880,6 +1880,10 @@ a.button {
     background:#fff!important;
   }
 
+  .width100{
+    width: 100%!important;
+  }
+
   .btnmargin{
     margin-bottom:40px;
   }
