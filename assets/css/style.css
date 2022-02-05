@@ -501,7 +501,7 @@ width: 70%;
   width:100%!important;
   height:100%!important;
   background-size: cover!important;
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/ofertaServices/indySmall.jpg');
+  background:  url('../img/ofertaServices/indySmall.jpg'); /* linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6),rgba(0,0,0,0.6)),*/
 }
 .ofertabgindy:after {
   width:100%!important;
@@ -517,7 +517,7 @@ width: 70%;
   right: 0;
   border-radius: inherit;
   transition: opacity .3s;
-  background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('../img/ofertaServices/indySmall.jpg');
+  background:url('../img/ofertaServices/indySmall.jpg');
 }
 .ofertabgindy:hover:after {
   opacity: 1;
@@ -528,7 +528,13 @@ width: 70%;
 }
 
 .ofertabgindy:hover .hoferta{
-  color:#fff;
+  color:#444444;
+  text-shadow: 0 0 20px #eee;
+}
+
+.hoferta{
+  padding-top:5px;
+  color:#444444!important;
   text-shadow: 0 0 20px #eee;
 }
 
@@ -537,7 +543,7 @@ width: 70%;
   width:100%!important;
   height:100%!important;
   background-size: cover!important;
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url('../img/ofertaServices/grupaSmall.jpg');
+  background: url('../img/ofertaServices/grupaSmall.jpg');
 }
 .ofertabggrupa:after {
   width:100%!important;
@@ -553,7 +559,7 @@ width: 70%;
   right: 0;
   border-radius: inherit;
   transition: opacity .3s;
-  background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('../img/ofertaServices/grupaSmall.jpg');
+  background:url('../img/ofertaServices/grupaSmall.jpg');
 }
 .ofertabggrupa:hover:after {
   opacity: 1;
@@ -569,7 +575,7 @@ width: 70%;
   width:100%!important;
   height:100%!important;
   background-size: cover!important;
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url('../img/ofertaServices/rodzicSmall.jpg');
+  background: url('../img/ofertaServices/rodzicSmall.jpg');
 }
 .ofertabgrodzic:after {
   width:100%!important;
@@ -585,7 +591,7 @@ width: 70%;
   right: 0;
   border-radius: inherit;
   transition: opacity .3s;
-  background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('../img/ofertaServices/rodzicSmall.jpg');
+  background:url('../img/ofertaServices/rodzicSmall.jpg');
 }
 .ofertabgrodzic:hover:after {
   opacity: 1;
@@ -601,7 +607,7 @@ width: 70%;
   width:100%!important;
   height:100%!important;
   background-size: cover!important;
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/ofertaServices/sztab2Small.jpg') center;
+  background:  url('../img/ofertaServices/sztab2Small.jpg') center;
 }
 .ofertabgsztab:after {
   width:100%!important;
@@ -617,7 +623,7 @@ width: 70%;
   right: 0;
   border-radius: inherit;
   transition: opacity .3s;
-  background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('../img/ofertaServices/sztab2Small.jpg') center;
+  background: url('../img/ofertaServices/sztab2Small.jpg') center;
 }
 .ofertabgsztab:hover:after {
   opacity: 1;
@@ -633,7 +639,7 @@ width: 70%;
   width:100%!important;
   height:100%!important;
   background-size: cover!important;
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/ofertaServices/klubSmall.jpg');
+  background:  url('../img/ofertaServices/klubSmall.jpg');
 }
 .ofertabgklub:after {
   width:100%!important;
@@ -649,7 +655,7 @@ width: 70%;
   right: 0;
   border-radius: inherit;
   transition: opacity .3s;
-  background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('../img/ofertaServices/klubSmall.jpg');
+  background: url('../img/ofertaServices/klubSmall.jpg');
 }
 .ofertabgklub:hover:after {
   opacity: 1;
@@ -665,7 +671,7 @@ width: 70%;
   width:100%!important;
   height:100%!important;
   background-size: cover!important;
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url('../img/ofertaServices/onlineSmall.jpg');
+  background:  url('../img/ofertaServices/onlineSmall.jpg');
 }
 .ofertabgonline:after {
   width:100%!important;
@@ -681,7 +687,7 @@ width: 70%;
   right: 0;
   border-radius: inherit;
   transition: opacity .3s;
-  background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('../img/ofertaServices/onlineSmall.jpg');
+  background:url('../img/ofertaServices/onlineSmall.jpg');
 }
 .ofertabgonline:hover:after {
   opacity: 1;
@@ -983,6 +989,11 @@ a.button {
 
 #kurs {
 
+}
+
+.bgwhite2{
+  background-color: #fff!important;
+  background:#fff!important;
 }
 
 .kurs1{
@@ -1540,7 +1551,6 @@ a.button {
 }
 
 .hoferta{
-  margin-top:30px;
   color:#fff;
   position:relative;
   z-index:2;
@@ -1562,7 +1572,8 @@ a.button {
 }
 
 .pfff{
-  color :#fff;
+  padding-top:10px;
+  color :#777777;
   position:relative;
   z-index:2;
 }
@@ -2557,7 +2568,7 @@ section {
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #fff;
+  background-color: #FFC451;
 }
 
 
@@ -2664,9 +2675,9 @@ section {
 .services .icon-box {
   text-align: center;
   border: 1px solid #ebebeb;
-  padding: 80px 20px;
+  padding: 140px 34px;
   transition: transform 0.3s ease-in-out 0s;
-  border-radius: 20px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 
@@ -3683,7 +3694,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #fff;
+  background-color: #FFC451;
   opacity: 1;
 }
 
@@ -3971,12 +3982,18 @@ section {
   transition: all .4s ease-in-out;
 }
 
+.dissapear{
+  display:none!important;
+}
+
 .btn-contact:hover {
   background-position: 100% 0;
   moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
+  color:#fff;
+  cursor: pointer;
 }
 
 .btn-contact2 {
@@ -4001,6 +4018,37 @@ section {
 
 .btn-contact2:hover {
   background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-contact3 {
+  font-size: 16px!important;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  height: 46px;
+  text-align: center;
+  border: none;
+  border-radius: 30px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+
+  margin-top: 10px;
+  background-color: #E2E3E6;
+  color:#666666;
+  padding: 10px 20px!important;
+}
+
+.btn-contact3:hover {
+  color:#fff;
+  border-color: #45a1f1;
+  background: #2590eb;
   moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
@@ -4189,7 +4237,7 @@ color: red;
 }
 
 .contact .info .email, .contact .info .phone {
-  margin-top: 29px;
+  margin-top: 32px;
 }
 
 .contact .php-email-form {
@@ -4247,7 +4295,7 @@ color: red;
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  border-radius: 16px 16px 16px 16px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
