@@ -77,6 +77,7 @@
   let selectHeader = select('#header')
   let stronaglowna = select('#introjs')
   let logoHalfId = select('#logoHalfId')
+  let btnMains = select('#btnMains')
   let mobile = 0;
 
   if (window.innerWidth < 600 && logoHalfId) {
@@ -95,6 +96,7 @@
         if (logoHalfId){   
           logoHalfId.classList.remove('logoHalf');  
 		      logoHalfId.classList.remove('logoImg2');          
+          
         }
         selectHeader.classList.add('header-scrolled')
         if (stronaglowna){
@@ -107,6 +109,7 @@
       } else {   
         if(logoHalfId){ 
           logoHalfId.classList.add('logoHalf');    
+          
         }
         selectHeader.classList.remove('header-scrolled')
         if (stronaglowna){
@@ -142,9 +145,11 @@
   if (backtotop) {
     const toggleBacktotop = () => {
       if (window.scrollY > 100) {
-        backtotop.classList.add('active')
+        backtotop.classList.add('active');
+        btnMains.classList.remove('dissapear');
       } else {
-        backtotop.classList.remove('active')
+        backtotop.classList.remove('active');
+        btnMains.classList.add('dissapear');
       }
     }
     window.addEventListener('load', toggleBacktotop)
