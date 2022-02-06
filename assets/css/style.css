@@ -2933,6 +2933,33 @@ section {
     transform: translateX(12px);
     }
 
+    .cta-btn2x {
+ 
+      font-family: "Raleway", sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 8px 28px;
+      border-radius: 80px;
+      transition: 0.5s;
+      border: 2px solid #45a1f1;
+      color: #fff;
+      background: #2590eb;
+    }
+    
+    .cta-btn2x:hover {
+      color:#1d7bcb;
+      border-color: #1d7bcb;
+      background: #fff;
+    }
+    
+    
+    .cta-btn2xhoverX{
+      color:#1d7bcb;
+      border-color: #1d7bcb;
+      background: #fff;
+    }
 
 
 .cta-btn2 {
@@ -2954,7 +2981,6 @@ section {
   color:#fff;
   border-color: #45a1f1;
   background: #2590eb;
-  
 }
 
 .cta-btn2hover{
