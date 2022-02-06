@@ -1444,7 +1444,10 @@ a.button {
 }
 
 .back-to-top:hover {
-  background: #151515;
+  color:#1d7bcb;
+  border-color: #1d7bcb;
+  background: #fff;
+  border:2px solid;
 }
 
 .back-to-top:hover i {
@@ -2097,7 +2100,7 @@ a.button {
   font-weight:400;
 
 font-style: normal;
-  font-size:17px;
+  font-size:20px;
 }
 
 .navbar a i {
@@ -2932,6 +2935,8 @@ section {
   .btn-gradMain:hover .arrowIntro {
     transform: translateX(12px);
     }
+
+    
 
     .cta-btn2x {
  
