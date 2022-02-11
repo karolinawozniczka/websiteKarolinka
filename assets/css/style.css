@@ -2928,6 +2928,7 @@ section {
 
   .shinyhover{}
 
+  /*najelpszy jedyny cien ever shadow text-shadow best*/
   .shinyhover:hover{
     text-shadow: 0 0 2px #eee;
   }
