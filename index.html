@@ -272,12 +272,13 @@
             <div class="container" style="padding-bottom:0" data-aos="fade-up">    
               <div class="row" style="padding-bottom: 40px;">
                 <div class="col-12" style="margin-top:0">
-                  <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                  <h1 id="ofertaMain" style="text-align: center;font-size:40px!important;color:#333333;
                         margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Co oferuję:</h1>
                 </div>
               </div>
             </div>
   
+          <div class="container-fluid" style="margin:0!important;padding:0!important">
             <div class="container" style="padding-top:0">
               <div class="row" data-aos="zoom-in">               
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
@@ -305,7 +306,7 @@
                   </h4>
                   <p class="pfff" style="margin-bottom:10px">Zindywidualizowane, poufne wsparcie dopasowane do Twoich potrzeb.
                   </p>
-                  <a href="" class="hoverEff"><span style="font-size:1rem;">Dowiedz się więcej</span></a>
+                  <a onclick="ShowModalIndy()" class="hoverEff"><span style="font-size:1rem;cursor: pointer;">Dowiedz się więcej</span></a>
                 </div>
       
                 <div class="col-lg-4 col-md-6 align-items-stretch mt-4">
@@ -326,6 +327,142 @@
                 </div>      
               </div>
             </div>
+          </div>
+
+
+          <div id="ofertaModalIndy" class="container-fluid" style="padding:60px 0 60px 0;display:none;scroll-margin:19px">
+
+            <div class="row" style="background-color:#fff">
+              <div class="col-12">           
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="row">
+                        <div class="col-md-6 pt-0 order-2 content klasa" data-aos="fade-left" data-aos-delay="100" style="margin:auto!important;padding:0!important;text-align: center;">
+                          <h3 class="karTitle2 prostuj" style="font-weight: bolder;margin-bottom:20px!important">Konsultacje <span style="color: #2590eb;">Indywidualne</span>
+                          </h3>
+                          <span class="karTitle3span">Celem indywidualnej pracy jest rozwój i wzmocnienie efektywności zarówno podczas treningu, jak i w czasie zawodów.</span>
+                          <p class="font500s prostuj">                
+                            Na początku rozpoznajemy Twoje potrzeby i obszary, nad którymi warto popracować. Skupiamy się na identyfikacji sytuacji trudnych, rozwoju świadomości, 
+                            odkryciu własnych mechanizmów działania. Poznanie siebie pomoże Ci lepiej sobie radzić, odzyskać kontrolę w trudnych sytuacjach, a także działać prewencyjnie.
+                            Dalej przechodzimy do przedstawienia Ci konkretnych narzędzi, które mógłbyś stosować.
+                            Kolejnym etapem jest regularny trening nowo nabytych umiejętności i sprawdzanie ich zastosowania w praktyce. Za tę część pracy odpowiadasz Ty, 
+                            a ja wspieram Cię w odpowiedniej realizacji.Monitorujemy skuteczność i progres zastosowanych działań tak, by w razie konieczności móc je na bieżąco korygować.
+                            Ostatnim etapem jest wdrożenie zdobytej wiedzy i umiejętności w drodze do sukcesu, czyli zastosowanie powyższych elementów w najważniejszej chwili - chwili STARTU…
+                          </p>
+                        </div>
+                        <div class="col-md-6 order-1 pt-4" data-aos="fade-right" data-aos-delay="100" style="margin:auto!important;padding:0!important">
+                          <img src="assets/img/oferta/indyBig.jpg" style="width: 100%;border-radius: 10px 10px 10px 10px;" alt="Psycholog Sportu Karolina Woźniczka" title="Psycholog Sportu Karolina Woźniczka">
+                        </div> 
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md-6 pt-0 order-2 content klasa" data-aos="fade-right" data-aos-delay="100" style="margin:auto!important;padding:0!important;text-align: center;">
+                          <h3 class="karTitle2 prostuj" style="font-weight: bolder;margin-bottom:20px!important">Praca z <span style="color: #2590eb;">grupą - drużyną</span>
+                          </h3>
+                          <span class="karTitle3span">Zajęcia grupowe odbywają się w formie warsztatów, wykładów, bądź treningów.</span>
+                          <p class="font500s prostuj">               
+                            Celem ich może być integracja i rozwój spójności grupowej, poprawa komunikacji, umiejętne wyznaczanie celów w zespole czy rozpoznawanie 
+                            ról, a także … wzmacnianie ducha zespołu. Praca taka może się skupiać na poprawie wydajności zespołu, jego spójności, a także treningu mentalnym całej grupy.
+                          </p>
+                        </div>
+                        <div class="col-md-6 order-1 pt-4" data-aos="fade-left" data-aos-delay="100" style="margin:auto!important;padding:0!important">
+                          <img src="assets/img/oferta/grupaBig.jpg" style="width: 100%;border-radius: 10px 10px 10px 10px;" alt="Psycholog Sportu Karolina Woźniczka" title="Psycholog Sportu Karolina Woźniczka">
+                        </div> 
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md-6 pt-0 order-2 content klasa" data-aos="fade-left" data-aos-delay="100" style="margin:auto!important;padding:0!important;text-align: center;">
+                          <h3 class="karTitle2 prostuj" style="font-weight: bolder;margin-bottom:20px!important">Praca z <span style="color: #2590eb;">rodzicem</span>
+                          </h3>
+                          <span class="karTitle3span">Indywidualne spotkania z rodzicami mają na celu:</span>
+                          <p class="font500s prostuj"> 
+            
+                            Pokazanie, jak konstruktywnie pomagać dzieciom radzić sobie z porażkami.
+                            Jak odpowiednio przeżywać emocje, czy też radzić sobie w innych trudnych sytuacjach.
+                            Rodzice często zaangażowani są w trening młodego sportowca, lecz nie zawsze wiedzą w jaki sposób mogą go efektywnie wspierać. 
+                            To Rodzic, prócz trenera, ma największy wpływ na młodego sportowca. To on często nadaje narrację myśleniu dziecka i kreuje sposób postrzegania zdarzeń.
+                          </p>
+                        </div>
+                        <div class="col-md-6 order-1 pt-4" data-aos="fade-right" data-aos-delay="100" style="margin:auto!important;padding:0!important">
+                          <img src="assets/img/oferta/rodzicBig.jpg" style="width: 100%;border-radius: 10px 10px 10px 10px;" alt="Psycholog Sportu Karolina Woźniczka" title="Psycholog Sportu Karolina Woźniczka">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md-6 pt-0 order-2 content klasa" data-aos="fade-left" data-aos-delay="100" style="margin:auto!important;padding:0!important;text-align: center;">
+                          <h3 class="karTitle2 prostuj" style="font-weight: bolder;margin-bottom:20px!important">Praca ze <span style="color: #2590eb;">sztabem</span>
+                          </h3>
+                          <p class="font500s prostuj"> 
+                            Warsztaty z zakresu psychologii w sporcie dla trenerów i całego sztabu wspierającego zawodników. 
+                            Opieka psychologiczna, a także wspieranie procesu szkoleniowego na różnych poziomach zaawansowania. 
+                            Współpraca ta może polegać np. na warsztatach rozwijających umiejętności potrzebne trenerowi, wsparciu w wyzwaniach, analizie drużyny i poszczególnych
+                            zawodników.
+                          </p>
+                        </div>
+                        <div class="col-md-6 order-1 pt-4" data-aos="fade-right" data-aos-delay="100" style="margin:auto!important;padding:0!important">
+                          <img src="assets/img/oferta/sztabBig.jpg" style="width: 100%;border-radius: 10px 10px 10px 10px;" alt="Psycholog Sportu Karolina Woźniczka" title="Psycholog Sportu Karolina Woźniczka">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md-6 pt-0 order-2 content klasa" data-aos="fade-left" data-aos-delay="100" style="margin:auto!important;padding:0!important;text-align: center;">
+                          <h3 class="karTitle2 prostuj" style="font-weight: bolder;margin-bottom:20px!important">Oferta dla<span style="color: #2590eb;"> klubu, społeczności sportowej </span>
+                          </h3>
+                          <p class="font500s prostuj"> 
+                            Zindywidualizowana oferta dostosowana do potrzeb. Możliwa forma warsztatowa oraz wykładowa dla zawodników, trenerów , rodziców ,.. z 
+                            zakresu zagadnień psychologii sportu oraz optymalizacji przygotowania mentalnego do treningów i startów, a także spotkania indywidualne.
+                          </p>
+                        </div>
+                        <div class="col-md-6 order-1 pt-4" data-aos="fade-right" data-aos-delay="100" style="margin:auto!important;padding:0!important">
+                          <img src="assets/img/oferta/klubBig.jpg" style="width: 100%;border-radius: 10px 10px 10px 10px;" alt="Psycholog Sportu Karolina Woźniczka" title="Psycholog Sportu Karolina Woźniczka">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md-6 pt-0 order-2 content klasa" data-aos="fade-left" data-aos-delay="100" style="margin:auto!important;padding:0!important;text-align: center;">
+                          <h3 class="karTitle2 prostuj" style="font-weight: bolder;margin-bottom:20px!important">Spotkania<span style="color: #2590eb;"> online</span>
+                          </h3>
+                          <p class="font500s prostuj"> 
+                            Indywidualne konsultacje z psychologiem. Ciężka emocjonalnie chwila, stres przed jutrzejszym startem, problem z przetrawieniem błędu porażki i 
+                            resetem głowy … lub każda inna sytuacja, która Cię przytłacza i chciałbyś profesjonalnego wsparcia.
+                          </p>
+                        </div>
+                        <div class="col-md-6 order-1 pt-4" data-aos="fade-right" data-aos-delay="100" style="margin:auto!important;padding:0!important">
+                          <img src="assets/img/oferta/onlineBig.jpg" style="width: 100%;border-radius: 10px 10px 10px 10px;" alt="Psycholog Sportu Karolina Woźniczka" title="Psycholog Sportu Karolina Woźniczka">
+                        </div>
+                      </div>
+                    </div>
+                    </div>                 
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                </div>
+
+              </div>
+          </div>
+
+
+          <div class="container-fluid" style="margin:0!important;padding:0!important">
             <div class="container" style="padding-top:0">
               <div class="row" data-aos="zoom-in" style="padding-top:60px">
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
@@ -374,138 +511,9 @@
                   
                 </div>      
               </div>
-          </div>
-          <!-- <div class="container-fluid" style="background-color: #333333;padding:60px 0 60px 0">
-
-            <div class="row" style="background-color:#fff;">
-              <div class="col-12">
-           
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <div class="row">
-                        <div class="col-md-6 pt-0 order-2 content klasa" data-aos="fade-left" data-aos-delay="100" style="margin:auto!important;padding:0!important;text-align: center;">
-                          <h3 class="karTitle2 prostuj" style="font-weight: bolder;margin-bottom:20px!important">Konsultacje <span style="color: #2590eb;">Indywidualne</span>
-                          </h3>
-                          <span class="karTitle3span">Celem indywidualnej pracy jest rozwój i wzmocnienie efektywności zarówno podczas treningu, jak i w czasie zawodów.</span>
-                          <p class="font500s prostuj">                
-                            Na początku rozpoznajemy Twoje potrzeby i obszary, nad którymi warto popracować. Skupiamy się na identyfikacji sytuacji trudnych, rozwoju świadomości, 
-                            odkryciu własnych mechanizmów działania. Poznanie siebie pomoże Ci lepiej sobie radzić, odzyskać kontrolę w trudnych sytuacjach, a także działać prewencyjnie.
-                            Dalej przechodzimy do przedstawienia Ci konkretnych narzędzi, które mógłbyś stosować.
-                            Kolejnym etapem jest regularny trening nowo nabytych umiejętności i sprawdzanie ich zastosowania w praktyce. Za tę część pracy odpowiadasz Ty, 
-                            a ja wspieram Cię w odpowiedniej realizacji.Monitorujemy skuteczność i progres zastosowanych działań tak, by w razie konieczności móc je na bieżąco korygować.
-                            Ostatnim etapem jest wdrożenie zdobytej wiedzy i umiejętności w drodze do sukcesu, czyli zastosowanie powyższych elementów w najważniejszej chwili - chwili STARTU…
-                          </p>
-                        </div>
-                        <div class="col-md-6 order-1 pt-4" data-aos="fade-right" data-aos-delay="100" style="margin:auto!important;padding:0!important">
-                          <img src="assets/img/oferta/indyBig.jpg" style="width: 100%;" alt="Psycholog Sportu Karolina Woźniczka" title="Psycholog Sportu Karolina Woźniczka">
-                        </div> 
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="row">
-                        <div class="col-md-6 pt-0 order-2 content klasa" data-aos="fade-right" data-aos-delay="100" style="margin:auto!important;padding:0!important;text-align: center;">
-                          <h3 class="karTitle2 prostuj" style="font-weight: bolder;margin-bottom:20px!important">Praca z <span style="color: #2590eb;">grupą - drużyną</span>
-                          </h3>
-                          <span class="karTitle3span">Zajęcia grupowe odbywają się w formie warsztatów, wykładów, bądź treningów.</span>
-                          <p class="font500s prostuj">               
-                            Celem ich może być integracja i rozwój spójności grupowej, poprawa komunikacji, umiejętne wyznaczanie celów w zespole czy rozpoznawanie 
-                            ról, a także … wzmacnianie ducha zespołu. Praca taka może się skupiać na poprawie wydajności zespołu, jego spójności, a także treningu mentalnym całej grupy.
-                          </p>
-                        </div>
-                        <div class="col-md-6 order-1 pt-4" data-aos="fade-left" data-aos-delay="100" style="margin:auto!important;padding:0!important">
-                          <img src="assets/img/oferta/grupaBig.jpg" style="width: 100%;" alt="Psycholog Sportu Karolina Woźniczka" title="Psycholog Sportu Karolina Woźniczka">
-                        </div> 
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="row">
-                        <div class="col-md-6 pt-0 order-2 content klasa" data-aos="fade-left" data-aos-delay="100" style="margin:auto!important;padding:0!important;text-align: center;">
-                          <h3 class="karTitle2 prostuj" style="font-weight: bolder;margin-bottom:20px!important">Praca z <span style="color: #2590eb;">rodzicem</span>
-                          </h3>
-                          <span class="karTitle3span">Indywidualne spotkania z rodzicami mają na celu:</span>
-                          <p class="font500s prostuj"> 
-            
-                            Pokazanie, jak konstruktywnie pomagać dzieciom radzić sobie z porażkami.
-                            Jak odpowiednio przeżywać emocje, czy też radzić sobie w innych trudnych sytuacjach.
-                            Rodzice często zaangażowani są w trening młodego sportowca, lecz nie zawsze wiedzą w jaki sposób mogą go efektywnie wspierać. 
-                            To Rodzic, prócz trenera, ma największy wpływ na młodego sportowca. To on często nadaje narrację myśleniu dziecka i kreuje sposób postrzegania zdarzeń.
-                          </p>
-                        </div>
-                        <div class="col-md-6 order-1 pt-4" data-aos="fade-right" data-aos-delay="100" style="margin:auto!important;padding:0!important">
-                          <img src="assets/img/oferta/rodzicBig.jpg" style="width: 100%;" alt="Psycholog Sportu Karolina Woźniczka" title="Psycholog Sportu Karolina Woźniczka">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="row">
-                        <div class="col-md-6 pt-0 order-2 content klasa" data-aos="fade-left" data-aos-delay="100" style="margin:auto!important;padding:0!important;text-align: center;">
-                          <h3 class="karTitle2 prostuj" style="font-weight: bolder;margin-bottom:20px!important">Praca ze <span style="color: #2590eb;">sztabem</span>
-                          </h3>
-                          <p class="font500s prostuj"> 
-                            Warsztaty z zakresu psychologii w sporcie dla trenerów i całego sztabu wspierającego zawodników. 
-                            Opieka psychologiczna, a także wspieranie procesu szkoleniowego na różnych poziomach zaawansowania. 
-                            Współpraca ta może polegać np. na warsztatach rozwijających umiejętności potrzebne trenerowi, wsparciu w wyzwaniach, analizie drużyny i poszczególnych
-                            zawodników.
-                          </p>
-                        </div>
-                        <div class="col-md-6 order-1 pt-4" data-aos="fade-right" data-aos-delay="100" style="margin:auto!important;padding:0!important">
-                          <img src="assets/img/oferta/sztabBig.jpg" style="width: 100%;" alt="Psycholog Sportu Karolina Woźniczka" title="Psycholog Sportu Karolina Woźniczka">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="row">
-                        <div class="col-md-6 pt-0 order-2 content klasa" data-aos="fade-left" data-aos-delay="100" style="margin:auto!important;padding:0!important;text-align: center;">
-                          <h3 class="karTitle2 prostuj" style="font-weight: bolder;margin-bottom:20px!important">Oferta dla<span style="color: #2590eb;"> klubu, społeczności sportowej </span>
-                          </h3>
-                          <p class="font500s prostuj"> 
-                            Zindywidualizowana oferta dostosowana do potrzeb. Możliwa forma warsztatowa oraz wykładowa dla zawodników, trenerów , rodziców ,.. z 
-                            zakresu zagadnień psychologii sportu oraz optymalizacji przygotowania mentalnego do treningów i startów, a także spotkania indywidualne.
-                          </p>
-                        </div>
-                        <div class="col-md-6 order-1 pt-4" data-aos="fade-right" data-aos-delay="100" style="margin:auto!important;padding:0!important">
-                          <img src="assets/img/oferta/klubBig.jpg" style="width: 100%;" alt="Psycholog Sportu Karolina Woźniczka" title="Psycholog Sportu Karolina Woźniczka">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="row">
-                        <div class="col-md-6 pt-0 order-2 content klasa" data-aos="fade-left" data-aos-delay="100" style="margin:auto!important;padding:0!important;text-align: center;">
-                          <h3 class="karTitle2 prostuj" style="font-weight: bolder;margin-bottom:20px!important">Spotkania<span style="color: #2590eb;"> online</span>
-                          </h3>
-                          <p class="font500s prostuj"> 
-                            Indywidualne konsultacje z psychologiem. Ciężka emocjonalnie chwila, stres przed jutrzejszym startem, problem z przetrawieniem błędu porażki i 
-                            resetem głowy … lub każda inna sytuacja, która Cię przytłacza i chciałbyś profesjonalnego wsparcia.
-                          </p>
-                        </div>
-                        <div class="col-md-6 order-1 pt-4" data-aos="fade-right" data-aos-delay="100" style="margin:auto!important;padding:0!important">
-                          <img src="assets/img/oferta/onlineBig.jpg" style="width: 100%;" alt="Psycholog Sportu Karolina Woźniczka" title="Psycholog Sportu Karolina Woźniczka">
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div> -->
-
-              </div>
             </div>
+          </div>
+
 
           </div>
 
@@ -779,53 +787,16 @@
     <script src="assets/js/main.js"></script>
   
     <script>
-      const myModal = document.getElementById('buttonexit1');
-      myModal.addEventListener('click', function (event) {
-        setTimeout(function(){ 
-          el = document.querySelector("#kontakt")
-          el.scrollIntoView({behavior: 'smooth'}); 
-        }, 350);      
-      });
-
-      const myModal2 = document.getElementById('buttonexit2');
-      myModal2.addEventListener('click', function (event) {
-        setTimeout(function(){ 
-          el = document.querySelector("#kontakt")
-          el.scrollIntoView({behavior: 'smooth'}); 
-        }, 350);      
-      });
-
-      const myModal3 = document.getElementById('buttonexit3');
-      myModal3.addEventListener('click', function (event) {
-        setTimeout(function(){ 
-          el = document.querySelector("#kontakt")
-          el.scrollIntoView({behavior: 'smooth'}); 
-        }, 350);      
-      });
-
-      const myModal4 = document.getElementById('buttonexit4');
-      myModal4.addEventListener('click', function (event) {
-        setTimeout(function(){ 
-          el = document.querySelector("#kontakt")
-          el.scrollIntoView({behavior: 'smooth'}); 
-        }, 350);      
-      });
-
-      const myModal5 = document.getElementById('buttonexit5');
-      myModal5.addEventListener('click', function (event) {
-        setTimeout(function(){ 
-          el = document.querySelector("#kontakt")
-          el.scrollIntoView({behavior: 'smooth'}); 
-        }, 350);      
-      });
-
-      const myModal6 = document.getElementById('buttonexit6');
-      myModal6.addEventListener('click', function (event) {
-        setTimeout(function(){ 
-          el = document.querySelector("#kontakt")
-          el.scrollIntoView({behavior: 'smooth'}); 
-        }, 350);      
-      }); 
+      function ShowModalIndy() {
+        var x = document.getElementById("ofertaModalIndy");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          document.getElementById("ofertaModalIndy").scrollIntoView();
+        } else {
+          x.style.display = "none";
+          document.getElementById("ofertaMain").scrollIntoView();
+        }
+      }
     </script>
   
   </body>
