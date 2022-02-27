@@ -306,7 +306,7 @@
                   </h4>
                   <p class="pfff" style="margin-bottom:10px">Zindywidualizowane, poufne wsparcie dopasowane do Twoich potrzeb.
                   </p>
-                  <a onclick="ShowModalIndy()" class="hoverEff"><span style="font-size:1rem;cursor: pointer;">Dowiedz się więcej</span></a>
+                  <a onclick="ShowModalIndy()" class="hoverEff" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-label="Slide 1"><span style="font-size:1rem;cursor: pointer;">Dowiedz się więcej</span></a>
                 </div>
       
                 <div class="col-lg-4 col-md-6 align-items-stretch mt-4">
@@ -315,7 +315,7 @@
                   </h4>
                   <p class="pfff" style="margin-bottom:10px">Praca nad poprawą wydajności, spójności oraz dobrostanu.
                   </p>
-                  <a href="" class="hoverEff"><span style="font-size:1rem;">Dowiedz się więcej</span></a>
+                  <a onclick="ShowModalGrupa()" class="hoverEff"  data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"><span style="font-size:1rem;cursor: pointer;">Dowiedz się więcej</span></a>
                 </div>
       
                 <div class="col-lg-4 col-md-6 align-items-stretch mt-4">
@@ -323,7 +323,7 @@
                   </h4>
                   <p class="pfff" style="margin-bottom:10px">Pomoc w odpowiednim wspieraniu młodego sportowca.
                   </p>
-                  <a href="" class="hoverEff"><span style="font-size:1rem;">Dowiedz się więcej</span></a>
+                  <a onclick="ShowModalRodzic()" class="hoverEff" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"><span style="font-size:1rem;cursor: pointer;">Dowiedz się więcej</span></a>
                 </div>      
               </div>
             </div>
@@ -491,7 +491,7 @@
                   </h4>
                   <p class="pfff" style="margin-bottom:10px">Warsztaty rozwijające umiejętności potrzebne trenerom, wsparcie w wyzwaniach,analiza drużyny i poszczególnych zawodników.
                   </p>
-                  <a href="" class="hoverEff"><span style="font-size:1rem;">Dowiedz się więcej</span></a>
+                  <a onclick="ShowModalSztab()" class="hoverEff" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"><span style="font-size:1rem;cursor: pointer;">Dowiedz się więcej</span></a>
                 </div>
       
                 <div class="col-lg-4 col-md-6 align-items-stretch mt-4">
@@ -500,7 +500,7 @@
                   <p class="pfff" style="margin-bottom:10px">Skontaktuj się by stworzyć najlepszą dla Ciebie ofertę.
                     
                   </p>
-                  <a href="" class="hoverEff"><span style="font-size:1rem;">Dowiedz się więcej</span></a>
+                  <a onclick="ShowModalKlub()" class="hoverEff" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"><span style="font-size:1rem;cursor: pointer;">Dowiedz się więcej</span></a>
                 </div>
       
                 <div class="col-lg-4 col-md-6 align-items-stretch mt-4">
@@ -509,7 +509,7 @@
                   <p class="pfff" style="margin-bottom:10px">Indywidualne konsultacje zdalne.
 
                   </p>
-                    <a href="" class="hoverEff"><span style="font-size:1rem;">Dowiedz się więcej</span></a>
+                    <a onclick="ShowModalOnline()" class="hoverEff" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"><span style="font-size:1rem;cursor: pointer;">Dowiedz się więcej</span></a>
                   
                 </div>      
               </div>
@@ -799,6 +799,62 @@
           document.getElementById("ofertaMain").scrollIntoView();
         }
       }
+
+      function ShowModalGrupa() {
+        var x = document.getElementById("ofertaModalIndy");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          document.querySelector("ofertaModalIndy").scrollIntoView();
+        } else {
+          x.style.display = "none";
+          document.getElementById("ofertaMain").scrollIntoView();
+        }
+      }
+
+      function ShowModalRodzic() {
+        var x = document.getElementById("ofertaModalIndy");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          document.getElementById("ofertaModalIndy").scrollIntoView();
+        } else {
+          x.style.display = "none";
+          document.getElementById("ofertaMain").scrollIntoView();
+        }
+      }
+
+      function ShowModalSztab() {
+        var x = document.getElementById("ofertaModalIndy");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          document.getElementById("ofertaModalIndy").scrollIntoView();
+        } else {
+          x.style.display = "none";
+          document.getElementById("ofertaMain").scrollIntoView();
+        }
+      }
+
+      function ShowModalKlub() {
+        var x = document.getElementById("ofertaModalIndy");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          document.getElementById("ofertaModalIndy").scrollIntoView();
+        } else {
+          x.style.display = "none";
+          document.getElementById("ofertaMain").scrollIntoView();
+        }
+      }
+
+      function ShowModalOnline() {
+        var x = document.getElementById("ofertaModalIndy");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          document.getElementById("ofertaModalIndy").scrollIntoView();
+        } else {
+          x.style.display = "none";
+          document.getElementById("ofertaMain").scrollIntoView();
+        }
+      }
+
     </script>
   
   </body>
