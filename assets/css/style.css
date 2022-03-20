@@ -444,13 +444,13 @@ width: 70%;
 }
 
 .carousel-control-next /*, .carousel-indicators */ {
-    filter: invert(100%);
-    width:2%;
+    /*filter: invert(100%);
+    */width:2%;
 }
 
 
 .carousel-indicators [data-bs-target]{
-  background-color: #2590eb;
+  background-color: #fff;
 }
 
 
