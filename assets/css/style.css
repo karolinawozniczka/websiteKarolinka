@@ -570,6 +570,7 @@ width: 70%;
   border-radius: inherit;
   transition: opacity .3s;
   background:url('../img/ofertaServices/indySmall.jpg');
+  box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%); 
 }
 .ofertabgindy:hover:after {
   opacity: 1;
@@ -621,6 +622,7 @@ width: 70%;
   right: 0;
   border-radius: inherit;
   transition: opacity .3s;
+  box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%); 
   background:url('../img/ofertaServices/grupaSmall.jpg');
 }
 .ofertabggrupa:hover:after {
@@ -654,6 +656,7 @@ width: 70%;
   border-radius: inherit;
   transition: opacity .3s;
   background:url('../img/ofertaServices/rodzicSmall.jpg');
+  box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%); 
 }
 .ofertabgrodzic:hover:after {
   opacity: 1;
@@ -686,6 +689,7 @@ width: 70%;
   border-radius: inherit;
   transition: opacity .3s;
   background: url('../img/ofertaServices/sztab2Small.jpg') center;
+  box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%); 
 }
 .ofertabgsztab:hover:after {
   opacity: 1;
@@ -718,6 +722,7 @@ width: 70%;
   border-radius: inherit;
   transition: opacity .3s;
   background: url('../img/ofertaServices/klubSmall.jpg');
+  box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%); 
 }
 .ofertabgklub:hover:after {
   opacity: 1;
@@ -750,6 +755,7 @@ width: 70%;
   border-radius: inherit;
   transition: opacity .3s;
   background:url('../img/ofertaServices/onlineSmall.jpg');
+  box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%); 
 }
 .ofertabgonline:hover:after {
   opacity: 1;
@@ -2797,6 +2803,7 @@ section {
   padding: 140px 34px;
   transition: transform 0.3s ease-in-out 0s;
   border-radius: 10px 10px 10px 10px;
+  
 }
 
 
@@ -2906,7 +2913,8 @@ section {
 }
 
 .shaadow:hover {
-  box-shadow: 0px 2px 20px rgb(0 0 0 / 10%);
+  /* box-shadow: 0px 2px 20px rgb(0 0 0 / 10%); */
+  box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%); 
 } 
 
 /*--------------------------------------------------------------
