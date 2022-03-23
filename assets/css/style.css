@@ -453,7 +453,10 @@ width: 70%;
   background-color: #ffc451;
 }
 
-
+.photoClass{
+  max-width: 135%;
+  height: auto;
+}
 
 
 
@@ -787,6 +790,17 @@ width: 70%;
 
 .font{
   font-family: "Raleway", sans-serif!important;
+}
+
+.klasaDiv{
+  margin:auto;
+  text-align: center;
+}
+
+.klasaPadding1{
+  margin-bottom:0!important;
+  text-align: initial;
+  padding-left:20%!important;
 }
 
 /* ---------------------------- End Moje ---------------------------- */
@@ -3917,6 +3931,16 @@ section {
     width: 30%;
   }
 
+  .photoClass{
+    max-width: 175%;
+  }
+  .klasaDiv{
+    margin-left:7%;
+  }
+  .klasaPadding1{
+    padding-left:10%!important;
+  }
+
   .blob1{
     top: -92px!important;
     left: -3px!important;
@@ -4774,6 +4798,10 @@ color: red;
 @media (min-width:1200px) and (max-width: 1400px){
   .karTitle2{
     font-size:34px!important;
+  }
+
+  .photoClass{
+    max-width: 150%;
   }
 }
 
