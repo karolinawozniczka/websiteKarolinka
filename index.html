@@ -30,6 +30,8 @@
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   
+
+  
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
   </head>
@@ -45,7 +47,7 @@
         <nav id="navbar" class="navbar order-last order-lg-0 bs-example-js-navbar-scrollspy">
           <ul class="nav nav-pills">
             <li><a class="nav-link scrollto minizoom navbarActive fakeClass" style="font-weight: 600!important;" href="index.html">Strona główna</a></li><!-- id="introjs" -->
-            <li><a class="nav-link scrollto minizoom" href="omnie.html">O mnie</a></li>
+            <li><a class="nav-link scrollto minizoom" href="#cta">O mnie</a></li>
             <li><a class="nav-link scrollto minizoom linkcolor" href="#services">Oferta</a></li>
             <li><a class="nav-link scrollto minizoom linkcolor" href="#kontakt">Kontakt</a></li>
             <li><a class="nav-link scrollto minizoom linkcolor"></a></li>
@@ -76,7 +78,7 @@
     <main id="main">
           
       <!-- ======= Cta Section ======= -->
-      <section id="cta" class="about bgwhite2 cta" style="padding: 30px 0 0 0">
+      <section id="cta" class="about bgwhite2 cta" style="padding: 30px 0 0 0; background-color: #F6F7FA!important;" data-spy="scroll" data-target="#cta" data-offset="0">
         <div class="container">
           <div class="row"> 
             <div class="order11 col-lg-7 offset-md-1 pt-lg-0 order-2 order-lg-2 content klasa klasaDiv" >
@@ -107,8 +109,21 @@
               </li>
               </ul>
             </div>
-            <div  data-aos="zoom-in" data-aos-delay="100">
-              <a href="omnie.html"><button class="btn-contact2 gradient btnmargin btnpadding width100" style="padding: 15px 80px;margin-top: 20px;text-align: center;">Więcej o mnie</button></a>
+            <div  data-aos="zoom-in" data-aos-delay="100" style="padding-top: 30px">
+              <!-- <button class="btn-contact2 gradient  btnpadding width100" onclick="" style="padding: 15px 80px;margin-top: 20px;text-align: center;">Więcej o mnie</button> -->
+
+              <span data-aos="zoom-in " data-aos-delay="100" style="display: inline-block;">
+                <button  id="rozBtnKimjestem" onclick="ShowModalOmnieBig();"data-bs-toggle="collapse" href="#collapseExampleKimjestem" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="0"  aria-label="Slide 1"
+                 aria-controls="collapseExampleKimjestem" href="omnie.html" class="cta-btn2x" style="margin-right:30px">Kim jestem?</button>
+                </span>
+                 <span  data-aos="zoom-in" data-aos-delay="100" style="display: inline-block;">
+                <button  id="rozBtnDoswiadczenie" onclick="ShowModalOmnieBig2();"data-bs-toggle="collapse" role="button" aria-expanded="false"  data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="3" aria-label="Slide 4"
+                 aria-controls="collapseExampleDoswiadczenie" href="omnie.html" class="cta-btn2x">Doświadczenie</button>
+                 </span>
+                 <span  data-aos="zoom-in" data-aos-delay="100" style="display: inline-block;">
+                <button  id="rozBtnWyksztalcenie" onclick="ShowModalOmnieBig3();"data-bs-toggle="collapse"href="#collapseExampleWyksztalcenie" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="6" aria-label="Slide 7"
+                aria-controls="collapseExampleWyksztalcenie" class="cta-btn2x" style="margin-left:30px">Wykształcenie</button>
+                 </span>
               <!-- <a class="btn-gradMain prostujbtn" style="margin-top:10px;margin-left:0!important" href="omnie.html">Więcej o mnie</a> -->
               </div>
             </div>
@@ -121,6 +136,323 @@
        </div>
       </div>
       </section>
+
+      <div id="OmnieBigSlider" class="container-fluid" style="display:none;scroll-margin:229px" data-spy="scroll" data-target="#cta" data-offset="0">
+        <div class="row">
+          <div class="col-12" style="padding:0">           
+            <div id="carouselExampleCaptions0" class="carousel slide" data-bs-ride="">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions0" style="background-color: #2590eb;" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions0" style="background-color: #2590eb;" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions0" style="background-color: #2590eb;" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions0" style="background-color: #2590eb;" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions0" style="background-color: #2590eb;" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions0" style="background-color: #2590eb;" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions0" style="background-color: #2590eb;" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              </div>
+            <div style="overflow:hidden;box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%);">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12" style="margin-top:0;padding-top:60px;animation: fadeInBottom 1s ease-in-out;">
+                      <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                            margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Kim <span style="color: #2590eb;">jestem?</span></h1>
+                    </div>
+                  </div>
+                  <div class="row" style="padding: 40px 0 40px 0;margin-top:-20px;">
+                    <div class="col-8 usunPaddingL usunMarginL" style="padding-bottom: 40px;margin:auto;padding-right:0;animation: fadeInRight 1s ease-in-out;"> 
+                      <div class="content dajPadding">
+                        <p class="usunPaddingL usunMarginL" style="margin-bottom:0;margin-right: 40px;">
+                          <span class="bottomBorder" style="font-weight:bolder;color:#444444;font-size:24px">Jako zawodniczka spotkałam się z wieloma wyzwaniami.
+                          </span>
+                          <span style="font-size:1.05rem;display:inline-block;color:#444444;padding-top:20px">
+                            Od dziecka byłam zaangażowana w różne dyscypliny sportowe, jednak to trenowaniu wyczynowo
+                            narciarstwa alpejskiego oddałam największą ilość czasu i serca.
+                          </span>
+                          <span style="padding-top:15px;display:inline-block;font-size:0.95rem;color:#444444">
+                            Koniecznością uporania się z emocjami przedstartowymi i presją, specyfiką relacji
+                            trenerskich czy rówieśniczych rywalizacji, trudnościami pogodzenia programu
+                            sportowca z obowiązkami szkolnymi(życiowymi), a także sytuacją kontuzji. Doświadczyłam na sobie
+                            jak ważna jest dobra koncentracja czy umiejętne wykorzystywanie 
+                            emocji. Przeżyte doświadczenia dały mi zrozumienie dla trudności i specyfiki życia zawodników, z którymi 
+                            pracuję, a w konsekwencji lepszą umiejętność pomagania im.
+                          </span>  
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-4" style="padding-bottom: 40px;margin:auto;position:relative;animation: fadeInLeft 1s ease-in-out;">
+                      <a href="assets/img/portfolio/biezniaBig3.jpg" data-gallery="portfolioGalleryMain" class="portfolio-lightbox">
+                        <div class="img customzoom s5 prostujImg3" alt="Bieżnia" title="Na bieżni" 
+                        style="border-radius:66%;aspect-ratio:1;height:unset!important;width: 100%;margin: auto;    border: solid 2px #fff;box-shadow: 0 0 20px 20px rgb(0 0 0 / 15%)!important;
+                        background: url('assets/img/portfolio/biezniaBig3.jpg') no-repeat right bottom;background-size:cover;border:solid 2px #fff;z-index: 5;
+                        position: relative;"></div>
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12" style="margin-top:0;padding-top:60px;animation: fadeInBottom 1s ease-in-out;">
+                        <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                              margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Kim <span style="color: #2590eb;">jestem?</span></h1>
+                      </div>
+                    </div>
+                    <div class="row" style="padding: 40px 0 40px 0;margin-top:-20px;">
+                      <div class="col-4" style="padding-bottom: 40px;margin:auto;position:relative;animation: fadeInRight 1s ease-in-out;">
+                        <a href="assets/img/portfolio/google.jpg" data-gallery="portfolioGalleryMain" class="portfolio-lightbox">
+                          <div class="img customzoom mobilePadding" alt="Psycholog Sportu Karolina Woźniczka jako instruktor sportu"
+                           title="Psycholog Sportu Karolina Woźniczka jako instruktor sportu" style="border-radius:66%;aspect-ratio:1;height: unset!important;width:100%;margin:auto;
+                           background: url('assets/img/portfolio/google.jpg') no-repeat center;
+                           background-size:cover;border:solid 2px #fff;margin:auto;min-height:auto!important; 
+                           position: relative; z-index: 5;box-shadow: 0 0 20px 20px rgb(0 0 0 / 15%)!important"></div>
+                        </a>
+                      </div>
+
+                      <div class="col-8 usunPaddingL usunMarginL" style="padding-bottom: 40px;margin:auto;padding-right:0;animation: fadeInLeft 1s ease-in-out;"> 
+                        <div class="content">
+                          <p style="padding-left:40px" class="usunPaddingL"><span class="bottomBorder" style="font-weight:bolder;color:#444444;font-size:24px">Na kolejnym etapie życia zostałam 
+                            instruktorem sportu.               
+                            </span>
+                            <span style="font-size:1.05rem;display:inline-block;padding-top:20px">Uświadomiło mi to jak ważne jest indywidualne podejście
+                               do każdego podopiecznego. Dało ogląd na wpływ osoby ważnej takiej jak trener czy rodzic, na dynamikę grupy 
+                              i jego komunikatów (zarówno tych słownych jak i zwykłych reakcji czy zachowań). </span>
+                            <span style="padding-top:15px;display:inline-block;font-size:0.95rem">Poprzez te doświadczenie codziennych 
+                              dylematów i obciążeń
+                              spoczywających na mnie, znacznie łatwiej przychodzi mi znalezienie odpowiedniej płaszczyzny kontaktu ze sztabem trenerskim, 
+                              uświadomienie im jak ważną rolę pełnią, jako przewodnicy i 
+                              mentorzy w kształtowaniu sportowców, czy jak wielki wpływ mają na występ i trening zawodników.
+                          </span></p>
+                        </div>
+                      </div>
+
+  
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12" style="margin-top:0;padding-top:60px;animation: fadeInBottom 1s ease-in-out;">
+                        <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                              margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Kim <span style="color: #2590eb;">jestem?</span></h1>
+                      </div>
+                    </div>
+                    <div class="row" style="padding: 40px 0 60.5px 0;margin-top:-20px;">
+                      <div class="col-8 usunPaddingL usunMarginL" style="padding-bottom: 40px;margin:auto;padding-right:40px;animation: fadeInRight 1s ease-in-out;"> 
+                        <div class="content dajPadding">
+                          <p class="usunPaddingR">
+                            <span style="font-weight:bolder;color:#444444;font-size:24px" class="bottomBorder">Ukończenie psychologii stosowanej,
+                             a także ukończone później kursy, szkolenia i konferencje
+                            poszerzyły moje obserwacje i doświadczenia o solidne naukowe podstawy, a także bogaty warsztat
+                            narzędzi psychologicznych.</span>
+                            <span style="font-size:1.05rem!important;display:inline-block;margin-top:20px">Natomiast praktyka otwarła ścieżkę do coraz to nowego odkrywania i wydobywania potencjału ludzi pełnych pasji, by mogli w pełni rozwijać swoje skrzydła i 
+                            realizować sportowe marzenia.</span> 
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-4" style="padding-bottom: 40px;margin:auto;position:relative;animation: fadeInLeft 1s ease-in-out;">
+                        <a href="assets/img/portfolio/ciastko.gif" data-gallery="portfolioGalleryMain" class="portfolio-lightbox">
+                          <img src="assets/img/portfolio/ciastko.gif" alt="Plan rozwoju" title="Plan Rozwoju" class="customzoom " style="background-size: contain!important;
+                          max-width:95%;margin:auto;
+                          background: url('assets/img/portfolio/ciastko.gif') no-repeat center right;border:solid 2px #fff;background-size:cover;
+                          border-radius:10px 10px 10px 10px;box-shadow: 0 0 20px 20px rgb(0 0 0 / 15%);">
+                        </a>
+                      </div>
+  
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12" style="margin-top:0;padding-top:60px;animation: fadeInBottom 1s ease-in-out;">
+                        <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                              margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Z kim <span style="color: #2590eb;">pracuje?</span></h1>
+                      </div>
+                    </div>
+                    <div class="row" style="padding: 40px 0 40px 0;margin-top:-20px;">
+                      <div class="col-4" style="padding-bottom: 40px;margin:auto;position:relative;animation: fadeInRight 1s ease-in-out;">
+                        <a href="assets/img/portfolio/2gory.jpg" data-gallery="portfolioGalleryMain" class="portfolio-lightbox">
+                          <div class="img customzoom s5 prostujImg3" alt="Narciarstwo Alpejskie" title="Narciarstwo Alpejskie" 
+                          style="border-radius:66%;aspect-ratio:1;height:unset!important;width: 100%;margin: auto;box-shadow: 0 0 20px 20px rgb(0 0 0 / 15%)!important;
+                          background: url('assets/img/portfolio/2gory.jpg') no-repeat left bottom;background-size:cover;border:solid 2px #fff;z-index: 5;position: relative"></div>
+                        </a>
+                      </div>
+
+                      <div class="col-8 usunPaddingL usunMarginL" style="padding-bottom: 40px;margin:auto;padding-right:0;animation: fadeInLeft 1s ease-in-out;"> 
+                        <div class="content dajPadding">
+                          <p class="usunPaddingL usunMarginL" style="margin-bottom:0;margin-right: 40px;padding-left:40px" >
+                            <span class="bottomBorder" style="font-weight:bolder;color:#444444;font-size: 24px;">
+                             Współpracuję z zawodnikami kadr narodowych oraz amatorami z pasją, zawodnikami sportów indywidualnych oraz zespołowych, 
+                             od najmłodszych po seniorów.</span>
+                          <span style="display: inline-block;font-size:0.95rem;padding-top:20px">
+                            W swojej pracy miałam już styczność z
+                             przedstawicielami wielu dyscyplin. Pracowałam 
+                             m.in. z lekkoatletami, piłkarzami, siatkarkami, łyżwiarzami, narciarzami. Warto jednak pamiętać, że każdy sportowiec jest inny. 
+                             Dlatego prócz poznania dogłębnie specyfiki sportu który uprawia, skupiam się przede wszystkim na poznaniu osoby która przede
+                              mną siedzi.
+                              
+                            </span>  </p>
+                        </div>
+                      </div>
+
+  
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12" style="margin-top:0;padding-top:60px;animation: fadeInBottom 1s ease-in-out;">
+                        <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                              margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Swoją pracę poddaje <span style="color:#2590eb">stałej superwizji</span></h1>
+                      </div>
+                    </div>
+                    <div class="row" style="padding: 60px 0 38px 0;margin-top:-20px;">
+                      <div class="col-6 usunPaddingL usunMarginL" style="padding-bottom: 40px;margin:auto;padding-right:0;animation: fadeInRight 1s ease-in-out;"> 
+                        <div class="content">
+                          <p class="usunPaddingL " style="padding-right:30px;"><span class="bottomBorder" style="color:#444444;font-weight: bolder;font-size: 24px;">
+                            Na co dzień pracuję w Akademii Wisły Kraków, gdzie
+                            zajmuję się pracą ze sztabem trenerskim, całymi drużynami, 
+                              a także indywidualnie z zawodnikami.</span>
+                            <span style="font-size:1.05rem;display:inline-block;padding-top:20px">Pracuję okresowo/cyklicznie także dla innych 
+                              klubów na <b>Śląsku</b> czy w <b>Małopolsce.</b> </span>
+                            <span style="padding-top:15px;display:inline-block;font-size:0.95rem">Swój warsztat szlifowałam pod czujnym okiem profesora J. B.(znanego z współpracy z <b style="color: #444444;">Adamem Małyszem</b>), 
+                              a także Pani Beaty Mieńkowskiej (rozpoznawalnej głównie z pracy z <b style="color: #444444;">Otylią J.</b>).
+                          </span></p>
+                        </div>
+                      </div>
+                      <div class="col-6" style="padding-bottom: 30px;margin:auto;position:relative;animation: fadeInLeft 1s ease-in-out;">
+                        <a href="assets/img/oferta/sztabBig.jpg" data-gallery="portfolioGalleryMain" class="portfolio-lightbox">
+                          <div class="img customzoom" alt="Wisła Kraków" title="Wisła Kraków" style="border-radius: 26px;
+                          background: url('assets/img/oferta/sztabBig.jpg') no-repeat center;border:solid 2px #fff;box-shadow: 0 0 20px 20px rgb(0 0 0 / 15%)!important;
+                          background-size:cover;margin: auto;min-height: 300px!important;"></div>
+                        </a>
+                      </div>
+                      <p class="mobilePadding" style="margin-bottom:22px">
+                        Dzięki pracy na <b>Oddziale Terapeutycznym w Szopienicach</b> zdobyłam także warsztat
+                         terapeutyczny, co w pracy psychologa wszelakich specjalizacji bywa bardzo użyteczne. 
+                        Przecież Każdy sportowiec to przede wszystkim człowiek, który także mierzy się z 
+                        codziennymi trudnościami życia codziennego. W <b>Ambulatorium Terapii Rodzin w Krakowie</b>
+                         pogłębiłam swoją wiedzę terapeutyczną dotyczącą pracy z systemem, jaki również
+                          tworzą rodzina, czy cały sztab klubowy wraz z zawodnikiem.               
+                        </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12" style="margin-top:0;padding-top:60px;animation: fadeInBottom 1s ease-in-out;">
+                        <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                              margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Doświadczenie</h1>
+                      </div>
+                    </div>
+                    <div class="row" style="padding: 0 0 80px 0;margin-top:-20px;">
+                      <div class="col-md-12" style="text-align: center;padding:40px 0 0 0">
+                        <!-- <a href="assets/img/portfolio/doswiadczenie.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                          <img src="assets/img/portfolio/doswiadczenie.jpg" class="img-fluid" alt="" style="width:70%"></a> -->
+                          <div class="portfolio-wrap2" style="background:initial;">
+                            <a href="assets/img/portfolio/doswiadczenie.jpg" data-gallery="portfolioGalleryMain" class="portfolio-lightbox">
+                            <img src="assets/img/portfolio/doswiadczenie.jpg" class="img-fluid" alt="Doświadczenie" title="Doświadczenie" style="width:53.2%;animation: fadeInLeft 1s ease-in-out;">
+                            <div class="portfolio-info">
+                              <div class="portfolio-links">
+                              </div>
+                            </div>
+                          </a>
+                          </div>
+                      </div>
+  
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12" style="margin-top:0;padding-top:60px;animation: fadeInBottom 1s ease-in-out;">
+                        <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                              margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Ukończyłam <span style="color:#2590eb">uczelnie:</span></h1>
+                      </div>
+                    </div>
+                    <div class="row" style="padding: 60px 0 70px 0;margin-top:-20px;">
+                      <div class="col-lg-6 dodajprzerwe" style="animation: fadeInLeft 1s ease-in-out;">
+                        <div class="info">
+                          <div class="address">
+                            <a class="timeline-content">
+                              <h3 class="title" style="text-align:left!important;font-size:26px;font-weight: bolder;color:#444444">
+                                Uniwersytet Jagielloński<br/>
+                                <span style="font-size:20px;color:#444444">Psychologia stosowana</span>
+                                <br/>
+                                <img src="assets/img/line.png">
+                              </h3>
+                              <p class="description font" style="text-align:left!important;color:#444444;padding:10px 0 0 0!important">
+                                Ukończyłam psychologię stosowana na Uniwersytecie Jagiellońskim realizując profile/ścieżki psychologia społeczna komunikowania się
+                                 oraz psychologia pracy organizacji i zrządzania.
+                              </p>
+                          </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6" style="animation: fadeInRight 1s ease-in-out;">
+                        <div class="email">
+                          <a class="timeline-content">
+                            <h3 class="title" style="font-size:26px;color:#444444;text-align: right;font-weight: bolder;">
+                              Akademia Wychowania Fizycznego <br/>
+                              <span style="font-size:20px;color:#444444">Moduł specjalizacyjny z psychologii sportu</span>
+                              <br/>
+                              <img src="assets/img/line.png">
+                            </h3>
+                            <p class="description font" style="color:#444444;padding:10px 0 0 0!important;text-align: right">
+                              Ukończyłam scieżkę/moduł specjalizacyjną z psychologii sportu na Akademii Wychowania Fizycznego im. Bronisława Czecha w Krakowie pod przewodnictwem Jana Blecharza. 
+                              
+                            </p>
+                            
+                        </a>
+                        </div>
+                      </div>
+                      <div class="row" style="padding-top:20px;animation: fadeInBottom 1s ease-in-out;">
+                        <div class="col-12">
+                          <p class="mobileTextPadding" style="text-align:left;"><b>Wciąż rozwijam swoją wiedzę i warsztat o nowe umiejętności.</b> Dbam także o to by aktualizować 
+                            swoją wiedzę i czerpać metodykę od największych międzynarodowych guru psychologii sportu. 
+                            Uczestniczyłam w wielu szkoleniach dotyczących konkretnych obszarów/aspektów pracy. 
+                            Ukończyłam m.in. kurs terapii skoncentrowanej na rozwiązaniach, ponad to 
+                            ukończyłam także kursy z zakresuterapii uzależnień behawioralnych, podstaw psychologii kryzysu i problemów emocjonalnych, rozpoznawania
+                            kryzysu presuicydalnego,…i wiele wiele innych.</p>
+                          <p class="mobileTextPadding" style="text-align:left;">
+                            Zbierając swoje doświadczenie miałam okazję pracować pod okiem fantastycznych psychologów 
+                            sportu prof.m.in. wspomianego wyżej profesora <b>Jana Blecharza</b> czy Psycholog Sportu klasy Mistrzowskiej <b>Beaty Mieńkowskiej.</b> 
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+              </div>              
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions0" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions0" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            </div>
+
+          </div>
+      </div>
+      </div>
+
+
   
       
                  <!-- ======= Clients Section ======= -->
@@ -261,11 +593,136 @@
       </section>
       <!-- End Usługi Section -->
   
-  
+      <section>
+
+      <div class="container" style="padding-left:0!important;padding-right:0!important;">
+                
+                <div class="row">
+                  <div class="col-12" style="padding-bottom:40px;animation: fadeInBottom 1s ease-in-out;">
+                    <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                          margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Brałam <span style="color:#2590eb">udział w:</span></h1>
+                  </div>
+                </div>
+                
+
+            <div class="slider2">
+              <div class="slide-track2">
+                <div class="slide2" style="margin-left:0px">
+                  <a href="assets/img/clients/ekstraklasa.png" data-gallery="portfolioGallery4" class="portfolio-lightbox" style="margin:auto">
+                    <img src="assets/img/clients/ekstraklasa.png" class="customzoom2" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+                  </a>
+                </div>
+                <div class="slide2">
+            
+                  <a href="assets/img/clients/psychodebiuty.png" data-gallery="portfolioGallery4" class="portfolio-lightbox" style="margin:auto">
+                    <img src="assets/img/clients/psychodebiuty.png" class="customzoom2" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+                  </a>
+                </div>
+                <div class="slide2">
+            
+                  <a href="assets/img/clients/wstronezmian.png" data-gallery="portfolioGallery4" class="portfolio-lightbox" style="margin:auto">
+                    <img src="assets/img/clients/wstronezmian.png" class="customzoom2" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+                    </a>
+                </div>
+            
+                <div class="slide2">
+                  <a href="assets/img/clients/fepsac.png" data-gallery="portfolioGallery4" class="portfolio-lightbox" style="margin:auto">
+                    <img src="assets/img/clients/fepsac.png" class="customzoom2" style="padding:0 5% 0 5%;width: 83%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+                  
+                  </a>
+            
+                </div>
+                <div class="slide2">
+            
+                  <a href="assets/img/clients/sep.png" data-gallery="portfolioGallery4" class="portfolio-lightbox" style="margin:auto">
+                    <img src="assets/img/clients/sep.png" class="customzoom2" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />                
+                  </a>
+                </div>
+                <div class="slide2" style="width:200px">
+            
+                  <a href="assets/img/clients/letsr.jpg" data-gallery="portfolioGallery4" class="portfolio-lightbox" style="margin:auto">
+                    <img src="assets/img/clients/letsr.jpg" class="customzoom2" style="width: 95%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+                  </a>
+                </div>
+                <div class="slide2">
+            
+                  <a href="assets/img/clients/leipzig.png" data-gallery="portfolioGallery4" class="portfolio-lightbox" style="margin:auto">
+                    <img src="assets/img/clients/leipzig.png" class="customzoom2" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+                  </a>
+                </div>
+                <div class="slide2" style="width:150px">
+            
+                  <a href="assets/img/clients/ptpws.png" data-gallery="portfolioGallery4" class="portfolio-lightbox" style="text-align: center;">
+                    <img src="assets/img/clients/ptpws3.png" class="customzoom2" style="width: 71%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+                   </a>
+                </div>
+                <div class="slide2">
+            
+                  <a href="assets/img/clients/pragma.jpg" data-gallery="portfolioGallery4" class="portfolio-lightbox" style="text-align: left;">
+                    <img src="assets/img/clients/pragma.jpg" class="customzoom2" style="padding:0 5% 0 5%;margin-left:35px;width: 60%!important;height: auto!important;" height="100" width="250" alt="" />
+                  </a>
+                </div>
+            
+                <!-- repeat -->
+            
+                <div class="slide2">
+            
+                  <a href="assets/img/clients/psychodebiuty.png" data-gallery="portfolioGallery4" class="portfolio-lightbox" style="margin:auto">
+                    <img src="assets/img/clients/psychodebiuty.png" class="customzoom2" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+                  </a>
+                </div>
+                <div class="slide2">
+            
+                  <a href="assets/img/clients/wstronezmian.png" data-gallery="portfolioGallery4" class="portfolio-lightbox" style="margin:auto">
+                    <img src="assets/img/clients/wstronezmian.png" class="customzoom2" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+                    </a>
+                </div>
+            
+                <div class="slide2">
+                  <a href="assets/img/clients/fepsac.png" data-gallery="portfolioGallery4" class="portfolio-lightbox" style="margin:auto">
+                    <img src="assets/img/clients/fepsac.png" class="customzoom2" style="padding:0 5% 0 5%;width: 83%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+                  
+                  </a>
+            
+                </div>
+                <div class="slide2">
+            
+                  <a href="assets/img/clients/sep.png" data-gallery="portfolioGallery4" class="portfolio-lightbox" style="margin:auto">
+                    <img src="assets/img/clients/sep.png" class="customzoom2" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />                
+                  </a>
+                </div>
+                <div class="slide2" style="width:200px">
+            
+                  <a href="assets/img/clients/letsr.jpg" data-gallery="portfolioGallery4" class="portfolio-lightbox" style="margin:auto">
+                    <img src="assets/img/clients/letsr.jpg" class="customzoom2" style="width: 95%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+                  </a>
+                </div>
+                <div class="slide2">
+            
+                  <a href="assets/img/clients/leipzig.png" data-gallery="portfolioGallery4" class="portfolio-lightbox" style="margin:auto">
+                    <img src="assets/img/clients/leipzig.png" class="customzoom2" style="padding:0 5% 0 5%;width: 100%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+                  </a>
+                </div>
+                <div class="slide2" style="width:150px">
+            
+                  <a href="assets/img/clients/ptpws.png" data-gallery="portfolioGallery4" class="portfolio-lightbox" style="text-align: center;">
+                    <img src="assets/img/clients/ptpws3.png" class="customzoom2" style="width: 71%!important;margin: auto!important;height: auto!important;" height="100" width="250" alt="" />
+                   </a>
+                </div>
+                <div class="slide2">
+            
+                  <a href="assets/img/clients/pragma.jpg" data-gallery="portfolioGallery4" class="portfolio-lightbox" style="text-align: left;">
+                    <img src="assets/img/clients/pragma.jpg" class="customzoom2" style="padding:0 5% 0 5%;width: 72%!important;height: auto!important;" height="100" width="250" alt="" />
+                  </a>
+                </div>
+
+
+                
+            </section>
   
           <!-- ======= Services Section ======= -->
           
-          <section id="services" class="services" style="padding-top:50px!important;scroll-margin: 20px;padding-bottom:70px" data-spy="scroll" data-target="#services" data-offset="0">
+          <section id="services" class="services" style="padding-top:60px!important;scroll-margin: 20px;padding-bottom:70px;background-color: #F6F7FA;" data-spy="scroll" data-target="#services" data-offset="0">
             <div class="container" style="padding-bottom:0" data-aos="fade-up">    
               <div class="row" style="padding-bottom: 40px;">
                 <div class="col-12" style="margin-top:0">
@@ -806,7 +1263,44 @@
         }
       }
 
-      
+      function ShowModalOmnieBig() {
+        var x = document.getElementById("OmnieBigSlider");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          document.getElementById("OmnieBigSlider").scrollIntoView();
+        } else {
+          document.getElementById("OmnieBigSlider").scrollIntoView();
+        }
+        document.getElementById('rozBtnKimjestem').classList.add('cta-btn2xhoverX');
+        document.getElementById('rozBtnDoswiadczenie').classList.remove('cta-btn2xhoverX');
+        document.getElementById('rozBtnWyksztalcenie').classList.remove('cta-btn2xhoverX');
+      }
+
+      function ShowModalOmnieBig2() {
+        var x = document.getElementById("OmnieBigSlider");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          document.getElementById("OmnieBigSlider").scrollIntoView();
+        } else {
+          document.getElementById("OmnieBigSlider").scrollIntoView();
+        }
+        document.getElementById('rozBtnDoswiadczenie').classList.add('cta-btn2xhoverX');
+        document.getElementById('rozBtnKimjestem').classList.remove('cta-btn2xhoverX');
+        document.getElementById('rozBtnWyksztalcenie').classList.remove('cta-btn2xhoverX');
+      }
+
+      function ShowModalOmnieBig3() {
+        var x = document.getElementById("OmnieBigSlider");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          document.getElementById("OmnieBigSlider").scrollIntoView();
+        } else {
+          document.getElementById("OmnieBigSlider").scrollIntoView();
+        }
+        document.getElementById('rozBtnWyksztalcenie').classList.add('cta-btn2xhoverX');
+        document.getElementById('rozBtnKimjestem').classList.remove('cta-btn2xhoverX');
+        document.getElementById('rozBtnDoswiadczenie').classList.remove('cta-btn2xhoverX');
+      }
 
     </script>
   
