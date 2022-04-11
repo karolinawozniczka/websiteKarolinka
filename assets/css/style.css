@@ -92,6 +92,10 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(to bottom, white 7%, #F6F7FA 7%, #F6F7FA 93%, white 93%);
 }
 
+.extrabg{
+  background-color: #F6F7FA;
+}
+
 .svgImg{
   width: 95%
 }
@@ -793,7 +797,6 @@ width: 70%;
 }
 
 .font{
-  font-family: "Raleway", sans-serif!important;
 }
 
 .klasaDiv{
@@ -839,12 +842,13 @@ width: 70%;
   }
   
   .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%474bff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
     width: 30px;
     height: 48px;
   }
+  
   .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%474bff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
     width: 30px;
     height: 48px;
   } */
@@ -1288,7 +1292,7 @@ a.button {
 
 /* Timeline */
 
-.main-timeline{ font-family: 'Josefin Sans', sans-serif; }
+.main-timeline{ }
 .main-timeline:after{
     content: '';
     display: block;
@@ -1986,7 +1990,6 @@ a.button {
   color: #343a40;
   border-radius: 4px;
   white-space: nowrap;
-  font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -2235,7 +2238,6 @@ a.button {
   transition: 0.3s;
 
   letter-spacing: 0.8px;
-  font-family: "Raleway", sans-serif;
   font-weight:400;
 
 font-style: normal;
@@ -2420,7 +2422,7 @@ font-style: normal;
 }
 
 .shadowbg1{
-  background: url('../img/test.png')no-repeat right bottom;
+  background: url('../img/test.png') no-repeat right bottom;
   position: absolute;
   width: 111%;
   height: 91%;
@@ -2462,7 +2464,6 @@ font-style: normal;
   font-weight: 500;
   line-height: 64px;
   color: #fff;
-  font-family: "Raleway", sans-serif;
 }
 
 #hero h1 span {
@@ -2580,7 +2581,6 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #cbcaca;
-  font-family: "Raleway", sans-serif;
 }
 
 .section-title2 h2::after {
@@ -2598,7 +2598,6 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
   color: #151515;
 }
 
@@ -2615,7 +2614,6 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Raleway", sans-serif;
 }
 
 .section-title h2::after {
@@ -2633,7 +2631,6 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
   color: #151515;
 }
 /*--------------------------------------------------------------
@@ -2695,7 +2692,6 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 29px;
-  font-family: "Raleway", sans-serif;
 }
 
 .btn{
@@ -2806,13 +2802,56 @@ section {
 
 /*-------------------------------------------------------------- */
 
+.slider2 {
+  background: white;
+  /* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);  */
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
 
- @-webkit-keyframes scroll {
+.slider2::before,
+.slider2::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.slider2::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider2::before {
+  left: 0;
+  top: 0;
+}
+
+.slider2 .slide-track2 {
+  -webkit-animation: scroll 25s linear infinite;
+  animation: scroll 25s linear infinite;
+  display: flex;
+  width: fit-content;
+}
+
+.slider2 .slide2 {
+  height: 100px;
+  width: 250px;
+  display: flex;
+}
+
+@-webkit-keyframes scroll {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-250px * 7));
+    transform: translateX(-50%);
   }
 }
 
@@ -2821,46 +2860,9 @@ section {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-250px * 7));
+    /* scroll only 50% */
+    transform: translateX(-50%);
   }
-} 
-.slider2 {
-   background: white;
-  /* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);  */
-  height: 100px;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-  width: auto;
- 
-}
-.slider2::before, .slider2::after {
-   background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%); 
-  content: "";
-  height: 100px;
-  position: absolute;
-  width: 200px;
-  z-index: 2;
-}
-.slider2::after {
-  right: 0;
-  top: 0;
-  transform: rotateZ(180deg);
-}
-.slider2::before {
-  left: 0;
-  top: 0;
-}
-.slider2 .slide-track2 {
-  -webkit-animation: scroll 20s linear infinite;
-          animation: scroll 20s linear infinite;
-  display: flex;
-  width: calc(250px * 14);
-}
-.slider2 .slide2 {
-  height: 100px;
-  width: 250px;
-  display:flex;
 }
 
 /*
@@ -3007,7 +3009,6 @@ section {
 
 
 .cta .cta-btn {
-  font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -3030,7 +3031,6 @@ section {
 .btn-grad {background-image: linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%)}
 .btn-grad {
   margin:0;
-  font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -3133,8 +3133,7 @@ section {
     
 
     .cta-btn2x {
- 
-      font-family: "Raleway", sans-serif;
+
       font-weight: 600;
       font-size: 16px;
       letter-spacing: 1px;
@@ -3164,7 +3163,6 @@ section {
 
 .cta-btn2 {
  
-  font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -3819,7 +3817,6 @@ section {
 .counts .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Raleway", sans-serif;
   font-size: 14px;
   color: #3b3b3b;
 }
@@ -3830,7 +3827,6 @@ section {
   margin-top: 20px;
   color: #3b3b3b;
   font-size: 15px;
-  font-family: "Raleway", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
@@ -4213,7 +4209,6 @@ section {
   margin:0;
   margin-left:7%;
   margin-top: 30px;
-  font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -4232,7 +4227,6 @@ section {
   margin-top: 1%;
   font-size: 16px!important;
   width: 100%;
-  font-family: "Raleway", sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
   color: #fff;
@@ -4266,7 +4260,6 @@ section {
   margin-top: 2%;
   font-size: 16px!important;
   padding: 15px 120px;
-  font-family: "Raleway", sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
   color: #fff;
@@ -4292,7 +4285,6 @@ section {
 
 .btn-contact3 {
   font-size: 16px!important;
-  font-family: "Raleway", sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
   cursor: pointer;
@@ -4322,7 +4314,6 @@ section {
 }
 
 .cta-btn3{
-  font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -4346,7 +4337,6 @@ section {
   margin-top: 2%;
   font-size: 16px!important;
   padding: 15px 0px;
-  font-family: "Raleway", sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
   color: #fff;
@@ -4404,7 +4394,6 @@ section {
   font-size:14px;
   display: inline-block;
   border: 2px;
-  font-family: "Raleway", sans-serif;
   cursor: pointer;
   moz-transition: all .4s ease-in-out;
   position: relative;
@@ -4708,7 +4697,6 @@ color: red;
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
   color: #fff;
 }
 
