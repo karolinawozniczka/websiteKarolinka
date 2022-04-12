@@ -115,15 +115,15 @@
               <!-- <button class="btn-contact2 gradient  btnpadding width100" onclick="" style="padding: 15px 80px;margin-top: 20px;text-align: center;">Więcej o mnie</button> -->
 
               <span data-aos="zoom-in " data-aos-delay="100" style="display: inline-block;">
-                <button  id="rozBtnKimjestem" onclick="ShowModalOmnieBig();"data-bs-toggle="collapse"  role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="0"  aria-label="Slide 1"
+                <button  id="rozBtnKimjestem" onclick="ShowModalOmnieBig();"  role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="0"  aria-label="Slide 1"
                  aria-controls="collapseExampleKimjestem" href="omnie.html" class="cta-btn2x" style="margin-right:30px">Kim jestem?</button>
                 </span>
                  <span  data-aos="zoom-in" data-aos-delay="100" style="display: inline-block;">
-                <button  id="rozBtnDoswiadczenie" onclick="ShowModalOmnieBig2();"data-bs-toggle="collapse" role="button" aria-expanded="false"  data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="3" aria-label="Slide 4"
+                <button  id="rozBtnDoswiadczenie" onclick="ShowModalOmnieBig2();" role="button" aria-expanded="false"  data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="3" aria-label="Slide 4"
                  aria-controls="collapseExampleDoswiadczenie" href="omnie.html" class="cta-btn2x">Doświadczenie</button>
                  </span>
                  <span  data-aos="zoom-in" data-aos-delay="100" style="display: inline-block;">
-                <button  id="rozBtnWyksztalcenie" onclick="ShowModalOmnieBig3();"data-bs-toggle="collapse" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="6" aria-label="Slide 7"
+                <button  id="rozBtnWyksztalcenie" onclick="ShowModalOmnieBig3();" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="6" aria-label="Slide 7"
                 aria-controls="collapseExampleWyksztalcenie" class="cta-btn2x" style="margin-left:30px">Wykształcenie</button>
                  </span>
               <!-- <a class="btn-gradMain prostujbtn" style="margin-top:10px;margin-left:0!important" href="omnie.html">Więcej o mnie</a> -->
@@ -1326,6 +1326,10 @@
     default:
       //the id is none of the above
   }
+})
+
+$("OmnieBigSlider").click(function(e){
+   e.stopPropagation();
 })
 
     </script>
