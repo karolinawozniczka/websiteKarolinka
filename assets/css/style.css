@@ -1,5 +1,6 @@
 html{
   scroll-behavior: smooth;
+  
 }
 
 body {
@@ -11,6 +12,10 @@ body {
 a {
   color: #009ee3;
   text-decoration: none;
+}
+
+.Karuzel{
+  
 }
 
 a:hover {
