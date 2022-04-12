@@ -31,7 +31,7 @@
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
   
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
@@ -114,7 +114,7 @@
               <!-- <button class="btn-contact2 gradient  btnpadding width100" onclick="" style="padding: 15px 80px;margin-top: 20px;text-align: center;">Więcej o mnie</button> -->
 
               <span data-aos="zoom-in " data-aos-delay="100" style="display: inline-block;">
-                <button  id="rozBtnKimjestem" onclick="ShowModalOmnieBig();"data-bs-toggle="collapse" href="#collapseExampleKimjestem" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="0"  aria-label="Slide 1"
+                <button  id="rozBtnKimjestem" onclick="ShowModalOmnieBig();"data-bs-toggle="collapse"  role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="0"  aria-label="Slide 1"
                  aria-controls="collapseExampleKimjestem" href="omnie.html" class="cta-btn2x" style="margin-right:30px">Kim jestem?</button>
                 </span>
                  <span  data-aos="zoom-in" data-aos-delay="100" style="display: inline-block;">
@@ -122,7 +122,7 @@
                  aria-controls="collapseExampleDoswiadczenie" href="omnie.html" class="cta-btn2x">Doświadczenie</button>
                  </span>
                  <span  data-aos="zoom-in" data-aos-delay="100" style="display: inline-block;">
-                <button  id="rozBtnWyksztalcenie" onclick="ShowModalOmnieBig3();"data-bs-toggle="collapse"href="#collapseExampleWyksztalcenie" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="6" aria-label="Slide 7"
+                <button  id="rozBtnWyksztalcenie" onclick="ShowModalOmnieBig3();"data-bs-toggle="collapse" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="6" aria-label="Slide 7"
                 aria-controls="collapseExampleWyksztalcenie" class="cta-btn2x" style="margin-left:30px">Wykształcenie</button>
                  </span>
               <!-- <a class="btn-gradMain prostujbtn" style="margin-top:10px;margin-left:0!important" href="omnie.html">Więcej o mnie</a> -->
@@ -143,13 +143,13 @@
           <div class="col-12" style="padding:0">           
             <div id="carouselExampleCaptions0" class="carousel slide" data-bs-ride="">
               <div class="carousel-indicators" style="margin-bottom: 50px;">
-                <button type="button" data-bs-target="#carouselExampleCaptions0" style="background-color: #2590eb;border-radius: 50%;width: 12px;height: 12px;margin:0 4px 0 4px" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions0" style="background-color: #2590eb;border-radius: 50%;width: 12px;height: 12px;margin:0 4px 0 4px" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions0" style="background-color: #2590eb;border-radius: 50%;width: 12px;height: 12px;margin:0 4px 0 4px" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions0" style="background-color: #2590eb;border-radius: 50%;width: 12px;height: 12px;margin:0 4px 0 4px" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions0" style="background-color: #2590eb;border-radius: 50%;width: 12px;height: 12px;margin:0 4px 0 4px" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions0" style="background-color: #2590eb;border-radius: 50%;width: 12px;height: 12px;margin:0 4px 0 4px" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions0" style="background-color: #2590eb;border-radius: 50%;width: 12px;height: 12px;margin:0 4px 0 4px" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions0" onclick="buttonActiveChecker()" style="background-color: #2590eb;border-radius: 50%;width: 12px;height: 12px;margin:0 4px 0 4px" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions0" onclick="buttonActiveChecker()" style="background-color: #2590eb;border-radius: 50%;width: 12px;height: 12px;margin:0 4px 0 4px" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions0" onclick="buttonActiveChecker()" style="background-color: #2590eb;border-radius: 50%;width: 12px;height: 12px;margin:0 4px 0 4px" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions0" onclick="buttonActiveChecker()" style="background-color: #2590eb;border-radius: 50%;width: 12px;height: 12px;margin:0 4px 0 4px" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions0" onclick="buttonActiveChecker()" style="background-color: #2590eb;border-radius: 50%;width: 12px;height: 12px;margin:0 4px 0 4px" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions0" onclick="buttonActiveChecker()" style="background-color: #2590eb;border-radius: 50%;width: 12px;height: 12px;margin:0 4px 0 4px" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions0" onclick="buttonActiveChecker()" style="background-color: #2590eb;border-radius: 50%;width: 12px;height: 12px;margin:0 4px 0 4px" data-bs-slide-to="6" aria-label="Slide 7"></button>
               </div>
             <div style="overflow:hidden;box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%);">
               <div class="carousel-inner">
@@ -157,7 +157,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-12" style="margin-top:0;padding-top:60px;animation: fadeInBottom 1s ease-in-out;">
-                      <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                      <h1 id="kim1" style="text-align: center;font-size:40px!important;color:#333333;
                             margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Kim <span style="color: #2590eb;">jestem?</span></h1>
                     </div>
                   </div>
@@ -198,7 +198,7 @@
                   <div class="container">
                     <div class="row">
                       <div class="col-12" style="margin-top:0;padding-top:60px;animation: fadeInBottom 1s ease-in-out;">
-                        <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                        <h1 id="kim2" style="text-align: center;font-size:40px!important;color:#333333;
                               margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Kim <span style="color: #2590eb;">jestem?</span></h1>
                       </div>
                     </div>
@@ -238,7 +238,7 @@
                   <div class="container">
                     <div class="row">
                       <div class="col-12" style="margin-top:0;padding-top:60px;animation: fadeInBottom 1s ease-in-out;">
-                        <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                        <h1 id="kim3" style="text-align: center;font-size:40px!important;color:#333333;
                               margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Kim <span style="color: #2590eb;">jestem?</span></h1>
                       </div>
                     </div>
@@ -272,7 +272,7 @@
                   <div class="container">
                     <div class="row">
                       <div class="col-12" style="margin-top:0;padding-top:60px;animation: fadeInBottom 1s ease-in-out;">
-                        <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                        <h1 id="dos1" style="text-align: center;font-size:40px!important;color:#333333;
                               margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Z kim <span style="color: #2590eb;">pracuje?</span></h1>
                       </div>
                     </div>
@@ -311,7 +311,7 @@
                   <div class="container">
                     <div class="row">
                       <div class="col-12" style="margin-top:0;padding-top:60px;animation: fadeInBottom 1s ease-in-out;">
-                        <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                        <h1 id="dos2" style="text-align: center;font-size:40px!important;color:#333333;
                               margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Swoją pracę poddaje <span style="color:#2590eb">stałej superwizji</span></h1>
                       </div>
                     </div>
@@ -352,7 +352,7 @@
                   <div class="container">
                     <div class="row">
                       <div class="col-12" style="margin-top:0;padding-top:60px;animation: fadeInBottom 1s ease-in-out;">
-                        <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                        <h1 id="dos3" style="text-align: center;font-size:40px!important;color:#333333;
                               margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Doświadczenie</h1>
                       </div>
                     </div>
@@ -378,8 +378,8 @@
                 <div class="carousel-item">
                   <div class="container">
                     <div class="row">
-                      <div class="col-12" style="margin-top:0;padding-top:60px;animation: fadeInBottom 1s ease-in-out;">
-                        <h1 style="text-align: center;font-size:40px!important;color:#333333;
+                      <div id="col-12" style="margin-top:0;padding-top:60px;animation: fadeInBottom 1s ease-in-out;">
+                        <h1 class="wykszt1" style="text-align: center;font-size:40px!important;color:#333333;
                               margin:auto!important;line-height: 1.2;font-weight: bolder" data-aos="fade-up">Ukończyłam <span style="color:#2590eb">uczelnie:</span></h1>
                       </div>
                     </div>
@@ -1277,6 +1277,7 @@
         document.getElementById('rozBtnWyksztalcenie').classList.remove('cta-btn2xhoverX');
       }
 
+
       function ShowModalOmnieBig2() {
         var x = document.getElementById("OmnieBigSlider");
         if (x.style.display === "none") {
@@ -1302,6 +1303,29 @@
         document.getElementById('rozBtnKimjestem').classList.remove('cta-btn2xhoverX');
         document.getElementById('rozBtnDoswiadczenie').classList.remove('cta-btn2xhoverX');
       }
+
+      $('#carouselExampleCaptions0').on('slide.bs.carousel', function onSlide (ev) {
+  var id = ev.to;
+  switch (id) {
+    case 0: case 1: case 2:
+      document.getElementById('rozBtnKimjestem').classList.add('cta-btn2xhoverX');
+      document.getElementById('rozBtnDoswiadczenie').classList.remove('cta-btn2xhoverX');
+      document.getElementById('rozBtnWyksztalcenie').classList.remove('cta-btn2xhoverX');
+      break;
+    case 3: case 4: case 5:
+      document.getElementById('rozBtnDoswiadczenie').classList.add('cta-btn2xhoverX');
+      document.getElementById('rozBtnKimjestem').classList.remove('cta-btn2xhoverX');
+      document.getElementById('rozBtnWyksztalcenie').classList.remove('cta-btn2xhoverX');
+      break;
+    case 6:
+      document.getElementById('rozBtnWyksztalcenie').classList.add('cta-btn2xhoverX');
+      document.getElementById('rozBtnKimjestem').classList.remove('cta-btn2xhoverX');
+      document.getElementById('rozBtnDoswiadczenie').classList.remove('cta-btn2xhoverX');
+      break;
+    default:
+      //the id is none of the above
+  }
+})
 
     </script>
   
