@@ -18,6 +18,10 @@ a {
   
 }
 
+.gslide-image img.zoomable {
+  border-radius: 10px;
+}
+
 a:hover {
   color: #009ee3;
   text-decoration: none;
