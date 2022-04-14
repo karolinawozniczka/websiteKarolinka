@@ -2843,8 +2843,8 @@ section {
 }
 
 .slider2 .slide-track2 {
-  -webkit-animation: scroll 25s linear infinite;
-  animation: scroll 25s linear infinite;
+  -webkit-animation: scroll 30s linear infinite;
+  animation: scroll 30s linear infinite;
   display: flex;
   width: fit-content;
 }
