@@ -501,6 +501,50 @@ width: 70%;
   font-weight: 500!important;
 }
 
+.fontUL{
+
+}
+
+.fontULs{
+
+}
+
+.centruj{
+
+}
+
+.notabsolute{
+
+}
+
+.zeropadding{
+
+}
+
+.zeromarginleft{
+
+}
+
+.paddingtopten{
+
+}
+
+.zeromargin{
+
+}
+
+.karimgmobile{
+
+}
+
+.smallrem{
+
+}
+
+.slider2mobile{
+
+}
+
 .font500s{
   font-weight: 500!important;
   color:#444444;
@@ -599,7 +643,9 @@ width: 70%;
 
 
 
-
+.dolewej{
+  text-align: left!important;
+}
 
 
 
@@ -1816,18 +1862,10 @@ a.button {
   height: 100%; 
 }
 
-@media (max-width: 400px) {
-  .btnpadding{
-    padding:15px 80px!important;
-  }
 
-  .about .content .karTitle2{
-    font-size:22px!important
-  }
 
-  .karTitle2span{
-    font-size:1.2rem!important;
-  }
+@media (max-width: 500px) {
+
 }
 
 
@@ -3916,6 +3954,84 @@ section {
   }
 }
 
+@media (max-width: 400px) {
+  .btnpadding{
+    padding:15px 80px!important;
+  }
+
+  .about .content .karTitle2{
+    font-size:1.2rem!important;
+    text-align: center!important;
+  }
+
+  .karTitle2span{
+    font-size: 1rem!important;
+    font-weight: 600;
+    text-align: center!important;
+  }
+
+
+  .karTitle2span:before{
+    content:"\a";
+    white-space: pre;
+  }
+
+  .fontUL{
+    font-size: .9rem!important;
+  }
+
+  .fontULs{
+    font-size: .8rem!important;
+  }
+
+  .centruj{
+    text-align: center!important;
+  }
+
+  .notabsolute{
+    position:relative!important;
+  }
+
+  .zeropadding{
+    padding:0!important;
+  }
+
+  .zeromarginleft{
+    margin-left:0!important;
+    margin-top:10px!important;
+  }
+
+  .paddingtopten{
+    padding-top:14px!important;
+  }
+
+  .zeromargin{
+    margin:0 20px!important;
+  }
+
+  .karimgmobile{
+    max-width: 60%!important;
+    margin-top:40px!important;
+  }
+
+  .smallrem{
+    font-size:1.3rem!important;
+  }
+
+  .slider2mobile{
+    border-radius:0!important;
+  }
+
+  .slider2::before, .slider2::after{
+    background:none!important;
+    z-index: -1;    
+  }
+
+  .afb{
+    font-size:.9rem;
+  }
+}
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -4032,6 +4148,8 @@ section {
     margin-right:0!important;
     margin-bottom:20px!important;
   }
+
+
 }
 
 @media (max-width:1200px) and (min-width: 992px){
