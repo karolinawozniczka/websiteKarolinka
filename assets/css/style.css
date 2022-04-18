@@ -988,6 +988,10 @@ a.button {
 }
 /* */
 
+
+
+
+
 .arrow33 {
   color: #009ee3;
 }
@@ -2879,11 +2883,44 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  border: 1px solid #ebebeb;
-  padding: 140px 34px;
+  /* border: 1px solid #ebebeb; */
+  padding: 10px 34px;
   transition: transform 0.3s ease-in-out 0s;
-  border-radius: 10px 10px 10px 10px;
+  /* border-radius: 10px 10px 10px 10px; */
   
+}
+
+.modalmarg{
+  margin-top:430px;
+}
+
+.modalmargAfter{
+  margin-top:240px;
+}
+
+.ofertaRamkiTop{
+  box-shadow: 0px 4px 15px 0px rgb(65 132 234 / 75%);
+  /* border-left: 1px solid rgba(65, 132, 234, 0.75);
+  border-right: 1px solid rgba(65, 132, 234, 0.75);
+  border-top: 1px solid rgba(65, 132, 234, 0.75); */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+  z-index: 6;
+}
+
+.ofertaRamkiBottom{
+  box-shadow: 0px 4px 15px 0px rgb(65 132 234 / 75%);
+  border-left: 1px solid rgba(65, 132, 234, 0.75);
+  border-right: 1px solid rgba(65, 132, 234, 0.75);
+  border-bottom: 1px solid rgba(65, 132, 234, 0.75);
+  /* border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; */
+  text-align: center;
+  padding: 40px 20px;
+  transition: transform 0.3s ease-in-out 0s;
+  position: relative;
+  z-index: 5;
 }
 
 
@@ -2928,11 +2965,25 @@ section {
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+/* .services .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
 }
+
+.ofertaRamkiBottom:hover{
+  transform: translateY(-10px);
+} */
+
+.mainRamka{
+  transition: transform 0.3s ease-in-out 0s;
+}
+.mainRamka:hover, .ofertaRamkiBottom{
+  transform: translateY(-10px);
+} 
+
+
+
 
 
 /*                                                              */
