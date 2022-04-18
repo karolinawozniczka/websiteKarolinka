@@ -545,6 +545,10 @@ width: 70%;
 
 }
 
+.abp2{
+  
+}
+
 .font500s{
   font-weight: 500!important;
   color:#444444;
@@ -4029,6 +4033,10 @@ section {
 
   .afb{
     font-size:.9rem;
+  }
+
+  .apb2{
+    font-size:.9rem!important;
   }
 }
 
