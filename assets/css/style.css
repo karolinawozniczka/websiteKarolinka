@@ -561,6 +561,18 @@ width: 70%;
   
 }
 
+.niecentruj{
+ 
+}
+
+.dajmargbottom{
+
+}
+
+.dajmargt{
+  
+}
+
 .font500s{
   font-weight: 500!important;
   color:#444444;
@@ -2101,6 +2113,10 @@ a.button {
 }
 
 @media (max-width: 992px) {
+  .dajmargt{
+    margin-top:40px;
+  }
+
   #rozBtnKimjestem{
     margin-bottom: 15%;
   }
@@ -4004,18 +4020,14 @@ section {
   .about .content .karTitle2{
     font-size:1.2rem!important;
     text-align: center!important;
+    margin-bottom: 30px!important;
   }
 
   .karTitle2span{
+    padding: 2px 23px 0;
     font-size: 1rem!important;
     font-weight: 600;
     text-align: center!important;
-  }
-
-
-  .karTitle2span:before{
-    content:"\a";
-    white-space: pre;
   }
 
   .fontUL{
@@ -4075,6 +4087,17 @@ section {
 
   .apb2{
     font-size:.9rem!important;
+  }
+
+  .niecentruj{
+    text-align: left!important;
+  }
+
+  .dajmargbottom{
+    margin-bottom:20px!important;
+  }
+  .dajmargt{
+    margin-top:20px;
   }
 }
 
