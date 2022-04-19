@@ -1,6 +1,6 @@
+
 html{
   scroll-behavior: smooth;
-  
 }
 
 body {
@@ -546,6 +546,18 @@ width: 70%;
 }
 
 .abp2{
+  
+}
+
+.ofertaMobMarg{
+
+}
+
+.ofertaMobMarg2{
+
+}
+
+.ofertaMobMarg3{
   
 }
 
@@ -1477,6 +1489,18 @@ a.button {
     .main-timeline .timeline-year:after{
         display: none;
     }
+
+    .ofertaMobMarg{
+      margin-top: 255px!important;
+    }
+
+    .ofertaMobMarg2{
+      margin-top: 285px!important;
+    }
+
+    .ofertaMobMarg3{
+      margin-top: 280px!important;
+    }
 }
 @media screen and (max-width:479px) {
     .main-timeline .title{ font-size: 22px; }
@@ -1893,6 +1917,7 @@ a.button {
     width: 75%;
     max-width: 75%!important;
   }
+
 
 
   /* Panels. */
