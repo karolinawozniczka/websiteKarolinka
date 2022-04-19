@@ -573,6 +573,14 @@ width: 70%;
   
 }
 
+.ofertaMargSmall{
+
+}
+
+.ofertaMobMargC{
+
+}
+
 .font500s{
   font-weight: 500!important;
   color:#444444;
@@ -4099,6 +4107,49 @@ section {
   }
   .dajmargt{
     margin-top:20px;
+  }
+
+  .ofertaMobMarg2 {
+    margin-top: 310px!important;
+  }
+
+  .ofertaMobMarg3 {
+    margin-top: 285px!important;
+}
+}
+
+@media (max-width: 300px) {
+
+  .ofertaMargSmall{
+    margin-top:282px!important;
+  }
+
+  .ofertaMobMarg2{
+    margin-top: 330px!important;
+  }
+
+  .ofertaMobMarg3{
+    margin-top: 307px!important;
+  }
+}
+
+@media (max-width: 336px) {
+  .ofertaMobMarg{
+    margin-top: 285px!important;
+  }
+
+  .ofertaMargSmall{
+    margin-top:260px!important;
+  }
+
+  .ofertaMobMargC{
+    margin-top: 305px!important;
+  }
+}
+
+@media (max-width: 315px){
+  .ofertaMobMarg2{
+    margin-top: 330px!important;
   }
 }
 
