@@ -589,6 +589,26 @@ width: 70%;
 
 }
 
+.ofertaRamkiBottomKlubmax1200{
+
+}
+
+.ofertaRamkiBottomOnlinemax1200{
+
+}
+
+.ofertaRamkiBottomSztabmax1200{
+
+}
+
+.ofertaRamkiBottomGrupamax1200{
+
+}
+
+.ofertaRamkiBottomRodzicmax1200{
+
+}
+
 .font500s{
   font-weight: 500!important;
   color:#444444;
@@ -4322,6 +4342,18 @@ section {
   .cta-btn2xPadding{
     padding: 8px 16px!important;
   }
+
+  .ofertaRamkiBottom{
+    padding: 43px 10px!important;
+  }
+
+  .ofertaRamkiBottomKlubmax1200{
+    padding: 40px 10px!important;
+  }
+
+  .ofertaRamkiBottomOnlinemax1200{
+    padding: 66px 10px!important;
+  }
 }
 
 
@@ -5154,6 +5186,12 @@ color: red;
   }
 }
 
+@media (min-width:992px) and (max-width: 1199px){
+  .ofertaRamkiBottom {
+    padding: 43px 10px!important;
+}
+}
+
 
 @media (min-width:1200px) and (max-width: 1400px){
   .karTitle2{
@@ -5162,6 +5200,43 @@ color: red;
 
   .photoClass{
     max-width: 150%;
+  }
+
+  .ofertaRamkiBottomKlubmax1200{
+    padding: 51.4px 20px!important;
+  }
+
+  .ofertaRamkiBottomOnlinemax1200{
+    padding: 77.2px 20px!important;
+  }
+
+  .ofertaRamkiBottomSztabmax1200{
+    padding: 43px 20px!important;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+.ofertaRamkiBottom {
+    padding: 43px 10px!important;
+}
+}
+
+@media (min-width:992px) and (max-width: 1200px){
+
+  .ofertaRamkiBottomGrupamax1200{
+    padding: 57px 10px!important;
+  }
+
+  .ofertaRamkiBottomRodzicmax1200{
+    padding: 57px 10px!important;
+  }
+
+  .ofertaRamkiBottomKlubmax1200{
+    padding: 51.4px 10px!important;
+  }
+
+  .ofertaRamkiBottomOnlinemax1200{
+    padding: 77px 10px!important;
   }
 }
 
