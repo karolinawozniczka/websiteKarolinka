@@ -609,6 +609,10 @@ width: 70%;
 
 }
 
+.ofertaRamkiBottomIndymax1200{
+  
+}
+
 .font500s{
   font-weight: 500!important;
   color:#444444;
@@ -4342,7 +4346,9 @@ section {
   .cta-btn2xPadding{
     padding: 8px 16px!important;
   }
-
+  .ofertaRamkiBottomIndymax1200{
+    padding: 56px 10px!important;
+  }
   .ofertaRamkiBottom{
     padding: 43px 10px!important;
   }
@@ -4354,6 +4360,8 @@ section {
   .ofertaRamkiBottomOnlinemax1200{
     padding: 66px 10px!important;
   }
+
+
 }
 
 
@@ -5264,4 +5272,10 @@ color: red;
   }
 
   
+}
+
+@media (max-width: 1201px) and (min-width: 1200px){
+.ofertaRamkiBottomIndymax1200 {
+    padding: 56px 10px!important;
+}
 }
