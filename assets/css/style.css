@@ -688,6 +688,25 @@ width: 70%;
 .marginb30{
   margin-bottom:30px;
 }
+.or1{
+
+}
+
+.wd100{
+
+}
+
+.or2{
+
+}
+
+.or22{
+
+}
+
+.or3{
+
+}
 
 .cta-btn2xPadding{
     
@@ -2366,7 +2385,7 @@ a.button {
   }
 
   .maxwidth100{
-    max-width: 100%!important;
+    max-width: 50%!important;
   }
 
   .order11{
@@ -5462,4 +5481,32 @@ color: red;
 .ofertaRamkiBottomIndymax1200 {
     padding: 56px 10px!important;
 }
+}
+
+@media (max-width: 1199px){
+  
+  .wd100{
+    width: 100%!important;
+  }
+  
+}
+
+@media (max-width: 992px){
+  
+  .or2{
+    order:2!important;
+  }
+  
+}
+
+@media (max-width: 1200px){
+  .or1{
+    order:1!important;
+  }
+  .or22{
+    order:2!important;
+  }
+  .or3{
+    order:3!important;
+  }
 }
