@@ -277,6 +277,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+.mm{
+
+}
+
 .zasadap{
   margin-left:14px!important;
   color:#444444!important;
@@ -718,8 +722,6 @@ width: 70%;
 
 /* ----------------------------------------------- */
 
-.hoverEff{
-}
 
 .hoverEff:hover{
   color:#2590eb;
@@ -743,133 +745,6 @@ width: 70%;
 .marginb30{
   margin-bottom:30px;
 }
-.or1{
-
-}
-
-.wd100{
-
-}
-
-.or2{
-
-}
-
-.or22{
-
-}
-
-.or3{
-
-}
-
-.cta-btn2xPadding{
-    
-}
-
-.fontUL{
-
-}
-
-.fontULs{
-
-}
-
-.centruj{
-
-}
-
-.notabsolute{
-
-}
-
-.zeropadding{
-
-}
-
-.zeromarginleft{
-
-}
-
-.paddingtopten{
-
-}
-
-.zeromargin{
-
-}
-
-.karimgmobile{
-
-}
-
-.smallrem{
-
-}
-
-.slider2mobile{
-
-}
-
-.abp2{
-  
-}
-
-.ofertaMobMarg{
-
-}
-
-.ofertaMobMarg2{
-
-}
-
-.ofertaMobMarg3{
-  
-}
-
-.niecentruj{
- 
-}
-
-.dajmargbottom{
-
-}
-
-.dajmargt{
-  
-}
-
-.ofertaMargSmall{
-
-}
-
-.ofertaMobMargC{
-
-}
-
-.ofertaRamkiBottomKlubmax1200{
-
-}
-
-.ofertaRamkiBottomOnlinemax1200{
-
-}
-
-.ofertaRamkiBottomSztabmax1200{
-
-}
-
-.ofertaRamkiBottomGrupamax1200{
-
-}
-
-.ofertaRamkiBottomRodzicmax1200{
-
-}
-
-.ofertaRamkiBottomIndymax1200{
-  
-}
 
 .font500s{
   font-weight: 500!important;
@@ -892,32 +767,18 @@ width: 70%;
   font-size:17px;
 }
 
-.orderx1{
 
-}
-
-.orderx2{
-
-}
 
 .footerikonki{
   display:grid;
   margin-top:2rem;
 }
 
-.footerikonki2{
-
-}
 
 .ikonkimargin{
   margin:5px auto;
 }
 
-
-
-.rozwinhover{
-
-}
 
 
 .rozwinhover:hover{
@@ -1163,7 +1024,7 @@ width: 70%;
   margin-left:40px
 }
 
-.fakeClass{}
+
 
 .footerlinki{
   display: inline-block;
@@ -1177,8 +1038,6 @@ width: 70%;
   pointer-events: none;
 }
 
-.font{
-}
 
 .klasaDiv{
   margin:auto;
@@ -1234,9 +1093,7 @@ width: 70%;
     height: 48px;
   } */
 
-  .prostujImg{
 
-  }
 
 .omnieImg{
   width:70%;
@@ -1462,18 +1319,14 @@ a.button {
 
 /* Kursy */
 
-#kurs {
 
-}
 
 .bgwhite2{
   background-color: #fff!important;
   background:#fff!important;
 }
 
-.kurs1{
 
-}
 
 .kurs2{
   margin: 23px 0 0 0!important;
@@ -5454,6 +5307,15 @@ color: red;
   .karTitle2span{
     font-size:1.1rem!important;
   }
+  .mm{
+    margin: -150px 0 0 0!important;
+  }
+
+  .ofertaRamkiTop{
+    background-position: top;
+  }
+
+
 }
 
 @media (min-width:992px) and (max-width: 1199px){
@@ -5462,6 +5324,11 @@ color: red;
 }
 }
 
+@media(max-width:1400px){
+  .ofertabgonline{
+    background-position: top;
+  }
+}
 
 @media (min-width:1200px) and (max-width: 1400px){
   .karTitle2{
@@ -5483,6 +5350,7 @@ color: red;
   .ofertaRamkiBottomSztabmax1200{
     padding: 43px 20px!important;
   }
+
 }
 
 @media (max-width: 1199px) and (min-width: 992px){
@@ -5534,6 +5402,27 @@ color: red;
   }
 
   
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .ofertaBoxIndy{
+    margin: auto;
+    width: 90%;
+  }
+  .ofertaBoxGrupa{
+    margin: auto;
+    width: 90%;
+    margin-top: 22px!important;
+  }
+  .services .icon-box{
+    padding: 208px 34px;
+  }
+  .modalmarg {
+    margin-top: 194px;
+}
+.paddingbottom60{
+  padding-bottom:60px!important;
+}
 }
 
 @media (max-width: 1201px) and (min-width: 1200px){
