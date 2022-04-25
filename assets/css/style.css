@@ -277,6 +277,61 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+.zasadap{
+  margin-left:14px!important;
+  color:#444444!important;
+  font-weight: 600!important;
+  text-align: left!important;
+}
+
+.stari{
+  color:#FFC451!important;  
+  font-size: 22px!important;
+  top: -4px!important;
+  left: 3px!important;
+}
+
+.pxd{
+  display: inline-block!important;
+  margin-left:14px!important;
+  color: #444444!important;
+  font-weight: 600!important;
+}
+
+.colorBlue{
+  color:#2590eb!important;
+}
+
+.color444textinitial{
+  color:#444444!important;
+  text-align: initial!important;
+}
+
+.spanBlue{
+  color: #2590eb!important;
+}
+
+.bgwhite3{
+  background: #F6F7FA!important;
+  background:none!important;
+}
+
+.paddingAll0{
+  padding: 0 0 0 0!important;
+}
+
+.btnContactFixed{
+  position:fixed;
+  right: 75px;
+  bottom: 12.5px;
+  z-index: 10;
+}
+
+.cont1{
+  position:relative;
+  padding-top:20px;
+}
+
 .secondbg{
   background: linear-gradient(to bottom, white 18%, rgb(251, 248, 242) 18% 50%, rgb(251, 248, 242) 50% 90%, white 90% )!important;
 }
@@ -2781,9 +2836,13 @@ font-style: normal;
 #hero {
   width: 100%;
   height: 100vh;
-  background:  url("../img/background/hero-bg.png") bottom center;
-  background-size: cover;
+  /* background:  url("../img/background/hero-bg.png") bottom center;
+  background-size: cover; */
   position: relative;
+
+  background: url(../img/background/hero-bg.png) bottom center;
+  background-size: cover;
+  display:grid;
 }
 
 #hero:before {
