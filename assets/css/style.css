@@ -2264,6 +2264,21 @@ a.button {
   
 }
 
+@media(max-width: 991.4px){
+  .order111{
+    order:1!important;
+  }
+}
+
+@media (max-width: 991.6px){
+  .cta{
+    padding: 30px 0 0 0!important;
+  }
+  .prostuj22{
+    text-align: center!important;
+  }
+}
+
 @media (max-width: 992px) {
   .dajmargt{
     margin-top:40px;
@@ -2296,16 +2311,16 @@ a.button {
     max-width: 50%!important;
   }
 
-  .order11{
-    order:1!important;
-  }
-
   .prostujImg{
     text-align: center!important;
   }
 
   .prostujImg2{
     float:initial!important;
+  }
+
+  .order11{
+    order:1!important;
   }
 
   .prostujImg3{
@@ -2408,10 +2423,6 @@ a.button {
     margin: 24px 0 0 0;
 }
 
-.cta{
-  padding: 30px 0 0 0!important;
-}
-
 .kurs3 {
   margin: 28px 0 0 0;
 }
@@ -2456,6 +2467,12 @@ a.button {
     display: block;
   }
 
+}
+
+@media(min-width: 991.4px){
+  .maxwidth100{
+    max-width: 175%!important;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -4423,7 +4440,11 @@ section {
 
 
 }
-
+@media (max-width:1200px) and (min-width: 993px){
+.photoClass{
+  max-width: 175%;
+}
+}
 @media (max-width:1200px) and (min-width: 992px){
   .superClass {
     max-width: 330px!important;
@@ -4432,9 +4453,7 @@ section {
     width: 30%;
   }
 
-  .photoClass{
-    max-width: 175%;
-  }
+
   .klasaDiv{
     margin-left:7%;
   }
