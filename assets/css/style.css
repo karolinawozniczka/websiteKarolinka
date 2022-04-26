@@ -2469,7 +2469,7 @@ a.button {
 
 }
 
-@media(min-width: 991.4px){
+@media(min-width: 991.4px) and (max-width:992px){
   .maxwidth100{
     max-width: 175%!important;
   }
