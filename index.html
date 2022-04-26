@@ -73,19 +73,19 @@
         <section id="cta" class="about bgwhite3 cta paddingAll0">
           <div class="container">
             <div class="row"> 
-              <div class="order11 col-lg-7 offset-md-1 pt-lg-0 order-2 order-lg-2 content klasa klasaDiv" >
+              <div class="order111 col-lg-7 offset-md-1 pt-lg-0 order-2 order-lg-2 content klasa klasaDiv" >
                 <div style="margin:0;padding:0" data-aos="fade-left" data-aos-delay="100">
-                  <h3 class="karTitle2 prostuj dolewej dajmargt marginb30">Nazywam się <span class="spanBlue">Karolina Woźniczka</span><br/>
+                  <h3 class="karTitle2 prostuj22 dolewej dajmargt marginb30">Nazywam się <span class="spanBlue">Karolina Woźniczka</span><br/>
                     <span class="karTitle2span"> Jestem psychologiem działającym w obszarze sportu.</span>
                   </h3>
-                  <p class="font500 prostuj fontUL niecentruj color444textinitial">W swojej pracy zajmuję się indywidualnym wspieraniem zawodników, jak i całych drużyn, m.in. w:</p>
+                  <p class="font500 prostuj22 fontUL niecentruj color444textinitial">W swojej pracy zajmuję się indywidualnym wspieraniem zawodników, jak i całych drużyn, m.in. w:</p>
                   <ul class="font500 fontULs"style="text-align:left">
                     <li><i class="bi bi-check-circle-fill colorBlue"></i> <p class="pxd">zwiększaniu satysfakcji z wyników sportowych,</p></li>
                     <li><i class="bi bi-check-circle-fill colorBlue"></i> <p class="pxd">umiejętnym radzeniu sobie ze stresem i presją,</p></li>
                     <li><i class="bi bi-check-circle-fill colorBlue"></i> <p class="pxd">rozwoju osobistym i świadomości zawodniczej,</p></li>
                     <li><i class="bi bi-check-circle-fill colorBlue"></i> <p class="pxd">w obszarze szeroko pojętego treningu mentalnego<br/>(wizualizacja, mindfulness, relaksacja...).</p></li>
                   </ul>
-                  <p class="font500 aos-init aos-animate niecentruj prostuj fontUL color444textinitial" style="margin-top: -6px;" data-aos="fade-left">
+                  <p class="font500 aos-init aos-animate niecentruj prostuj22 fontUL color444textinitial" style="margin-top: -6px;" data-aos="fade-left">
                     Często współpracuję także z rodzicami, sztabem trenerskim, czy wręcz całym klubem, by pomóc odpowiednio wspierać zawodnika w taki sposób by uzyskać najlepsze rezultaty.
                   </p>            
                   <ul class="centruj paddingtopten color444textinitial" style="margin-bottom:0!important;padding-top:14px">               
@@ -418,11 +418,11 @@
                 </div>
                
               </div>              
-              <button class="carousel-control-prev" type="button" style="width:6%" data-bs-target="#carouselExampleCaptions0" data-bs-slide="prev">
+              <button class="carousel-control-prev" onclick="ScrollToView()" type="button" style="width:6%" data-bs-target="#carouselExampleCaptions0" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" style="filter: invert(100%);width: 3rem;height:3rem" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" style="width:6%" type="button" data-bs-target="#carouselExampleCaptions0" data-bs-slide="next">
+              <button class="carousel-control-next" onclick="ScrollToView()" style="width:6%" type="button" data-bs-target="#carouselExampleCaptions0" data-bs-slide="next">
                 <span class="carousel-control-next-icon" style="filter: none;width: 3rem;height:3rem" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
@@ -1254,6 +1254,9 @@
         }
       })
 
+      function ScrollToView(){
+        document.getElementById("OmnieBigSlider").scrollIntoView();
+      }
     </script>
   
   </body>
