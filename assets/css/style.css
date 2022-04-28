@@ -3404,7 +3404,7 @@ section {
 
 .tlaOmnie{
   /* background-image: linear-gradient(to right, rgb(37, 170, 225),   rgb(63, 134, 237)); */
-  background: linear-gradient(rgba(0, 140, 253, 0.8), rgba(0, 140, 253,0.8)), url(../img/paralax/paralaxsmall.jpg) fixed center center;
+  background:linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url(../img/paralax/paralaxsmall.jpg) fixed center center;
   background-size: cover;
 }
 
