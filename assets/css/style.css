@@ -277,8 +277,94 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
-.mm{
+h1.special {
+  position: relative;
+}
+h1.special:before {
+  display: block;
+  content: '';
+  width: 12px;
+  height: 12px;
+  background-color: #ffc451;
+  position: relative;
+  transform: rotate(45deg) translateX(-50%);
+  left: 50%;
+  top: 10px;
+}
+h1.special:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 400px;
+  height: 3px;
+  background: linear-gradient(to right, #fff 0%, #ffc451 15%, #ffc451 43%, rgba(0, 0, 0, 0) 43%, rgba(0, 0, 0, 0) 57%, #ffc451 57%, #ffc451 85%, #fff 100%);
+}
+h1.special:before,
+h1.special:after {
+  position: absolute;
+  top: 130%;
+}
 
+/* */
+h1.special2 {
+  position: relative;
+}
+h1.special2:before {
+  display: block;
+  content: '';
+  width: 12px;
+  height: 12px;
+  background-color: #ffc451;
+  position: relative;
+  transform: rotate(45deg) translateX(-50%);
+  left: 50%;
+  top: 10px;
+}
+h1.special2:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 400px;
+  height: 3px;
+  background: linear-gradient(to right, #F6F7FA 0%, #ffc451 15%, #ffc451 43%, rgba(0, 0, 0, 0) 43%, rgba(0, 0, 0, 0) 57%, #ffc451 57%, #ffc451 85%, #F6F7FA 100%);
+}
+h1.special2:before,
+h1.special2:after {
+  position: absolute;
+  top: 130%;
+}
+
+/* */
+
+.underline-gradient:after {
+  content: "";
+  margin: 20px auto 0px;
+  display: block;
+  width: 220px;
+  height: 5px;
+  border-radius: 2px;
+  background: linear-gradient(25deg, #fff, #2590eb, #fff);
+}
+
+.underline-gradient2:after {
+  content: "";
+  margin: 20px auto 0px;
+  display: block;
+  width: 220px;
+  height: 5px;
+  border-radius: 2px;
+  background: linear-gradient(25deg, transparent, #ffc451, transparent);
+}
+
+.underline--magical {
+  background: linear-gradient(25deg, transparent, #ffc451, transparent);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
 }
 
 .zasadap{
@@ -2015,6 +2101,14 @@ a.button {
   margin-right: auto;
   display: block;
   transform: rotate(45deg);
+  transition: ease-in-out 0.3s;
+}
+
+.ikonki:hover{
+  -webkit-transform : rotate(45deg) scale(1.04); /* Chrome, Opera 15+, Safari 3.1+ */
+  -ms-transform     : rotate(45deg) scale(1.04); /* IE 9 */
+  transform         : rotate(45deg) scale(1.04);
+  box-shadow: 4px 4px 15px 0 rgba(255, 196, 81, 0.75)!important;
 }
 
 .pikonki{
@@ -3175,15 +3269,15 @@ section {
   content: "";
   position: absolute;
   bottom: -20px;
-  left: 1.6px;
-  right: 1.6px;
+  left: 0px;
+  right: 0px;
 }
 
 .ofertaRamkiBottom{
   box-shadow: 0px 4px 15px 0px rgb(65 132 234 / 75%);
-  border-left: 1px solid rgba(65, 132, 234, 0.75);
+  /* border-left: 1px solid rgba(65, 132, 234, 0.75);
   border-right: 1px solid rgba(65, 132, 234, 0.75);
-  border-bottom: 1px solid rgba(65, 132, 234, 0.75);
+  border-bottom: 1px solid rgba(65, 132, 234, 0.75); */
   /* border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px; */
   text-align: center;
@@ -3191,6 +3285,7 @@ section {
   transition: transform 0.3s ease-in-out 0s;
   position: relative;
   z-index: 5;
+  background-color: #fff;
 }
 
 
