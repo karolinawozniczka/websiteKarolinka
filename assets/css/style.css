@@ -2111,6 +2111,17 @@ a.button {
   box-shadow: 4px 4px 15px 0 rgba(255, 196, 81, 0.75)!important;
 }
 
+.customZoomOmnie{
+  transition: ease-in-out 0.3s;
+}
+
+.customZoomOmnie:hover{
+  -webkit-transform : scale(1.01); /* Chrome, Opera 15+, Safari 3.1+ */
+  -ms-transform     : scale(1.01); /* IE 9 */
+  transform         : scale(1.01);
+  box-shadow: 4px 4px 15px 0 rgba(255, 196, 81, 0.75)!important;
+}
+
 .pikonki{
   text-align: center;
   font-weight: 500;
