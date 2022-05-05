@@ -103,9 +103,9 @@
           stronaglowna.classList.add('navbarActive2');
           stronaglowna.classList.add('colorNavIndex');        
         }
-        if(selectHeader.classList.contains('navtransparent')){
-          selectHeader.classList.remove('navtransparent')
-        }
+        // if(selectHeader.classList.contains('navtransparent')){
+        //   selectHeader.classList.remove('navtransparent')
+        // }
       } else {   
         if(logoHalfId){ 
           logoHalfId.classList.add('logoHalf');    
@@ -116,9 +116,9 @@
           stronaglowna.classList.remove('navbarActive2')  
           stronaglowna.classList.remove('colorNavIndex');           
         }
-        if(!selectHeader.classList.contains('navtransparent')){
-          selectHeader.classList.add('navtransparent');
-        }
+        // if(!selectHeader.classList.contains('navtransparent')){
+        //   selectHeader.classList.add('navtransparent');
+        // }
       }
 
     }
