@@ -2175,12 +2175,6 @@ a.button {
   transition: ease-in-out 0.3s;
 }
 
-.ikonki:hover{
-  -webkit-transform : rotate(45deg) scale(1.04); /* Chrome, Opera 15+, Safari 3.1+ */
-  -ms-transform     : rotate(45deg) scale(1.04); /* IE 9 */
-  transform         : rotate(45deg) scale(1.04);
-  box-shadow: 4px 4px 15px 0 rgba(255, 196, 81, 0.75)!important;
-}
 
 .customZoomOmnie{
   transition: ease-in-out 0.3s;
