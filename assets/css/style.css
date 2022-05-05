@@ -398,7 +398,7 @@ h1.special3:after {
 }
 
 .underline--magical {
-  background: linear-gradient(25deg, transparent, #ffc451, transparent);
+  background: linear-gradient(25deg, transparent, #eb2e90, transparent);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: 0 88%;
@@ -642,6 +642,7 @@ width: 70%;
   -ms-transform: scale(1.04); /* IE 9 */
   -webkit-transform: scale(1.04); /* Safari 3-8 */
   transform: scale(1.04); 
+  color: #ffc451!important;
 }
 
 .half-half-image-text {
@@ -2035,11 +2036,13 @@ a.button {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 10px 0;
+  padding: 15px 0;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .header-scrolled, #header.header-inner-pages {
-  background: rgba(0, 0, 0, 0.8);
+  padding: 10px 0!important;
+  background: rgba(0, 0, 0, 0.8)!important;
 }
 
 #header .logo {
@@ -3636,6 +3639,59 @@ section {
       background: #fff;
     }
 
+    .btnKimJestem {
+      font-weight: 600;
+      font-size: 16px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 8px 28px;
+      border-radius: 80px;
+      transition: 0.5s;
+      border: 2px solid #eb2e90;
+      color: #fff;
+      background: #eb258b;
+      box-shadow: 0 4px 15px 0 rgba(235, 37, 139, 0.75); 
+    }
+    
+    .btnKimJestem:hover {
+      color:#eb2e90;
+      border-color: #eb2e90;
+      background: #fff;
+    }
+
+    .btnDos {
+      font-weight: 600;
+      font-size: 16px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 8px 28px;
+      border-radius: 80px;
+      transition: 0.5s;
+      border: 2px solid #f8c358;
+      color: #fff;
+      background: #ffc451;
+      box-shadow: 0 4px 15px 0 rgb(255 196 81 / 75%); 
+    }
+    
+    .btnDos:hover {
+      color:#eba726;
+      border-color: #ffc451;
+      background: #fff;
+    }
+    
+    
+    .cta-btn2xhoverXKim{
+      color:#eb2e90;
+      border-color: #eb2e90;
+      background: #fff;
+    }
+
+    .cta-btn2xhoverXDos{
+      color:#ffc451;
+      border-color: #ffc451;
+      background: #fff;
+    }
+
 
 .cta-btn2 {
  
@@ -5068,7 +5124,7 @@ color: red;
 .logoHalf{
   /* max-width: 58px!important; */
     /* overflow: hidden!important; */
-	visibility:hidden
+	/* visibility:hidden */
 }
 
 .gradient2 {
