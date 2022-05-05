@@ -283,13 +283,15 @@ h1.special {
 h1.special:before {
   display: block;
   content: '';
-  width: 12px;
-  height: 12px;
+  top: 110%!important;
+  width: 20px;
+  height: 20px;
   background-color: #ffc451;
   position: relative;
-  transform: rotate(45deg) translateX(-50%);
+  transform: translateX(-50%);
   left: 50%;
   top: 10px;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
 h1.special:after {
   content: '';
@@ -330,10 +332,45 @@ h1.special2:after {
   width: 100%;
   max-width: 400px;
   height: 3px;
-  background: linear-gradient(to right, #F6F7FA 0%, #ffc451 15%, #ffc451 43%, rgba(0, 0, 0, 0) 43%, rgba(0, 0, 0, 0) 57%, #ffc451 57%, #ffc451 85%, #F6F7FA 100%);
+  background: linear-gradient(to right, #fff 0%, #ffc451 15%, #ffc451 43%, rgba(0, 0, 0, 0) 43%, rgba(0, 0, 0, 0) 57%, #ffc451 57%, #ffc451 85%, #fff 100%);
 }
 h1.special2:before,
 h1.special2:after {
+  position: absolute;
+  top: 130%;
+}
+
+/* */
+
+/* */
+h1.special3 {
+  position: relative;
+}
+h1.special3:before {
+  display: block;
+  content: '';
+  top: 110%!important;
+  width: 20px;
+  height: 20px;
+  background-color: #ffc451;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 10px;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+h1.special3:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 400px;
+  height: 3px;
+  background: linear-gradient(to right, #F6F7FA 0%, #ffc451 15%, #ffc451 43%, rgba(0, 0, 0, 0) 43%, rgba(0, 0, 0, 0) 57%, #ffc451 57%, #ffc451 85%, #F6F7FA 100%);
+}
+h1.special3:before,
+h1.special3:after {
   position: absolute;
   top: 130%;
 }
