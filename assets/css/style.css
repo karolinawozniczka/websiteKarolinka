@@ -277,6 +277,28 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+h5 {
+  margin: 0;
+  font-size: 42px;
+  font-weight: bolder;
+  line-height: 64px;
+  color: #fff;
+  text-shadow: 0.015em 0 0.2em #00000080;
+  /* backdrop-filter: blur(2px); */
+}
+
+/* to make the header only as wide as the content and centering it */
+
+
+
+
+.centerD {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
 .gslide-media {
   box-shadow: none!important;
 }
