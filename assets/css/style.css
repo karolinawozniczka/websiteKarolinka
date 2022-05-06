@@ -3019,10 +3019,16 @@ font-style: normal;
     text-align:center;
   }
   .about .content h3{
-    font-size: 24px!important;
+    font-size: 31px!important;
   }
 
 
+}
+
+@media (max-width: 534px){
+  .about .content h3{
+    font-size: 24px!important;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -4435,32 +4441,69 @@ section {
   }
 }
 
-@media (max-width: 400px) {
-  .btnpadding{
-    padding:15px 80px!important;
-  }
 
+@media(max-width:404px){
   .about .content .karTitle2{
-    font-size:1.2rem!important;
+    font-size:1.4rem!important;
     text-align: center!important;
     margin-bottom: 30px!important;
   }
-
+  
   .karTitle2span{
     padding: 2px 23px 0;
-    font-size: 1rem!important;
+    font-size: 1.2rem!important;
     font-weight: 600;
     text-align: center!important;
   }
+}
 
-  .fontUL{
-    font-size: .9rem!important;
+
+
+  @media(max-width:379px){
+    .about .content .karTitle2{
+      font-size:1.3rem!important;
+      text-align: center!important;
+      margin-bottom: 30px!important;
+    }
+    
+    .karTitle2span{
+      padding: 2px 23px 0;
+      font-size: 1.1rem!important;
+      font-weight: 600;
+      text-align: center!important;
+    }
   }
+  
 
-  .fontULs{
+  @media(max-width:353px){
+    .about .content .karTitle2{
+      font-size:1.2rem!important;
+      text-align: center!important;
+      margin-bottom: 30px!important;
+    }
+    
+    .karTitle2span{
+      padding: 2px 23px 0;
+      font-size: 1rem!important;
+      font-weight: 600;
+      text-align: center!important;
+    }
+
+    .fontUL {
+      font-size: .9rem!important;
+  }
+  .fontULs {
     font-size: .8rem!important;
+}
   }
 
+  
+
+  @media (max-width: 409px) {
+    .btnpadding{
+      padding:15px 80px!important;
+    }
+  
   .centruj{
     text-align: center!important;
   }
@@ -4492,7 +4535,11 @@ section {
   }
 
   .smallrem{
-    font-size:1.3rem!important;
+    font-size:32px!important;
+  }
+
+  .smallrem2{
+    font-size: 30px!important;
   }
 
   .slider2mobile{
@@ -4530,6 +4577,15 @@ section {
   .ofertaMobMarg3 {
     margin-top: 285px!important;
 }
+}
+
+@media(max-width: 767px) and (min-width: 409px) {
+  .zeromargin2{
+    margin:0 20px 20px!important;
+  }
+  .paddingT{
+    padding-top:0!important;
+  }
 }
 
 @media (max-width: 300px) {
@@ -4673,6 +4729,39 @@ section {
   }
 
   
+}
+
+
+@media (max-width: 1200px){
+  .smallremMain{
+    font-size: 38px!important;
+  }
+}
+
+@media (max-width: 991px){
+  .smallremMain{
+    font-size: 33px!important;
+    line-height: 42px!important;
+  }
+}
+
+@media (max-width: 767.4px){
+  .smallremMain{
+    font-size: 31px!important;
+    line-height: 42px!important;
+  }
+}
+
+@media (max-width: 576px){
+  .smallremMain{
+    font-size: 31px!important;
+  }
+}
+
+@media (max-width: 327px){
+.afb2 {
+    font-size: .8rem;
+}
 }
 
 @media (max-width:500px){
