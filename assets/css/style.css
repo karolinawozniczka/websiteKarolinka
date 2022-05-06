@@ -2829,19 +2829,27 @@ font-style: normal;
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #272626a8;
   overflow-y: auto;
   transition: 0.3s;
+}
+
+.navbar-mobile ul li .bb {
+  border-bottom: 1px solid #ffffff52;
+}
+
+.navbar-mobile ul li .bba{
+  color:#ffc451!important;
 }
 
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #151515;
+  color: #fff!important;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #151515;
+  color: #fff;
   background-color: #009ee3;
 }
 
