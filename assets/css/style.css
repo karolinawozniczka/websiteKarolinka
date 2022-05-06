@@ -2902,7 +2902,7 @@ font-style: normal;
   background-size: cover; */
   position: relative;
 
-  background: url(../img/background/hero-bg.png) bottom center;
+  background: url(../img/background/heroblur.jpg) bottom center;
   background-size: cover;
   display:grid;
 }
