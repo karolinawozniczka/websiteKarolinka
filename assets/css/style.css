@@ -3113,6 +3113,13 @@ font-style: normal;
   } */
 }
 
+@media(max-width: 768px)and (min-width:515px){
+  .about .content h3{
+    font-size: 31px!important;
+  }
+
+}
+
 @media (max-width: 768px) {
   /*#hero {
     height: auto;
@@ -3148,16 +3155,26 @@ font-style: normal;
   .politykaTitle{
     text-align:center;
   }
-  .about .content h3{
-    font-size: 31px!important;
-  }
 
 
 }
 
-@media (max-width: 534px){
-  .about .content h3{
-    font-size: 24px!important;
+@media (max-width: 515px){
+  .breakline1{
+    content:"\a";
+    white-space: pre;
+  }
+
+  .fs1{
+    font-size:38px!important;
+  }
+
+  .br1{
+    display: block;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom:10px;
+    font-weight: 600;
   }
 }
 
@@ -4578,7 +4595,7 @@ section {
 }
 
 
-@media(max-width:404px){
+/* @media(max-width:404px){
   .about .content .karTitle2{
     font-size:1.4rem!important;
     text-align: center!important;
@@ -4591,38 +4608,23 @@ section {
     font-weight: 600;
     text-align: center!important;
   }
-}
+} */
 
 
 
   @media(max-width:379px){
-    .about .content .karTitle2{
-      font-size:1.3rem!important;
-      text-align: center!important;
-      margin-bottom: 30px!important;
-    }
-    
-    .karTitle2span{
-      padding: 2px 23px 0;
-      font-size: 1.1rem!important;
-      font-weight: 600;
-      text-align: center!important;
-    }
+
   }
   
 
   @media(max-width:353px){
     .about .content .karTitle2{
-      font-size:1.2rem!important;
-      text-align: center!important;
-      margin-bottom: 30px!important;
+      font-size:28px!important
     }
     
     .karTitle2span{
-      padding: 2px 23px 0;
-      font-size: 1rem!important;
+      font-size: 1.1rem!important;
       font-weight: 600;
-      text-align: center!important;
     }
 
     .fontUL {
@@ -4633,6 +4635,11 @@ section {
 }
   }
 
+  @media (max-width: 276px){
+.about .content .karTitle2 {
+    font-size: 22px!important;
+}
+  }
   
 
   @media (max-width: 409px) {
