@@ -1839,6 +1839,70 @@ a.button {
 .main-timeline .timeline:nth-child(4n+4) .timeline-year:after{
     background-color: #F86B13;
 }
+@media (max-width:530px){
+  .ofertaMobMarg2{
+    margin-top: 260px!important;
+  }
+}
+
+
+@media screen and (max-width:767.5px) {
+.ofertaMobMarg{
+  margin-top: 255px!important;
+}
+
+.ofertaMobMargR{
+  margin-top: 235px!important;
+}
+
+
+.modalmarg{
+  margin-top:405px!important;
+}
+
+.ofertaMobMarg2{
+  margin-top: 240px!important;
+}
+
+.ofertaMobMarg3{
+  margin-top: 215px!important;
+}
+}
+
+@media screen and (max-width:480px) {
+.ofertaMobMarg{
+  margin-top: 250px!important;
+}
+
+.ofertaMobMargR{
+  margin-top: 250px!important;
+}
+
+.modalmarg{
+  margin-top: 400px!important;
+}
+
+.ofertaMobMarg2{
+  margin-top: 255px!important;
+}
+
+
+}
+
+@media (max-width:479.5px){
+  .ofertaMobMarg3{
+    margin-top: 230px!important;
+  }
+}
+
+@media (max-width:530px){
+  .ofertaMobMarg22{
+    margin-top: 260px!important;
+  }
+}
+
+
+
 .main-timeline .timeline:nth-child(4n+4) .title{ color: #F86B13; }
 @media screen and (max-width:767px) {
     .main-timeline .timeline,
@@ -1862,17 +1926,7 @@ a.button {
         display: none;
     }
 
-    .ofertaMobMarg{
-      margin-top: 255px!important;
-    }
 
-    .ofertaMobMarg2{
-      margin-top: 285px!important;
-    }
-
-    .ofertaMobMarg3{
-      margin-top: 280px!important;
-    }
 }
 @media screen and (max-width:479px) {
     .main-timeline .title{ font-size: 22px; }
