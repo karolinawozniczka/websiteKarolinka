@@ -327,7 +327,39 @@ h5 {
 
 
 /* -------------------------------------------------------------- */
+span.special {
+  position: relative;
+}
+span.special:before {
+  display: block;
+  content: '';
+  top: 110%!important;
+  width: 20px;
+  height: 20px;
+  background-color: #ffc451;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 10px;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+span.special:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 400px;
+  height: 3px;
+  background: linear-gradient(to right, #fff 0%, #ffc451 15%, #ffc451 43%, rgba(0, 0, 0, 0) 43%, rgba(0, 0, 0, 0) 57%, #ffc451 57%, #ffc451 85%, #fff 100%);
+}
+span.special:before,
+span.special:after {
+  position: absolute;
+  top: 130%;
+}
 
+/* */
 
 
 h1.special {
