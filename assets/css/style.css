@@ -3475,6 +3475,12 @@ section {
   right: 0px;
 }
 
+@media (min-width:1400.4px){
+  .mt2s{
+    padding-bottom: 290px!important;
+  }
+}
+
 .ofertaRamkiBottom{
   box-shadow: 0px 4px 15px 0px rgb(65 132 234 / 75%);
   /* border-left: 1px solid rgba(65, 132, 234, 0.75);
