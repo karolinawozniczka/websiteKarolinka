@@ -2995,13 +2995,31 @@ font-style: normal;
   }
 }
 
-@media (max-width: 408px) and (min-width: 325px) {
+@media (max-width: 312px)  {
   .maxwidth100{
-    max-width: 86%!important;
+    max-width: 100%!important;
+  }
+}
+
+@media (max-width: 330px) and (min-width: 312px) {
+  .maxwidth100{
+    max-width: 90%!important;
+  }
+}
+
+@media (max-width: 369px) and (min-width: 330px) {
+  .maxwidth100{
+    max-width: 85%!important;
+  }
+}
+
+@media (max-width: 408px) and (min-width: 369px) {
+  .maxwidth100{
+    max-width: 75%!important;
   }
 
   .maxw68{
-    max-width: 80%!important;
+    max-width: 81%!important;
   }
 }
 
@@ -3011,7 +3029,7 @@ font-style: normal;
   }
 
   .maxw68{
-    max-width: 75%!important;
+    max-width: 80%!important;
   }
 }
 
@@ -3021,7 +3039,7 @@ font-style: normal;
   }
 
   .maxw68{
-    max-width: 68%!important;
+    max-width: 69%!important;
   }
 }
 
