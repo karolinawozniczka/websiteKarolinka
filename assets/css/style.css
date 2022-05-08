@@ -278,6 +278,15 @@ h1, h2, h3, h4, h5, h6 {
 /* ---------------------------- Moje ---------------------------- */
 
 
+
+.carousel-indicators [data-bs-target] {
+  opacity:.2;
+}
+.carousel-indicators .active {
+  opacity: 1;
+}
+
+
 h5 {
   margin: 0;
   font-size: 42px;
@@ -2536,12 +2545,44 @@ a.button {
   }
 }
 
+@media(max-width:408px){
+  .arrowRightSlider{
+    bottom: 50px;
+    right: 100%;
+    position: absolute;
+    width:2rem!important;
+    height:2rem!important;
+  }
+  .arrowLeftSlider{
+    bottom: 50px;
+    left: 100%;
+    position: absolute;
+    width:2rem!important;
+    height:2rem!important;
+  }
+}
+
+
+@media (min-width:409px) and (max-width:576px){
+  .arrowRightSlider{
+    bottom: 42px;
+    right: 100%;
+    position: absolute;
+  }
+  .arrowLeftSlider{
+    bottom: 42px;
+    left: 100%;
+    position: absolute;
+  }
+}
 
 @media (max-width: 576px) {
   .mobilePadding{
     width:94%!important;
     margin:auto;
   }
+
+
 
   .footerlinki{
     padding:0 5px 0 5px!important;
