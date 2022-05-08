@@ -277,6 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+
 h5 {
   margin: 0;
   font-size: 42px;
@@ -360,6 +361,40 @@ span.special:after {
 }
 
 /* */
+
+h1.special3 {
+  position: relative;
+}
+h1.special3:before {
+  display: block;
+  content: '';
+  top: 110%!important;
+  width: 20px;
+  height: 20px;
+  background-color: #ffc451;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 10px;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+h1.special3:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 400px;
+  height: 3px;
+  background: linear-gradient(to right, #fff 0%, #ffc451 15%, #ffc451 43%, rgba(0, 0, 0, 0) 43%, rgba(0, 0, 0, 0) 57%, #ffc451 57%, #ffc451 85%, #fff 100%);
+}
+h1.special3:before,
+h1.special3:after {
+  position: absolute;
+  top: 130%;
+}
+
+
 
 
 h1.special {
@@ -1929,6 +1964,7 @@ a.button {
     .main-timeline .timeline-year:after{
         display: none;
     }
+
 
 
 }
@@ -5057,6 +5093,7 @@ section {
     font-size: 31px!important;
     line-height: 42px!important;
   }
+
 }
 
 @media (max-width: 576px){
@@ -5763,10 +5800,16 @@ color: red;
   content: "/";
 }
 
+
 @media (max-width: 992px) {
   .breadcrumbs {
     margin-top: 68px;
   }
+  .sztabMob{
+    margin-top:10px!important;
+  }
+
+
   .breadcrumbs .d-flex {
     display: block !important;
   }
@@ -6117,5 +6160,16 @@ color: red;
   }
   .or3{
     order:3!important;
+  }
+}
+@media (max-width:992px){
+  h1.special3::before{
+    top:119%!important;
+  }
+
+  .p0ma{
+    padding-left:0!important;
+    padding-right:0!important;
+    margin:auto;
   }
 }
