@@ -1261,6 +1261,10 @@ width: 70%;
 
 /* ---------------------------- End Moje ---------------------------- */
 
+.image2{
+  display: none;
+}
+
 
 /* .modal-backdrop.show {
   opacity: 0.8;
@@ -2557,10 +2561,33 @@ a.button {
   }
 }
 
+@media(max-width: 991.5px){
+  .superBorderCircle{
+    border-radius: 66%;
+    box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%);
+    margin:auto!important;
+  }
+
+  .superpadd{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .image1{
+    display: none;
+  }
+
+  .image2{
+    display: block;
+  }
+}
+
 @media (max-width: 992px) {
   .dajmargt{
     margin-top:40px;
   }
+
+
 
   #rozBtnKimjestem{
     margin-bottom: 15%;
@@ -2585,9 +2612,7 @@ a.button {
     margin-bottom:40px;
   }
 
-  .maxwidth100{
-    max-width: 50%!important;
-  }
+
 
   .prostujImg{
     text-align: center!important;
@@ -2964,10 +2989,52 @@ font-style: normal;
   }
 }
 
-@media (max-width: 991.4px) and (min-width:500px){
-  .mwidth{
-    max-width:75%!important;
+@media(max-width:324px){
+  .photoClass{
+    max-width: 100%!important;
   }
+}
+
+@media (max-width: 408px) and (min-width: 325px) {
+  .maxwidth100{
+    max-width: 86%!important;
+  }
+
+  .maxw68{
+    max-width: 80%!important;
+  }
+}
+
+@media (max-width: 460px) and (min-width: 408px) {
+  .maxwidth100{
+    max-width: 75%!important;
+  }
+
+  .maxw68{
+    max-width: 75%!important;
+  }
+}
+
+@media (max-width: 767.4px) and (min-width: 460px) {
+  .maxwidth100{
+    max-width: 65%!important;
+  }
+
+  .maxw68{
+    max-width: 68%!important;
+  }
+}
+
+@media (max-width: 991.4px) and (min-width:768px){
+  .mwidth{
+    max-width:85%!important;
+  }
+  .maxwidth100{
+    max-width: 54%!important;
+  }
+}
+
+@media (max-width: 991.4px) and (min-width:500px){
   .tcenter{
     text-align: center!important;
   }
@@ -4703,6 +4770,15 @@ section {
 }
   }
   
+@media (max-width: 408px) {
+  .superpadd{
+    padding-bottom: 50px!important;
+  }
+
+  .pt20{
+    padding-top:20px!important;
+  }
+}
 
   @media (max-width: 409px) {
     .btnpadding{
@@ -4734,10 +4810,7 @@ section {
     margin:0 20px!important;
   }
 
-  .karimgmobile{
-    max-width: 60%!important;
-    margin-top:40px!important;
-  }
+
 
   .smallrem{
     font-size:32px!important;
