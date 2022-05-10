@@ -277,7 +277,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
-
+.j2{
+  display: none;
+}
 
 .carousel-indicators [data-bs-target] {
   opacity:.2;
@@ -6074,6 +6076,12 @@ color: red;
 @media (min-width:992px) and (max-width: 1199px){
   .ofertaRamkiBottom {
     padding: 43px 10px!important;
+}
+.j2 {
+  display: block;
+}
+.j1 {
+  display: none;
 }
 }
 
