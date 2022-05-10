@@ -142,14 +142,15 @@
    * Back to top button
    */
   let backtotop = select('.back-to-top')
+  let bts = select('#btnMains')
   if (backtotop) {
     const toggleBacktotop = () => {
       if (window.scrollY > 100) {
         backtotop.classList.add('active');
-        btnMains.classList.remove('dissapear');
+        if(bts) btnMains.classList.remove('dissapear',4000);
       } else {
         backtotop.classList.remove('active');
-        btnMains.classList.add('dissapear');
+        if (bts) btnMains.classList.add('dissapear',4000);
       }
     }
     window.addEventListener('load', toggleBacktotop)
