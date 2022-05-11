@@ -2796,7 +2796,7 @@ a.button {
   }
 
   .btn-contact{
-    padding: 15px 40px!important;
+    padding: 15px -1px!important;
     width:100%!important;
     margin:0 auto;
   }
@@ -2962,10 +2962,28 @@ font-style: normal;
 
 }
 
-@media (max-width: 1399.4px) {
-  .pi1{
-    padding: 60px 0 61px 0!important;
+
+@media (max-width: 991.4px){
+  .goram{
+    margin-top:15px!important;
   }
+
+  .superwiz{
+    font-size:35px!important;
+  }
+
+  .xd1{
+    padding: 40px 0 72.5px 0!important;
+  }
+}
+
+@media (max-width: 1399.4px) and (min-width:1200px){
+  .pi1{
+    padding: 60px 0 57px 0!important;
+  }
+}
+
+@media (max-width: 1399.4px) {
 
   
   .mtt0{
@@ -5894,12 +5912,29 @@ color: red;
 }
 
 
+
+@media (max-width: 387px) {
+  .smallremX{
+    font-size:38px!important;
+  }
+}
+
+@media (max-width: 349px) {
+  .smallremX{
+    font-size:36px!important;
+  }
+
+  .sk1{
+    font-size:38px!important;
+  }
+}
+
 @media (max-width: 992px) {
   .breadcrumbs {
     margin-top: 68px;
   }
   .sztabMob{
-    margin-top:10px!important;
+    margin-top:20px!important;
   }
 
 
@@ -6094,6 +6129,7 @@ color: red;
   .cta-btn3Fixed{
     width: 30%;
   }
+
   
 }
 
@@ -6113,6 +6149,15 @@ color: red;
   }
 
 
+}
+
+@media (max-width:302px){
+  .j2 {
+    display: block;
+  }
+  .j1 {
+    display: none;
+  }
 }
 
 @media (min-width:992px) and (max-width: 1199px){
