@@ -277,6 +277,16 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+.in2{
+  display:none;
+}
+.on2{
+  display:none;
+}
+.rr2{
+  display:none;
+  
+}
 .l2{
   display:none;
 }
@@ -2882,10 +2892,64 @@ a.button {
   }
 }
 
+@media (max-width:377px)  {
+  .in1{
+    display: none;
+  }
+  .in2{
+    display: block;
+    padding: 0 32px!important;
+  }
+  }
+  @media (max-width:505px)  {
+  .tytulyO{
+    padding: 0 20px!important;
+  }
+  }
 
+@media (max-width:455px)  {
+.on1{
+  display: none;
+}
+.on2{
+  display: block;
+  padding: 0 32px!important;
+}
+}
 @media (max-width:575.4px) {
   .ovfh{
     border-radius: 0!important;
+  }
+  .klb23{
+    padding: 0 8px!important;
+  }
+  .ch1{
+    display: none;
+  }
+  .ch2{
+    display: block;
+    padding: 0 32px!important;
+  }
+  .gr1{
+    display: none;
+  }
+  .gr2{
+    display: block;
+    padding: 0 32px!important;
+  }
+  .rr1{
+    display: none;
+  }
+  .rr2{
+    display: block;
+    padding: 0 32px!important;
+  }
+  .szt1{
+    display: none;
+  }
+  .szt2{
+    display: block;
+    padding: 0 32px!important;
   }
 
 }
