@@ -4527,11 +4527,6 @@ section {
 }
 }
 
-@media(max-width:460px){
-  .ofertaMobMarg2{
-    margin-top: 255px!important;
-  }
-}
 
 .titleborderOrange2::after {
   content: "";
@@ -5119,11 +5114,11 @@ section {
   }
 
   .ofertaMobMarg2 {
-    margin-top: 310px!important;
+    margin-top: 250px!important;
   }
 
   .ofertaMobMarg3 {
-    margin-top: 285px!important;
+    margin-top: 249px!important;
 }
 }
 
@@ -5147,7 +5142,19 @@ section {
   }
 
   .ofertaMobMarg3{
-    margin-top: 307px!important;
+    margin-top: 248px!important;
+  }
+}
+
+@media(max-width:297.6px){
+  .ofertaMobMarg3{
+    margin-top: 275px!important;
+  }
+}
+
+@media(max-width:291.4px){
+  .modalmarg{
+    margin-top: 445px!important;
   }
 }
 
@@ -5170,6 +5177,8 @@ section {
     margin-top: 330px!important;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -5383,7 +5392,50 @@ section {
 }
 
 
+@media (max-width: 336px){
+.ofertaMobMargC {
+    margin-top: 250px!important;
+}
+.ofertaMobMargR {
+  margin-top: 250px!important;
+}
+}
 
+@media(max-width:420px){
+  .bgtop1{
+    background-position: top!important;
+  }
+}
+
+@media (max-width: 334.4px){
+  .ofertaMobMargC {
+      margin-top: 271px!important;
+  }
+}
+
+@media (max-width: 320px){
+  .ofertaMobMargC {
+      margin-top: 298px!important;
+  }
+}
+
+@media(max-width:321px){
+  .bgtop3{
+    background-position: top!important;
+  }
+}
+
+@media(max-width:301px){
+  .bgtop2{
+    background-position: top!important;
+  }
+}
+
+@media (max-width: 330px){
+  .ofertaMobMargR {
+      margin-top: 276px!important;
+  }
+}
 
 
 /* Testimonials 1 */
@@ -5488,6 +5540,19 @@ section {
 @media (min-width: 992px) {
   .testimonials1 .testimonial-item p {
     width: 80%;
+  }
+}
+
+
+@media(max-width:460px){
+  .ofertaMobMarg2{
+    margin-top: 255px!important;
+  }
+}
+
+@media(max-width:388px){
+  .ofertaMobMarg2{
+    margin-top: 272px!important;
   }
 }
 
@@ -5739,6 +5804,13 @@ section {
 
 
 
+@media (max-width: 312px){
+  .ofertaMobMarg2 {
+    margin-top: 295px!important;
+}
+}
+
+
 .btn-contact.color-9 {
   background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
   box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%);
@@ -5829,6 +5901,46 @@ color: red;
   text-decoration: underline;
   color:#0d6efd;
 }
+
+@media (max-width: 287.4px){
+.ofertaMobMargR {
+    margin-top: 297px!important;
+}}
+
+@media (max-width: 285.4px){
+  .ofertaMobMarg3 {
+      margin-top: 270px!important;
+  }
+
+  .cta-btn2x{
+    padding: 8px 20px!important;
+  }
+
+}
+
+
+@media (max-width: 268.4px){
+  .cta-btn2x{
+    padding: 8px 10px!important;
+  }
+
+}
+
+
+@media (max-width: 275.4px){
+  .ofertaMobMarg2 {
+    margin-top: 312px!important;
+}
+
+}
+
+@media (max-width: 267.4px){
+  .ofertaMobMargC {
+    margin-top: 318px!important;
+}
+
+}
+
 
 /*--------------------------------------------------------------
 # Contact
