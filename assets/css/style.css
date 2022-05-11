@@ -3983,7 +3983,11 @@ section {
   box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%); 
 } */
 
-
+@media(max-width:500px){
+  .kontakt2c{
+    scroll-margin:70px!important;
+  }
+}
 
 /*                                                              */
 
