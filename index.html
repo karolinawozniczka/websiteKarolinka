@@ -64,7 +64,7 @@
               <h5 class="smallremMain" style="animation: fadeInTitle 1s ease-in-out;animation-delay: 200ms;" data-aos-delay="300">Nigdy nie rezygnuj z <span style="color:#ffc451;text-shadow: 0.015em 0 0.2em #000000bf;">marzenia</span>, tylko dlatego, że zrealizowanie go wymaga czasu. 
                 <span style="color:#ffc451;text-shadow: 0.015em 0 0.2em #000000bf;">Czas i tak upłynie.</span></h5>
             </div>
-            <a id="btnMains" href="#kontakt2" class="cta-btn2x btnContactFixed" style="transition: all 0.4s;">Skontaktuj się</a>
+            <a id="btnMains" href="#kontakt2" class="cta-btn2x btnContactFixed" style="transition: all 0.4s;cursor:pointer!important">Skontaktuj się</a>
           </div>
         </div>
       </div>
@@ -1052,7 +1052,7 @@
                   <div class="swiper-pagination"></div>
                 </div>
               </div>
-              <div id="kontakt2" style="scroll-margin: 19px;"></div>
+              <div id="kontakt2" class="kontakt2c" style="scroll-margin: 38px;"></div>
               </div>
               
               </section>
@@ -1292,6 +1292,10 @@
 
       function ScrollToView(){
         document.getElementById("OmnieBigSlider").scrollIntoView();
+      }
+
+      function scrollToContact(){
+        document.getElementById("kontakt2").scrollIntoView();
       }
     </script>
   
