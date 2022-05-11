@@ -2884,7 +2884,25 @@ a.button {
 
 }
 
+@media(max-width:500px){
+  .arrow2R{
+    bottom: 24px;
+    right: 100%;
+    position: absolute;
+    width:2rem!important;
+    height:2rem!important;
+    font-size:32px!important;
+  }
 
+  .arrow2L{
+    bottom: 24px;
+    left: 62%;
+    position: absolute;
+    width:2rem!important;
+    height:2rem!important;
+    font-size:32px!important;
+  }
+}
 
 @media(min-width: 991.4px) and (max-width:992px){
   .maxwidth100{
@@ -2971,22 +2989,33 @@ a.button {
   }
   }
 
+  @media (max-width:500px) {
+    .arrowLeftSlider{
+      bottom:41px!important;
+      font-size:32px!important
+    }
+    .arrowRightSlider{
+      bottom:41px!important;
+      font-size:32px!important
+    }
+    }
+
   @media(max-width:408px){
     .arrowRightSlider{
-      bottom: 64px!important;
+      bottom: 57px!important;
       right: 100%;
       position: absolute;
       width:2rem!important;
       height:2rem!important;
-      font-size:42px!important;
+      font-size:32px!important;
     }
     .arrowLeftSlider{
-      bottom: 64px!important;
+      bottom: 57px!important;
       left: 100%;
       position: absolute;
       width:2rem!important;
       height:2rem!important;
-      font-size:42px!important;
+      font-size:32px!important;
     }
   }
 /*--------------------------------------------------------------
@@ -6438,6 +6467,9 @@ color: red;
     margin-top: 68px;
   }
 
+  .btnkolko{
+    background-color: #2590eb!important;
+  }
 
 
   .breadcrumbs .d-flex {
