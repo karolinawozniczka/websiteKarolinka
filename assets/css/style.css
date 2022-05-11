@@ -362,6 +362,33 @@ span.special:after {
   top: 130%;
 }
 
+
+
+h1.specialU {
+  position: relative;
+}
+h1.specialU:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 165px;
+  height: 4px;
+  background: linear-gradient(to right, #fff 0%, #ffc451 15%, #ffc451 43%, #ffc451 43%, #ffc451 57%, #ffc451 57%, #ffc451 85%, #fff 100%);
+}
+
+h1.specialU:after {
+  position: absolute;
+  top: 130%;
+}
+
+@media (max-width:467px){
+  h1.specialU:after {
+    top: 105%!important;
+  }
+}
+
 /* */
 
 h1.special3 {
@@ -384,6 +411,26 @@ h1.special3:after {
   top: 130%;
 }
 
+
+h1.special4 {
+  position: relative;
+}
+
+h1.special4:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width:165px;
+  height: 4px;
+  background: linear-gradient(to right, #fff 0%, #ffc451 15%, #ffc451 43%, #ffc451 43%, #ffc451 57%, #ffc451 57%, #ffc451 85%, #fff 100%);
+}
+
+h1.special4.afb {
+  position: absolute;
+  top: 130%;
+}
 
 
 
@@ -446,10 +493,10 @@ h1.special3:after {
   top: 120%;
 }
 
-h1.special4 {
+h1.special5 {
   position: relative;
 }
-h1.special4:after {
+h1.special5:after {
   content: '';
   position: absolute;
   left: 50%;
@@ -457,10 +504,10 @@ h1.special4:after {
   width: 100%;
   max-width: 165px;
   height: 4px;
-  background: linear-gradient(to right, #F6F7FA 0%, #2590eb 15%, #2590eb 43%, #2590eb 43%, #2590eb 57%, #2590eb 57%, #2590eb 85%, #F6F7FA 100%);
+  background: linear-gradient(to right, #F6F7FA 0%, #ffc451 15%, #ffc451 43%, #ffc451 43%, #ffc451 57%, #ffc451 57%, #ffc451 85%, #F6F7FA 100%);
 }
 
-h1.special4:after {
+h1.special5:after {
   position: absolute;
   top: 120%;
 }
@@ -1934,7 +1981,10 @@ a.button {
         display: none;
     }
 
-
+    h1.special5::after{
+      top:110%!important;
+    }
+    
 
 }
 @media screen and (max-width:479px) {
@@ -5932,6 +5982,11 @@ color: red;
 }
 
 
+@media (max-width:400px){
+  h1.special5::after {
+    top: 105%!important;
+}
+}
 
 @media (max-width: 387px) {
   .smallremX{
@@ -5949,13 +6004,17 @@ color: red;
   }
 }
 
+@media (max-width: 991.3px){
+  .sztabMob{
+    margin-top:10px!important;
+  }
+}
+
 @media (max-width: 992px) {
   .breadcrumbs {
     margin-top: 68px;
   }
-  .sztabMob{
-    margin-top:20px!important;
-  }
+
 
 
   .breadcrumbs .d-flex {
