@@ -4121,6 +4121,12 @@ section {
   background-size: cover;
 }
 
+@media (max-width:500px){
+  .tlaOmnie{
+    background:linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url(../img/paralax/paralaxm.png) fixed center center!important;
+}
+}
+
 .tlaOmnie2{
   /* background-image: linear-gradient(to right, rgb(37, 170, 225),   rgb(63, 134, 237)); */
   background: linear-gradient(rgba(0, 140, 253, 0.8), rgba(0, 140, 253,0.8)), url(../img/paralax/test.jpg) fixed center center;
@@ -5437,11 +5443,7 @@ section {
   }
 }
 
-@media (max-width: 979px) {
-  .touch .x-content-band.bg-image.parallax, .touch  .x-content-band.bg-pattern.parallax {
-  background-attachment: initial !important;
-  }
-  }
+
 
 
 /* Testimonials 1 */
