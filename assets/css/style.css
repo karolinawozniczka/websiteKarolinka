@@ -389,6 +389,12 @@ h1.specialU:after {
   }
 }
 
+@media (max-width:329px){
+  h1.special3:after {
+    top: 110%!important;
+  }
+}
+
 /* */
 
 h1.special3 {
@@ -4507,6 +4513,24 @@ section {
 
 .titleborderOrange2{
 
+}
+
+@media(max-width:446.5px){
+  .ofertaMobMarg3{
+    margin-top: 250px!important;
+  }
+}
+
+@media(max-width:462px){
+.modalmarg {
+    margin-top: 422px!important;
+}
+}
+
+@media(max-width:460px){
+  .ofertaMobMarg2{
+    margin-top: 255px!important;
+  }
 }
 
 .titleborderOrange2::after {
