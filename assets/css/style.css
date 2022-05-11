@@ -2467,24 +2467,6 @@ a.button {
   }
 }
 
-@media(max-width:408px){
-  .arrowRightSlider{
-    bottom: 64px;
-    right: 100%;
-    position: absolute;
-    width:2rem!important;
-    height:2rem!important;
-    font-size:42px!important;
-  }
-  .arrowLeftSlider{
-    bottom: 64px;
-    left: 100%;
-    position: absolute;
-    width:2rem!important;
-    height:2rem!important;
-    font-size:42px!important;
-  }
-}
 
 
 @media (min-width:409px) and (max-width:576px){
@@ -2572,6 +2554,8 @@ a.button {
     text-align: center!important;
   }
 }
+
+
 
 @media (max-width: 1399px) and (min-width:1200px){
   .kk2{
@@ -2668,11 +2652,51 @@ a.button {
   }
 }
 
+@media (max-width: 992px) and (min-width:768px) {
+.bigpadd{
+  padding:55px 0 0 0!important;
+}
+}
+
+
 @media (max-width: 992px) {
   .dajmargt{
     margin-top:40px;
   }
 
+  .mbb1{
+    margin-top:40px!important;
+  }
+
+
+
+  .arrow2R{
+    bottom: 29px;
+    right: 100%;
+    position: absolute;
+    width:2rem!important;
+    height:2rem!important;
+    font-size:42px!important;
+  }
+
+  .arrow2L{
+    bottom: 29px;
+    left: 62%;
+    position: absolute;
+    width:2rem!important;
+    height:2rem!important;
+    font-size:42px!important;
+  }
+
+  .ofertaMobFoty{
+    border-radius: 10px 10px 0 0!important;
+    margin-left:0!important;
+  }
+
+
+  .spbb{
+    padding-bottom: 50px!important;
+  }
 
 
   #rozBtnKimjestem{
@@ -2858,6 +2882,49 @@ a.button {
   }
 }
 
+
+@media (max-width:575.4px) {
+  .ovfh{
+    border-radius: 0!important;
+  }
+
+}
+
+@media (max-width:767px) {
+  .bigpadd{
+    padding:270px 0 0 0!important;
+  }
+  .ofertaMobFoty{
+    border-radius: 0 0 0 0!important;
+  }
+  .arrowLeftSlider{
+    bottom:32px!important;
+    font-size:42px!important
+  }
+  .arrowRightSlider{
+    bottom:32px!important;
+    font-size:42px!important
+  }
+  }
+
+  @media(max-width:408px){
+    .arrowRightSlider{
+      bottom: 64px!important;
+      right: 100%;
+      position: absolute;
+      width:2rem!important;
+      height:2rem!important;
+      font-size:42px!important;
+    }
+    .arrowLeftSlider{
+      bottom: 64px!important;
+      left: 100%;
+      position: absolute;
+      width:2rem!important;
+      height:2rem!important;
+      font-size:42px!important;
+    }
+  }
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -4959,6 +5026,17 @@ section {
   opacity: 1;
 }
 
+@media(max-width:415px){
+  .stari{
+    font-size: 34px!important;
+  }
+  .about .content ul i{
+    top: -10px!important;
+    left: -8px!important;
+    font-size:42px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -5192,7 +5270,7 @@ section {
 
   .zeromarginleft{
     margin-left:0!important;
-    margin-top:10px!important;
+    margin-top:0!important;
   }
 
   .paddingtopten{
