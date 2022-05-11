@@ -281,6 +281,10 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
+.kk2{
+  display:none;
+}
+
 .carousel-indicators [data-bs-target] {
   opacity:.2;
 }
@@ -2604,6 +2608,22 @@ a.button {
   }
   .prostuj22{
     text-align: center!important;
+  }
+}
+
+@media (max-width: 1399px) and (min-width:1200px){
+  .kk2{
+    display:block;
+  }
+  .kk1{
+    display:none;
+  }
+  .mbb1{
+    margin-bottom:20px!important;
+    margin-top:20px!important;
+  }
+  .pbx12{
+    padding-top:20px!important;
   }
 }
 
