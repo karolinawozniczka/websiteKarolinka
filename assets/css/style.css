@@ -274,6 +274,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+.ii2{
+  display:none;
+}
+
 .in2{
   display:none;
 }
@@ -408,9 +412,9 @@ h1.specialU:after {
   background: linear-gradient(to right, #fff 0%, #ffc451 15%, #ffc451 43%, #ffc451 43%, #ffc451 57%, #ffc451 57%, #ffc451 85%, #fff 100%);
 }
 
-h1.speciala:after {
+h1.specialU:after {
   position: absolute;
-  top: 130%;
+  top: 120%;
 }
 
 h1.speciala {
@@ -2728,6 +2732,24 @@ a.button {
 .bigpadd{
   padding:55px 0 0 0!important;
 }
+}
+
+@media(max-width:991.4px){
+  .ii2{
+    display:block!important;
+  }
+
+  .ii1{
+    display:none!important;
+  }
+
+  .ptpt0{
+    padding-top:10px!important;
+  }
+
+  .ordr3{
+    order:3!important;
+  }
 }
 
 
@@ -6569,6 +6591,10 @@ color: red;
   .breadcrumbs {
     margin-top: 68px;
   }
+
+
+  
+
 
   .btnkolko{
     background-color: #2590eb!important;
