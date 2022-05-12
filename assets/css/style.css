@@ -4434,8 +4434,9 @@ section {
   background-size: cover;
 }
 .ciastkoCta{
-  background: linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url(../img/paralax/paralaxsmall.jpg) 2% 167%!important;
+  background: linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url("../img/paralax/paralaxsmall.jpg") fixed center center;
 }
+
 }
 
 @supports (-webkit-touch-callout: none) {
@@ -4443,7 +4444,7 @@ section {
     background:linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url(../img/paralax/paralaxsmall.jpg) 25% 124%!important;
   }
   .ciastkoCta{
-    background: linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url("../img/paralax/paralaxsmall.jpg") fixed center center;
+    background: linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url(../img/paralax/paralaxsmall.jpg) 2% 167%!important;
   }
 }
 /* @media (max-width:500px){
