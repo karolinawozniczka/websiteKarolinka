@@ -411,7 +411,26 @@ h1.specialU:after {
   background: linear-gradient(to right, #fff 0%, #ffc451 15%, #ffc451 43%, #ffc451 43%, #ffc451 57%, #ffc451 57%, #ffc451 85%, #fff 100%);
 }
 
-h1.specialU:after {
+h1.speciala:after {
+  position: absolute;
+  top: 130%;
+}
+
+h1.speciala {
+  position: relative;
+}
+h1.speciala:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 165px;
+  height: 4px;
+  background: linear-gradient(to right, #fff 0%, #ffc451 15%, #ffc451 43%, #ffc451 43%, #ffc451 57%, #ffc451 57%, #ffc451 85%, #fff 100%);
+}
+
+h1.speciala:after {
   position: absolute;
   top: 130%;
 }
@@ -2975,6 +2994,12 @@ a.button {
 @media(max-width:575px){
   .hehe23{
     scroll-margin: -191px!important;
+  }
+}
+
+@media (max-width:422.4px) {
+  h1.speciala:after {
+    top: 110%!important;
   }
 }
 
