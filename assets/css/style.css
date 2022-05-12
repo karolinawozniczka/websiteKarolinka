@@ -198,9 +198,6 @@ a {
   text-decoration: none;
 }
 
-.Karuzel{
-  
-}
 
 .gslide-image img.zoomable {
   border-radius: 10px;
@@ -803,9 +800,7 @@ width: 70%;
   display:none;
 }
 
-.fotaPadding{
 
-}
 
 .omnieBlueBanner{
   padding: 60px 40px 40px;
@@ -815,9 +810,7 @@ width: 70%;
   padding: 60px 40px 50px;
 }
 
-.znikaj{
 
-}
 
 .supertlo{
   background: linear-gradient(rgb(0 109 196 / 30%), rgb(3 112 200 / 60%)), url(../img/paralax/paralaxsmall.jpg) fixed center center;
