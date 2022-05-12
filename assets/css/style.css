@@ -4441,10 +4441,10 @@ section {
 
 @supports (-webkit-touch-callout: none) {
   .tlaOmnie{
-    background:linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url(../img/paralax/paralaxsmall.jpg) 25% 124%!important;
+    background:linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url(../img/paralax/paralaxsmall.jpg) 25% 25%!important;
   }
   .ciastkoCta{
-    background: linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url(../img/paralax/paralaxsmall.jpg) 2% 167%!important;
+    background: linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url(../img/paralax/paralaxsmall.jpg) 25% 25%!important;
   }
 }
 /* @media (max-width:500px){
