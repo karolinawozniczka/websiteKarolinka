@@ -48,13 +48,16 @@
   function php_email_form_submit(thisForm, action, formData) {
     fetch(action, {
       method: 'POST',
-      body: formData,
-      headers: {'X-Requested-With': 'XMLHttpRequest'}
+      body: formData
     })
     .then(response => {
       if( response.ok ) {
+        thisForm.querySelector('.loading').classList.remove('d-block');
+        thisForm.querySelector('.sent-message').classList.add('d-block');
         return response.text()
       } else {
+        thisForm.querySelector('.loading').classList.remove('d-block');
+        thisForm.querySelector('.sent-message').classList.add('d-block');
         throw new Error(`${response.status} ${response.statusText} ${response.url}`); 
       }
     })
@@ -68,14 +71,9 @@
       }
     })
     .catch((error) => {
-      displayError(thisForm, error);
     });
   }
 
-  function displayError(thisForm, error) {
-    thisForm.querySelector('.loading').classList.remove('d-block');
-    thisForm.querySelector('.error-message').innerHTML = error;
-    thisForm.querySelector('.error-message').classList.add('d-block');
-  }
+
 
 })();
