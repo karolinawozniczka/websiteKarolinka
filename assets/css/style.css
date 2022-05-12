@@ -4426,12 +4426,26 @@ section {
 
 /* ------------------------------------------------- */
 
+
+@supports not (-webkit-touch-callout: none) {
 .tlaOmnie{
   /* background-image: linear-gradient(to right, rgb(37, 170, 225),   rgb(63, 134, 237)); */
   background:linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url(../img/paralax/paralaxsmall.jpg) fixed center center;
   background-size: cover;
 }
+.ciastkoCta{
+  background: linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url(../img/paralax/paralaxsmall.jpg) 2% 167%!important;
+}
+}
 
+@supports (-webkit-touch-callout: none) {
+  .tlaOmnie{
+    background:linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url(../img/paralax/paralaxsmall.jpg) 25% 124%!important;
+  }
+  .ciastkoCta{
+    background: linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url("../img/paralax/paralaxsmall.jpg") fixed center center;
+  }
+}
 /* @media (max-width:500px){
   .tlaOmnie{
     background:linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url(../img/paralax/paralaxm.png) fixed center center!important;
@@ -4440,11 +4454,7 @@ section {
 
 
 
-.tlaOmnie2{
-  /* background-image: linear-gradient(to right, rgb(37, 170, 225),   rgb(63, 134, 237)); */
-  background: linear-gradient(rgba(0, 140, 253, 0.8), rgba(0, 140, 253,0.8)), url(../img/paralax/test.jpg) fixed center center;
-  background-size: cover;
-}
+
 
 #collapseExampleKimjestem{
   transition: opacity 2s linear;  
