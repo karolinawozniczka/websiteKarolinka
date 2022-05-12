@@ -2125,6 +2125,8 @@ a.button {
   background: #fff;
 }
 
+
+
 #preloader:before {
   content: "";
   position: fixed;
@@ -2138,6 +2140,7 @@ a.button {
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
 }
+
 
 @keyframes fadeInRight {
   from {
