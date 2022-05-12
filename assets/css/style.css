@@ -2996,11 +2996,10 @@ a.button {
   padding: 0 32px!important;
 }
 }
+
+
 @media (max-width:575.4px) {
   .ovfh{
-    border-radius: 0!important;
-  }
-  .ofertaMobFoty{
     border-radius: 0!important;
   }
   .klb23{
@@ -3037,6 +3036,12 @@ a.button {
 
 }
 
+
+@media (max-width:600px) and (orientation:landscape) {
+  .ovfh{
+    border-radius:10px!important;
+  }
+}
 
 @media(max-width:767px){
   .hehe23{
