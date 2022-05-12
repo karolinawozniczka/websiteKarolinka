@@ -3012,6 +3012,7 @@ a.button {
     display: block;
     padding: 0 32px!important;
   }
+
   .gr1{
     display: none;
   }
@@ -3040,6 +3041,9 @@ a.button {
 @media (max-width:600px) and (orientation:landscape) {
   .ovfh{
     border-radius:10px!important;
+  }
+  .ofertaMobFoty{
+    border-radius: 10px 0 0 10px!important;
   }
 }
 
