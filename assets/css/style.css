@@ -3038,18 +3038,18 @@ a.button {
 }
 
 
-@media (max-width:600px) and (orientation:landscape) {
+@media (max-width:767px) and (orientation:landscape) {
   .ovfh{
     border-radius:10px!important;
-  }
-  .ofertaMobFoty{
-    border-radius: 10px 0 0 10px!important;
   }
 }
 
 @media(max-width:767px){
   .hehe23{
     scroll-margin: -191px!important;
+  }
+  .ovfh{
+    border-radius: 0!important;
   }
 }
 
