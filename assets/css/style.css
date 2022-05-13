@@ -7050,9 +7050,13 @@ color: red;
   .modalmarg {
     margin-top: 194px;
 }
-.paddingbottom60{
-  padding-bottom:60px!important;
+
 }
+
+@media(max-width:992px){
+  .paddingbottom60{
+    padding-bottom:60px!important;
+  }
 }
 
 @media (max-width: 1201px) and (min-width: 1200px){
