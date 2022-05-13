@@ -5541,6 +5541,10 @@ section {
     margin-bottom:-1px!important;
   }
 
+  .xdx2{
+    margin-bottom:-2px!important;
+  }
+
 
   .smallrem{
     font-size:32px!important;
@@ -6854,9 +6858,11 @@ color: red;
 
 }
 
-@media (max-width:302px){
+@media (max-width:340px){
   .j2 {
     display: block;
+    line-height: 17px!important;
+    margin-top: 4px!important;
   }
   .j1 {
     display: none;
