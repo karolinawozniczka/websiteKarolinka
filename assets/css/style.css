@@ -3127,10 +3127,21 @@ a.button {
   }
 }
 
-@media (max-width:767px) {
+@media(max-width:767.6px){
   .bigpadd{
-    padding:270px 0 0 0!important;
+    padding:50px 0 0 0!important;
   }
+}
+
+
+@media(max-width:766.4px){
+  .bigpadd{
+    padding:65px 0 0 0!important;
+  }
+}
+
+@media (max-width:767px) {
+
   .ofertaMobFoty{
     border-radius: 0 0 0 0!important;
   }
