@@ -274,6 +274,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+.btnyMobMain2{
+  display: none;
+}
+
 .spn2{
   display:none!important;
 }
@@ -2800,9 +2804,6 @@ a.button {
   }
 
 
-  #rozBtnKimjestem{
-    margin-bottom: 15%;
-  }
   .footerlogo{
     width:40%;
   }
@@ -2876,9 +2877,6 @@ a.button {
     width:100%;
   }
 
-  #rozBtnDoswiadczenie{
-    margin-bottom: 15%;
-  }
 
   #rozBtnWyksztalcenie{
     margin-bottom: 15%;
@@ -6398,16 +6396,32 @@ color: red;
       margin-top: 270px!important;
   }
 
-  .cta-btn2x{
-    padding: 8px 20px!important;
+
+
+}
+
+@media (max-width: 430px){
+  .btnyMobMain2{
+    display: block!important;
+    display: grid!important;
+  }
+
+  .btnyMobMain1{
+    display: none!important;
   }
 
 }
 
+@media (max-width: 285px){
+  .btn2xxx{
+    padding: 8px 10px!important;
+  }
+
+}
 
 @media (max-width: 268.4px){
-  .cta-btn2x{
-    padding: 8px 10px!important;
+  .btn2xxx{
+    padding: 8px 5px!important;
   }
 
 }
