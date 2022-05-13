@@ -5581,8 +5581,10 @@ section {
 }
 }
 
-@media(max-width: 767px) and (min-width: 410px) {
-
+@media(max-width: 767.4px) and (min-width: 410px) {
+  .zeromargin2{
+    margin: 0 0 20px 0!important;
+  }
   .paddingT{
     padding-top:0!important;
   }
