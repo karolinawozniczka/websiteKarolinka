@@ -1898,7 +1898,7 @@ a.button {
 
 
 .modalmarg{
-  margin-top:405px!important;
+  margin-top:200px!important;
 }
 
 .ofertaMobMarg2{
@@ -1919,9 +1919,6 @@ a.button {
   margin-top: 250px!important;
 }
 
-.modalmarg{
-  margin-top: 400px!important;
-}
 
 .ofertaMobMarg2{
   margin-top: 255px!important;
@@ -4211,6 +4208,28 @@ section {
   transform: translateY(-10px);
 } */
 
+@media(max-width:992px){
+  .of300{
+    height:300px!important;
+  }
+  .dfn{
+    display:block!important;
+  }
+}
+
+@media (max-width: 450px){
+.of300 {
+    height: 280px!important;
+}
+}
+
+@media (max-width: 400px){
+  .of300 {
+      height: 270px!important;
+  }
+  }
+
+
 .mainRamka{
   transition: transform 0.3s ease-in-out 0s;
 }
@@ -4218,6 +4237,9 @@ section {
 .mainRamka:hover, .ofertaRamkiBottom{
   transform: translateY(-10px);
 }
+
+
+
 .ofertabgindy:after {
   width:100%!important;
   height:100%!important;
@@ -4939,7 +4961,7 @@ section {
 
 @media(max-width:462px){
 .modalmarg {
-    margin-top: 422px!important;
+    margin-top: 200px!important;
 }
 }
 
@@ -5629,7 +5651,7 @@ section {
 
 @media(max-width:291.4px){
   .modalmarg{
-    margin-top: 445px!important;
+    margin-top: 200px!important;
   }
 }
 
@@ -6974,7 +6996,7 @@ color: red;
     margin-top: 22px!important;
   }
   .services .icon-box{
-    padding: 208px 34px;
+    padding: 160px 34px;
   }
   .modalmarg {
     margin-top: 194px;
