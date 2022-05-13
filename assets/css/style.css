@@ -274,6 +274,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+.spn2{
+  display:none!important;
+}
+
 .ii2{
   display:none;
 }
@@ -2662,6 +2666,9 @@ a.button {
   .modalmargAfter {
     margin-top: 200px!important;
 }
+.zxczx{
+  padding: 40px 0 74.5px 0!important;
+}
   .kk2{
     display:none;
   }
@@ -4120,6 +4127,20 @@ section {
 @media (min-width:1400.4px){
   .mt2s{
     padding-bottom: 290px!important;
+  }
+}
+
+@media(max-width:1399px){
+  .spn2{display:none!important;}
+}
+
+@media(min-width:1400px){
+  .spn1{
+    display:none!important;
+  }
+
+  .spn2{
+    display:block!important;
   }
 }
 
@@ -6842,6 +6863,8 @@ color: red;
   .ofertabgonline{
     background-position: top;
   }
+
+
 }
 
 @media (min-width:1200px) and (max-width: 1400px){
