@@ -5491,6 +5491,12 @@ section {
   }
 }
 
+@media(max-width:410px){
+  .zeromargin{
+    margin:0 20px!important;
+  }
+}
+
 @media(max-width:250.4px){
   .client1{
     padding-left:0%!important;
@@ -5526,9 +5532,7 @@ section {
     padding-top:14px!important;
   }
 
-  .zeromargin{
-    margin:0 20px!important;
-  }
+
 
 
 
@@ -5577,10 +5581,14 @@ section {
 }
 }
 
-@media(max-width: 767px) and (min-width: 409px) {
-  .zeromargin2{
-    margin:0 20px 20px!important;
+@media(max-width: 767px) and (min-width: 410px) {
+
+  .paddingT{
+    padding-top:0!important;
   }
+}
+
+@media(max-width: 767px) and (min-width: 410px) {
   .paddingT{
     padding-top:0!important;
   }
