@@ -274,6 +274,18 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+.prx2{
+  display: none;
+}
+
+.pik4{
+  display: none;
+}
+
+.pik2{
+  display:none;
+}
+
 .btnyMobMain2{
   display: none;
 }
@@ -4183,6 +4195,14 @@ section {
   .spn2{
     display:block!important;
   }
+
+  .prx2{
+    display: block!important;
+  }
+
+  .prx1{
+    display: none!important;
+  }
 }
 
 .ofertaRamkiBottom{
@@ -4273,6 +4293,24 @@ section {
   }
   }
 
+@media(min-width:1200px){
+  .pik4{
+    display:block!important;
+  }
+
+  .pik3{
+    display: none!important;
+  }
+}
+
+@media(max-width:767.4px) and (min-width:265px){
+  .pik1{
+    display:none!important;
+  }
+  .pik2{
+    display:block!important;
+  }
+}
 
 .mainRamka{
   transition: transform 0.3s ease-in-out 0s;
