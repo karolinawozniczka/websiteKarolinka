@@ -6496,6 +6496,11 @@ color: red;
     display: none!important;
   }
 
+  .bbmob{
+    width: 165px!important;
+    padding: 8px 0!important;
+  }
+
 }
 
 @media (max-width: 285px){
