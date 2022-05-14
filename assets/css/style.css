@@ -4177,6 +4177,8 @@ section {
   right: 0px;
 }
 
+
+
 @media (min-width:1400.4px){
   .mt2s{
     padding-bottom: 290px!important;
@@ -6484,7 +6486,7 @@ color: red;
 
 }
 
-@media (max-width: 480px){
+@media (max-width: 485px){
   .btnyMobMain2{
     display: block!important;
     display: grid!important;
@@ -6748,6 +6750,36 @@ color: red;
 @media (max-width:408px){
   .stari{
     left:0!important;
+  }
+}
+
+
+
+@media (max-width:374px){
+  .fontULs{
+    font-size:.9rem!important;
+  }
+  .about .content ul i{
+    font-size: 30px!important;
+    top: -10px!important;
+    left: -3px!important;
+  }
+  .pxd{
+    margin-left:5px!important;
+  }
+}
+
+@media(min-width:374px) and (max-width:420px){
+  .fontULs{
+    font-size:.9rem!important;
+  }
+  .about .content ul i{
+    font-size: 26px!important;
+    top: -6px!important;
+    left: -4px!important;
+  }
+  .pxd{
+    margin-left:2px!important;
   }
 }
 
