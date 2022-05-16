@@ -5825,15 +5825,16 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left {
   display: inline-block;
-  left: -5px;
+  left: -2px;
   position: relative;
+  top: 5px;
 }
 
 .testimonials .testimonial-item .quote-icon-right {
   display: inline-block;
-  right: -5px;
+  right: -2px;
   position: relative;
-  top: 10px;
+
 }
 
 .testimonials .testimonial-item p {
