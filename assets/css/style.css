@@ -274,6 +274,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------------------------- Moje ---------------------------- */
 
+.m1t{
+  display:none;
+}
+
 .prx2{
   display: none;
 }
@@ -2672,6 +2676,18 @@ a.button {
   }
 }
 
+@media(max-width:990.4px){
+  .m1t{
+    display:block!important;
+  }
+}
+
+@media(max-width:230px){
+  .ppmit{
+    font-size:12px!important;
+  }
+}
+
 @media (max-width: 1199px) and (min-width:992px){
   .bigpadd{
     padding: 315px 0 0 0!important;
@@ -3609,7 +3625,8 @@ font-style: normal;
 }
 
 .navbar-mobile ul li .bb {
-  border-bottom: 1px solid #ffffff52;
+  border-bottom: 1px solid #ffffff30;
+  border-radius: 0%!important;
 }
 
 .navbar-mobile ul li .bba{
@@ -3619,11 +3636,11 @@ font-style: normal;
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #fff!important;
+  color: #ffffffde!important;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #fff;
+  color: #ffffffde;
   background-color: #009ee3;
 }
 
@@ -6456,9 +6473,6 @@ color: red;
 
 
 
-.logoImg{
-  max-width: unset!important;
-}
 
 
 
