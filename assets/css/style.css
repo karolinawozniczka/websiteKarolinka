@@ -203,6 +203,10 @@ a {
   border-radius: 10px;
 }
 
+.gslide-image img {
+  border-radius: 10px!important;
+}
+
 a:hover {
   color: #009ee3;
   text-decoration: none;
