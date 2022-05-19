@@ -2692,6 +2692,12 @@ a.button {
   }
 }
 
+@media(max-width:1199px) and (min-width:992px){
+  .zx123{
+    margin-top:20px!important;
+  }
+}
+
 @media (max-width: 1199px) and (min-width:992px){
   .bigpadd{
     padding: 315px 0 0 0!important;
