@@ -5903,9 +5903,9 @@ section {
 }
 
 
-@media (max-width: 1200px){
+@media (max-width: 1500px){
   .smallremMain{
-    font-size: 38px!important;
+    font-size: 36px!important;
   }
 }
 
